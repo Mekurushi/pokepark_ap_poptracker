@@ -1,0 +1,468 @@
+[
+    {
+        "name": "Cavern Zone",
+        "access_rules": [
+            "@CavernZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Magnemite",
+                "sections": [
+                    {
+                        "name": "Crate Dash",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "magnemite_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 850,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Magma Zone Entrance Area",
+                "sections": [
+                    {
+                        "name": "Magnezone Friendship",
+                        "access_rules": [
+                            "magnezone_unlock, [$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonsly Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonsly Friendship - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dugtrio Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aron Friendship",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Electivire Friendship",
+                        "access_rules": [
+                            "electivire_unlock, [$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sudowoodo Friendship",
+                        "access_rules": [
+                            "sudowoodo_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 490,
+                        "y": 80
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Middle Area",
+                "sections": [
+                    {
+                        "name": "Golbat Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zubat Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Machamp - Battle Friendship",
+                        "access_rules": [
+                            "machamp_unlock, [$canBattle]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 790,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "name": "Magnemite 2",
+                "sections": [
+                    {
+                        "name": "Crate Dash",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "magnemite_unlock2, $canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 385,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Open Area",
+                "sections": [
+                    {
+                        "name": "Geodude Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Machamp Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Machamp Friendship - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teddiursa Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meowth Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raichu Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate, raichu_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmonlee Friendship",
+                        "access_rules": [
+                            "[$canBattle], hitmonlee_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 780,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "name": "Marowak",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 565,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Deep Area",
+                "sections": [
+                    {
+                        "name": "Scizor Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Phanpy Friendship",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld, phanpy_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cranidos Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torchic Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chimchar Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 330,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Magnemite 3",
+                "sections": [
+                    {
+                        "name": "Crate Dash",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld, magnemite_unlock3"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 270,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Diglett",
+                "sections": [
+                    {
+                        "name": "Crate Dash",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 569,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "name": "Gible",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 535,
+                        "y": 610
+                    }
+                ]
+            },
+            {
+                "name": "Bastiodon's Panel Crush",
+                "access_rules": [
+                    "@CavernZoneBastiodonMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyBastiodonMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sableye",
+                        "access_rules": [
+                            "sableye"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meowth",
+                        "access_rules": [
+                            "meowth"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torchic",
+                        "access_rules": [
+                            "torchic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Electivire",
+                        "access_rules": [
+                            "electivire"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magmortar",
+                        "access_rules": [
+                            "magmortar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmonlee",
+                        "access_rules": [
+                            "hitmonlee"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ursaring",
+                        "access_rules": [
+                            "ursaring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Mime",
+                        "access_rules": [
+                            "mr_mime"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raichu",
+                        "access_rules": [
+                            "raichu"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sudowoodo",
+                        "access_rules": [
+                            "sudowoodo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Charmander",
+                        "access_rules": [
+                            "charmander"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gible",
+                        "access_rules": [
+                            "gible"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chimchar",
+                        "access_rules": [
+                            "chimchar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magby",
+                        "access_rules": [
+                            "magby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Metagross",
+                        "access_rules": [
+                            "metagross"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Metagross Unlock",
+                        "access_rules": [
+                            "$canBeatAllBastiodonMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 720,
+                        "y": 410
+                    }
+                ]
+            }
+        ]
+    }
+]

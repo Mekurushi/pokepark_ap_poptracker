@@ -1,0 +1,509 @@
+[
+    {
+        "name": "Ice Zone",
+        "access_rules": [
+            "@IceZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Overworld Pokemon Lapras Area",
+                "sections": [
+                    {
+                        "name": "Lapras Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spheal Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krabby Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, krabby_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudkip Friendship",
+                        "access_rules": [
+                            "mudkip_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 850,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Glalie Area",
+                "sections": [
+                    {
+                        "name": "Octillery Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teddiursa Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ursaring Friendship",
+                        "access_rules": [
+                            "[$canBattle], ursaring_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 880,
+                        "y": 850
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Sneasel Area",
+                "sections": [
+                    {
+                        "name": "Primeape Friendship",
+                        "access_rules": [
+                            "[$canBattle], primeape_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sneasel Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, sneasel_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 480,
+                        "y": 890
+                    }
+                ]
+            },
+            {
+                "name": "Glalie",
+                "access_rules": [
+                    "glalie_unlock"
+                ],
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Igloo Quest 1",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Igloo Quest 1 - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Igloo Quest 2",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Igloo Quest 2 - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Igloo Quest 3",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 850,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "name": "Mamoswine",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "mamoswine_unlock, [$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 530,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Empoleon Entrance Area",
+                "sections": [
+                    {
+                        "name": "Taillow Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staravia Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piloswine Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 250,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Christmas Tree",
+                "sections": [
+                    {
+                        "name": "Starly Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smoochum Friendship",
+                        "access_rules": [
+                            "[$canBattle], smoochum_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squirtle Friendship",
+                        "access_rules": [
+                            "[$canBattle], squirtle_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "Christmas Tree",
+                "access_rules": [
+                    "delibird_unlock"
+                ],
+                "sections": [
+                    {
+                        "name": "Present 1",
+                        "access_rules": [
+                            "spheal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Present 2",
+                        "access_rules": [
+                            "spheal, teddiursa"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Present 3",
+                        "access_rules": [
+                            "spheal, teddiursa, squirtle_unlock, squirtle"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Present 4",
+                        "access_rules": [
+                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Delibird Friendship",
+                        "access_rules": [
+                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kirlia Friendship",
+                        "access_rules": [
+                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum, delibird"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 160,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "Prinplup",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "glalie_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Glaceon",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, $hasEnoughFriendshipGlaceon"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 100,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Lower Lift Region",
+                "access_rules": [
+                    "@IceZoneLowerLiftRegion"
+                ],
+                "sections": [
+                    {
+                        "name": "Corphish Friendship",
+                        "access_rules": [
+                            "[$canBattle], corphish_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wingull Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quagsire Friendship",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 150,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Empoleon's Snow Slide",
+                "access_rules": [
+                    "@IceZoneEmpoleonMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyEmpoleonMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "snowboard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teddiursa",
+                        "access_rules": [
+                            "teddiursa"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magikarp",
+                        "access_rules": [
+                            "magikarp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Empoleon",
+                        "access_rules": [
+                            "empoleon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glaceon",
+                        "access_rules": [
+                            "glaceon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blastoise",
+                        "access_rules": [
+                            "blastoise"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glalie",
+                        "access_rules": [
+                            "glalie"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lapras",
+                        "access_rules": [
+                            "lapras"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Delibird",
+                        "access_rules": [
+                            "delibird"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piloswine",
+                        "access_rules": [
+                            "piloswine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Prinplup",
+                        "access_rules": [
+                            "prinplup"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squirtle",
+                        "access_rules": [
+                            "squirtle"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piplup",
+                        "access_rules": [
+                            "piplup"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quagsire",
+                        "access_rules": [
+                            "quagsire"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spheal",
+                        "access_rules": [
+                            "spheal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suicune",
+                        "access_rules": [
+                            "suicune"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suicune Unlock",
+                        "access_rules": [
+                            "$canBeatAllEmpoleonMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_empoleon",
+                        "x": 510,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

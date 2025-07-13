@@ -1,0 +1,18 @@
+[
+    {
+        "name": "MagmaZoneOverworld",
+        "access_rules": [
+            "cavern_and_magma_zone_unlock"
+        ]
+    },
+    {
+        "name": "MagmaZoneRhyperiorMinigame",
+        "access_rules": [
+            "$canDashOverworld"
+        ]
+    },
+    {
+        "name": "MagmaZoneBlazikenMinigame",
+        "access_rules": []
+    }
+]

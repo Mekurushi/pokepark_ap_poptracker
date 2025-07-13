@@ -1,0 +1,14 @@
+[
+    {
+        "name": "FlowerZoneOverworld",
+        "access_rules": [
+            "granite_and_flower_zone_unlock"
+        ]
+    },
+    {
+        "name": "FlowerZoneRayquazaMinigame",
+        "access_rules": [
+            "rayquaza_unlock"
+        ]
+    }
+]

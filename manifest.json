@@ -1,0 +1,17 @@
+{
+  "name": "Archipelago PopTracker for Pokepark",
+  "game_name": "Pokepark",
+  "package_version": "1.0.0.0",
+  "package_uid": "ap_tracker_pokepark_jp",
+  "author": "Mekurushi",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.32.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

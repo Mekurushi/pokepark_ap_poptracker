@@ -1,0 +1,28 @@
+[
+    {
+        "name": "HauntedZoneOverworld",
+        "access_rules": [
+            "haunted_zone_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneTangrowthMinigame",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneDusknoirMinigame",
+        "access_rules": [
+            "dusknoir_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotomMinigame",
+        "access_rules": [
+            "$canAccessRotomMinigame"
+        ]
+    }
+]

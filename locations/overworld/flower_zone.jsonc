@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Flower Zone",
+        "access_rules": [
+            "@FlowerZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Rayquaza's Balloon Panic",
+                "access_rules": [
+                    "@FlowerZoneRayquazaMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyRayquazaMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "balloon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lucario",
+                        "access_rules": [
+                            "lucario"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glaceon",
+                        "access_rules": [
+                            "glaceon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Luxray",
+                        "access_rules": [
+                            "luxray"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mamoswine",
+                        "access_rules": [
+                            "mamoswine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Infernape",
+                        "access_rules": [
+                            "infernape"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floatzel",
+                        "access_rules": [
+                            "floatzel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "access_rules": [
+                            "rhyperior"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Absol",
+                        "access_rules": [
+                            "absol"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Breloom",
+                        "access_rules": [
+                            "breloom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mareep",
+                        "access_rules": [
+                            "mareep"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cyndaquil",
+                        "access_rules": [
+                            "cyndaquil"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Totodile",
+                        "access_rules": [
+                            "totodile"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chikorita",
+                        "access_rules": [
+                            "chikorita"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mime Jr.",
+                        "access_rules": [
+                            "mimejr"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deoxys",
+                        "access_rules": [
+                            "deoxys"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deoxys Unlock",
+                        "access_rules": [
+                            "$canBeatAllRayquazaMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 300,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Rayquaza Area",
+                "sections": [
+                    {
+                        "name": "Skiploom Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Budew Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonite Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mareep Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 500,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Shaymin Area",
+                "sections": [
+                    {
+                        "name": "Cyndaquil Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lucario Friendship",
+                        "access_rules": [
+                            "$hasEnoughFriendshipLucario, $canPlayCatchIntermediate"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furret Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teddiursa Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meditite Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bellossom Friendship",
+                        "access_rules": [
+                            "skygarden_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 600,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Treehouse",
+    "children": [
+      {
+        "name": "Thunderbolt",
+        "access_rules": [
+          "[$canFarmBerries]"
+        ],
+        "sections": [
+          {
+            "name": "Upgrade 1",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 2",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 450,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Dash",
+        "access_rules": [
+          "[$canFarmBerries], pelipper_prisma_activated"
+        ],
+        "sections": [
+          {
+            "name": "Upgrade 1",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 2",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 485,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Health",
+        "access_rules": [
+          "[$canFarmBerries], beach_zone_unlock"
+        ],
+        "sections": [
+          {
+            "name": "Upgrade 1",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 2",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 520,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Iron Tail",
+        "access_rules": [
+          "[$canFarmBerries], $hasWorldStateIceZoneOrHigher"
+        ],
+        "sections": [
+          {
+            "name": "Upgrade 1",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 2",
+            "item_count": 1
+          },
+          {
+            "name": "Upgrade 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 555,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Mime Jr.",
+        "access_rules": [
+          "$hasWorldStateCavernMagmaZoneOrHigher"
+        ],
+        "sections": [
+          {
+            "name": "Friendship",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 470,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Burmy",
+        "access_rules": [
+          "$hasWorldStateIceZoneOrHigher"
+        ],
+        "sections": [
+          {
+            "name": "Friendship",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 550,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Abra",
+        "access_rules": [
+          "$hasWorldStateHauntedZoneOrHigher"
+        ],
+        "sections": [
+          {
+            "name": "Friendship",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 470,
+            "y": 700
+          }
+        ]
+      },
+      {
+        "name": "Drifblim",
+        "access_rules": [
+          "[$canFarmBerries]"
+        ],
+        "sections": [
+          {
+            "name": "Friendship",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 590,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  }
+]

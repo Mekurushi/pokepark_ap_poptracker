@@ -1,0 +1,16 @@
+[
+    {
+        "name": "BeachZoneOverworld",
+        "access_rules": [
+            "beach_zone_unlock"
+        ]
+    },
+    {
+        "name": "BeachZonePelliperMinigame",
+        "access_rules": []
+    },
+    {
+        "name": "BeachZoneGyaradosMinigame",
+        "access_rules": []
+    }
+]

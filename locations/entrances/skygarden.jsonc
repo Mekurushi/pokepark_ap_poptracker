@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Skygarden Entrance",
+        "access_rules": [
+            "skygarden_unlock"
+        ]
+    }
+]

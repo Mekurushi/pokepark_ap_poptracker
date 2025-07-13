@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Skygarden",
+        "access_rules": [
+            "@Skygarden Entrance"
+        ],
+        "children": [
+            {
+                "name": "Mew",
+                "sections": [
+                    {
+                        "name": "Challenge 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge 2",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge 3",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge 4",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge completed",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Completed Prisma Stage 1",
+                        "access_rules": [
+                            "$canCompletePrismaStage1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Completed Prisma Stage 2",
+                        "access_rules": [
+                            "$canCompletePrismaStage2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Completed Prisma Full",
+                        "access_rules": [
+                            "$canCompletePrismaFull"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "skygarden",
+                        "x": 510,
+                        "y": 720
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,628 @@
+[
+    {
+        "name": "Magma Zone",
+        "access_rules": [
+            "@MagmaZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Overworld Pokemon Entrance Area",
+                "sections": [
+                    {
+                        "name": "Aron Friendship",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torchic Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chimchar Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chimchar Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Geodude Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonsly Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magby Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magby - Battle Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vulpix Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vulpix Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], baltoy_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], baltoy_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 690,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Hitmontop",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 620,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Torkoal",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattle], torkoal_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 360,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "name": "Golem",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "golem_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 340,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Camerupt",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 300,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Baltoy",
+                "sections": [
+                    {
+                        "name": "Crate Dash",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 200,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "Claydol",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], claydol_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 200,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Rhyperior Quest",
+                "sections": [
+                    {
+                        "name": "Iron Disc",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 620,
+                        "y": 510
+                    }
+                ]
+            },
+            {
+                "name": "Rhyperior's Bumper Burn",
+                "access_rules": [
+                    "@MagmaZoneRhyperiorMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyRhyperiorMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magnemite",
+                        "access_rules": [
+                            "magnemite"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rhyperior",
+                        "access_rules": [
+                            "rhyperior"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tyranitar",
+                        "access_rules": [
+                            "tyranitar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmontop",
+                        "access_rules": [
+                            "hitmontop"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flareon",
+                        "access_rules": [
+                            "flareon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Venusaur",
+                        "access_rules": [
+                            "venusaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snorlax",
+                        "access_rules": [
+                            "snorlax"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torterra",
+                        "access_rules": [
+                            "torterra"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magnezone",
+                        "access_rules": [
+                            "magnezone"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Claydol",
+                        "access_rules": [
+                            "claydol"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quilava",
+                        "access_rules": [
+                            "quilava"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torkoal",
+                        "access_rules": [
+                            "torkoal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy",
+                        "access_rules": [
+                            "baltoy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonsly",
+                        "access_rules": [
+                            "bonsly"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heatran",
+                        "access_rules": [
+                            "heatran"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heatran Unlock",
+                        "access_rules": [
+                            "$canBeatAllRhyperiorMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 620,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Meditite",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Quiz",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 730,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Circle Area",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Ninetales Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate, ninetales_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quilava Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Infernape Friendship",
+                        "access_rules": [
+                            "[$canBattle], infernape_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ponyta Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate, ponyta_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmonchan Friendship",
+                        "access_rules": [
+                            "[$canBattle], hitmonchan_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magmortar Friendship",
+                        "access_rules": [
+                            "[$canBattle], magmortar_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 710
+                    }
+                ]
+            },
+            {
+                "name": "Farfetch'd",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Blaziken's Boulder Bash",
+                "access_rules": [
+                    "@MagmaZoneBlazikenMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyBlazikenMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Geodude",
+                        "access_rules": [
+                            "geodude"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Phanpy",
+                        "access_rules": [
+                            "phanpy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blaziken",
+                        "access_rules": [
+                            "blaziken"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Garchomp",
+                        "access_rules": [
+                            "garchomp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scizor",
+                        "access_rules": [
+                            "scizor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magmortar",
+                        "access_rules": [
+                            "magmortar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmonchan",
+                        "access_rules": [
+                            "hitmonchan"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Machamp",
+                        "access_rules": [
+                            "machamp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Marowak",
+                        "access_rules": [
+                            "marowak"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Farfetch'd",
+                        "access_rules": [
+                            "farfetchd"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cranidos",
+                        "access_rules": [
+                            "cranidos"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Camerupt",
+                        "access_rules": [
+                            "camerupt"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bastiodon",
+                        "access_rules": [
+                            "bastiodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mawile",
+                        "access_rules": [
+                            "mawile"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Groudon",
+                        "access_rules": [
+                            "groudon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Groudon Unlock",
+                        "access_rules": [
+                            "$canBeatAllBlazikenMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_blaziken",
+                        "x": 520,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Blaziken",
+                "access_rules": [
+                    "@MagmaZoneBlazikenMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "rayquaza_prisma_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_blaziken",
+                        "x": 520,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    }
+]

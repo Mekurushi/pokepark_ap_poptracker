@@ -1,0 +1,513 @@
+[
+    {
+        "name": "Granite Zone",
+        "access_rules": [
+            "@GraniteZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Overworld Pokemon Entrance Area",
+                "sections": [
+                    {
+                        "name": "Lopunny Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eevee Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eevee Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furret Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tyranitar Friendship",
+                        "access_rules": [
+                            "[$canBattle], tyranitar_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 790,
+                        "y": 900
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Absol Area",
+                "sections": [
+                    {
+                        "name": "Charizard Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Drifloon Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], baltoy_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], baltoy_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 770,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Flygon",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 225,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Skorupi",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 555,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Porygon-Z",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 455,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Pyramid Area",
+                "sections": [
+                    {
+                        "name": "Marowak Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Claydol Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], claydol_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 820,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Salamence Area",
+                "sections": [
+                    {
+                        "name": "Staraptor Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staraptor Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aerodactyl Friendship",
+                        "access_rules": [
+                            "[$canBattle], aerodactyl_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Arcanine Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taillow Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolteon Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate, jolteon_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Garchomp Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], garchomp_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 320,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Absol's Hurdle Bounce",
+                "access_rules": [
+                    "@GraniteZoneAbsolMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyAbsolMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chikorita",
+                        "access_rules": [
+                            "chikorita"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Absol",
+                        "access_rules": [
+                            "absol"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lucario",
+                        "access_rules": [
+                            "lucario"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ponyta",
+                        "access_rules": [
+                            "ponyta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ninetales",
+                        "access_rules": [
+                            "ninetales"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lopunny",
+                        "access_rules": [
+                            "lopunny"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Espeon",
+                        "access_rules": [
+                            "espeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Infernape",
+                        "access_rules": [
+                            "infernape"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Breloom",
+                        "access_rules": [
+                            "breloom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Riolu",
+                        "access_rules": [
+                            "riolu"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furret",
+                        "access_rules": [
+                            "furret"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mareep",
+                        "access_rules": [
+                            "mareep"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eevee",
+                        "access_rules": [
+                            "eevee"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vulpix",
+                        "access_rules": [
+                            "vulpix"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shaymin",
+                        "access_rules": [
+                            "shaymin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shaymin Unlock",
+                        "access_rules": [
+                            "$canBeatAllAbsolMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 850,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Salamence's Sky Race",
+                "access_rules": [
+                    "@GraniteZoneSalamenceMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnySalamenceMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "balloon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salamence",
+                        "access_rules": [
+                            "salamence"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Charizard",
+                        "access_rules": [
+                            "charizard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonite",
+                        "access_rules": [
+                            "dragonite"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flygon",
+                        "access_rules": [
+                            "flygon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aerodactyl",
+                        "access_rules": [
+                            "aerodactyl"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staraptor",
+                        "access_rules": [
+                            "staraptor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Honchkrow",
+                        "access_rules": [
+                            "honchkrow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gliscor",
+                        "access_rules": [
+                            "gliscor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pidgeotto",
+                        "access_rules": [
+                            "pidgeotto"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Togekiss",
+                        "access_rules": [
+                            "togekiss"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golbat",
+                        "access_rules": [
+                            "golbat"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taillow",
+                        "access_rules": [
+                            "taillow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Murkrow",
+                        "access_rules": [
+                            "murkrow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zubat",
+                        "access_rules": [
+                            "zubat"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latios",
+                        "access_rules": [
+                            "latios"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latios Unlock",
+                        "access_rules": [
+                            "$canBeatAllSalamenceMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 160,
+                        "y": 100
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+{
+    "unlocks": {
+        "type": "container",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "34",
+                "item_margin": "1,1,1,1",
+                "margin": "1,1,1,1",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows": [
+                    [
+                        "tropius_unlock",
+                        "pachirisu_unlock",
+                        "bonsly_unlock",
+                        "sudowoodo_unlock",
+                        "lotad_unlock",
+                        "shinx_unlock",
+                        "scyther_unlock",
+                        "caterpie_unlock",
+                        "butterfree_unlock",
+                        "chimchar_unlock",
+                        "ambipom_unlock",
+                        "weedle_unlock"
+                    ],
+                    [
+                        "shroomish_unlock",
+                        "magikarp_unlock",
+                        "bidoof_unlock",
+                        "bibarel_unlock",
+                        "starly_unlock1",
+                        "starly_unlock2",
+                        "torterra_unlock",
+                        "floatzel_unlock",
+                        "mudkip_unlock",
+                        "totodile_unlock",
+                        "golduck_unlock",
+                        "krabby_unlock"
+                    ],
+                    [
+                        "corphish_unlock",
+                        "drifblim_unlock",
+                        "delibird_unlock",
+                        "squirtle_unlock",
+                        "smoochum_unlock",
+                        "sneasel_unlock",
+                        "mamoswine_unlock",
+                        "glalie_unlock",
+                        "primeape_unlock",
+                        "ursaring_unlock",
+                        "magnemite_unlock",
+                        "magnemite_unlock2"
+                    ],
+                    [
+                        "magnemite_unlock3",
+                        "machamp_unlock",
+                        "diglett_unlock",
+                        "magnezone_unlock",
+                        "phanpy_unlock",
+                        "raichu_unlock",
+                        "infernape_unlock",
+                        "ninetales_unlock",
+                        "ponyta_unlock",
+                        "torkoal_unlock",
+                        "golem_unlock",
+                        "baltoy_unlock"
+                    ],
+                    [
+                        "claydol_unlock",
+                        "hitmonchan_unlock",
+                        "hitmonlee_unlock",
+                        "honchkrow_unlock",
+                        "metapod_unlock",
+                        "kakuna_unlock",
+                        "voltorb_unlock",
+                        "elekid_unlock",
+                        "electabuzz_unlock",
+                        "luxray_unlock",
+                        "stunky_unlock",
+                        "skuntank_unlock"
+                    ],
+                    [
+                        "breloom_unlock",
+                        "mismagius_unlock",
+                        "electrode_unlock",
+                        "haunter_unlock",
+                        "gastly_unlock",
+                        "gastly_unlock2",
+                        "dusknoir_unlock",
+                        "espeon_unlock",
+                        "gengar_unlock",
+                        "blastoise_unlock",
+                        "electivire_unlock",
+                        "magmortar_unlock"
+                    ],
+                    [
+                        "jolteon_unlock",
+                        "aerodactyl_unlock",
+                        "tyranitar_unlock",
+                        "garchomp_unlock",
+                        "rayquaza_unlock"
+                    ],
+                    [],
+                    [
+                        "meadow_zone_unlock",
+                        "beach_zone_unlock",
+                        "ice_zone_unlock",
+                        "cavern_and_magma_zone_unlock",
+                        "haunted_zone_unlock",
+                        "granite_and_flower_zone_unlock",
+                        "skygarden_unlock"
+                    ]
+                ]
+            }
+        ]
+    },
+    "unlocks_broadcast": {
+        "type": "container",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "46",
+                "item_margin": "1,1,1,1",
+                "margin": "1,1,1,1",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows": [
+                    [
+                        "tropius_unlock",
+                        "pachirisu_unlock",
+                        "bonsly_unlock",
+                        "sudowoodo_unlock",
+                        "lotad_unlock",
+                        "shinx_unlock",
+                        "scyther_unlock",
+                        "caterpie_unlock",
+                        "butterfree_unlock",
+                        "chimchar_unlock"
+                    ],
+                    [
+                        "ambipom_unlock",
+                        "weedle_unlock",
+                        "shroomish_unlock",
+                        "magikarp_unlock",
+                        "bidoof_unlock",
+                        "bibarel_unlock",
+                        "starly_unlock1",
+                        "starly_unlock2",
+                        "torterra_unlock",
+                        "floatzel_unlock"
+                    ],
+                    [
+                        "mudkip_unlock",
+                        "totodile_unlock",
+                        "golduck_unlock",
+                        "krabby_unlock",
+                        "corphish_unlock",
+                        "drifblim_unlock",
+                        "delibird_unlock",
+                        "squirtle_unlock",
+                        "smoochum_unlock",
+                        "sneasel_unlock"
+                    ],
+                    [
+                        "mamoswine_unlock",
+                        "glalie_unlock",
+                        "primeape_unlock",
+                        "ursaring_unlock",
+                        "magnemite_unlock",
+                        "machamp_unlock",
+                        "diglett_unlock",
+                        "magnezone_unlock",
+                        "phanpy_unlock",
+                        "raichu_unlock"
+                    ],
+                    [
+                        "infernape_unlock",
+                        "ninetales_unlock",
+                        "ponyta_unlock",
+                        "torkoal_unlock",
+                        "golem_unlock",
+                        "baltoy_unlock",
+                        "claydol_unlock",
+                        "hitmonchan_unlock",
+                        "hitmonlee_unlock",
+                        "honchkrow_unlock"
+                    ],
+                    [
+                        "metapod_unlock",
+                        "kakuna_unlock",
+                        "voltorb_unlock",
+                        "elekid_unlock",
+                        "electabuzz_unlock",
+                        "luxray_unlock",
+                        "stunky_unlock",
+                        "skuntank_unlock",
+                        "breloom_unlock",
+                        "mismagius_unlock"
+                    ],
+                    [
+                        "electrode_unlock",
+                        "haunter_unlock",
+                        "gastly_unlock",
+                        "dusknoir_unlock",
+                        "espeon_unlock",
+                        "gengar_unlock",
+                        "blastoise_unlock",
+                        "electivire_unlock",
+                        "magmortar_unlock",
+                        "jolteon_unlock"
+                    ],
+                    [
+                        "aerodactyl_unlock",
+                        "tyranitar_unlock",
+                        "garchomp_unlock",
+                        "rayquaza_unlock"
+                    ],
+                    [],
+                    [
+                        "meadow_zone_unlock",
+                        "beach_zone_unlock",
+                        "ice_zone_unlock",
+                        "cavern_and_magma_zone_unlock",
+                        "haunted_zone_unlock",
+                        "granite_and_flower_zone_unlock",
+                        "skygarden_unlock"
+                    ]
+                ]
+            }
+        ]
+    }
+}

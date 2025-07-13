@@ -1,0 +1,282 @@
+{
+	"layout_maps": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Treehouse",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Treehouse",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"treehouse"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Meadow Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"meadow_zone_overworld"
+									]
+								}
+							]
+						},
+						{
+							"title": "Venusaur Minigame Area",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"venusaur_minigame"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Beach Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"beach_zone_overworld"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Ice Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"ice_zone_overworld"
+									]
+								}
+							]
+						},
+						{
+							"title": "Empoleon Minigame Area",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"ice_zone_empoleon"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Cavern Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"cavern_zone_overworld"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Magma Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"magma_zone_overworld"
+									]
+								}
+							]
+						},
+						{
+							"title": "Blaziken Minigame Area",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"magma_zone_blaziken"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Haunted Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"haunted_zone_overworld"
+									]
+								}
+							]
+						},
+						{
+							"title": "Mansion",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"haunted_zone_mansion"
+									]
+								}
+							]
+						},
+						{
+							"title": "Rotom Minigame Area",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"haunted_zone_rotom"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Granite Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"granite_zone_overworld"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Flower Zone",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"flower_zone_overworld"
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"title": "Skygarden",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Overworld",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"skygarden"
+									]
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

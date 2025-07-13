@@ -1,0 +1,581 @@
+[
+    {
+        "name": "Beach Zone",
+        "access_rules": [
+            "@BeachZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Gyarados' Aqua Dash",
+                "access_rules": [
+                    "@BeachZoneGyaradosMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyGyaradosMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "surfboard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Psyduck",
+                        "access_rules": [
+                            "psyduck"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Azurill",
+                        "access_rules": [
+                            "azurill"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slowpoke",
+                        "access_rules": [
+                            "slowpoke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Empoleon",
+                        "access_rules": [
+                            "empoleon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floatzel",
+                        "access_rules": [
+                            "floatzel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Feraligatr",
+                        "access_rules": [
+                            "feraligatr"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golduck",
+                        "access_rules": [
+                            "golduck"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vaporeon",
+                        "access_rules": [
+                            "vaporeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Prinplup",
+                        "access_rules": [
+                            "prinplup"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bibarel",
+                        "access_rules": [
+                            "bibarel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buizel",
+                        "access_rules": [
+                            "buizel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corsola",
+                        "access_rules": [
+                            "corsola"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piplup",
+                        "access_rules": [
+                            "piplup"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lotad",
+                        "access_rules": [
+                            "lotad"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manaphy",
+                        "access_rules": [
+                            "manaphy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manaphy Unlock",
+                        "access_rules": [
+                            "$canBeatAllGyaradosMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "name": "Pelipper's Circle Circuit",
+                "access_rules": [
+                    "@BeachZonePelliperMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyPelipperMinigame"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "balloon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staraptor",
+                        "access_rules": [
+                            "staraptor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Togekiss",
+                        "access_rules": [
+                            "togekiss"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Honchkrow",
+                        "access_rules": [
+                            "honchkrow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gliscor",
+                        "access_rules": [
+                            "gliscor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelipper",
+                        "access_rules": [
+                            "pelipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staravia",
+                        "access_rules": [
+                            "staravia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pidgeotto",
+                        "access_rules": [
+                            "pidgeotto"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Butterfree",
+                        "access_rules": [
+                            "butterfree"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tropius",
+                        "access_rules": [
+                            "tropius"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Murkrow",
+                        "access_rules": [
+                            "murkrow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taillow",
+                        "access_rules": [
+                            "taillow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spearow",
+                        "access_rules": [
+                            "spearow"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Starly",
+                        "access_rules": [
+                            "starly"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wingull",
+                        "access_rules": [
+                            "wingull"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latias",
+                        "access_rules": [
+                            "latias"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latias Unlock",
+                        "access_rules": [
+                            "$canBeatAllPelipperMinigame"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 890,
+                        "y": 960
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Treehouse Entrance",
+                "sections": [
+                    {
+                        "name": "Slowpoke Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Psyduck Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Psyduck Friendship - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Azurill Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Azurill Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buizel Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buizel Friendship - Pokemon Unlock",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 520,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Beach Area",
+                "sections": [
+                    {
+                        "name": "Totodile Friendship",
+                        "access_rules": [
+                            "[$canBattle], totodile_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudkip Friendship",
+                        "access_rules": [
+                            "mudkip_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blastoise Friendship",
+                        "access_rules": [
+                            "[$canBattle], blastoise_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Starly Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krabby Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, krabby_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corphish Friendship",
+                        "access_rules": [
+                            "[$canBattle], corphish_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 690,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon Drifblim Area",
+                "sections": [
+                    {
+                        "name": "Taillow Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pidgeotto Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wingull Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staravia Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 820,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Corsola",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 380,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Pokemon West Area",
+                "sections": [
+                    {
+                        "name": "Vaporeon Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, $hasEnoughFriendshipVaporeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floatzel Friendship",
+                        "access_rules": [
+                            "[$canBattle], floatzel_unlock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golduck Friendship",
+                        "access_rules": [
+                            "[$canBattle], golduck_unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 280,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "Feraligatr",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 260,
+                        "y": 784
+                    }
+                ]
+            },
+            {
+                "name": "Recycle Box",
+                "sections": [
+                    {
+                        "name": "Bottle 1",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 2",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 2 - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 3",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 4",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 4 - Pokemon Unlock",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 5",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottle 6",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Wailord",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 840,
+                        "y": 1000
+                    }
+                ]
+            }
+        ]
+    }
+]

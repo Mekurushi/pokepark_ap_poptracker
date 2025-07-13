@@ -1,0 +1,2037 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Progressive Dash",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/powers/dash_beginner.png",
+        "codes": "dash_beginner",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/dash_intermediate.png",
+        "codes": "dash_intermediate",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/dash_advanced.png",
+        "codes": "dash_intermediate",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/dash_mastered.png",
+        "codes": "dash_mastered",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Thunderbolt",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/powers/thunderbolt_beginner.png",
+        "codes": "thunderbolt_beginner",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/thunderbolt_intermediate.png",
+        "codes": "thunderbolt_intermediate",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/thunderbolt_advanced.png",
+        "codes": "thunderbolt_advanced",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/thunderbolt_mastered.png",
+        "codes": "thunderbolt_mastered",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Iron Tail",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/powers/iron_tail_beginner.png",
+        "codes": "iron_tail_beginner",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/iron_tail_advanced.png",
+        "codes": "iron_tail_advanced",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/iron_tail_mastered.png",
+        "codes": "iron_tail_mastered",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Health",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/powers/health_beginner.png",
+        "codes": "health_beginner",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/health_advanced.png",
+        "codes": "health_advanced",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/powers/health_mastered.png",
+        "codes": "health_mastered",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Bulbasaur Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "bulbasaur_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "bulbasaur_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Venusaur Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "venusaur_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "venusaur_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pelipper Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "pelipper_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "pelipper_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Gyarados Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "gyarados_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "gyarados_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Empoleon Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "empoleon_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "empoleon_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bastiodon Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "bastiodon_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "bastiodon_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Rhyperior Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "rhyperior_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "rhyperior_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Blaziken Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "blaziken_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "blaziken_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Tangrowth Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "tangrowth_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "tangrowth_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dusknoir Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "dusknoir_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "dusknoir_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Rotom Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "rotom_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "rotom_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Absol Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "absol_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "absol_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Salamence Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "salamence_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "salamence_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Rayquaza Prisma",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "rayquaza_prisma_deactivated",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/prisma_activated.png",
+        "codes": "rayquaza_prisma_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pikachu Balloons",
+    "type": "toggle",
+    "codes": "balloon",
+    "img": "images/Items/pikachu_baloon.png"
+  },
+  {
+    "name": "Pikachu Snowboard",
+    "type": "toggle",
+    "codes": "snowboard",
+    "img": "images/Items/pikachu_snowboard.png"
+  },
+  {
+    "name": "Pikachu Surfboard",
+    "type": "toggle",
+    "codes": "surfboard",
+    "img": "images/Items/pikachu_surfboard.png"
+  },
+  {
+    "name": "Chatot Friendship",
+    "type": "toggle",
+    "codes": "chatot",
+    "img": "images/Items/pokemons/chatot.png"
+  },
+  {
+    "name": "Chikorita Friendship",
+    "type": "toggle",
+    "codes": "chikorita",
+    "img": "images/Items/pokemons/chikorita.png"
+  },
+  {
+    "name": "Turtwig Friendship",
+    "type": "toggle",
+    "codes": "turtwig",
+    "img": "images/Items/pokemons/turtwig.png"
+  },
+  {
+    "name": "Torterra Friendship",
+    "type": "toggle",
+    "codes": "torterra",
+    "img": "images/Items/pokemons/torterra.png"
+  },
+  {
+    "name": "Buneary Friendship",
+    "type": "toggle",
+    "codes": "buneary",
+    "img": "images/Items/pokemons/buneary.png"
+  },
+  {
+    "name": "Munchlax Friendship",
+    "type": "toggle",
+    "codes": "munchlax",
+    "img": "images/Items/pokemons/munchlax.png"
+  },
+  {
+    "name": "Treecko Friendship",
+    "type": "toggle",
+    "codes": "treecko",
+    "img": "images/Items/pokemons/treecko.png"
+  },
+  {
+    "name": "Mankey Friendship",
+    "type": "toggle",
+    "codes": "mankey",
+    "img": "images/Items/pokemons/mankey.png"
+  },
+  {
+    "name": "Bidoof Friendship",
+    "type": "toggle",
+    "codes": "bidoof",
+    "img": "images/Items/pokemons/bidoof.png"
+  },
+  {
+    "name": "Bibarel Friendship",
+    "type": "toggle",
+    "codes": "bibarel",
+    "img": "images/Items/pokemons/bibarel.png"
+  },
+  {
+    "name": "Oddish Friendship",
+    "type": "toggle",
+    "codes": "oddish",
+    "img": "images/Items/pokemons/oddish.png"
+  },
+  {
+    "name": "Aipom Friendship",
+    "type": "toggle",
+    "codes": "aipom",
+    "img": "images/Items/pokemons/aipom.png"
+  },
+  {
+    "name": "Ambipom Friendship",
+    "type": "toggle",
+    "codes": "ambipom",
+    "img": "images/Items/pokemons/ambipom.png"
+  },
+  {
+    "name": "Leafeon Friendship",
+    "type": "toggle",
+    "codes": "leafeon",
+    "img": "images/Items/pokemons/leafeon.png"
+  },
+  {
+    "name": "Spearow Friendship",
+    "type": "toggle",
+    "codes": "spearow",
+    "img": "images/Items/pokemons/spearow.png"
+  },
+  {
+    "name": "Croagunk Friendship",
+    "type": "toggle",
+    "codes": "croagunk",
+    "img": "images/Items/pokemons/croagunk.png"
+  },
+  {
+    "name": "Starly Friendship",
+    "type": "toggle",
+    "codes": "starly",
+    "img": "images/Items/pokemons/starly.png"
+  },
+  {
+    "name": "Bonsly Friendship",
+    "type": "toggle",
+    "codes": "bonsly",
+    "img": "images/Items/pokemons/bonsly.png"
+  },
+  {
+    "name": "Sudowoodo Friendship",
+    "type": "toggle",
+    "codes": "sudowoodo",
+    "img": "images/Items/pokemons/sudowoodo.png"
+  },
+  {
+    "name": "Pachirisu Friendship",
+    "type": "toggle",
+    "codes": "pachirisu",
+    "img": "images/Items/pokemons/pachirisu.png"
+  },
+  {
+    "name": "Lotad Friendship",
+    "type": "toggle",
+    "codes": "lotad",
+    "img": "images/Items/pokemons/lotad.png"
+  },
+  {
+    "name": "Shinx Friendship",
+    "type": "toggle",
+    "codes": "shinx",
+    "img": "images/Items/pokemons/shinx.png"
+  },
+  {
+    "name": "Scyther Friendship",
+    "type": "toggle",
+    "codes": "scyther",
+    "img": "images/Items/pokemons/scyther.png"
+  },
+  {
+    "name": "Magikarp Friendship",
+    "type": "toggle",
+    "codes": "magikarp",
+    "img": "images/Items/pokemons/magikarp.png"
+  },
+  {
+    "name": "Caterpie Friendship",
+    "type": "toggle",
+    "codes": "caterpie",
+    "img": "images/Items/pokemons/caterpie.png"
+  },
+  {
+    "name": "Butterfree Friendship",
+    "type": "toggle",
+    "codes": "butterfree",
+    "img": "images/Items/pokemons/butterfree.png"
+  },
+  {
+    "name": "Weedle Friendship",
+    "type": "toggle",
+    "codes": "weedle",
+    "img": "images/Items/pokemons/weedle.png"
+  },
+  {
+    "name": "Shroomish Friendship",
+    "type": "toggle",
+    "codes": "shroomish",
+    "img": "images/Items/pokemons/shroomish.png"
+  },
+  {
+    "name": "Tropius Friendship",
+    "type": "toggle",
+    "codes": "tropius",
+    "img": "images/Items/pokemons/tropius.png"
+  },
+  {
+    "name": "Bulbasaur Friendship",
+    "type": "toggle",
+    "codes": "bulbasaur",
+    "img": "images/Items/pokemons/bulbasaur.png"
+  },
+  {
+    "name": "Venusaur Friendship",
+    "type": "toggle",
+    "codes": "venusaur",
+    "img": "images/Items/pokemons/venusaur.png"
+  },
+  {
+    "name": "Piplup Friendship",
+    "type": "toggle",
+    "codes": "piplup",
+    "img": "images/Items/pokemons/piplup.png"
+  },
+  {
+    "name": "Slowpoke Friendship",
+    "type": "toggle",
+    "codes": "slowpoke",
+    "img": "images/Items/pokemons/slowpoke.png"
+  },
+  {
+    "name": "Azurill Friendship",
+    "type": "toggle",
+    "codes": "azurill",
+    "img": "images/Items/pokemons/azurill.png"
+  },
+  {
+    "name": "Corsola Friendship",
+    "type": "toggle",
+    "codes": "corsola",
+    "img": "images/Items/pokemons/corsola.png"
+  },
+  {
+    "name": "Wynaut Friendship",
+    "type": "toggle",
+    "codes": "wynaut",
+    "img": "images/Items/pokemons/wynaut.png"
+  },
+  {
+    "name": "Carvanha Friendship",
+    "type": "toggle",
+    "codes": "carvanha",
+    "img": "images/Items/pokemons/carvanha.png"
+  },
+  {
+    "name": "Sharpedo Friendship",
+    "type": "toggle",
+    "codes": "sharpedo",
+    "img": "images/Items/pokemons/sharpedo.png"
+  },
+  {
+    "name": "Wailord Friendship",
+    "type": "toggle",
+    "codes": "wailord",
+    "img": "images/Items/pokemons/wailord.png"
+  },
+  {
+    "name": "Totodile Friendship",
+    "type": "toggle",
+    "codes": "totodile",
+    "img": "images/Items/pokemons/totodile.png"
+  },
+  {
+    "name": "Feraligatr Friendship",
+    "type": "toggle",
+    "codes": "feraligatr",
+    "img": "images/Items/pokemons/feraligatr.png"
+  },
+  {
+    "name": "Lapras Friendship",
+    "type": "toggle",
+    "codes": "lapras",
+    "img": "images/Items/pokemons/lapras.png"
+  },
+  {
+    "name": "Psyduck Friendship",
+    "type": "toggle",
+    "codes": "psyduck",
+    "img": "images/Items/pokemons/psyduck.png"
+  },
+  {
+    "name": "Golduck Friendship",
+    "type": "toggle",
+    "codes": "golduck",
+    "img": "images/Items/pokemons/golduck.png"
+  },
+  {
+    "name": "Buizel Friendship",
+    "type": "toggle",
+    "codes": "buizel",
+    "img": "images/Items/pokemons/buizel.png"
+  },
+  {
+    "name": "Floatzel Friendship",
+    "type": "toggle",
+    "codes": "floatzel",
+    "img": "images/Items/pokemons/floatzel.png"
+  },
+  {
+    "name": "Vaporeon Friendship",
+    "type": "toggle",
+    "codes": "vaporeon",
+    "img": "images/Items/pokemons/vaporeon.png"
+  },
+  {
+    "name": "Mudkip Friendship",
+    "type": "toggle",
+    "codes": "mudkip",
+    "img": "images/Items/pokemons/mudkip.png"
+  },
+  {
+    "name": "Taillow Friendship",
+    "type": "toggle",
+    "codes": "taillow",
+    "img": "images/Items/pokemons/taillow.png"
+  },
+  {
+    "name": "Staravia Friendship",
+    "type": "toggle",
+    "codes": "staravia",
+    "img": "images/Items/pokemons/staravia.png"
+  },
+  {
+    "name": "Pidgeotto Friendship",
+    "type": "toggle",
+    "codes": "pidgeotto",
+    "img": "images/Items/pokemons/pidgeotto.png"
+  },
+  {
+    "name": "Krabby Friendship",
+    "type": "toggle",
+    "codes": "krabby",
+    "img": "images/Items/pokemons/krabby.png"
+  },
+  {
+    "name": "Corphish Friendship",
+    "type": "toggle",
+    "codes": "corphish",
+    "img": "images/Items/pokemons/corphish.png"
+  },
+  {
+    "name": "Blastoise Friendship",
+    "type": "toggle",
+    "codes": "blastoise",
+    "img": "images/Items/pokemons/blastoise.png"
+  },
+  {
+    "name": "Wingull Friendship",
+    "type": "toggle",
+    "codes": "wingull",
+    "img": "images/Items/pokemons/wingull.png"
+  },
+  {
+    "name": "Pelipper Friendship",
+    "type": "toggle",
+    "codes": "pelipper",
+    "img": "images/Items/pokemons/pelipper.png"
+  },
+  {
+    "name": "Gyarados Friendship",
+    "type": "toggle",
+    "codes": "gyarados",
+    "img": "images/Items/pokemons/gyarados.png"
+  },
+  {
+    "name": "Glalie Friendship",
+    "type": "toggle",
+    "codes": "glalie",
+    "img": "images/Items/pokemons/glalie.png"
+  },
+  {
+    "name": "Froslass Friendship",
+    "type": "toggle",
+    "codes": "froslass",
+    "img": "images/Items/pokemons/froslass.png"
+  },
+  {
+    "name": "Piloswine Friendship",
+    "type": "toggle",
+    "codes": "piloswine",
+    "img": "images/Items/pokemons/piloswine.png"
+  },
+  {
+    "name": "Mamoswine Friendship",
+    "type": "toggle",
+    "codes": "mamoswine",
+    "img": "images/Items/pokemons/mamoswine.png"
+  },
+  {
+    "name": "Teddiursa Friendship",
+    "type": "toggle",
+    "codes": "teddiursa",
+    "img": "images/Items/pokemons/teddiursa.png"
+  },
+  {
+    "name": "Ursaring Friendship",
+    "type": "toggle",
+    "codes": "ursaring",
+    "img": "images/Items/pokemons/ursaring.png"
+  },
+  {
+    "name": "Kirlia Friendship",
+    "type": "toggle",
+    "codes": "kirlia",
+    "img": "images/Items/pokemons/kirlia.png"
+  },
+  {
+    "name": "Spheal Friendship",
+    "type": "toggle",
+    "codes": "spheal",
+    "img": "images/Items/pokemons/spheal.png"
+  },
+  {
+    "name": "Quagsire Friendship",
+    "type": "toggle",
+    "codes": "quagsire",
+    "img": "images/Items/pokemons/quagsire.png"
+  },
+  {
+    "name": "Glaceon Friendship",
+    "type": "toggle",
+    "codes": "glaceon",
+    "img": "images/Items/pokemons/glaceon.png"
+  },
+  {
+    "name": "Octillery Friendship",
+    "type": "toggle",
+    "codes": "octillery",
+    "img": "images/Items/pokemons/octillery.png"
+  },
+  {
+    "name": "Delibird Friendship",
+    "type": "toggle",
+    "codes": "delibird",
+    "img": "images/Items/pokemons/delibird.png"
+  },
+  {
+    "name": "Primeape Friendship",
+    "type": "toggle",
+    "codes": "primeape",
+    "img": "images/Items/pokemons/primeape.png"
+  },
+  {
+    "name": "Squirtle Friendship",
+    "type": "toggle",
+    "codes": "squirtle",
+    "img": "images/Items/pokemons/squirtle.png"
+  },
+  {
+    "name": "Smoochum Friendship",
+    "type": "toggle",
+    "codes": "smoochum",
+    "img": "images/Items/pokemons/smoochum.png"
+  },
+  {
+    "name": "Sneasel Friendship",
+    "type": "toggle",
+    "codes": "sneasel",
+    "img": "images/Items/pokemons/sneasel.png"
+  },
+  {
+    "name": "Prinplup Friendship",
+    "type": "toggle",
+    "codes": "prinplup",
+    "img": "images/Items/pokemons/prinplup.png"
+  },
+  {
+    "name": "Empoleon Friendship",
+    "type": "toggle",
+    "codes": "empoleon",
+    "img": "images/Items/pokemons/empoleon.png"
+  },
+  {
+    "name": "Mr. Mime Friendship",
+    "type": "toggle",
+    "codes": "mr_mime",
+    "img": "images/Items/pokemons/mr_mime.png"
+  },
+  {
+    "name": "Mawile Friendship",
+    "type": "toggle",
+    "codes": "mawile",
+    "img": "images/Items/pokemons/mawile.png"
+  },
+  {
+    "name": "Aron Friendship",
+    "type": "toggle",
+    "codes": "aron",
+    "img": "images/Items/pokemons/aron.png"
+  },
+  {
+    "name": "Gible Friendship",
+    "type": "toggle",
+    "codes": "gible",
+    "img": "images/Items/pokemons/gible.png"
+  },
+  {
+    "name": "Marowak Friendship",
+    "type": "toggle",
+    "codes": "marowak",
+    "img": "images/Items/pokemons/marowak.png"
+  },
+  {
+    "name": "Zubat Friendship",
+    "type": "toggle",
+    "codes": "zubat",
+    "img": "images/Items/pokemons/zubat.png"
+  },
+  {
+    "name": "Golbat Friendship",
+    "type": "toggle",
+    "codes": "golbat",
+    "img": "images/Items/pokemons/golbat.png"
+  },
+  {
+    "name": "Diglett Friendship",
+    "type": "toggle",
+    "codes": "diglett",
+    "img": "images/Items/pokemons/diglett.png"
+  },
+  {
+    "name": "Dugtrio Friendship",
+    "type": "toggle",
+    "codes": "dugtrio",
+    "img": "images/Items/pokemons/dugtrio.png"
+  },
+  {
+    "name": "Snorlax Friendship",
+    "type": "toggle",
+    "codes": "snorlax",
+    "img": "images/Items/pokemons/snorlax.png"
+  },
+  {
+    "name": "Geodude Friendship",
+    "type": "toggle",
+    "codes": "geodude",
+    "img": "images/Items/pokemons/geodude.png"
+  },
+  {
+    "name": "Machamp Friendship",
+    "type": "toggle",
+    "codes": "machamp",
+    "img": "images/Items/pokemons/machamp.png"
+  },
+  {
+    "name": "Meowth Friendship",
+    "type": "toggle",
+    "codes": "meowth",
+    "img": "images/Items/pokemons/meowth.png"
+  },
+  {
+    "name": "Scizor Friendship",
+    "type": "toggle",
+    "codes": "scizor",
+    "img": "images/Items/pokemons/scizor.png"
+  },
+  {
+    "name": "Cranidos Friendship",
+    "type": "toggle",
+    "codes": "cranidos",
+    "img": "images/Items/pokemons/cranidos.png"
+  },
+  {
+    "name": "Phanpy Friendship",
+    "type": "toggle",
+    "codes": "phanpy",
+    "img": "images/Items/pokemons/phanpy.png"
+  },
+  {
+    "name": "Raichu Friendship",
+    "type": "toggle",
+    "codes": "raichu",
+    "img": "images/Items/pokemons/raichu.png"
+  },
+  {
+    "name": "Magnemite Friendship",
+    "type": "toggle",
+    "codes": "magnemite",
+    "img": "images/Items/pokemons/magnemite.png"
+  },
+  {
+    "name": "Magnezone Friendship",
+    "type": "toggle",
+    "codes": "magnezone",
+    "img": "images/Items/pokemons/magnezone.png"
+  },
+  {
+    "name": "Hitmonlee Friendship",
+    "type": "toggle",
+    "codes": "hitmonlee",
+    "img": "images/Items/pokemons/hitmonlee.png"
+  },
+  {
+    "name": "Electivire Friendship",
+    "type": "toggle",
+    "codes": "electivire",
+    "img": "images/Items/pokemons/electivire.png"
+  },
+  {
+    "name": "Bastiodon Friendship",
+    "type": "toggle",
+    "codes": "bastiodon",
+    "img": "images/Items/pokemons/bastiodon.png"
+  },
+  {
+    "name": "Charmander Friendship",
+    "type": "toggle",
+    "codes": "charmander",
+    "img": "images/Items/pokemons/charmander.png"
+  },
+  {
+    "name": "Hitmontop Friendship",
+    "type": "toggle",
+    "codes": "hitmontop",
+    "img": "images/Items/pokemons/hitmontop.png"
+  },
+  {
+    "name": "Hitmonchan Friendship",
+    "type": "toggle",
+    "codes": "hitmonchan",
+    "img": "images/Items/pokemons/hitmonchan.png"
+  },
+  {
+    "name": "Camerupt Friendship",
+    "type": "toggle",
+    "codes": "camerupt",
+    "img": "images/Items/pokemons/camerupt.png"
+  },
+  {
+    "name": "Chimchar Friendship",
+    "type": "toggle",
+    "codes": "chimchar",
+    "img": "images/Items/pokemons/chimchar.png"
+  },
+  {
+    "name": "Infernape Friendship",
+    "type": "toggle",
+    "codes": "infernape",
+    "img": "images/Items/pokemons/infernape.png"
+  },
+  {
+    "name": "Vulpix Friendship",
+    "type": "toggle",
+    "codes": "vulpix",
+    "img": "images/Items/pokemons/vulpix.png"
+  },
+  {
+    "name": "Ninetales Friendship",
+    "type": "toggle",
+    "codes": "ninetales",
+    "img": "images/Items/pokemons/ninetales.png"
+  },
+  {
+    "name": "Farfetch'd Friendship",
+    "type": "toggle",
+    "codes": "farfetchd",
+    "img": "images/Items/pokemons/farfetchd.png"
+  },
+  {
+    "name": "Meditite Friendship",
+    "type": "toggle",
+    "codes": "meditite",
+    "img": "images/Items/pokemons/meditite.png"
+  },
+  {
+    "name": "Magby Friendship",
+    "type": "toggle",
+    "codes": "magby",
+    "img": "images/Items/pokemons/magby.png"
+  },
+  {
+    "name": "Magmortar Friendship",
+    "type": "toggle",
+    "codes": "magmortar",
+    "img": "images/Items/pokemons/magmortar.png"
+  },
+  {
+    "name": "Flareon Friendship",
+    "type": "toggle",
+    "codes": "flareon",
+    "img": "images/Items/pokemons/flareon.png"
+  },
+  {
+    "name": "Magcargo Friendship",
+    "type": "toggle",
+    "codes": "magcargo",
+    "img": "images/Items/pokemons/magcargo.png"
+  },
+  {
+    "name": "Torkoal Friendship",
+    "type": "toggle",
+    "codes": "torkoal",
+    "img": "images/Items/pokemons/torkoal.png"
+  },
+  {
+    "name": "Golem Friendship",
+    "type": "toggle",
+    "codes": "golem",
+    "img": "images/Items/pokemons/golem.png"
+  },
+  {
+    "name": "Quilava Friendship",
+    "type": "toggle",
+    "codes": "quilava",
+    "img": "images/Items/pokemons/quilava.png"
+  },
+  {
+    "name": "Baltoy Friendship",
+    "type": "toggle",
+    "codes": "baltoy",
+    "img": "images/Items/pokemons/baltoy.png"
+  },
+  {
+    "name": "Claydol Friendship",
+    "type": "toggle",
+    "codes": "claydol",
+    "img": "images/Items/pokemons/claydol.png"
+  },
+  {
+    "name": "Ponyta Friendship",
+    "type": "toggle",
+    "codes": "ponyta",
+    "img": "images/Items/pokemons/ponyta.png"
+  },
+  {
+    "name": "Rhyperior Friendship",
+    "type": "toggle",
+    "codes": "rhyperior",
+    "img": "images/Items/pokemons/rhyperior.png"
+  },
+  {
+    "name": "Torchic Friendship",
+    "type": "toggle",
+    "codes": "torchic",
+    "img": "images/Items/pokemons/torchic.png"
+  },
+  {
+    "name": "Blaziken Friendship",
+    "type": "toggle",
+    "codes": "blaziken",
+    "img": "images/Items/pokemons/blaziken.png"
+  },
+  {
+    "name": "Murkrow Friendship",
+    "type": "toggle",
+    "codes": "murkrow",
+    "img": "images/Items/pokemons/murkrow.png"
+  },
+  {
+    "name": "Honchkrow Friendship",
+    "type": "toggle",
+    "codes": "honchkrow",
+    "img": "images/Items/pokemons/honchkrow.png"
+  },
+  {
+    "name": "Gliscor Friendship",
+    "type": "toggle",
+    "codes": "gliscor",
+    "img": "images/Items/pokemons/gliscor.png"
+  },
+  {
+    "name": "Drifloon Friendship",
+    "type": "toggle",
+    "codes": "drifloon",
+    "img": "images/Items/pokemons/drifloon.png"
+  },
+  {
+    "name": "Kakuna Friendship",
+    "type": "toggle",
+    "codes": "kakuna",
+    "img": "images/Items/pokemons/kakuna.png"
+  },
+  {
+    "name": "Metapod Friendship",
+    "type": "toggle",
+    "codes": "metapod",
+    "img": "images/Items/pokemons/metapod.png"
+  },
+  {
+    "name": "Tangrowth Friendship",
+    "type": "toggle",
+    "codes": "tangrowth",
+    "img": "images/Items/pokemons/tangrowth.png"
+  },
+  {
+    "name": "Riolu Friendship",
+    "type": "toggle",
+    "codes": "riolu",
+    "img": "images/Items/pokemons/riolu.png"
+  },
+  {
+    "name": "Sableye Friendship",
+    "type": "toggle",
+    "codes": "sableye",
+    "img": "images/Items/pokemons/sableye.png"
+  },
+  {
+    "name": "Spinarak Friendship",
+    "type": "toggle",
+    "codes": "spinarak",
+    "img": "images/Items/pokemons/spinarak.png"
+  },
+  {
+    "name": "Breloom Friendship",
+    "type": "toggle",
+    "codes": "breloom",
+    "img": "images/Items/pokemons/breloom.png"
+  },
+  {
+    "name": "Pichu Friendship",
+    "type": "toggle",
+    "codes": "pichu",
+    "img": "images/Items/pokemons/pichu.png"
+  },
+  {
+    "name": "Misdreavus Friendship",
+    "type": "toggle",
+    "codes": "misdreavus",
+    "img": "images/Items/pokemons/misdreavus.png"
+  },
+  {
+    "name": "Mismagius Friendship",
+    "type": "toggle",
+    "codes": "mismagius",
+    "img": "images/Items/pokemons/mismagius.png"
+  },
+  {
+    "name": "Elekid Friendship",
+    "type": "toggle",
+    "codes": "elekid",
+    "img": "images/Items/pokemons/elekid.png"
+  },
+  {
+    "name": "Electabuzz Friendship",
+    "type": "toggle",
+    "codes": "electabuzz",
+    "img": "images/Items/pokemons/electabuzz.png"
+  },
+  {
+    "name": "Luxray Friendship",
+    "type": "toggle",
+    "codes": "luxray",
+    "img": "images/Items/pokemons/luxray.png"
+  },
+  {
+    "name": "Stunky Friendship",
+    "type": "toggle",
+    "codes": "stunky",
+    "img": "images/Items/pokemons/stunky.png"
+  },
+  {
+    "name": "Skuntank Friendship",
+    "type": "toggle",
+    "codes": "skuntank",
+    "img": "images/Items/pokemons/skuntank.png"
+  },
+  {
+    "name": "Voltorb Friendship",
+    "type": "toggle",
+    "codes": "voltorb",
+    "img": "images/Items/pokemons/voltorb.png"
+  },
+  {
+    "name": "Electrode Friendship",
+    "type": "toggle",
+    "codes": "electrode",
+    "img": "images/Items/pokemons/electrode.png"
+  },
+  {
+    "name": "Umbreon Friendship",
+    "type": "toggle",
+    "codes": "umbreon",
+    "img": "images/Items/pokemons/umbreon.png"
+  },
+  {
+    "name": "Espeon Friendship",
+    "type": "toggle",
+    "codes": "espeon",
+    "img": "images/Items/pokemons/espeon.png"
+  },
+  {
+    "name": "Gastly Friendship",
+    "type": "toggle",
+    "codes": "gastly",
+    "img": "images/Items/pokemons/gastly.png"
+  },
+  {
+    "name": "Haunter Friendship",
+    "type": "toggle",
+    "codes": "haunter",
+    "img": "images/Items/pokemons/haunter.png"
+  },
+  {
+    "name": "Gengar Friendship",
+    "type": "toggle",
+    "codes": "gengar",
+    "img": "images/Items/pokemons/gengar.png"
+  },
+  {
+    "name": "Duskull Friendship",
+    "type": "toggle",
+    "codes": "duskull",
+    "img": "images/Items/pokemons/duskull.png"
+  },
+  {
+    "name": "Dusknoir Friendship",
+    "type": "toggle",
+    "codes": "dusknoir",
+    "img": "images/Items/pokemons/dusknoir.png"
+  },
+  {
+    "name": "Charizard Friendship",
+    "type": "toggle",
+    "codes": "charizard",
+    "img": "images/Items/pokemons/charizard.png"
+  },
+  {
+    "name": "Flygon Friendship",
+    "type": "toggle",
+    "codes": "flygon",
+    "img": "images/Items/pokemons/flygon.png"
+  },
+  {
+    "name": "Porygon-Z Friendship",
+    "type": "toggle",
+    "codes": "porygonz",
+    "img": "images/Items/pokemons/porygonz.png"
+  },
+  {
+    "name": "Bronzor Friendship",
+    "type": "toggle",
+    "codes": "bronzor",
+    "img": "images/Items/pokemons/bronzor.png"
+  },
+  {
+    "name": "Togekiss Friendship",
+    "type": "toggle",
+    "codes": "togekiss",
+    "img": "images/Items/pokemons/togekiss.png"
+  },
+  {
+    "name": "Arcanine Friendship",
+    "type": "toggle",
+    "codes": "arcanine",
+    "img": "images/Items/pokemons/arcanine.png"
+  },
+  {
+    "name": "Lopunny Friendship",
+    "type": "toggle",
+    "codes": "lopunny",
+    "img": "images/Items/pokemons/lopunny.png"
+  },
+  {
+    "name": "Furret Friendship",
+    "type": "toggle",
+    "codes": "furret",
+    "img": "images/Items/pokemons/furret.png"
+  },
+  {
+    "name": "Staraptor Friendship",
+    "type": "toggle",
+    "codes": "staraptor",
+    "img": "images/Items/pokemons/staraptor.png"
+  },
+  {
+    "name": "Skorupi Friendship",
+    "type": "toggle",
+    "codes": "skorupi",
+    "img": "images/Items/pokemons/skorupi.png"
+  },
+  {
+    "name": "Eevee Friendship",
+    "type": "toggle",
+    "codes": "eevee",
+    "img": "images/Items/pokemons/eevee.png"
+  },
+  {
+    "name": "Hoppip Friendship",
+    "type": "toggle",
+    "codes": "hoppip",
+    "img": "images/Items/pokemons/hoppip.png"
+  },
+  {
+    "name": "Jumpluff Friendship",
+    "type": "toggle",
+    "codes": "jumpluff",
+    "img": "images/Items/pokemons/jumpluff.png"
+  },
+  {
+    "name": "Aerodactyl Friendship",
+    "type": "toggle",
+    "codes": "aerodactyl",
+    "img": "images/Items/pokemons/aerodactyl.png"
+  },
+  {
+    "name": "Jolteon Friendship",
+    "type": "toggle",
+    "codes": "jolteon",
+    "img": "images/Items/pokemons/jolteon.png"
+  },
+  {
+    "name": "Tyranitar Friendship",
+    "type": "toggle",
+    "codes": "tyranitar",
+    "img": "images/Items/pokemons/tyranitar.png"
+  },
+  {
+    "name": "Garchomp Friendship",
+    "type": "toggle",
+    "codes": "garchomp",
+    "img": "images/Items/pokemons/garchomp.png"
+  },
+  {
+    "name": "Absol Friendship",
+    "type": "toggle",
+    "codes": "absol",
+    "img": "images/Items/pokemons/absol.png"
+  },
+  {
+    "name": "Salamence Friendship",
+    "type": "toggle",
+    "codes": "salamence",
+    "img": "images/Items/pokemons/salamence.png"
+  },
+  {
+    "name": "Bellossom Friendship",
+    "type": "toggle",
+    "codes": "bellossom",
+    "img": "images/Items/pokemons/bellossom.png"
+  },
+  {
+    "name": "Budew Friendship",
+    "type": "toggle",
+    "codes": "budew",
+    "img": "images/Items/pokemons/budew.png"
+  },
+  {
+    "name": "Skiploom Friendship",
+    "type": "toggle",
+    "codes": "skiploom",
+    "img": "images/Items/pokemons/skiploom.png"
+  },
+  {
+    "name": "Cyndaquil Friendship",
+    "type": "toggle",
+    "codes": "cyndaquil",
+    "img": "images/Items/pokemons/cyndaquil.png"
+  },
+  {
+    "name": "Mareep Friendship",
+    "type": "toggle",
+    "codes": "mareep",
+    "img": "images/Items/pokemons/mareep.png"
+  },
+  {
+    "name": "Dragonite Friendship",
+    "type": "toggle",
+    "codes": "dragonite",
+    "img": "images/Items/pokemons/dragonite.png"
+  },
+  {
+    "name": "Lucario Friendship",
+    "type": "toggle",
+    "codes": "lucario",
+    "img": "images/Items/pokemons/lucario.png"
+  },
+  {
+    "name": "Rayquaza Friendship",
+    "type": "toggle",
+    "codes": "rayquaza",
+    "img": "images/Items/pokemons/rayquaza.png"
+  },
+  {
+    "name": "Drifblim Friendship",
+    "type": "toggle",
+    "codes": "drifblim",
+    "img": "images/Items/pokemons/drifblim.png"
+  },
+  {
+    "name": "Burmy Friendship",
+    "type": "toggle",
+    "codes": "burmy",
+    "img": "images/Items/pokemons/burmy.png"
+  },
+  {
+    "name": "Mime Jr. Friendship",
+    "type": "toggle",
+    "codes": "mimejr",
+    "img": "images/Items/pokemons/mimejr.png"
+  },
+  {
+    "name": "Abra Friendship",
+    "type": "toggle",
+    "codes": "abra",
+    "img": "images/Items/pokemons/abra.png"
+  },
+  {
+    "name": "Mew Friendship",
+    "type": "toggle",
+    "codes": "mew",
+    "img": "images/Items/pokemons/mew.png"
+  },
+  {
+    "name": "Jirachi Friendship",
+    "type": "toggle",
+    "codes": "jirachi",
+    "img": "images/Items/pokemons/jirachi.png"
+  },
+  {
+    "name": "Manaphy Friendship",
+    "type": "toggle",
+    "codes": "manaphy",
+    "img": "images/Items/pokemons/manaphy.png"
+  },
+  {
+    "name": "Latias Friendship",
+    "type": "toggle",
+    "codes": "latias",
+    "img": "images/Items/pokemons/latias.png"
+  },
+  {
+    "name": "Suicune Friendship",
+    "type": "toggle",
+    "codes": "suicune",
+    "img": "images/Items/pokemons/suicune.png"
+  },
+  {
+    "name": "Metagross Friendship",
+    "type": "toggle",
+    "codes": "metagross",
+    "img": "images/Items/pokemons/metagross.png"
+  },
+  {
+    "name": "Heatran Friendship",
+    "type": "toggle",
+    "codes": "heatran",
+    "img": "images/Items/pokemons/heatran.png"
+  },
+  {
+    "name": "Groudon Friendship",
+    "type": "toggle",
+    "codes": "groudon",
+    "img": "images/Items/pokemons/groudon.png"
+  },
+  {
+    "name": "Celebi Friendship",
+    "type": "toggle",
+    "codes": "celebi",
+    "img": "images/Items/pokemons/celebi.png"
+  },
+  {
+    "name": "Darkrai Friendship",
+    "type": "toggle",
+    "codes": "darkrai",
+    "img": "images/Items/pokemons/darkrai.png"
+  },
+  {
+    "name": "Rotom Friendship",
+    "type": "toggle",
+    "codes": "rotom",
+    "img": "images/Items/pokemons/rotom.png"
+  },
+  {
+    "name": "Shaymin Friendship",
+    "type": "toggle",
+    "codes": "shaymin",
+    "img": "images/Items/pokemons/shaymin.png"
+  },
+  {
+    "name": "Latios Friendship",
+    "type": "toggle",
+    "codes": "latios",
+    "img": "images/Items/pokemons/latios.png"
+  },
+  {
+    "name": "Deoxys Friendship",
+    "type": "toggle",
+    "codes": "deoxys",
+    "img": "images/Items/pokemons/deoxys.png"
+  },
+  {
+    "name": "Tropius Unlock",
+    "type": "toggle",
+    "codes": "tropius_unlock",
+    "img": "images/Items/pokemons/tropius.png"
+  },
+  {
+    "name": "Pachirisu Unlock",
+    "type": "toggle",
+    "codes": "pachirisu_unlock",
+    "img": "images/Items/pokemons/pachirisu.png"
+  },
+  {
+    "name": "Bonsly Unlock",
+    "type": "toggle",
+    "codes": "bonsly_unlock",
+    "img": "images/Items/pokemons/bonsly.png"
+  },
+  {
+    "name": "Sudowoodo Unlock",
+    "type": "toggle",
+    "codes": "sudowoodo_unlock",
+    "img": "images/Items/pokemons/sudowoodo.png"
+  },
+  {
+    "name": "Lotad Unlock",
+    "type": "toggle",
+    "codes": "lotad_unlock",
+    "img": "images/Items/pokemons/lotad.png"
+  },
+  {
+    "name": "Shinx Unlock",
+    "type": "toggle",
+    "codes": "shinx_unlock",
+    "img": "images/Items/pokemons/shinx.png"
+  },
+  {
+    "name": "Scyther Unlock",
+    "type": "toggle",
+    "codes": "scyther_unlock",
+    "img": "images/Items/pokemons/scyther.png"
+  },
+  {
+    "name": "Caterpie Unlock",
+    "type": "toggle",
+    "codes": "caterpie_unlock",
+    "img": "images/Items/pokemons/caterpie.png"
+  },
+  {
+    "name": "Butterfree Unlock",
+    "type": "toggle",
+    "codes": "butterfree_unlock",
+    "img": "images/Items/pokemons/butterfree.png"
+  },
+  {
+    "name": "Chimchar Unlock",
+    "type": "toggle",
+    "codes": "chimchar_unlock",
+    "img": "images/Items/pokemons/chimchar.png"
+  },
+  {
+    "name": "Ambipom Unlock",
+    "type": "toggle",
+    "codes": "ambipom_unlock",
+    "img": "images/Items/pokemons/ambipom.png"
+  },
+  {
+    "name": "Weedle Unlock",
+    "type": "toggle",
+    "codes": "weedle_unlock",
+    "img": "images/Items/pokemons/weedle.png"
+  },
+  {
+    "name": "Shroomish Unlock",
+    "type": "toggle",
+    "codes": "shroomish_unlock",
+    "img": "images/Items/pokemons/shroomish.png"
+  },
+  {
+    "name": "Magikarp Unlock",
+    "type": "toggle",
+    "codes": "magikarp_unlock",
+    "img": "images/Items/pokemons/magikarp.png"
+  },
+  {
+    "name": "Bidoof Unlock",
+    "type": "toggle",
+    "codes": "bidoof_unlock",
+    "img": "images/Items/pokemons/bidoof.png"
+  },
+  {
+    "name": "Bibarel Unlock",
+    "type": "toggle",
+    "codes": "bibarel_unlock",
+    "img": "images/Items/pokemons/bibarel.png"
+  },
+  {
+    "name": "Starly Unlock 1",
+    "type": "toggle",
+    "codes": "starly_unlock1",
+    "img": "images/Items/pokemons/starly.png"
+  },
+  {
+    "name": "Starly Unlock 2",
+    "type": "toggle",
+    "codes": "starly_unlock2",
+    "img": "images/Items/pokemons/starly.png"
+  },
+  {
+    "name": "Torterra Unlock",
+    "type": "toggle",
+    "codes": "torterra_unlock",
+    "img": "images/Items/pokemons/torterra.png"
+  },
+  {
+    "name": "Floatzel Unlock",
+    "type": "toggle",
+    "codes": "floatzel_unlock",
+    "img": "images/Items/pokemons/floatzel.png"
+  },
+  {
+    "name": "Mudkip Unlock",
+    "type": "toggle",
+    "codes": "mudkip_unlock",
+    "img": "images/Items/pokemons/mudkip.png"
+  },
+  {
+    "name": "Totodile Unlock",
+    "type": "toggle",
+    "codes": "totodile_unlock",
+    "img": "images/Items/pokemons/totodile.png"
+  },
+  {
+    "name": "Golduck Unlock",
+    "type": "toggle",
+    "codes": "golduck_unlock",
+    "img": "images/Items/pokemons/golduck.png"
+  },
+  {
+    "name": "Krabby Unlock",
+    "type": "toggle",
+    "codes": "krabby_unlock",
+    "img": "images/Items/pokemons/krabby.png"
+  },
+  {
+    "name": "Corphish Unlock",
+    "type": "toggle",
+    "codes": "corphish_unlock",
+    "img": "images/Items/pokemons/corphish.png"
+  },
+  {
+    "name": "Drifblim Unlock",
+    "type": "toggle",
+    "codes": "drifblim_unlock",
+    "img": "images/Items/pokemons/drifblim.png"
+  },
+  {
+    "name": "Delibird Unlock",
+    "type": "toggle",
+    "codes": "delibird_unlock",
+    "img": "images/Items/pokemons/delibird.png"
+  },
+  {
+    "name": "Squirtle Unlock",
+    "type": "toggle",
+    "codes": "squirtle_unlock",
+    "img": "images/Items/pokemons/squirtle.png"
+  },
+  {
+    "name": "Smoochum Unlock",
+    "type": "toggle",
+    "codes": "smoochum_unlock",
+    "img": "images/Items/pokemons/smoochum.png"
+  },
+  {
+    "name": "Sneasel Unlock",
+    "type": "toggle",
+    "codes": "sneasel_unlock",
+    "img": "images/Items/pokemons/sneasel.png"
+  },
+  {
+    "name": "Mamoswine Unlock",
+    "type": "toggle",
+    "codes": "mamoswine_unlock",
+    "img": "images/Items/pokemons/mamoswine.png"
+  },
+  {
+    "name": "Glalie Unlock",
+    "type": "toggle",
+    "codes": "glalie_unlock",
+    "img": "images/Items/pokemons/glalie.png"
+  },
+  {
+    "name": "Primeape Unlock",
+    "type": "toggle",
+    "codes": "primeape_unlock",
+    "img": "images/Items/pokemons/primeape.png"
+  },
+  {
+    "name": "Ursaring Unlock",
+    "type": "toggle",
+    "codes": "ursaring_unlock",
+    "img": "images/Items/pokemons/ursaring.png"
+  },
+  {
+    "name": "Magnemite Unlock",
+    "type": "toggle",
+    "codes": "magnemite_unlock",
+    "img": "images/Items/pokemons/magnemite.png"
+  },
+  {
+    "name": "Magnemite Unlock 2",
+    "type": "toggle",
+    "codes": "magnemite_unlock2",
+    "img": "images/Items/pokemons/magnemite.png"
+  },
+  {
+    "name": "Magnemite Unlock 3",
+    "type": "toggle",
+    "codes": "magnemite_unlock3",
+    "img": "images/Items/pokemons/magnemite.png"
+  },
+  {
+    "name": "Machamp Unlock",
+    "type": "toggle",
+    "codes": "machamp_unlock",
+    "img": "images/Items/pokemons/machamp.png"
+  },
+  {
+    "name": "Diglett Unlock",
+    "type": "toggle",
+    "codes": "diglett_unlock",
+    "img": "images/Items/pokemons/diglett.png"
+  },
+  {
+    "name": "Magnezone Unlock",
+    "type": "toggle",
+    "codes": "magnezone_unlock",
+    "img": "images/Items/pokemons/magnezone.png"
+  },
+  {
+    "name": "Phanpy Unlock",
+    "type": "toggle",
+    "codes": "phanpy_unlock",
+    "img": "images/Items/pokemons/phanpy.png"
+  },
+  {
+    "name": "Raichu Unlock",
+    "type": "toggle",
+    "codes": "raichu_unlock",
+    "img": "images/Items/pokemons/raichu.png"
+  },
+  {
+    "name": "Infernape Unlock",
+    "type": "toggle",
+    "codes": "infernape_unlock",
+    "img": "images/Items/pokemons/infernape.png"
+  },
+  {
+    "name": "Ninetales Unlock",
+    "type": "toggle",
+    "codes": "ninetales_unlock",
+    "img": "images/Items/pokemons/ninetales.png"
+  },
+  {
+    "name": "Ponyta Unlock",
+    "type": "toggle",
+    "codes": "ponyta_unlock",
+    "img": "images/Items/pokemons/ponyta.png"
+  },
+  {
+    "name": "Torkoal Unlock",
+    "type": "toggle",
+    "codes": "torkoal_unlock",
+    "img": "images/Items/pokemons/torkoal.png"
+  },
+  {
+    "name": "Golem Unlock",
+    "type": "toggle",
+    "codes": "golem_unlock",
+    "img": "images/Items/pokemons/golem.png"
+  },
+  {
+    "name": "Baltoy Unlock",
+    "type": "toggle",
+    "codes": "baltoy_unlock",
+    "img": "images/Items/pokemons/baltoy.png"
+  },
+  {
+    "name": "Claydol Unlock",
+    "type": "toggle",
+    "codes": "claydol_unlock",
+    "img": "images/Items/pokemons/claydol.png"
+  },
+  {
+    "name": "Hitmonchan Unlock",
+    "type": "toggle",
+    "codes": "hitmonchan_unlock",
+    "img": "images/Items/pokemons/hitmonchan.png"
+  },
+  {
+    "name": "Hitmonlee Unlock",
+    "type": "toggle",
+    "codes": "hitmonlee_unlock",
+    "img": "images/Items/pokemons/hitmonlee.png"
+  },
+  {
+    "name": "Honchkrow Unlock",
+    "type": "toggle",
+    "codes": "honchkrow_unlock",
+    "img": "images/Items/pokemons/honchkrow.png"
+  },
+  {
+    "name": "Metapod Unlock",
+    "type": "toggle",
+    "codes": "metapod_unlock",
+    "img": "images/Items/pokemons/metapod.png"
+  },
+  {
+    "name": "Kakuna Unlock",
+    "type": "toggle",
+    "codes": "kakuna_unlock",
+    "img": "images/Items/pokemons/kakuna.png"
+  },
+  {
+    "name": "Voltorb Unlock",
+    "type": "toggle",
+    "codes": "voltorb_unlock",
+    "img": "images/Items/pokemons/voltorb.png"
+  },
+  {
+    "name": "Elekid Unlock",
+    "type": "toggle",
+    "codes": "elekid_unlock",
+    "img": "images/Items/pokemons/elekid.png"
+  },
+  {
+    "name": "Electabuzz Unlock",
+    "type": "toggle",
+    "codes": "electabuzz_unlock",
+    "img": "images/Items/pokemons/electabuzz.png"
+  },
+  {
+    "name": "Luxray Unlock",
+    "type": "toggle",
+    "codes": "luxray_unlock",
+    "img": "images/Items/pokemons/luxray.png"
+  },
+  {
+    "name": "Stunky Unlock",
+    "type": "toggle",
+    "codes": "stunky_unlock",
+    "img": "images/Items/pokemons/stunky.png"
+  },
+  {
+    "name": "Skuntank Unlock",
+    "type": "toggle",
+    "codes": "skuntank_unlock",
+    "img": "images/Items/pokemons/skuntank.png"
+  },
+  {
+    "name": "Breloom Unlock",
+    "type": "toggle",
+    "codes": "breloom_unlock",
+    "img": "images/Items/pokemons/breloom.png"
+  },
+  {
+    "name": "Mismagius Unlock",
+    "type": "toggle",
+    "codes": "mismagius_unlock",
+    "img": "images/Items/pokemons/mismagius.png"
+  },
+  {
+    "name": "Electrode Unlock",
+    "type": "toggle",
+    "codes": "electrode_unlock",
+    "img": "images/Items/pokemons/electrode.png"
+  },
+  {
+    "name": "Haunter Unlock",
+    "type": "toggle",
+    "codes": "haunter_unlock",
+    "img": "images/Items/pokemons/haunter.png"
+  },
+  {
+    "name": "Gastly Unlock",
+    "type": "toggle",
+    "codes": "gastly_unlock",
+    "img": "images/Items/pokemons/gastly.png"
+  },
+  {
+    "name": "Gastly Unlock 2",
+    "type": "toggle",
+    "codes": "gastly_unlock2",
+    "img": "images/Items/pokemons/gastly.png"
+  },
+  {
+    "name": "Dusknoir Unlock",
+    "type": "toggle",
+    "codes": "dusknoir_unlock",
+    "img": "images/Items/pokemons/dusknoir.png"
+  },
+  {
+    "name": "Espeon Unlock",
+    "type": "toggle",
+    "codes": "espeon_unlock",
+    "img": "images/Items/pokemons/espeon.png"
+  },
+  {
+    "name": "Gengar Unlock",
+    "type": "toggle",
+    "codes": "gengar_unlock",
+    "img": "images/Items/pokemons/gengar.png"
+  },
+  {
+    "name": "Blastoise Unlock",
+    "type": "toggle",
+    "codes": "blastoise_unlock",
+    "img": "images/Items/pokemons/blastoise.png"
+  },
+  {
+    "name": "Electivire Unlock",
+    "type": "toggle",
+    "codes": "electivire_unlock",
+    "img": "images/Items/pokemons/electivire.png"
+  },
+  {
+    "name": "Magmortar Unlock",
+    "type": "toggle",
+    "codes": "magmortar_unlock",
+    "img": "images/Items/pokemons/magmortar.png"
+  },
+  {
+    "name": "Jolteon Unlock",
+    "type": "toggle",
+    "codes": "jolteon_unlock",
+    "img": "images/Items/pokemons/jolteon.png"
+  },
+  {
+    "name": "Aerodactyl Unlock",
+    "type": "toggle",
+    "codes": "aerodactyl_unlock",
+    "img": "images/Items/pokemons/aerodactyl.png"
+  },
+  {
+    "name": "Tyranitar Unlock",
+    "type": "toggle",
+    "codes": "tyranitar_unlock",
+    "img": "images/Items/pokemons/tyranitar.png"
+  },
+  {
+    "name": "Garchomp Unlock",
+    "type": "toggle",
+    "codes": "garchomp_unlock",
+    "img": "images/Items/pokemons/garchomp.png"
+  },
+  {
+    "name": "Rayquaza Unlock",
+    "type": "toggle",
+    "codes": "rayquaza_unlock",
+    "img": "images/Items/pokemons/rayquaza.png"
+  },
+  {
+    "name": "Meadow Zone Unlock",
+    "type": "toggle",
+    "codes": "meadow_zone_unlock",
+    "img": "images/Items/zones/meadow_zone.png"
+  },
+  {
+    "name": "Beach Zone Unlock",
+    "type": "toggle",
+    "codes": "beach_zone_unlock",
+    "img": "images/Items/zones/beach_zone.png"
+  },
+  {
+    "name": "Ice Zone Unlock",
+    "type": "toggle",
+    "codes": "ice_zone_unlock",
+    "img": "images/Items/zones/ice_zone.png"
+  },
+  {
+    "name": "Cavern Zone & Magma Zone Unlock",
+    "type": "toggle",
+    "codes": "cavern_and_magma_zone_unlock",
+    "img": "images/Items/zones/cavern_zone.png"
+  },
+  {
+    "name": "Haunted Zone Unlock",
+    "type": "toggle",
+    "codes": "haunted_zone_unlock",
+    "img": "images/Items/zones/haunted_zone.png"
+  },
+  {
+    "name": "Granite Zone & Flower Zone Unlock",
+    "type": "toggle",
+    "codes": "granite_and_flower_zone_unlock",
+    "img": "images/Items/zones/granite_zone.png"
+  },
+  {
+    "name": "Skygarden Unlock",
+    "type": "toggle",
+    "codes": "skygarden_unlock",
+    "img": "images/Items/zones/skygarden.png"
+  }
+]

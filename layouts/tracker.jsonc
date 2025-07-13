@@ -1,0 +1,94 @@
+{
+  "tracker_default": {
+    "background": "#1D1A14",
+    "type": "dock",
+    "content": [
+      {
+        "type": "dock",
+        "orientation": "vertical",
+        "dock": "left",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "tabbed",
+            "dock": "top",
+            "tabs": [
+              {
+                "type": "group",
+                "header": "Friendships",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "friendships"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Unlocks",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "unlocks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "tabbed",
+            "dock": "top",
+            "tabs": [
+              {
+                "type": "group",
+                "header": "Items",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "item_grid"
+                }
+              }
+            ]
+          },
+          {
+            "type": "tabbed",
+            "dock": "top",
+            "tabs": [
+              {
+                "type": "group",
+                "header": "Powers",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "powers"
+                }
+              }
+            ]
+          },
+          {
+            "type": "tabbed",
+            "dock": "top",
+            "tabs": [
+              {
+                "type": "group",
+                "header": "Prismas",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "prismas"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "container",
+        "content": [
+          {
+            "type": "layout",
+            "key": "layout_maps"
+          }
+        ]
+      }
+    ]
+  }
+}

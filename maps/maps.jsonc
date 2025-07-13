@@ -1,0 +1,93 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "treehouse",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/treehouse.png"
+  },
+  {
+    "name": "meadow_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/meadow_zone_overworld.png"
+  },
+  {
+    "name": "venusaur_minigame",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/venusaur_minigame.png"
+  },
+  {
+    "name": "beach_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/beach_zone_overworld.png"
+  },
+  {
+    "name": "ice_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/ice_zone_overworld.png"
+  },
+  {
+    "name": "ice_zone_empoleon",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/ice_zone_empoleon.png"
+  },
+  {
+    "name": "cavern_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/cavern_zone_overworld.png"
+  },
+  {
+    "name": "magma_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/magma_zone_overworld.png"
+  },
+  {
+    "name": "magma_zone_blaziken",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/magma_zone_blaziken.png"
+  },
+  {
+    "name": "haunted_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/haunted_zone_overworld.png"
+  },
+  {
+    "name": "haunted_zone_mansion",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/haunted_zone_mansion.png"
+  },
+  {
+    "name": "haunted_zone_rotom",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/haunted_zone_rotom.png"
+  },
+  {
+    "name": "granite_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/granite_zone_overworld.png"
+  },
+  {
+    "name": "flower_zone_overworld",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/flower_zone_overworld.png"
+  },
+  {
+    "name": "skygarden",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/skygarden.png"
+  }
+]
