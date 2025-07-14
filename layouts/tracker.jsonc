@@ -5,7 +5,6 @@
     "content": [
       {
         "type": "dock",
-        "orientation": "vertical",
         "dock": "left",
         "background": "#212121",
         "content": [

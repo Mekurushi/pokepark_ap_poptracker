@@ -10,7 +10,6 @@
 						{
 							"title": "Treehouse",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -31,7 +30,6 @@
 						{
 							"title": "Overworld",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -44,7 +42,6 @@
 						{
 							"title": "Venusaur Minigame Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -65,7 +62,6 @@
 						{
 							"title": "Overworld",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -86,7 +82,6 @@
 						{
 							"title": "Overworld",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -99,7 +94,6 @@
 						{
 							"title": "Empoleon Minigame Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
