@@ -249,7 +249,7 @@
                 "type": "itemgrid",
                 "h_alignment": "center",
                 "item_size": "16",
-                "item_margin": "1,1,1,1",
+                "item_margin": "1,1",
                 "margin": "1,1,1,1",
                 "item_h_alignment": "center",
                 "item_v_alignment": "center",
