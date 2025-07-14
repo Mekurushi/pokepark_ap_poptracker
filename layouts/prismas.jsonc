@@ -1,13 +1,12 @@
 {
     "prismas": {
         "type": "container",
-        "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
                 "item_size": "64",
-                "item_margin": "-19,0,0,0",
+                "item_margin": "-19,0",
                 "margin": "0,0,0,0",
                 "item_h_alignment": "center",
                 "item_v_alignment": "center",
@@ -52,7 +51,6 @@
     },
     "prismas_broadcast": {
         "type": "container",
-        "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",

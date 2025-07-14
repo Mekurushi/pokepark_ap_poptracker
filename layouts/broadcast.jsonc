@@ -11,8 +11,55 @@
         "margin": "0,0",
         "content": [
           {
-            "type": "layout",
-            "key": "shared_item_grid"
+            "type": "tabbed",
+            "dock": "top",
+            "tabs": [
+              {
+                "type": "group",
+                "header": "Friendships",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "friendships"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Unlocks",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "unlocks"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Items",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "item_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Powers",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "powers"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Prismas",
+                "background": "#525260",
+                "content": {
+                  "type": "layout",
+                  "key": "prismas"
+                }
+              }
+            ]
           }
         ]
       }

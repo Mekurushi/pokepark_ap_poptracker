@@ -39,11 +39,11 @@
             "tabs": [
               {
                 "type": "group",
-                "header": "Items",
+                "header": "Powers",
                 "background": "#525260",
                 "content": {
                   "type": "layout",
-                  "key": "item_grid"
+                  "key": "powers"
                 }
               }
             ]
@@ -54,11 +54,11 @@
             "tabs": [
               {
                 "type": "group",
-                "header": "Powers",
+                "header": "Items",
                 "background": "#525260",
                 "content": {
                   "type": "layout",
-                  "key": "powers"
+                  "key": "item_grid"
                 }
               }
             ]

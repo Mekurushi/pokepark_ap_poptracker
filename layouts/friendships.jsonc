@@ -1,13 +1,12 @@
 {
     "friendships": {
         "type": "container",
-        "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
                 "item_size": "34",
-                "item_margin": "1,1,1,1",
+                "item_margin": "1",
                 "margin": "1,1,1,1",
                 "item_h_alignment": "center",
                 "item_v_alignment": "center",
@@ -245,12 +244,11 @@
     },
     "friendships_broadcast": {
         "type": "container",
-        "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "46",
+                "item_size": "16",
                 "item_margin": "1,1,1,1",
                 "margin": "1,1,1,1",
                 "item_h_alignment": "center",
@@ -266,11 +264,11 @@
                         "treecko",
                         "mankey",
                         "bidoof",
-                        "bibarel"
+                        "bibarel",
+                        "oddish",
+                        "aipom"
                     ],
                     [
-                        "oddish",
-                        "aipom",
                         "ambipom",
                         "leafeon",
                         "spearow",
@@ -278,33 +276,31 @@
                         "starly",
                         "bonsly",
                         "sudowoodo",
-                        "pachirisu"
-                    ],
-                    [
+                        "pachirisu",
                         "lotad",
                         "shinx",
                         "scyther",
-                        "magikarp",
+                        "magikarp"
+                    ],
+                    [
                         "caterpie",
                         "butterfree",
                         "weedle",
                         "shroomish",
                         "tropius",
-                        "bulbasaur"
-                    ],
-                    [
+                        "bulbasaur",
                         "venusaur",
                         "piplup",
                         "slowpoke",
                         "azurill",
                         "corsola",
-                        "wynaut",
+                        "wynaut"
+                    ],
+                    [
                         "carvanha",
                         "sharpedo",
                         "wailord",
-                        "totodile"
-                    ],
-                    [
+                        "totodile",
                         "feraligatr",
                         "lapras",
                         "psyduck",
@@ -312,11 +308,11 @@
                         "buizel",
                         "floatzel",
                         "vaporeon",
-                        "mudkip",
-                        "taillow",
-                        "staravia"
+                        "mudkip"
                     ],
                     [
+                        "taillow",
+                        "staravia",
                         "pidgeotto",
                         "krabby",
                         "corphish",
@@ -338,11 +334,11 @@
                         "glaceon",
                         "octillery",
                         "delibird",
-                        "primeape"
+                        "primeape",
+                        "squirtle",
+                        "smoochum"
                     ],
                     [
-                        "squirtle",
-                        "smoochum",
                         "sneasel",
                         "prinplup",
                         "empoleon",
@@ -350,33 +346,31 @@
                         "mawile",
                         "aron",
                         "gible",
-                        "marowak"
-                    ],
-                    [
+                        "marowak",
                         "zubat",
                         "golbat",
                         "diglett",
-                        "dugtrio",
+                        "dugtrio"
+                    ],
+                    [
                         "snorlax",
                         "geodude",
                         "machamp",
                         "meowth",
                         "scizor",
-                        "cranidos"
-                    ],
-                    [
+                        "cranidos",
                         "phanpy",
                         "raichu",
                         "magnemite",
                         "magnezone",
                         "hitmonlee",
-                        "electivire",
+                        "electivire"
+                    ],
+                    [
                         "bastiodon",
                         "charmander",
                         "hitmontop",
-                        "hitmonchan"
-                    ],
-                    [
+                        "hitmonchan",
                         "camerupt",
                         "chimchar",
                         "infernape",
@@ -384,11 +378,11 @@
                         "ninetales",
                         "farfetchd",
                         "meditite",
-                        "magby",
-                        "magmortar",
-                        "flareon"
+                        "magby"
                     ],
                     [
+                        "magmortar",
+                        "flareon",
                         "magcargo",
                         "torkoal",
                         "golem",
@@ -397,7 +391,8 @@
                         "claydol",
                         "ponyta",
                         "rhyperior",
-                        "torchic"
+                        "torchic",
+                        "blaziken"
                     ],
                     [
                         "murkrow",
@@ -409,11 +404,11 @@
                         "tangrowth",
                         "riolu",
                         "sableye",
-                        "spinarak"
+                        "spinarak",
+                        "breloom",
+                        "pichu"
                     ],
                     [
-                        "breloom",
-                        "pichu",
                         "misdreavus",
                         "mismagius",
                         "elekid",
@@ -421,33 +416,31 @@
                         "luxray",
                         "stunky",
                         "skuntank",
-                        "voltorb"
-                    ],
-                    [
+                        "voltorb",
                         "electrode",
                         "umbreon",
                         "espeon",
-                        "gastly",
+                        "gastly"
+                    ],
+                    [
                         "haunter",
                         "gengar",
                         "duskull",
                         "dusknoir",
                         "charizard",
-                        "flygon"
-                    ],
-                    [
+                        "flygon",
                         "porygonz",
                         "bronzor",
                         "togekiss",
                         "arcanine",
                         "lopunny",
-                        "furret",
+                        "furret"
+                    ],
+                    [
                         "staraptor",
                         "skorupi",
                         "eevee",
-                        "hoppip"
-                    ],
-                    [
+                        "hoppip",
                         "jumpluff",
                         "aerodactyl",
                         "jolteon",
@@ -455,11 +448,11 @@
                         "garchomp",
                         "absol",
                         "salamence",
-                        "bellossom",
-                        "budew",
-                        "skiploom"
+                        "bellossom"
                     ],
                     [
+                        "budew",
+                        "skiploom",
                         "cyndaquil",
                         "mareep",
                         "dragonite",
@@ -481,11 +474,11 @@
                         "groudon",
                         "celebi",
                         "darkrai",
-                        "rotom"
+                        "rotom",
+                        "shaymin",
+                        "latios"
                     ],
                     [
-                        "shaymin",
-                        "latios",
                         "deoxys"
                     ]
                 ]

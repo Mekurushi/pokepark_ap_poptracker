@@ -1,13 +1,12 @@
 {
 	"powers": {
 		"type": "container",
-		"orientation": "vertical",
 		"content": [
 			{
 				"type": "itemgrid",
 				"h_alignment": "center",
 				"item_size": "64",
-				"item_margin": "1,1,1,1",
+				"item_margin": "1",
 				"margin": "1,1,1,1",
 				"item_h_alignment": "center",
 				"item_v_alignment": "center",
@@ -24,7 +23,6 @@
 	},
 	"powers_broadcast": {
 		"type": "container",
-		"orientation": "vertical",
 		"content": [
 			{
 				"type": "itemgrid",
