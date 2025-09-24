@@ -6,44 +6,72 @@
         ],
         "children": [
             {
-                "name": "Overworld Pokemon Treehouse Entrance",
+                "name": "Treehouse Entrance Area",
                 "sections": [
                     {
-                        "name": "Aipom Friendship",
+                        "name": "Aipom Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Aipom Friendship - Pokemon Unlock",
+                        "name": "Aipom Power Competition - Ambipom Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Ambipom Friendship",
+                        "name": "Ambipom Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], ambipom_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mankey Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Oddish Friendship",
+                        "name": "Mankey Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Torterra Friendship",
+                        "name": "Mankey Power Competition - Chimchar Unlocked",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Oddish Power Competition - Friendship",
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Torterra Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmune]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -60,16 +88,22 @@
                 "name": "Weedle",
                 "sections": [
                     {
-                        "name": "Tree Dash",
+                        "name": "Tree - Weedle Unlocked",
                         "access_rules": [
                             "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], weedle_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -86,16 +120,22 @@
                 "name": "Magikarp",
                 "sections": [
                     {
-                        "name": "electrocuted",
+                        "name": "Rescue - Magikarp Unlocked",
                         "access_rules": [
                             "$canThunderBoltOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, magikarp_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -112,16 +152,22 @@
                 "name": "Shroomish",
                 "sections": [
                     {
-                        "name": "Crate Dash",
+                        "name": "Crate - Shroomish Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, shroomish_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -136,16 +182,19 @@
             },
             {
                 "name": "Croagunk",
+                "visibility_rules": [
+                    "$battle_locations_activated"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship - Pokemon Unlock",
+                        "name": "Power Competition - Scyther Unlocked",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -164,23 +213,32 @@
                 "name": "Caterpie",
                 "sections": [
                     {
-                        "name": "Tree Dash",
+                        "name": "Tree - Caterpie Unlocked",
                         "access_rules": [
                             "$canDashOverworld"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Friendship",
-                        "access_rules": [
-                            "$canPlayCatch, caterpie_unlock"
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship - Pokemon Unlock",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, caterpie_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Competition - Butterfree Unlocked",
+                        "access_rules": [
+                            "$canPlayCatch, caterpie_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -194,34 +252,46 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Bridge Entrance",
+                "name": "Bridge Area",
                 "sections": [
                     {
-                        "name": "Starly Friendship",
+                        "name": "Starly Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, starly_unlock1",
                             "$canPlayCatch, starly_unlock2"
                         ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Butterfree Friendship",
+                        "name": "Butterfree Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, butterfree_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Treecko Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Lotad Friendship",
+                        "name": "Treecko Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lotad Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], lotad_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -235,19 +305,25 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Leafeon Place",
+                "name": "Leafeon Area",
                 "sections": [
                     {
-                        "name": "Leafeon Friendship",
+                        "name": "Leafeon Power Competition - Friendship",
                         "access_rules": [
                             "$hasEnoughFriendshipLeafeon, $canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Scyther Friendship",
+                        "name": "Scyther Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], scyther_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -261,19 +337,25 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Spearow Attraction",
+                "name": "Spearow Athletic Area",
                 "sections": [
                     {
-                        "name": "Spearow Friendship",
+                        "name": "Spearow Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Sudowoodo Friendship",
+                        "name": "Sudowoodo Power Competition - Friendship",
                         "access_rules": [
                             "sudowoodo_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -287,68 +369,115 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Bulbasaur Area",
+                "name": "Bulbasaur Area",
                 "sections": [
                     {
-                        "name": "Bonsly Friendship",
+                        "name": "Bonsly Power Competition - Friendship",
                         "access_rules": [
                             "bonsly_unlock"
                         ],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Friendship - Pokemon Unlock",
+                        "name": "Bonsly Power Competition - Sudowoodo Unlocked",
                         "access_rules": [
                             "bonsly_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Turtwig Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Turtwig Friendship - Pokemon Unlock",
+                        "name": "Turtwig Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Pachirisu Friendship",
+                        "name": "Turtwig Power Competition - Pachirisu Unlocked",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Turtwig Power Competition - Bonsly Unlocked",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pachirisu Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, pachirisu_unlock"
                         ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Buneary Friendship",
+                        "name": "Buneary Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Buneary Friendship - Pokemon Unlock",
+                        "name": "Buneary Power Competition - Lotad Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Munchlax Friendship",
-                        "access_rules": [
-                            "$canDestroyObjectsOverworld, bulbasaur_prisma_activated"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Munchlax Friendship - Pokemon Unlock",
+                        "name": "Buneary Power Competition - Shinx Unlocked",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Munchlax Errand - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld, bulbasaur_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Munchlax Errand - Tropius Unlocked",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld, bulbasaur_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -362,15 +491,18 @@
                 ]
             },
             {
-                "name": "Bulbasaur's Daring Dash Minigame",
+                "name": "Bulbasaur's Daring Dash Attraction",
                 "access_rules": [
                     "@MeadowZoneBulbasaurMinigame"
                 ],
                 "sections": [
                     {
-                        "name": "Bulbasaur Friendship",
+                        "name": "Bulbasaur - Friendship",
                         "access_rules": [
                             "bulbasaur_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -379,17 +511,26 @@
                         "access_rules": [
                             "$canBeatAnyBulbasaurMinigame"
                         ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pikachu",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Turtwig",
                         "access_rules": [
                             "turtwig"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -398,12 +539,18 @@
                         "access_rules": [
                             "munchlax"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chimchar",
                         "access_rules": [
                             "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -412,12 +559,18 @@
                         "access_rules": [
                             "treecko"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bibarel",
                         "access_rules": [
                             "bibarel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -426,12 +579,18 @@
                         "access_rules": [
                             "bulbasaur"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bidoof",
                         "access_rules": [
                             "bidoof"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -440,12 +599,18 @@
                         "access_rules": [
                             "oddish"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shroomish",
                         "access_rules": [
                             "shroomish"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -454,12 +619,18 @@
                         "access_rules": [
                             "bonsly"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lotad",
                         "access_rules": [
                             "lotad"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -468,12 +639,18 @@
                         "access_rules": [
                             "weedle"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Caterpie",
                         "access_rules": [
                             "caterpie"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -482,12 +659,18 @@
                         "access_rules": [
                             "magikarp"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jolteon",
                         "access_rules": [
                             "jolteon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -496,12 +679,18 @@
                         "access_rules": [
                             "arcanine"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Leafeon",
                         "access_rules": [
                             "leafeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -510,12 +699,18 @@
                         "access_rules": [
                             "scyther"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ponyta",
                         "access_rules": [
                             "ponyta"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -524,12 +719,18 @@
                         "access_rules": [
                             "shinx"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eevee",
                         "access_rules": [
                             "eevee"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -538,12 +739,18 @@
                         "access_rules": [
                             "pachirisu"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Buneary",
                         "access_rules": [
                             "buneary"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -552,12 +759,18 @@
                         "access_rules": [
                             "croagunk"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mew",
                         "access_rules": [
                             "mew"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -574,9 +787,12 @@
                 "name": "Shinx",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, shinx_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -590,26 +806,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Bidoof Area",
+                "name": "Bidoof Area",
                 "sections": [
                     {
-                        "name": "Chimchar Friendship",
+                        "name": "Chimchar Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], chimchar_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tropius Friendship",
-                        "access_rules": [
-                            "bulbasaur_prisma_activated, tropius_unlock, $canDestroyObjectsOverworld"
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Bibarel Friendship",
+                        "name": "Tropius Errand - Friendship",
+                        "access_rules": [
+                            "bulbasaur_prisma_activated, tropius_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bibarel Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], bibarel_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -623,53 +848,61 @@
                 ]
             },
             {
-                "name": "Bidoof",
+                "name": "Bidoof Housing",
+                "visibility_rules": [
+                    "$quest_locations_activated"
+                ],
                 "access_rules": [
                     "$canDestroyObjectsOverworld, mankey"
                 ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Completed - Friendship",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 1",
+                        "name": "Completed - Beach Bidoof Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 1 - Pokemon Unlock",
+                        "name": "Stage 1",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 2",
+                        "name": "Stage 1 - Bidoof 1 Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 2 - Pokemon Unlock",
+                        "name": "Stage 2",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 3",
+                        "name": "Stage 2 - Bidoof 2 Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 3 - Pokemon Unlock",
+                        "name": "Stage 3",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 4",
+                        "name": "Stage 3 - Bidoof 3 Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Housing 4 - Pokemon Unlock",
+                        "name": "Stage 4",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stage 4 - Bibarel Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     }
@@ -683,27 +916,46 @@
                 ]
             },
             {
-                "name": "Venusaur's Vine Swing",
+                "name": "Venusaur's Vine Swing Attraction",
                 "access_rules": [
                     "@MeadowZoneVenusaurMinigame"
                 ],
                 "sections": [
                     {
+                        "name": "Venusaur - Friendship",
+                        "access_rules": [
+                            "venusaur_prisma_activated, empoleon_prisma_activated, blaziken_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prisma",
                         "access_rules": [
                             "$canBeatAnyVenusaurMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pikachu",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Munchlax",
                         "access_rules": [
                             "munchlax"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -712,12 +964,18 @@
                         "access_rules": [
                             "magikarp"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blaziken",
                         "access_rules": [
                             "blaziken"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -726,12 +984,18 @@
                         "access_rules": [
                             "infernape"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lucario",
                         "access_rules": [
                             "lucario"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -740,12 +1004,18 @@
                         "access_rules": [
                             "primeape"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tangrowth",
                         "access_rules": [
                             "tangrowth"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -754,12 +1024,18 @@
                         "access_rules": [
                             "ambipom"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Croagunk",
                         "access_rules": [
                             "croagunk"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -768,12 +1044,18 @@
                         "access_rules": [
                             "mankey"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aipom",
                         "access_rules": [
                             "aipom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -782,12 +1064,18 @@
                         "access_rules": [
                             "chimchar"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Treecko",
                         "access_rules": [
                             "treecko"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -796,6 +1084,9 @@
                         "access_rules": [
                             "pachirisu"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -803,12 +1094,18 @@
                         "access_rules": [
                             "jirachi"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Jirachi Unlock",
+                        "name": "Jirachi Friendship",
                         "access_rules": [
                             "$canBeatAllVenusaurMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }

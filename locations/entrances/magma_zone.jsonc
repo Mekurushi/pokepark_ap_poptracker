@@ -2,17 +2,25 @@
     {
         "name": "MagmaZoneOverworld",
         "access_rules": [
-            "cavern_and_magma_zone_unlock"
+            "$canReachMagmaZone"
+        ]
+    },
+    {
+        "name": "MagmaZoneCircleArea",
+        "access_rules": [
+            "magma_zone_firewall_unlock"
         ]
     },
     {
         "name": "MagmaZoneRhyperiorMinigame",
         "access_rules": [
-            "$canDashOverworld"
+            "@MagmaZoneCircleArea"
         ]
     },
     {
         "name": "MagmaZoneBlazikenMinigame",
-        "access_rules": []
+        "access_rules": [
+            "@MagmaZoneCircleArea, rhyperior_prisma_activated"
+        ]
     }
 ]

@@ -1,8 +1,14 @@
 [
     {
-        "name": "GraniteZoneOverworld",
+        "name": "GraniteZoneAbsolArea",
         "access_rules": [
-            "granite_and_flower_zone_unlock"
+            "$canReachGraniteZoneAbsolArea"
+        ]
+    },
+    {
+        "name": "GraniteZoneSalamenceArea",
+        "access_rules": [
+            "$canReachGraniteZoneSalamenceArea"
         ]
     },
     {

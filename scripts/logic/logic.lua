@@ -19,6 +19,85 @@ function has(item)
 	return Tracker:ProviderCountForCode(item) >= 1
 end
 
+local prisma_items = {
+                        "bulbasaur_prisma_activated",
+                        "venusaur_prisma_activated",
+                        "pelipper_prisma_activated",
+                        "gyarados_prisma_activated",
+                        "bastiodon_prisma_activated",
+                        "empoleon_prisma_activated",
+                        "rhyperior_prisma_activated",
+                        "blaziken_prisma_activated",
+                        "tangrowth_prisma_activated",
+                        "dusknoir_prisma_activated",
+                        "rotom_prisma_activated",
+                        "absol_prisma_activated",
+                        "salamence_prisma_activated",
+                        "rayquaza_prisma_activated"
+}
+
+function battle_locations_activated()
+	return Tracker:ProviderCountForCode("remove_battle_power_comp_locations") == 0
+end
+
+function chase_locations_activated()
+	return Tracker:ProviderCountForCode("remove_chase_power_comp_locations") == 0
+end
+
+function quiz_locations_activated()
+	return Tracker:ProviderCountForCode("remove_quiz_power_comp_locations") == 0
+end
+
+function hide_and_seek_locations_activated()
+	return Tracker:ProviderCountForCode("remove_hide_and_seek_power_comp_locations") == 0
+end
+
+function errand_locations_activated()
+	return Tracker:ProviderCountForCode("remove_errand_power_comp_locations") == 0
+end
+
+function misc_locations_activated()
+	return Tracker:ProviderCountForCode("remove_misc_power_comp_locations") == 0
+end
+
+function power_training_locations_activated()
+	return Tracker:ProviderCountForCode("remove_power_training_locations") == 0
+end
+
+function quest_locations_activated()
+	return Tracker:ProviderCountForCode("remove_quest_locations") == 0
+end
+
+function attraction_locations_activated()
+	return Tracker:ProviderCountForCode("remove_attraction_locations") == 0
+end
+
+function attraction_prisma_locations_activated()
+	return Tracker:ProviderCountForCode("remove_attraction_prisma_locations") == 0
+end
+
+function unlock_locations_activated()
+	return Tracker:ProviderCountForCode("remove_pokemon_unlock_locations") == 0
+end
+
+function postgame_locations_activated()
+	return Tracker:ProviderCountForCode("postgame_locations_activated") == 1
+end
+
+function has_required_prismas()
+    local required_count = Tracker:ProviderCountForCode('required_prismas')
+    local count = 0
+    for _, prisma_code in ipairs(prisma_items) do
+        if Tracker:ProviderCountForCode(prisma_code) > 0 then
+            count = count + 1
+            if count >= required_count then
+                return true
+            end
+        end
+    end
+    return false
+end
+
 function hasAll(items)
 	for _, item in ipairs(items) do
 		if type(item) == "table" then
@@ -39,17 +118,6 @@ function hasAny(items)
 	return false
 end
 
-function hasWorldStateIceZoneOrHigher()
-	return hasAny({ "ice_zone_unlock", "cavern_and_magma_zone_unlock", "haunted_zone_unlock", "granite_and_flower_zone_unlock", "skygarden_unlock" })
-end
-
-function hasWorldStateCavernMagmaZoneOrHigher()	
-    return hasAny({ "cavern_and_magma_zone_unlock", "haunted_zone_unlock", "granite_and_flower_zone_unlock", "skygarden_unlock" })
-end
-
-function hasWorldStateHauntedZoneOrHigher()    
-    return hasAny({"haunted_zone_unlock", "granite_and_flower_zone_unlock", "skygarden_unlock" })
-end
 
 function canFarmBerries()
     return has("dash_beginner")
@@ -357,4 +425,94 @@ end
 
 function canBeatAllRayquazaMinigame()
     return hasAll(sky_pokemon_items)
+end
+
+function canReachBeachZoneFromIceZone()
+    return has("gyarados_prisma_activated") and hasAny({"ice_zone_fast_travel"}) 
+end
+
+function canReachBeachZoneFromTreehouse()
+    return hasAny({"venusaur_prisma_activated", "beach_zone_fast_travel"})
+end
+function canReachBeachZone()
+    return canReachBeachZoneFromTreehouse() or canReachBeachZoneFromIceZone()
+end
+
+function canReachCavernZoneFromMagmaZone()
+    return has("magma_zone_fast_travel") 
+end
+
+function canReachCavernZoneFromTreehouse()
+    return hasAny({"empoleon_prisma_activated", "cavern_zone_fast_travel"})
+end
+
+function canReachCavernZone()
+    return canReachCavernZoneFromMagmaZone() or canReachCavernZoneFromTreehouse()
+end
+
+function canReachIceZoneFromBeachZone()
+    return has("gyarados_prisma_activated") and canReachBeachZone()
+end
+
+function canReachIceZoneFromTreehouse()
+    return has("ice_zone_fast_travel")
+end
+
+function canReachIceZone()
+    return canReachIceZoneFromTreehouse() or canReachIceZoneFromBeachZone()
+end
+
+
+function canReachMagmaZoneFromCavernZone()
+    return has("bastiodon_prisma_activated") and canReachCavernZone()
+end
+
+function canReachMagmaZoneFromTreehouse()
+    return has("magma_zone_fast_travel")
+end
+
+function canReachMagmaZone()
+    return canReachMagmaZoneFromTreehouse() or canReachMagmaZoneFromCavernZone()
+end
+
+function canReachHauntedZone()
+    return hasAny({"haunted_zone_fast_travel", "blaziken_prisma_activated"})
+end
+
+function canReachHauntedZoneMansion()
+    return has("tangrowth_prisma_activated")
+end
+
+function canReachHauntedZoneMansionRooms()
+    return has("haunted_zone_mansion_doors_unlock")
+end
+
+function canReachFlowerZoneFromTreehouse()
+    return has("flower_zone_fast_travel") 
+end
+function canReachFlowerZoneFromGraniteZone()
+    return canReachGraniteZoneAbsolArea() and has("absol_prisma_activated") 
+end
+function canReachFlowerZone()
+    return canReachFlowerZoneFromGraniteZone() or canReachFlowerZoneFromTreehouse()
+end
+
+function canReachGraniteZoneAbsolAreaFromFlowerZone()
+    return has("absol_prisma_activated") and canReachFlowerZoneFromTreehouse()
+end
+
+function canReachGraniteZoneAbsolAreaFromTreehouse()
+    return hasAny({"granite_zone_fast_travel", "rotom_prisma_activated"})
+end
+
+function canReachGraniteZoneAbsolArea()
+    return canReachGraniteZoneAbsolAreaFromTreehouse() or canReachGraniteZoneAbsolAreaFromFlowerZone()
+end
+
+function canReachGraniteZoneSalamenceAreaFromGraniteZoneAbsolArea()
+    return has("absol_prisma_activated") and canReachGraniteZoneAbsolArea()
+end
+
+function canReachGraniteZoneSalamenceArea()
+    return canReachGraniteZoneSalamenceAreaFromGraniteZoneAbsolArea() or canReachFlowerZone()
 end

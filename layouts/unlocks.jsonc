@@ -30,7 +30,7 @@
                         "magikarp_unlock",
                         "bidoof_unlock",
                         "bibarel_unlock",
-                        "starly_unlock1",
+                        "starly_unlock",
                         "starly_unlock2",
                         "torterra_unlock",
                         "floatzel_unlock",
@@ -100,17 +100,29 @@
                         "aerodactyl_unlock",
                         "tyranitar_unlock",
                         "garchomp_unlock",
-                        "rayquaza_unlock"
+                        "rayquaza_unlock",
+                        "celebi_unlock",
+                        "darkrai_unlock",
+                        "groudon_unlock",
+                        "jirachi_unlock"
                     ],
                     [],
                     [
-                        "meadow_zone_unlock",
-                        "beach_zone_unlock",
-                        "ice_zone_unlock",
-                        "cavern_and_magma_zone_unlock",
-                        "haunted_zone_unlock",
-                        "granite_and_flower_zone_unlock",
-                        "skygarden_unlock"
+                        "meadow_zone_fast_travel",
+                        "beach_zone_fast_travel",
+                        "ice_zone_fast_travel",
+                        "cavern_zone_fast_travel",
+                        "magma_zone_fast_travel",
+                        "haunted_zone_fast_travel",
+                        "granite_zone_fast_travel",
+                        "flower_zone_fast_travel"
+                    ],
+                    [
+                        "beach_zone_bridge1_unlock",
+                        "beach_zone_bridge2_unlock",
+                        "magma_zone_firewall_unlock",
+                        "ice_zone_frozen_lake_unlock",
+                        "ice_zone_lift_unlock"
                     ]
                 ]
             }
@@ -147,7 +159,7 @@
                         "magikarp_unlock",
                         "bidoof_unlock",
                         "bibarel_unlock",
-                        "starly_unlock1",
+                        "starly_unlock",
                         "starly_unlock2",
                         "torterra_unlock",
                         "floatzel_unlock"
@@ -220,13 +232,14 @@
                     ],
                     [],
                     [
-                        "meadow_zone_unlock",
-                        "beach_zone_unlock",
-                        "ice_zone_unlock",
-                        "cavern_and_magma_zone_unlock",
-                        "haunted_zone_unlock",
-                        "granite_and_flower_zone_unlock",
-                        "skygarden_unlock"
+                        "meadow_zone_fast_travel",
+                        "beach_zone_fast_travel",
+                        "ice_zone_fast_travel",
+                        "cavern_zone_fast_travel",
+                        "magma_zone_fast_travel",
+                        "haunted_zone_fast_travel",
+                        "granite_zone_fast_travel",
+                        "flower_zone_fast_travel"
                     ]
                 ]
             }

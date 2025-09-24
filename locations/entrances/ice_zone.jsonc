@@ -2,7 +2,7 @@
     {
         "name": "IceZoneOverworld",
         "access_rules": [
-            "ice_zone_unlock"
+            "$canReachIceZone"
         ]
     },
     {
@@ -12,7 +12,7 @@
     {
         "name": "IceZoneLowerLiftRegion",
         "access_rules": [
-            "prinplup"
+            "ice_zone_lift_unlock"
         ]
     }
 ]

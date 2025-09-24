@@ -21,7 +21,27 @@ end
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-
+local VISITED_STAGES_FORMAT = "pokepark_visited_stages_%i"
+-- The first integer is the team (mostly unused by Archipelago currently). The second integer is the slot number.
+local GOAL_STATUS_FORMAT = "_read_client_status_%i_%i"
+local STAGE_NAME_TO_TAB_NAME  = {
+    ["Meadow Zone Main Area"] = {"Meadow Zone", "Main Area"},
+    ["Meadow Zone Venusaur Area"] = {"Meadow Zone", "Venusaur Area"},
+	["Treehouse"] = {"Treehouse"},
+	["Beach Zone Main Area"] = {"Beach Zone"},
+	["Ice Zone Main Area"] = {"Ice Zone", "Main Area"},
+	["Ice Zone Empoleon Area"] = {"Ice Zone", "Empoleon Area"},
+	["Cavern Zone Main Area"] = {"Cavern Zone"},
+	["Magma Zone Main Area"] = {"Magma Zone", "Main Area"},
+	["Magma Zone Blaziken Area"] = {"Magma Zone", "Blaziken Area"},
+	["Haunted Zone Main Area"] = {"Haunted Zone", "Main Area"},
+	["Haunted Zone Mansion Area"] = {"Haunted Zone", "Mansion Area"},
+	["Haunted Zone Rotom Area"] = {"Haunted Zone", "Rotom Area"},
+	["Granite Zone Main Area"] = {"Granite Zone"},
+	["Flower Zone Main Area"] = {"Flower Zone"},
+	["Skygarden"] = {"Skygarden"}
+	
+}
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
 function getHintDataStorageKey()
@@ -99,9 +119,63 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
+function set_setting_item(obj,v)
+    if obj.Type == 'toggle' then
+        local active = v ~= 0
+        obj.Active = active
+        return v
+    elseif obj.Type == 'progressive' then
+        obj.CurrentStage = v
+        return v
+	elseif obj.Type == "consumable" then
+		obj.AcquiredCount = v
+		obj.MinCount = v
+		obj.MaxCount = v
+		return v
+    else
+        print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+        return nil
+    end
+end
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	-- autotracking settings from YAML
+    local function setFromSlotData(slot_data_key, item_code)
+        local v = slot_data[slot_data_key]
+        if not v then
+            print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            return nil
+        end
+
+        local obj = Tracker:FindObjectForCode(item_code)
+        if not obj then
+            print(string.format("Could not find item for code '%s'", item_code))
+            return nil
+        end
+		set_setting_item(obj,v)
+
+    end
+	if slot_data["goal"] == 1 then
+		local obj = Tracker:FindObjectForCode("postgame_locations_activated")
+        set_setting_item(obj,1)
+	end
+	if slot_data["goal"] == 0 then
+		local obj = Tracker:FindObjectForCode("postgame_locations_activated")
+        set_setting_item(obj,0)
+	end
+    setFromSlotData('num_required_prisma_count_skygarden', 'required_prismas')
+    setFromSlotData('remove_battle_power_comp_locations', 'remove_battle_power_comp_locations')
+    setFromSlotData('remove_chase_power_comp_locations', 'remove_chase_power_comp_locations')
+    setFromSlotData('remove_quiz_power_comp_locations', 'remove_quiz_power_comp_locations')
+    setFromSlotData('remove_hide_and_seek_power_comp_locations', 'remove_hide_and_seek_power_comp_locations')
+    setFromSlotData('remove_errand_power_comp_locations', 'remove_errand_power_comp_locations')
+    setFromSlotData('remove_misc_power_comp_locations', 'remove_misc_power_comp_locations')
+    setFromSlotData('remove_power_training_locations', 'remove_power_training_locations')
+    setFromSlotData('remove_quest_locations', 'remove_quest_locations')
+    setFromSlotData('remove_attraction_locations', 'remove_attraction_locations')
+    setFromSlotData('remove_attraction_prisma_locations', 'remove_attraction_prisma_locations')
+    setFromSlotData('remove_pokemon_unlock_locations', 'remove_pokemon_unlock_locations')
 end
 
 -- called right after an AP slot is connected
@@ -160,6 +234,10 @@ function onClear(slot_data)
 			end
 		end
 	end
+	-- Get and subscribe to changes in the player's status to track goal completion
+    goal_status_key = string.format(GOAL_STATUS_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    Archipelago:Get({goal_status_key})
+    Archipelago:SetNotify({goal_status_key})
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
@@ -288,12 +366,47 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
 	-- not implemented yet :(
 end
 
+_last_activated_tab = ""
+function onMap(stage_name)
+    if not stage_name then
+        return
+    end
+	local map_switch_setting = Tracker:FindObjectForCode("setting_map_tracking")
+    if map_switch_setting and map_switch_setting.Active then
+		local tab_info = STAGE_NAME_TO_TAB_NAME[stage_name]
+		if tab_info then
+    		local tab_name, tab2_name = table.unpack(tab_info)
+			local full_tab_path = tab2_name and (tab_name .. "/" .. tab2_name) or tab_name
+    		if full_tab_path ~= _last_activated_tab then
+        		Tracker:UiHint("ActivateTab", tab_name)
+        		if tab2_name then
+            		Tracker:UiHint("ActivateTab", tab2_name)
+        		end
+        		_last_activated_tab = full_tab_path 
+    		end
+		end
+	end
+
+end
+
 -- called when a bounce message is received
 function onBounce(json)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onBounce: %s", dump_table(json)))
 	end
-	-- your code goes here
+	local slots = json["slots"]
+    -- Lua does not support `slots ~= {Archipelago.PlayerNumber}`, so check the first and second values in the table.
+    if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+        -- All Bounced messages to be processed by this tracker are expected to target the player's slot specifically.
+        return
+    end
+
+    local data = json["data"]
+    if not data then
+        return
+    end
+	-- The key is specified in the AP client.
+    onMap(data["pokepark_stage_name"])
 end
 
 -- called whenever Archipelago:Get returns data from the data storage or
@@ -400,4 +513,4 @@ end
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
