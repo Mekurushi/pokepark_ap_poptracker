@@ -68,7 +68,7 @@
                     {
                         "name": "Torterra Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmune], torterra_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

@@ -659,10 +659,10 @@
                     {
                         "name": "Elekid Power Competition - Friendship",
                         "access_rules": [
-                            "elekid_unlock, $canBattle"
+                            "elekid_unlock"
                         ],
                         "visibility_rules": [
-                            "$battle_locations_activated"
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     },

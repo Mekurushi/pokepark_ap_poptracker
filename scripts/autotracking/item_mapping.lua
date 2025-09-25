@@ -332,7 +332,8 @@ ITEM_MAPPING = {
 
 	[BASE_ITEM_ID + 00310] = { { "beach_zone_bridge1_unlock" } },
 	[BASE_ITEM_ID + 00311] = { { "beach_zone_bridge2_unlock" } },
-	[BASE_ITEM_ID + 00313] = { { "magma_zone_firewall_unlock" } },
+	[BASE_ITEM_ID + 00312] = { { "magma_zone_firewall_unlock" } },
+	[BASE_ITEM_ID + 00313] = { { "haunted_zone_mansion_doors_unlock" } },
 	[BASE_ITEM_ID + 00314] = { { "ice_zone_frozen_lake_unlock" } },
 	[BASE_ITEM_ID + 00315] = { { "ice_zone_lift_unlock" } },
 

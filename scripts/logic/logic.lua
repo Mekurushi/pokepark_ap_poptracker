@@ -191,6 +191,10 @@ function hasEnoughPokemonFriendships(required_amount)
     return false
 end
 
+function hasEnoughFriendshipJolteon()
+    return hasEnoughPokemonFriendships(90)
+end
+
 function hasEnoughFriendshipLeafeon()
     return hasEnoughPokemonFriendships(20)
 end

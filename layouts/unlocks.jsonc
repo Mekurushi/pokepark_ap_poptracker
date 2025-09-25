@@ -122,7 +122,8 @@
                         "beach_zone_bridge2_unlock",
                         "magma_zone_firewall_unlock",
                         "ice_zone_frozen_lake_unlock",
-                        "ice_zone_lift_unlock"
+                        "ice_zone_lift_unlock",
+                        "haunted_zone_mansion_doors_unlock"
                     ]
                 ]
             }

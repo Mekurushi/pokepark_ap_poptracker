@@ -2095,6 +2095,12 @@
     "img": "images/Items/bridge1.png"
   },
   {
+    "name": "Haunted Zone Doors Unlock",
+    "type": "toggle",
+    "codes": "haunted_zone_mansion_doors_unlock",
+    "img": "images/Items/haunted_zone_door.png"
+  },
+  {
     "name": "Magma Zone Fire Wall Unlock",
     "type": "toggle",
     "codes": "magma_zone_firewall_unlock",

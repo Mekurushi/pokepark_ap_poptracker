@@ -476,7 +476,7 @@
                     {
                         "name": "Jolteon Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate, jolteon_unlock"
+                            "$canPlayCatchIntermediate, jolteon_unlock, $hasEnoughFriendshipJolteon"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
