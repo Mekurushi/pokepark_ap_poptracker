@@ -1,8 +1,8 @@
 [
     {
-        "name": "GraniteZoneOverworld",
+        "name": "GraniteZone",
         "access_rules": [
-            "granite_and_flower_zone_unlock"
+            "$canReachGraniteZone"
         ]
     },
     {

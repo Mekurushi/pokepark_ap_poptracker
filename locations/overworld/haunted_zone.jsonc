@@ -9,9 +9,12 @@
                 "name": "Drifloon",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "rotom_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -28,9 +31,12 @@
                 "name": "Raichu",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch"
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -47,8 +53,11 @@
                 "name": "Meowth",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -61,26 +70,45 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Entrance Area",
+                "name": "Entrance Area",
                 "sections": [
                     {
-                        "name": "Aipom Friendship",
+                        "name": "Aipom Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ambipom Friendship",
-                        "access_rules": [
-                            "[$canBattle], ambipom_unlock"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Gliscor Friendship",
+                        "name": "Aipom Power Competition - Ambipom Unlocked",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ambipom Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleIntermediate], $canBattle, ambipom_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gliscor Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -94,26 +122,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Left Area",
+                "name": "West Area",
                 "sections": [
                     {
-                        "name": "Murkrow Friendship",
+                        "name": "Murkrow Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Murkrow Friendship - Pokemon Unlock",
+                        "name": "Murkrow Power Competition - Honchkrow Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Honchkrow Friendship",
+                        "name": "Honchkrow Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], honchkrow_unlock"
+                            "[$canBattleIntermediate], $canBattle, honchkrow_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -130,16 +167,22 @@
                 "name": "Metapod",
                 "sections": [
                     {
-                        "name": "Tree Dash",
+                        "name": "Tree - Metapod Unlocked",
                         "access_rules": [
                             "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "rotom_prisma_activated, metapod_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -156,16 +199,22 @@
                 "name": "Kakuna",
                 "sections": [
                     {
-                        "name": "Tree Dash",
+                        "name": "Tree - Kakuna Unlocked",
                         "access_rules": [
                             "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "rotom_prisma_activated, kakuna_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -179,27 +228,46 @@
                 ]
             },
             {
-                "name": "Tangrowth's Swing-Along",
+                "name": "Tangrowth's Swing-Along Attraction",
                 "access_rules": [
                     "@HauntedZoneTangrowthMinigame"
                 ],
                 "sections": [
                     {
+                        "name": "Tangrowth - Friendship",
+                        "access_rules": [
+                            "tangrowth_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prisma",
                         "access_rules": [
                             "$canBeatAnyTangrowthMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pikachu",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Meowth",
                         "access_rules": [
                             "meowth"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -208,12 +276,18 @@
                         "access_rules": [
                             "pichu"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lucario",
                         "access_rules": [
                             "lucario"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -222,12 +296,18 @@
                         "access_rules": [
                             "infernape"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blaziken",
                         "access_rules": [
                             "blaziken"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -236,12 +316,18 @@
                         "access_rules": [
                             "riolu"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sneasel",
                         "access_rules": [
                             "sneasel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -250,12 +336,18 @@
                         "access_rules": [
                             "raichu"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ambipom",
                         "access_rules": [
                             "ambipom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -264,12 +356,18 @@
                         "access_rules": [
                             "primeape"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aipom",
                         "access_rules": [
                             "aipom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -278,12 +376,18 @@
                         "access_rules": [
                             "electabuzz"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chimchar",
                         "access_rules": [
                             "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -292,6 +396,9 @@
                         "access_rules": [
                             "croagunk"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -299,12 +406,18 @@
                         "access_rules": [
                             "celebi"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Celebi Unlock",
+                        "name": "Celebi Friendship",
                         "access_rules": [
                             "$canBeatAllTangrowthMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -316,14 +429,218 @@
                         "y": 290
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Area",
+        "access_rules": [
+            "@HauntedZoneOverworld, @HauntedZoneMansion"
+        ],
+        "children": [
+            {
+                "name": "Rotom's Spooky Shoot-'em-Up Attraction",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors, @HauntedZoneRotomMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyRotomMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magnemite",
+                        "access_rules": [
+                            "magnemite"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Porygon-Z",
+                        "access_rules": [
+                            "porygonz"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magnezone",
+                        "access_rules": [
+                            "magnezone"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gengar",
+                        "access_rules": [
+                            "gengar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magmortar",
+                        "access_rules": [
+                            "magmortar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Electivire",
+                        "access_rules": [
+                            "electivire"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mismagius",
+                        "access_rules": [
+                            "mismagius"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Claydol",
+                        "access_rules": [
+                            "claydol"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Electabuzz",
+                        "access_rules": [
+                            "electabuzz"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunter",
+                        "access_rules": [
+                            "haunter"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Abra",
+                        "access_rules": [
+                            "abra"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Elekid",
+                        "access_rules": [
+                            "elekid"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Mime",
+                        "access_rules": [
+                            "mr_mime"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Baltoy",
+                        "access_rules": [
+                            "baltoy"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rotom",
+                        "access_rules": [
+                            "rotom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rotom Friendship",
+                        "access_rules": [
+                            "$canBeatAllRotomMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_rotom",
+                        "x": 500,
+                        "y": 220
+                    }
+                ]
             },
             {
                 "name": "Duskull",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "dusknoir_prisma_activated"
+                            "dusknoir_prisma_activated, $canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -337,33 +654,45 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Entrance",
+                "name": "Entrance Area",
                 "sections": [
                     {
-                        "name": "Elekid Friendship",
+                        "name": "Elekid Power Competition - Friendship",
                         "access_rules": [
                             "elekid_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Elekid Friendship - Pokemon Unlock",
-                        "access_rules": [
-                            "elekid_unlock"
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Stunky Friendship",
+                        "name": "Elekid Power Competition - Electabuzz Unlocked",
                         "access_rules": [
-                            "$canPlayCatch, stunky_unlock"
+                            "elekid_unlock, $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Stunky Friendship - Pokemon Unlock",
+                        "name": "Stunky Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, stunky_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stunky Power Competition - Skuntank Unlocked",
+                        "access_rules": [
+                            "$canPlayCatch, stunky_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -377,55 +706,76 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Floor Area",
+                "name": "Floor Area",
                 "sections": [
                     {
-                        "name": "Electabuzz Friendship",
+                        "name": "Electabuzz Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], electabuzz_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, electabuzz_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Skuntank Friendship",
+                        "name": "Skuntank Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], skuntank_unlock"
+                            "[$canBattleIntermediate], $canBattle, skuntank_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Espeon Friendship",
+                        "name": "Espeon Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, espeon_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Umbreon Friendship",
-                        "access_rules": [
-                            "$canPlayCatchIntermediate, $hasEnoughFriendshipUmbreon"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Umbreon Friendship - Pokemon Unlock",
+                        "name": "Umbreon Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, $hasEnoughFriendshipUmbreon"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Haunter Friendship",
+                        "name": "Umbreon Power Competition - Espeon Unlocked",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate, $hasEnoughFriendshipUmbreon"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunter Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, haunter_unlock"
                         ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Gastly Friendship",
+                        "name": "Gastly Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, gastly_unlock",
                             "$canPlayCatch, gastly_unlock2"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -440,11 +790,17 @@
             },
             {
                 "name": "Misdreavus",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -458,26 +814,86 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Dance Hall",
+                "name": "Darkrai",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Electrode Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "electrode_unlock, rotom_prisma_activated"
+                            "[$canBattleAdvanced], $canBattle, darkrai_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 460,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Sableye",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "name": "Dance Hall Area",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
+                "sections": [
+                    {
+                        "name": "Electrode Power Competition - Friendship",
+                        "access_rules": [
+                            "electrode_unlock, rotom_prisma_activated, $canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mismagius Friendship",
+                        "name": "Mismagius Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], mismagius_unlock"
+                            "[$canBattleIntermediate], $canBattle, mismagius_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Luxray Friendship",
+                        "name": "Luxray Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch, luxray_unlock"
+                            "$canPlayCatchIntermediate, luxray_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -492,11 +908,17 @@
             },
             {
                 "name": "Pichu",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -511,18 +933,27 @@
             },
             {
                 "name": "Voltorb",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmune], voltorb_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Vase Dash",
+                        "name": "Vase - Voltorb Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -537,18 +968,27 @@
             },
             {
                 "name": "Gengar",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], gengar_unlock"
+                            "[$canBattleIntermediate], $canBattle, gengar_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Painting",
+                        "name": "Painting - Gengar Unlocked",
                         "access_rules": [
                             "$hasEnoughFriendshipGengar"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -563,11 +1003,17 @@
             },
             {
                 "name": "Spinarak",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "rotom_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -582,11 +1028,17 @@
             },
             {
                 "name": "Breloom",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], breloom_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, breloom_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -601,9 +1053,12 @@
             },
             {
                 "name": "Abra",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [],
                         "item_count": 1
                     }
@@ -620,9 +1075,12 @@
                 "name": "Riolu",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -636,27 +1094,46 @@
                 ]
             },
             {
-                "name": "Dusknoir's Speed Slam",
+                "name": "Dusknoir's Speed Slam Attraction",
                 "access_rules": [
                     "@HauntedZoneDusknoirMinigame"
                 ],
                 "sections": [
                     {
+                        "name": "Dusknoir - Friendship",
+                        "access_rules": [
+                            "dusknoir_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prisma",
                         "access_rules": [
                             "$canBeatAnyDusknoirMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pikachu",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stunky",
                         "access_rules": [
                             "stunky"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -665,12 +1142,18 @@
                         "access_rules": [
                             "gengar"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mismagius",
                         "access_rules": [
                             "mismagius"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -679,12 +1162,18 @@
                         "access_rules": [
                             "scizor"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Espeon",
                         "access_rules": [
                             "espeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -693,12 +1182,18 @@
                         "access_rules": [
                             "dusknoir"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Umbreon",
                         "access_rules": [
                             "umbreon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -707,6 +1202,9 @@
                         "access_rules": [
                             "cranidos"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -714,12 +1212,18 @@
                         "access_rules": [
                             "skuntank"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Electrode",
+                        "name": "Voltorb",
                         "access_rules": [
-                            "electrode"
+                            "voltorb"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -728,12 +1232,18 @@
                         "access_rules": [
                             "gastly"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Duskull",
                         "access_rules": [
                             "duskull"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -742,12 +1252,18 @@
                         "access_rules": [
                             "misdreavus"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Krabby",
                         "access_rules": [
                             "krabby"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -756,12 +1272,18 @@
                         "access_rules": [
                             "darkrai"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Darkrai Unlock",
+                        "name": "Darkrai Friendship",
                         "access_rules": [
                             "$canBeatAllDusknoirMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -771,138 +1293,6 @@
                         "map": "haunted_zone_mansion",
                         "x": 530,
                         "y": 740
-                    }
-                ]
-            },
-            {
-                "name": "Rotom's Spooky Shoot-'em-Up",
-                "access_rules": [
-                    "@HauntedZoneRotomMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyRotomMinigame"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magnemite",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Porygon-Z",
-                        "access_rules": [
-                            "porygonz"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magnezone",
-                        "access_rules": [
-                            "magnezone"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gengar",
-                        "access_rules": [
-                            "gengar"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magmortar",
-                        "access_rules": [
-                            "magmortar"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Electivire",
-                        "access_rules": [
-                            "electivire"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mismagius",
-                        "access_rules": [
-                            "mismagius"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Claydol",
-                        "access_rules": [
-                            "claydol"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Electabuzz",
-                        "access_rules": [
-                            "electabuzz"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haunter",
-                        "access_rules": [
-                            "haunter"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Abra",
-                        "access_rules": [
-                            "abra"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Elekid",
-                        "access_rules": [
-                            "elekid"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mr. Mime",
-                        "access_rules": [
-                            "mr_mime"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Baltoy",
-                        "access_rules": [
-                            "baltoy"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rotom",
-                        "access_rules": [
-                            "rotom"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rotom Unlock",
-                        "access_rules": [
-                            "$canBeatAllRotomMinigame"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "haunted_zone_rotom",
-                        "x": 500,
-                        "y": 220
                     }
                 ]
             }

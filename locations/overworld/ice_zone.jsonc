@@ -6,31 +6,43 @@
         ],
         "children": [
             {
-                "name": "Overworld Pokemon Lapras Area",
+                "name": "Lapras Area",
                 "sections": [
                     {
                         "name": "Lapras Friendship",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Spheal Friendship",
+                        "name": "Spheal Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Krabby Friendship",
-                        "access_rules": [
-                            "$canPlayCatch, krabby_unlock"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mudkip Friendship",
+                        "name": "Krabby Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, krabby_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudkip Power Competition - Friendship",
                         "access_rules": [
                             "mudkip_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -44,26 +56,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Glalie Area",
+                "name": "Glalie Area",
                 "sections": [
                     {
-                        "name": "Octillery Friendship",
+                        "name": "Octillery Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teddiursa Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Ursaring Friendship",
+                        "name": "Teddiursa Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ursaring Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], ursaring_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -77,19 +98,25 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Sneasel Area",
+                "name": "Sneasel Area",
                 "sections": [
                     {
-                        "name": "Primeape Friendship",
+                        "name": "Primeape Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], primeape_unlock"
+                            "[$canBattleIntermediate], $canBattle, primeape_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Sneasel Friendship",
+                        "name": "Sneasel Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, sneasel_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -111,31 +138,49 @@
                     {
                         "name": "Friendship",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Igloo Quest 1",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 1 - Pokemon Unlock",
+                        "name": "Igloo Quest 1 - Primeape Unlocked",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Igloo Quest 2",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 2 - Pokemon Unlock",
+                        "name": "Igloo Quest 2 - Ursaring Unlocked",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Igloo Quest 3",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -149,11 +194,27 @@
             },
             {
                 "name": "Mamoswine",
+                "access_rules": [
+                    "ice_zone_frozen_lake_unlock"
+                ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "mamoswine_unlock, [$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ice Rescue - Mamoswine Unlocked",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -167,26 +228,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Empoleon Entrance Area",
+                "name": "Empoleon Entrance Area",
                 "sections": [
                     {
-                        "name": "Taillow Friendship",
+                        "name": "Taillow Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Staravia Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Piloswine Friendship",
+                        "name": "Staravia Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piloswine Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmune]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -200,26 +270,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Christmas Tree",
+                "name": "Christmas Tree Area",
                 "sections": [
                     {
-                        "name": "Starly Friendship",
+                        "name": "Starly Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Smoochum Friendship",
-                        "access_rules": [
-                            "[$canBattle], smoochum_unlock"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Squirtle Friendship",
+                        "name": "Smoochum Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], smoochum_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squirtle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], squirtle_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -233,50 +312,68 @@
                 ]
             },
             {
-                "name": "Christmas Tree",
+                "name": "Christmas Tree Quest",
                 "access_rules": [
                     "delibird_unlock"
                 ],
                 "sections": [
                     {
-                        "name": "Present 1",
+                        "name": "Stage 1",
                         "access_rules": [
                             "spheal"
                         ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Present 2",
+                        "name": "Stage 2",
                         "access_rules": [
                             "spheal, teddiursa"
                         ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Present 3",
+                        "name": "Stage 3",
                         "access_rules": [
                             "spheal, teddiursa, squirtle_unlock, squirtle"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Present 4",
-                        "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Delibird Friendship",
+                        "name": "Stage 4",
                         "access_rules": [
                             "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                        ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Kirlia Friendship",
+                        "name": "Delibird Power Competition - Friendship",
+                        "access_rules": [
+                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                        ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kirlia Power Competition - Friendship",
                         "access_rules": [
                             "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum, delibird"
+                        ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -293,9 +390,12 @@
                 "name": "Prinplup",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "glalie_unlock"
+                            "$canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -312,9 +412,12 @@
                 "name": "Glaceon",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, $hasEnoughFriendshipGlaceon"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -328,29 +431,48 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Lower Lift Region",
+                "name": "Lower Lift Area",
                 "access_rules": [
                     "@IceZoneLowerLiftRegion"
                 ],
                 "sections": [
                     {
-                        "name": "Corphish Friendship",
+                        "name": "Corphish Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], corphish_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wingull Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Quagsire Friendship",
+                        "name": "Wingull Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quagsire Power Competition - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Froslass Power Competition -- Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -364,15 +486,28 @@
                 ]
             },
             {
-                "name": "Empoleon's Snow Slide",
+                "name": "Empoleon's Snow Slide Attraction",
                 "access_rules": [
                     "@IceZoneEmpoleonMinigame"
                 ],
                 "sections": [
                     {
+                        "name": "Empoleon - Friendship",
+                        "access_rules": [
+                            "empoleon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prisma",
                         "access_rules": [
                             "$canBeatAnyEmpoleonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -381,12 +516,18 @@
                         "access_rules": [
                             "snowboard"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Teddiursa",
                         "access_rules": [
                             "teddiursa"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -395,12 +536,18 @@
                         "access_rules": [
                             "magikarp"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Empoleon",
                         "access_rules": [
                             "empoleon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -409,12 +556,18 @@
                         "access_rules": [
                             "glaceon"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blastoise",
                         "access_rules": [
                             "blastoise"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -423,12 +576,18 @@
                         "access_rules": [
                             "glalie"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lapras",
                         "access_rules": [
                             "lapras"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -437,12 +596,18 @@
                         "access_rules": [
                             "delibird"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Piloswine",
                         "access_rules": [
                             "piloswine"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -451,12 +616,18 @@
                         "access_rules": [
                             "prinplup"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Squirtle",
                         "access_rules": [
                             "squirtle"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -465,12 +636,18 @@
                         "access_rules": [
                             "piplup"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quagsire",
                         "access_rules": [
                             "quagsire"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -479,6 +656,9 @@
                         "access_rules": [
                             "spheal"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -486,12 +666,18 @@
                         "access_rules": [
                             "suicune"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Suicune Unlock",
+                        "name": "Suicune Friendship",
                         "access_rules": [
                             "$canBeatAllEmpoleonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }

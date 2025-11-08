@@ -2,7 +2,7 @@
     {
         "name": "CavernZoneOverworld",
         "access_rules": [
-            "cavern_and_magma_zone_unlock"
+            "$canReachCavernZone"
         ]
     },
     {

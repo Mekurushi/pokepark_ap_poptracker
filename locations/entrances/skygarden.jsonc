@@ -1,8 +1,8 @@
 [
     {
-        "name": "Skygarden Entrance",
+        "name": "PiplupAirBalloon",
         "access_rules": [
-            "skygarden_unlock"
+            "$has_required_prismas"
         ]
     }
 ]

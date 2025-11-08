@@ -2,12 +2,20 @@
     {
         "name": "HauntedZoneOverworld",
         "access_rules": [
-            "haunted_zone_unlock"
+            "$canReachHauntedZone"
         ]
     },
     {
         "name": "HauntedZoneMansion",
-        "access_rules": []
+        "access_rules": [
+            "$canReachHauntedZoneMansion"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansionDoors",
+        "access_rules": [
+            "$canReachHauntedZoneMansionRooms"
+        ]
     },
     {
         "name": "HauntedZoneTangrowthMinigame",

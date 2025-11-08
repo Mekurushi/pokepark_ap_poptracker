@@ -18,7 +18,7 @@
       },
       {
         "img": "images/items/powers/dash_advanced.png",
-        "codes": "dash_intermediate",
+        "codes": "dash_advanced",
         "inherit_codes": true
       },
       {
@@ -1621,15 +1621,33 @@
     "img": "images/Items/pokemons/bidoof.png"
   },
   {
+    "name": "Bidoof Unlock 2",
+    "type": "toggle",
+    "codes": "bidoof_unlock2",
+    "img": "images/Items/pokemons/bidoof.png"
+  },
+  {
+    "name": "Bidoof Unlock 3",
+    "type": "toggle",
+    "codes": "bidoof_unlock3",
+    "img": "images/Items/pokemons/bidoof.png"
+  },
+  {
+    "name": "Beach Bidoof Unlock",
+    "type": "toggle",
+    "codes": "beach_bidoof_unlock",
+    "img": "images/Items/pokemons/bidoof.png"
+  },
+  {
     "name": "Bibarel Unlock",
     "type": "toggle",
     "codes": "bibarel_unlock",
     "img": "images/Items/pokemons/bibarel.png"
   },
   {
-    "name": "Starly Unlock 1",
+    "name": "Starly Unlock",
     "type": "toggle",
-    "codes": "starly_unlock1",
+    "codes": "starly_unlock",
     "img": "images/Items/pokemons/starly.png"
   },
   {
@@ -1993,45 +2011,111 @@
     "img": "images/Items/pokemons/rayquaza.png"
   },
   {
-    "name": "Meadow Zone Unlock",
+    "name": "Celebi Unlock",
     "type": "toggle",
-    "codes": "meadow_zone_unlock",
+    "codes": "celebi_unlock",
+    "img": "images/Items/pokemons/celebi.png"
+  },
+  {
+    "name": "Darkrai Unlock",
+    "type": "toggle",
+    "codes": "darkrai_unlock",
+    "img": "images/Items/pokemons/darkrai.png"
+  },
+  {
+    "name": "Groudon Unlock",
+    "type": "toggle",
+    "codes": "groudon_unlock",
+    "img": "images/Items/pokemons/groudon.png"
+  },
+  {
+    "name": "Jirachi Unlock",
+    "type": "toggle",
+    "codes": "jirachi_unlock",
+    "img": "images/Items/pokemons/jirachi.png"
+  },
+  {
+    "name": "Meadow Zone Fast Travel",
+    "type": "toggle",
+    "codes": "meadow_zone_fast_travel",
     "img": "images/Items/zones/meadow_zone.png"
   },
   {
-    "name": "Beach Zone Unlock",
+    "name": "Beach Zone Fast Travel",
     "type": "toggle",
-    "codes": "beach_zone_unlock",
+    "codes": "beach_zone_fast_travel",
     "img": "images/Items/zones/beach_zone.png"
   },
   {
-    "name": "Ice Zone Unlock",
+    "name": "Ice Zone Fast Travel",
     "type": "toggle",
-    "codes": "ice_zone_unlock",
+    "codes": "ice_zone_fast_travel",
     "img": "images/Items/zones/ice_zone.png"
   },
   {
-    "name": "Cavern Zone & Magma Zone Unlock",
+    "name": "Cavern Zone Fast Travel",
     "type": "toggle",
-    "codes": "cavern_and_magma_zone_unlock",
+    "codes": "cavern_zone_fast_travel",
     "img": "images/Items/zones/cavern_zone.png"
   },
   {
-    "name": "Haunted Zone Unlock",
+    "name": "Magma Zone Fast Travel",
     "type": "toggle",
-    "codes": "haunted_zone_unlock",
+    "codes": "magma_zone_fast_travel",
+    "img": "images/Items/zones/magma_zone.png"
+  },
+  {
+    "name": "Haunted Zone Fast Travel",
+    "type": "toggle",
+    "codes": "haunted_zone_fast_travel",
     "img": "images/Items/zones/haunted_zone.png"
   },
   {
-    "name": "Granite Zone & Flower Zone Unlock",
+    "name": "Granite Zone Fast Travel",
     "type": "toggle",
-    "codes": "granite_and_flower_zone_unlock",
+    "codes": "granite_zone_fast_travel",
     "img": "images/Items/zones/granite_zone.png"
   },
   {
-    "name": "Skygarden Unlock",
+    "name": "Flower Zone Fast Travel",
     "type": "toggle",
-    "codes": "skygarden_unlock",
-    "img": "images/Items/zones/skygarden.png"
+    "codes": "flower_zone_fast_travel",
+    "img": "images/Items/zones/flower_zone.png"
+  },
+  {
+    "name": "Beach Zone Bridge 1 Unlock",
+    "type": "toggle",
+    "codes": "beach_zone_bridge1_unlock",
+    "img": "images/Items/bridge1.png"
+  },
+  {
+    "name": "Beach Zone Bridge 2 Unlock",
+    "type": "toggle",
+    "codes": "beach_zone_bridge2_unlock",
+    "img": "images/Items/bridge1.png"
+  },
+  {
+    "name": "Haunted Zone Doors Unlock",
+    "type": "toggle",
+    "codes": "haunted_zone_mansion_doors_unlock",
+    "img": "images/Items/haunted_zone_door.png"
+  },
+  {
+    "name": "Magma Zone Fire Wall Unlock",
+    "type": "toggle",
+    "codes": "magma_zone_firewall_unlock",
+    "img": "images/Items/fire_wall.png"
+  },
+  {
+    "name": "Ice Zone Frozen Lake Unlock",
+    "type": "toggle",
+    "codes": "ice_zone_frozen_lake_unlock",
+    "img": "images/Items/frozen_lake.png"
+  },
+  {
+    "name": "Ice Zone Lift Unlock",
+    "type": "toggle",
+    "codes": "ice_zone_lift_unlock",
+    "img": "images/Items/ice_zone_lift.png"
   }
 ]

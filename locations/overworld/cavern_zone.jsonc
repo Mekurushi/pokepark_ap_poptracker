@@ -6,12 +6,15 @@
         ],
         "children": [
             {
-                "name": "Magnemite",
+                "name": "Magnemite Entrance Area",
                 "sections": [
                     {
-                        "name": "Crate Dash",
+                        "name": "Crate - Magnemite Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -19,6 +22,9 @@
                         "name": "Friendship",
                         "access_rules": [
                             "magnemite_unlock, $canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -32,48 +38,71 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Magma Zone Entrance Area",
+                "name": "Magma Zone Entrance Area",
                 "sections": [
                     {
-                        "name": "Magnezone Friendship",
+                        "name": "Magnezone Power Competition - Friendship",
                         "access_rules": [
-                            "magnezone_unlock, [$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, magnezone_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Friendship",
+                        "name": "Bonsly Power Competition - Friendship",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Friendship - Pokemon Unlock",
+                        "name": "Bonsly Power Competition - Sudowoodo Unlocked",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Dugtrio Friendship",
-                        "access_rules": [],
+                        "name": "Dugtrio Power Competition - Friendship",
+                        "access_rules": [
+                            "bastiodon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Aron Friendship",
+                        "name": "Aron Power Competition - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Electivire Friendship",
-                        "access_rules": [
-                            "electivire_unlock, [$canBattleThunderBoltImmune]"
+                        "visibility_rules": [
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Sudowoodo Friendship",
+                        "name": "Electivire Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleAdvanced], $canBattle, electivire_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sudowoodo Power Competition - Friendship",
                         "access_rules": [
                             "sudowoodo_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -87,26 +116,35 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Middle Area",
+                "name": "Center Area",
                 "sections": [
                     {
-                        "name": "Golbat Friendship",
+                        "name": "Golbat Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Zubat Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Machamp - Battle Friendship",
+                        "name": "Zubat Power Competition - Friendship",
                         "access_rules": [
-                            "machamp_unlock, [$canBattle]"
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mawile Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatchIntermediate"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -120,19 +158,15 @@
                 ]
             },
             {
-                "name": "Magnemite 2",
+                "name": "Magnemite Magma Zone Entrance Area",
                 "sections": [
                     {
-                        "name": "Crate Dash",
+                        "name": "Crate - Magnemite Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Friendship",
-                        "access_rules": [
-                            "magnemite_unlock2, $canDestroyObjectsOverworld"
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -146,44 +180,65 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Open Area",
+                "name": "Machamp Athletic Area",
                 "sections": [
                     {
-                        "name": "Geodude Friendship",
+                        "name": "Geodude Power Competition - Friendship",
                         "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Machamp Friendship",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Machamp Friendship - Pokemon Unlock",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teddiursa Friendship",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meowth Friendship",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raichu Friendship",
-                        "access_rules": [
-                            "$canPlayCatchIntermediate, raichu_unlock"
+                        "visibility_rules": [
+                            "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hitmonlee Friendship",
+                        "name": "Machamp Power Competition - Friendship",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Machamp Power Competition - Machamp Unlocked",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teddiursa Power Competition - Friendship",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meowth Power Competition - Friendship",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raichu Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], hitmonlee_unlock"
+                            "$canPlayCatchIntermediate, raichu_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitmonlee Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleIntermediate], $canBattle, hitmonlee_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -200,9 +255,12 @@
                 "name": "Marowak",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -216,39 +274,56 @@
                 ]
             },
             {
-                "name": "Overworld Pokemon Deep Area",
+                "name": "Deep Area",
                 "sections": [
                     {
-                        "name": "Scizor Friendship",
+                        "name": "Scizor Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Phanpy Friendship",
+                        "name": "Phanpy Power Competition - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld, phanpy_unlock"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cranidos Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
+                        "visibility_rules": [
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Torchic Friendship",
+                        "name": "Cranidos Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Chimchar Friendship",
-                        "access_rules": [],
+                        "name": "Torchic Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chimchar Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -261,19 +336,15 @@
                 ]
             },
             {
-                "name": "Magnemite 3",
+                "name": "Magnemite Deep Inside Area",
                 "sections": [
                     {
-                        "name": "Crate Dash",
+                        "name": "Crate - Magnemite Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Friendship",
-                        "access_rules": [
-                            "$canDestroyObjectsOverworld, magnemite_unlock3"
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -290,9 +361,22 @@
                 "name": "Diglett",
                 "sections": [
                     {
-                        "name": "Crate Dash",
+                        "name": "Crate - Diglett Unlocked",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "bastiodon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -309,9 +393,12 @@
                 "name": "Gible",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmune]"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -325,27 +412,46 @@
                 ]
             },
             {
-                "name": "Bastiodon's Panel Crush",
+                "name": "Bastiodon's Panel Crush Attraction",
                 "access_rules": [
                     "@CavernZoneBastiodonMinigame"
                 ],
                 "sections": [
                     {
+                        "name": "Bastiodon - Friendship",
+                        "access_rules": [
+                            "bastiodon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prisma",
                         "access_rules": [
                             "$canBeatAnyBastiodonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pikachu",
                         "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sableye",
                         "access_rules": [
                             "sableye"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -354,12 +460,18 @@
                         "access_rules": [
                             "meowth"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Torchic",
                         "access_rules": [
                             "torchic"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -368,12 +480,18 @@
                         "access_rules": [
                             "electivire"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Magmortar",
                         "access_rules": [
                             "magmortar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -382,12 +500,18 @@
                         "access_rules": [
                             "hitmonlee"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ursaring",
                         "access_rules": [
                             "ursaring"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -396,12 +520,18 @@
                         "access_rules": [
                             "mr_mime"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Raichu",
                         "access_rules": [
                             "raichu"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -410,12 +540,18 @@
                         "access_rules": [
                             "sudowoodo"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Charmander",
                         "access_rules": [
                             "charmander"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -424,12 +560,18 @@
                         "access_rules": [
                             "gible"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chimchar",
                         "access_rules": [
                             "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -438,6 +580,9 @@
                         "access_rules": [
                             "magby"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -445,12 +590,18 @@
                         "access_rules": [
                             "metagross"
                         ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Metagross Unlock",
+                        "name": "Metagross Friendship",
                         "access_rules": [
                             "$canBeatAllBastiodonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }

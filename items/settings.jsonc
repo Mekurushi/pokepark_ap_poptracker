@@ -1,0 +1,116 @@
+[
+    {
+        "name": "required_prismas",
+        "type": "consumable",
+        "codes": "required_prismas",
+        "min_quantity": 1,
+        "max_quantity": 14,
+        "initial_quantity": 14,
+        "img": "images/items/prisma_activated.png"
+    },
+    {
+        "name": "Removed Battle Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_battle_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Chase Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_chase_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Quiz Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_quiz_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Hide And Seek Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_hide_and_seek_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Errand Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_errand_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Miscellanous Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_misc_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Legendary Pokemon Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_legendary_pokemon_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Power Training Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_power_training_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Attraction Locations",
+        "type": "toggle",
+        "img": "images/items/prisma_deactivated.png",
+        "codes": "remove_attraction_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Attraction Prisma Locations",
+        "type": "toggle",
+        "img": "images/items/prisma_activated.png",
+        "codes": "remove_attraction_prisma_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Removed Pokemon Unlock Locations",
+        "type": "toggle",
+        "img": "images/items/pokemons/riolu.png",
+        "codes": "remove_pokemon_unlock_locations",
+        "initial_active_state": false
+    },
+    {
+        "name": "Postgame Prisma Locations",
+        "type": "toggle",
+        "img": "images/items/prisma_activated.png",
+        "codes": "postgame_locations_activated",
+        "initial_active_state": false
+    },
+    {
+        "name": "Mew Power Competition Locations",
+        "type": "toggle",
+        "img": "images/items/prisma_activated.png",
+        "codes": "mew_power_comp_locations_activated",
+        "initial_active_state": false
+    },
+    {
+        "name": "Automatic Map Switching",
+        "type": "toggle",
+        "img": "images/items/pikachu_baloon.png",
+        "codes": "setting_map_tracking",
+        "initial_active_state": true
+    },
+    {
+        "name": "Harder Enemy AI",
+        "type": "toggle",
+        "img": "images/items/pokemons/riolu.png",
+        "codes": "harder_enemy_ai",
+        "initial_active_state": false
+    }
+]

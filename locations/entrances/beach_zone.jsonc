@@ -2,15 +2,31 @@
     {
         "name": "BeachZoneOverworld",
         "access_rules": [
-            "beach_zone_unlock"
+            "$canReachBeachZone"
         ]
     },
     {
         "name": "BeachZonePelliperMinigame",
-        "access_rules": []
+        "access_rules": [
+            "@BeachZoneOverworld"
+        ]
     },
     {
         "name": "BeachZoneGyaradosMinigame",
-        "access_rules": []
+        "access_rules": [
+            "@BeachZoneOverworld, @BeachZoneRecycleArea"
+        ]
+    },
+    {
+        "name": "BeachZoneRecycleArea",
+        "access_rules": [
+            "@BeachZoneOverworld, beach_zone_bridge2_unlock"
+        ]
+    },
+    {
+        "name": "BeachZoneMiddleIsle",
+        "access_rules": [
+            "@BeachZoneOverworld, beach_zone_bridge1_unlock"
+        ]
     }
 ]

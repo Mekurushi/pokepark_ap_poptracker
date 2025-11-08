@@ -5,20 +5,9 @@
 			{
 				"title": "Treehouse",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Treehouse",
-							"type": "array",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"treehouse"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"treehouse"
 					]
 				}
 			},
@@ -28,7 +17,7 @@
 					"type": "tabbed",
 					"tabs": [
 						{
-							"title": "Overworld",
+							"title": "Main Area",
 							"type": "array",
 							"content": [
 								{
@@ -40,7 +29,7 @@
 							]
 						},
 						{
-							"title": "Venusaur Minigame Area",
+							"title": "Venusaur Area",
 							"type": "array",
 							"content": [
 								{
@@ -57,20 +46,9 @@
 			{
 				"title": "Beach Zone",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overworld",
-							"type": "array",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"beach_zone_overworld"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"beach_zone_overworld"
 					]
 				}
 			},
@@ -80,7 +58,7 @@
 					"type": "tabbed",
 					"tabs": [
 						{
-							"title": "Overworld",
+							"title": "Main Area",
 							"type": "array",
 							"content": [
 								{
@@ -92,7 +70,7 @@
 							]
 						},
 						{
-							"title": "Empoleon Minigame Area",
+							"title": "Empoleon Area",
 							"type": "array",
 							"content": [
 								{
@@ -109,21 +87,9 @@
 			{
 				"title": "Cavern Zone",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overworld",
-							"type": "array",
-							"orientation": "vertical",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"cavern_zone_overworld"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"cavern_zone_overworld"
 					]
 				}
 			},
@@ -133,7 +99,7 @@
 					"type": "tabbed",
 					"tabs": [
 						{
-							"title": "Overworld",
+							"title": "Main Area",
 							"type": "array",
 							"orientation": "vertical",
 							"content": [
@@ -146,7 +112,7 @@
 							]
 						},
 						{
-							"title": "Blaziken Minigame Area",
+							"title": "Blaziken Area",
 							"type": "array",
 							"orientation": "vertical",
 							"content": [
@@ -167,7 +133,7 @@
 					"type": "tabbed",
 					"tabs": [
 						{
-							"title": "Overworld",
+							"title": "Main Area",
 							"type": "array",
 							"orientation": "vertical",
 							"content": [
@@ -180,7 +146,7 @@
 							]
 						},
 						{
-							"title": "Mansion",
+							"title": "Mansion Area",
 							"type": "array",
 							"orientation": "vertical",
 							"content": [
@@ -193,7 +159,7 @@
 							]
 						},
 						{
-							"title": "Rotom Minigame Area",
+							"title": "Rotom Area",
 							"type": "array",
 							"orientation": "vertical",
 							"content": [
@@ -211,63 +177,27 @@
 			{
 				"title": "Granite Zone",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overworld",
-							"type": "array",
-							"orientation": "vertical",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"granite_zone_overworld"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"granite_zone_overworld"
 					]
 				}
 			},
 			{
 				"title": "Flower Zone",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overworld",
-							"type": "array",
-							"orientation": "vertical",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"flower_zone_overworld"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"flower_zone_overworld"
 					]
 				}
 			},
 			{
 				"title": "Skygarden",
 				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overworld",
-							"type": "array",
-							"orientation": "vertical",
-							"content": [
-								{
-									"type": "map",
-									"maps": [
-										"skygarden"
-									]
-								}
-							]
-						}
+					"type": "map",
+					"maps": [
+						"skygarden"
 					]
 				}
 			}

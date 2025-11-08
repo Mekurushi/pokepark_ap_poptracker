@@ -1,14 +1,12 @@
 [
     {
         "name": "MeadowZoneOverworld",
-        "access_rules": [
-            "meadow_zone_unlock"
-        ]
+        "access_rules": []
     },
     {
         "name": "MeadowZoneVenusaurMinigame",
         "access_rules": [
-            "croagunk, spearow"
+            "bulbasaur_prisma"
         ]
     },
     {
