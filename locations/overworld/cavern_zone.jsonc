@@ -43,7 +43,7 @@
                     {
                         "name": "Magnezone Power Competition - Friendship",
                         "access_rules": [
-                            "magnezone_unlock, [$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, magnezone_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -89,7 +89,7 @@
                     {
                         "name": "Electivire Power Competition - Friendship",
                         "access_rules": [
-                            "electivire_unlock, [$canBattleThunderBoltImmune]"
+                            "[$canBattleAdvanced], $canBattle, electivire_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -141,7 +141,7 @@
                     {
                         "name": "Mawile Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch"
+                            "$canPlayCatchIntermediate"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -235,7 +235,7 @@
                     {
                         "name": "Hitmonlee Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], hitmonlee_unlock"
+                            "[$canBattleIntermediate], $canBattle, hitmonlee_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -257,7 +257,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -279,7 +279,7 @@
                     {
                         "name": "Scizor Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -299,7 +299,7 @@
                     {
                         "name": "Cranidos Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

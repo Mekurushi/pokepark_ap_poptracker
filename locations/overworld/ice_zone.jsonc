@@ -103,7 +103,7 @@
                     {
                         "name": "Primeape Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], primeape_unlock"
+                            "[$canBattleIntermediate], $canBattle, primeape_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -139,7 +139,7 @@
                         "name": "Friendship",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -147,7 +147,7 @@
                         "name": "Igloo Quest 1",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -155,7 +155,7 @@
                         "name": "Igloo Quest 1 - Primeape Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -163,7 +163,7 @@
                         "name": "Igloo Quest 2",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -171,7 +171,7 @@
                         "name": "Igloo Quest 2 - Ursaring Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -179,7 +179,7 @@
                         "name": "Igloo Quest 3",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -201,7 +201,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "mamoswine_unlock, [$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

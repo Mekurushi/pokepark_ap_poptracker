@@ -232,7 +232,7 @@
                     {
                         "name": "Dragonite Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch"
+                            "$canPlayCatchIntermediate"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"

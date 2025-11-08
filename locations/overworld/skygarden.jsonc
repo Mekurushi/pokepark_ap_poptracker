@@ -10,33 +10,48 @@
                 "sections": [
                     {
                         "name": "Power Competition - Stage 1",
+                        "visibility_rules": [
+                            "$mew_power_comp_locations_activated"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Power Competition - Stage 2",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleAdvanced], $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$mew_power_comp_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Power Competition - Stage 3",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune"
+                        ],
+                        "visibility_rules": [
+                            "$mew_power_comp_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Power Competition - Stage 4",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleAdvanced], $canBattle"
+                        ],
+                        "visibility_rules": [
+                            "$mew_power_comp_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate"
+                            "[$maximizedDash], $canPlayCatchIntermediate"
+                        ],
+                        "visibility_rules": [
+                            "$mew_power_comp_locations_activated"
                         ],
                         "item_count": 1
                     },

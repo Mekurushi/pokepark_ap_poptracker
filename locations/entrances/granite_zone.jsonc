@@ -1,14 +1,8 @@
 [
     {
-        "name": "GraniteZoneAbsolArea",
+        "name": "GraniteZone",
         "access_rules": [
-            "$canReachGraniteZoneAbsolArea"
-        ]
-    },
-    {
-        "name": "GraniteZoneSalamenceArea",
-        "access_rules": [
-            "$canReachGraniteZoneSalamenceArea"
+            "$canReachGraniteZone"
         ]
     },
     {

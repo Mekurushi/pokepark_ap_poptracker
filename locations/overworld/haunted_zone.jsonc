@@ -33,7 +33,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch"
+                            "$canPlayCatchIntermediate"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -95,7 +95,7 @@
                     {
                         "name": "Ambipom Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], ambipom_unlock"
+                            "[$canBattleIntermediate], $canBattle, ambipom_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -105,7 +105,7 @@
                     {
                         "name": "Gliscor Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -147,7 +147,7 @@
                     {
                         "name": "Honchkrow Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], honchkrow_unlock"
+                            "[$canBattleIntermediate], $canBattle, honchkrow_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -711,7 +711,7 @@
                     {
                         "name": "Electabuzz Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], electabuzz_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, electabuzz_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -721,7 +721,7 @@
                     {
                         "name": "Skuntank Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], skuntank_unlock"
+                            "[$canBattleIntermediate], $canBattle, skuntank_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -814,6 +814,54 @@
                 ]
             },
             {
+                "name": "Darkrai",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleAdvanced], $canBattle, darkrai_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 460,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Sableye",
+                "access_rules": [
+                    "@HauntedZoneMansionDoors"
+                ],
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 540
+                    }
+                ]
+            },
+            {
                 "name": "Dance Hall Area",
                 "access_rules": [
                     "@HauntedZoneMansionDoors"
@@ -832,7 +880,7 @@
                     {
                         "name": "Mismagius Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], mismagius_unlock"
+                            "[$canBattleIntermediate], $canBattle, mismagius_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -842,7 +890,7 @@
                     {
                         "name": "Luxray Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch, luxray_unlock"
+                            "$canPlayCatchIntermediate, luxray_unlock"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -927,7 +975,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], gengar_unlock"
+                            "[$canBattleIntermediate], $canBattle, gengar_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -987,7 +1035,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], breloom_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, breloom_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -1029,7 +1077,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -1170,9 +1218,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Electrode",
+                        "name": "Voltorb",
                         "access_rules": [
-                            "electrode"
+                            "voltorb"
                         ],
                         "visibility_rules": [
                             "$attraction_locations_activated"

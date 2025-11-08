@@ -75,16 +75,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Magby - Battle Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Vulpix Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
@@ -171,7 +161,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], torkoal_unlock"
+                            "[$canBattleIntermediate], $canBattle, torkoal_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -215,7 +205,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -269,7 +259,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], claydol_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, claydol_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -286,18 +276,50 @@
                 ]
             },
             {
+                "name": "Groudon",
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune, groudon_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 250,
+                        "y": 650
+                    }
+                ]
+            },
+            {
                 "name": "Rhyperior",
                 "access_rules": [
                     "@MagmaZoneCircleArea"
                 ],
                 "sections": [
                     {
-                        "name": "Iron Disc Quest",
+                        "name": "Iron Disc Errand",
                         "access_rules": [
                             "$canDashOverworld"
                         ],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "rhyperior_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -316,16 +338,6 @@
                     "@MagmaZoneCircleArea, @MagmaZoneRhyperiorMinigame"
                 ],
                 "sections": [
-                    {
-                        "name": "Rhyperior - Friendship",
-                        "access_rules": [
-                            "rhyperior_prisma_activated"
-                        ],
-                        "visibility_rules": [
-                            "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "Prisma",
                         "access_rules": [
@@ -555,7 +567,7 @@
                     {
                         "name": "Flareon Power Competition - Friendship",
                         "access_rules": [
-                            "$canBattle"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -565,7 +577,7 @@
                     {
                         "name": "Quilava Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -575,7 +587,7 @@
                     {
                         "name": "Infernape Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], infernape_unlock"
+                            "[$canBattleIntermediate], $canBattle, infernape_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -595,7 +607,7 @@
                     {
                         "name": "Hitmonchan Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], hitmonchan_unlock"
+                            "[$canBattleIntermediate], $canBattle, hitmonchan_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -605,7 +617,7 @@
                     {
                         "name": "Hitmonchan Power Competition - Hitmonlee Unlocked",
                         "access_rules": [
-                            "[$canBattle], hitmonchan_unlock"
+                            "[$canBattleIntermediate], $canBattle, hitmonchan_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -615,7 +627,7 @@
                     {
                         "name": "Magmortar Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], magmortar_unlock"
+                            "[$canBattleAdvanced], $canBattle, magmortar_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -650,7 +662,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -663,6 +675,31 @@
                         "map": "magma_zone_overworld",
                         "x": 630,
                         "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Magcargo",
+                "access_rules": [
+                    "@MagmaZoneCircleArea"
+                ],
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "rhyperior_prisma_activated, bastiodon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 80
                     }
                 ]
             },

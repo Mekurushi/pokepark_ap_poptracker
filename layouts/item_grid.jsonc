@@ -74,11 +74,12 @@
 						"remove_errand_power_comp_locations",
 						"remove_misc_power_comp_locations",
 						"remove_power_training_locations",
-						"remove_quest_locations",
 						"remove_attraction_locations",
 						"remove_attraction_prisma_locations",
 						"remove_pokemon_unlock_locations",
-						"postgame_locations_activated"
+						"postgame_locations_activated",
+						"mew_power_comp_locations_activated",
+						"harder_enemy_ai"
 					]
 				]
 			}

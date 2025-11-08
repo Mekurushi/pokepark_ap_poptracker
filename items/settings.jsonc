@@ -51,17 +51,17 @@
         "initial_active_state": false
     },
     {
+        "name": "Removed Legendary Pokemon Locations",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "remove_legendary_pokemon_power_comp_locations",
+        "initial_active_state": false
+    },
+    {
         "name": "Removed Power Training Locations",
         "type": "toggle",
         "img": "images/items/berry.png",
         "codes": "remove_power_training_locations",
-        "initial_active_state": false
-    },
-    {
-        "name": "Removed Quest Locations",
-        "type": "toggle",
-        "img": "images/items/berry.png",
-        "codes": "remove_quest_locations",
         "initial_active_state": false
     },
     {
@@ -93,10 +93,24 @@
         "initial_active_state": false
     },
     {
+        "name": "Mew Power Competition Locations",
+        "type": "toggle",
+        "img": "images/items/prisma_activated.png",
+        "codes": "mew_power_comp_locations_activated",
+        "initial_active_state": false
+    },
+    {
         "name": "Automatic Map Switching",
         "type": "toggle",
         "img": "images/items/pikachu_baloon.png",
         "codes": "setting_map_tracking",
         "initial_active_state": true
+    },
+    {
+        "name": "Harder Enemy AI",
+        "type": "toggle",
+        "img": "images/items/pokemons/riolu.png",
+        "codes": "harder_enemy_ai",
+        "initial_active_state": false
     }
 ]

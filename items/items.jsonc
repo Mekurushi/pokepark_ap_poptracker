@@ -18,7 +18,7 @@
       },
       {
         "img": "images/items/powers/dash_advanced.png",
-        "codes": "dash_intermediate",
+        "codes": "dash_advanced",
         "inherit_codes": true
       },
       {

@@ -2,7 +2,7 @@
     {
         "name": "Granite Zone",
         "access_rules": [
-            "@GraniteZoneAbsolArea"
+            "@GraniteZone"
         ],
         "children": [
             {
@@ -49,7 +49,7 @@
                     {
                         "name": "Tyranitar Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], tyranitar_unlock"
+                            "[$canBattleAdvanced], $canBattle, tyranitar_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -71,7 +71,7 @@
                     {
                         "name": "Charizard Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleAdvanced], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -138,6 +138,28 @@
                 ]
             },
             {
+                "name": "Jirachi",
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatchAdvanced, jirachi_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 725,
+                        "y": 390
+                    }
+                ]
+            },
+            {
                 "name": "Skorupi",
                 "sections": [
                     {
@@ -178,12 +200,34 @@
                 ]
             },
             {
+                "name": "Togekiss",
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 375,
+                        "y": 195
+                    }
+                ]
+            },
+            {
                 "name": "Pyramid Area",
                 "sections": [
                     {
                         "name": "Marowak Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -193,7 +237,7 @@
                     {
                         "name": "Claydol Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], claydol_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, claydol_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -411,22 +455,14 @@
                         "y": 520
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Granite Zone Salamence Area",
-        "access_rules": [
-            "@GraniteZoneSalamenceArea"
-        ],
-        "children": [
+            },
             {
                 "name": "Salamence Area",
                 "sections": [
                     {
                         "name": "Staraptor Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleAdvanced], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -436,7 +472,7 @@
                     {
                         "name": "Staraptor Power Competition - Aerodactyl Unlocked",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleAdvanced], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -446,7 +482,7 @@
                     {
                         "name": "Aerodactyl Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], aerodactyl_unlock"
+                            "[$canBattleAdvanced], $canBattle, aerodactyl_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -486,7 +522,7 @@
                     {
                         "name": "Garchomp Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], garchomp_unlock"
+                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune, garchomp_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

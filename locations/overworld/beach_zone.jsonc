@@ -539,7 +539,7 @@
                     {
                         "name": "Blastoise Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], blastoise_unlock"
+                            "[$canBattleIntermediate], $canBattle, blastoise_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -663,7 +663,7 @@
                     {
                         "name": "Vaporeon Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch, $hasEnoughFriendshipVaporeon"
+                            "$canPlayCatchIntermediate, $hasEnoughFriendshipVaporeon"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -705,7 +705,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattleIntermediate], $canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -728,7 +728,7 @@
                         "name": "Stage 1",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -736,7 +736,7 @@
                         "name": "Stage 2",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -744,7 +744,7 @@
                         "name": "Stage 2 - Krabby Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -752,7 +752,7 @@
                         "name": "Stage 3",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -760,7 +760,7 @@
                         "name": "Stage 4",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -768,7 +768,7 @@
                         "name": "Stage 4 - Corphish Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -776,7 +776,7 @@
                         "name": "Stage 5",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
@@ -784,7 +784,7 @@
                         "name": "Stage 6",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -827,10 +827,10 @@
                 "name": "Wailord",
                 "sections": [
                     {
-                        "name": "Bottle Quest",
+                        "name": "Friendship",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$quest_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     }
