@@ -21,7 +21,9 @@
                     {
                         "name": "Friendship",
                         "access_rules": [
-                            "magnemite_unlock, $canDestroyObjectsOverworld"
+                            "magnemite_unlock",
+                            "magnemite_unlock2",
+                            "magnemite_unlock3"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -309,7 +311,7 @@
                     {
                         "name": "Torchic Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -319,7 +321,7 @@
                     {
                         "name": "Chimchar Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -373,7 +375,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "bastiodon_prisma_activated"
+                            "bastiodon_prisma_activated, diglett_unlock"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -395,7 +397,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "$canBattleThunderBoltImmune"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -412,196 +414,16 @@
                 ]
             },
             {
-                "name": "Bastiodon's Panel Crush Attraction",
-                "access_rules": [
-                    "@CavernZoneBastiodonMinigame"
-                ],
+                "name": "Bastiodon",
+                "access_rules": [],
                 "sections": [
                     {
-                        "name": "Bastiodon - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
-                            "bastiodon_prisma_activated"
+                            "bastiodon_prisma_activated, $canAccessBastiodonMinigame"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyBastiodonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sableye",
-                        "access_rules": [
-                            "sableye"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meowth",
-                        "access_rules": [
-                            "meowth"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torchic",
-                        "access_rules": [
-                            "torchic"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Electivire",
-                        "access_rules": [
-                            "electivire"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magmortar",
-                        "access_rules": [
-                            "magmortar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hitmonlee",
-                        "access_rules": [
-                            "hitmonlee"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ursaring",
-                        "access_rules": [
-                            "ursaring"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mr. Mime",
-                        "access_rules": [
-                            "mr_mime"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raichu",
-                        "access_rules": [
-                            "raichu"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sudowoodo",
-                        "access_rules": [
-                            "sudowoodo"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Charmander",
-                        "access_rules": [
-                            "charmander"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gible",
-                        "access_rules": [
-                            "gible"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chimchar",
-                        "access_rules": [
-                            "chimchar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magby",
-                        "access_rules": [
-                            "magby"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Metagross",
-                        "access_rules": [
-                            "metagross"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Metagross Friendship",
-                        "access_rules": [
-                            "$canBeatAllBastiodonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }

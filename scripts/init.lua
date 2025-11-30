@@ -51,6 +51,7 @@ Tracker:AddLocations("locations/attractions/venusaur_vine_swing.jsonc")
 Tracker:AddLocations("locations/attractions/pelipper_circle_circuit.jsonc")
 Tracker:AddLocations("locations/attractions/gyarados_aqua_dash.jsonc")
 Tracker:AddLocations("locations/attractions/empoleon_snow_slide.jsonc")
+Tracker:AddLocations("locations/attractions/bastiodon_panel_crush.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/tracker.jsonc")

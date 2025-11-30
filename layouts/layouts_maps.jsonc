@@ -270,6 +270,19 @@
 									]
 								}
 							]
+						},
+						{
+							"title": "Bastiodon's Panel Crush",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"bastiodon_panel_crush"
+									]
+								}
+							]
 						}
 					]
 				}

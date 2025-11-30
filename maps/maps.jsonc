@@ -119,5 +119,11 @@
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/empoleon_snow_slide.png"
+  },
+  {
+    "name": "bastiodon_panel_crush",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/bastiodon_panel_crush.png"
   }
 ]
