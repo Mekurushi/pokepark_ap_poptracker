@@ -200,6 +200,79 @@
 						"skygarden"
 					]
 				}
+			},
+			{
+				"title": "Attractions",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Bulbasaur's Daring Dash",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"bulbasaur_daring_dash"
+									]
+								}
+							]
+						},
+						{
+							"title": "Venusaur's Vine Swing",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"venusaur_vine_swing"
+									]
+								}
+							]
+						},
+						{
+							"title": "Pelipper's Circle Circuit",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"pelipper_circle_circuit"
+									]
+								}
+							]
+						},
+						{
+							"title": "Gyarados' Aqua Dash",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"gyarados_aqua_dash"
+									]
+								}
+							]
+						},
+						{
+							"title": "Empoleon's Snow Slide",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"empoleon_snow_slide"
+									]
+								}
+							]
+						}
+					]
+				}
 			}
 		]
 	}

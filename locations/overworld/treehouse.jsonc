@@ -4,38 +4,44 @@
     "children": [
       {
         "name": "Thunderbolt",
-        "access_rules": [
-          "[$canFarmBerries]"
-        ],
         "visibility_rules": [
           "$power_training_locations_activated"
         ],
         "sections": [
           {
             "name": "Upgrade 1",
+            "access_rules": [
+              "[$canFarmBerries]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 2",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 3",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate], [$canFarmBerriesAdvanced]"
+            ],
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 450,
-            "y": 800
+            "x": 500,
+            "y": 940
           }
         ]
       },
       {
         "name": "Dash",
         "access_rules": [
-          "[$canFarmBerries], pelipper_prisma_activated"
+          "pelipper_prisma_activated"
         ],
         "visibility_rules": [
           "$power_training_locations_activated"
@@ -43,18 +49,30 @@
         "sections": [
           {
             "name": "Upgrade 1",
+            "access_rules": [
+              "[$canFarmBerries]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 2",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate]"
+            ],
             "item_count": 1
           },
           {
             "name": "Ponyta Unlocked",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 3",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate], [$canFarmBerriesAdvanced]"
+            ],
             "item_count": 1
           },
           {
@@ -65,15 +83,15 @@
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 485,
-            "y": 800
+            "x": 535,
+            "y": 940
           }
         ]
       },
       {
         "name": "Health",
         "access_rules": [
-          "[$canFarmBerries], venusaur_prisma_activated"
+          "venusaur_prisma_activated"
         ],
         "visibility_rules": [
           "$power_training_locations_activated"
@@ -81,29 +99,38 @@
         "sections": [
           {
             "name": "Upgrade 1",
+            "access_rules": [
+              "[$canFarmBerries]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 2",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 3",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate], [$canFarmBerriesAdvanced]"
+            ],
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 520,
-            "y": 800
+            "x": 570,
+            "y": 940
           }
         ]
       },
       {
         "name": "Iron Tail",
         "access_rules": [
-          "[$canFarmBerries], empoleon_prisma_activated"
+          "empoleon_prisma_activated"
         ],
         "visibility_rules": [
           "$power_training_locations_activated"
@@ -111,22 +138,31 @@
         "sections": [
           {
             "name": "Upgrade 1",
+            "access_rules": [
+              "[$canFarmBerries]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 2",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate]"
+            ],
             "item_count": 1
           },
           {
             "name": "Upgrade 3",
+            "access_rules": [
+              "[$canFarmBerries], [$canFarmBerriesIntermediate], [$canFarmBerriesAdvanced]"
+            ],
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 555,
-            "y": 800
+            "x": 605,
+            "y": 940
           }
         ]
       },
@@ -142,8 +178,8 @@
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 470,
-            "y": 650
+            "x": 570,
+            "y": 690
           }
         ]
       },
@@ -159,8 +195,8 @@
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 550,
-            "y": 600
+            "x": 650,
+            "y": 680
           }
         ]
       },
@@ -176,15 +212,15 @@
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 470,
-            "y": 700
+            "x": 550,
+            "y": 860
           }
         ]
       },
       {
         "name": "Drifblim",
         "access_rules": [
-          "[$canFarmBerries]"
+          "[$canFarmBerries], [$hasOneFastTravelItem]"
         ],
         "sections": [
           {
@@ -195,8 +231,8 @@
         "map_locations": [
           {
             "map": "treehouse",
-            "x": 590,
-            "y": 600
+            "x": 680,
+            "y": 650
           }
         ]
       }

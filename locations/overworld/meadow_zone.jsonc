@@ -491,13 +491,13 @@
                 ]
             },
             {
-                "name": "Bulbasaur's Daring Dash Attraction",
+                "name": "Bulbasaur",
                 "access_rules": [
                     "@MeadowZoneBulbasaurMinigame"
                 ],
                 "sections": [
                     {
-                        "name": "Bulbasaur - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "bulbasaur_prisma_activated"
                         ],
@@ -505,280 +505,12 @@
                             "$misc_locations_activated"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyBulbasaurMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Turtwig",
-                        "access_rules": [
-                            "turtwig"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Munchlax",
-                        "access_rules": [
-                            "munchlax"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chimchar",
-                        "access_rules": [
-                            "chimchar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Treecko",
-                        "access_rules": [
-                            "treecko"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bibarel",
-                        "access_rules": [
-                            "bibarel"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bulbasaur",
-                        "access_rules": [
-                            "bulbasaur"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bidoof",
-                        "access_rules": [
-                            "bidoof"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Oddish",
-                        "access_rules": [
-                            "oddish"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shroomish",
-                        "access_rules": [
-                            "shroomish"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bonsly",
-                        "access_rules": [
-                            "bonsly"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lotad",
-                        "access_rules": [
-                            "lotad"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Weedle",
-                        "access_rules": [
-                            "weedle"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Caterpie",
-                        "access_rules": [
-                            "caterpie"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magikarp",
-                        "access_rules": [
-                            "magikarp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jolteon",
-                        "access_rules": [
-                            "jolteon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Arcanine",
-                        "access_rules": [
-                            "arcanine"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Leafeon",
-                        "access_rules": [
-                            "leafeon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scyther",
-                        "access_rules": [
-                            "scyther"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ponyta",
-                        "access_rules": [
-                            "ponyta"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shinx",
-                        "access_rules": [
-                            "shinx"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Eevee",
-                        "access_rules": [
-                            "eevee"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pachirisu",
-                        "access_rules": [
-                            "pachirisu"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Buneary",
-                        "access_rules": [
-                            "buneary"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Croagunk",
-                        "access_rules": [
-                            "croagunk"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mew",
-                        "access_rules": [
-                            "mew"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "meadow_zone_overworld",
-                        "x": 500,
+                        "x": 530,
                         "y": 730
                     }
                 ]
@@ -936,15 +668,20 @@
                         "y": 480
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Meadow Zone Venusaur Area",
+        "access_rules": [
+            "@MeadowZoneVenusaurArea"
+        ],
+        "children": [
             {
-                "name": "Venusaur's Vine Swing Attraction",
-                "access_rules": [
-                    "@MeadowZoneVenusaurMinigame"
-                ],
+                "name": "Venusaur",
                 "sections": [
                     {
-                        "name": "Venusaur - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "venusaur_prisma_activated, empoleon_prisma_activated, blaziken_prisma_activated"
                         ],
@@ -952,190 +689,12 @@
                             "$misc_locations_activated"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyVenusaurMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Munchlax",
-                        "access_rules": [
-                            "munchlax"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magikarp",
-                        "access_rules": [
-                            "magikarp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blaziken",
-                        "access_rules": [
-                            "blaziken"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Infernape",
-                        "access_rules": [
-                            "infernape"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lucario",
-                        "access_rules": [
-                            "lucario"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Primeape",
-                        "access_rules": [
-                            "primeape"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tangrowth",
-                        "access_rules": [
-                            "tangrowth"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ambipom",
-                        "access_rules": [
-                            "ambipom"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Croagunk",
-                        "access_rules": [
-                            "croagunk"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mankey",
-                        "access_rules": [
-                            "mankey"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Aipom",
-                        "access_rules": [
-                            "aipom"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chimchar",
-                        "access_rules": [
-                            "chimchar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Treecko",
-                        "access_rules": [
-                            "treecko"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pachirisu",
-                        "access_rules": [
-                            "pachirisu"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jirachi",
-                        "access_rules": [
-                            "jirachi"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jirachi Friendship",
-                        "access_rules": [
-                            "$canBeatAllVenusaurMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "venusaur_minigame",
-                        "x": 520,
+                        "x": 540,
                         "y": 280
                     }
                 ]

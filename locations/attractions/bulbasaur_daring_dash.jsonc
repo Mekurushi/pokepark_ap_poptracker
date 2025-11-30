@@ -1,0 +1,591 @@
+[
+    {
+        "name": "Bulbasaur's Daring Dash Attraction",
+        "access_rules": [
+            "@MeadowZoneBulbasaurMinigame"
+        ],
+        "parent": "MeadowZoneOverworld",
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "[$canBeatAnyBulbasaurMinigame]"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 420,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Chimchar",
+                "sections": [
+                    {
+                        "name": "Chimchar",
+                        "access_rules": [
+                            "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 475,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Treecko",
+                "sections": [
+                    {
+                        "name": "Treecko",
+                        "access_rules": [
+                            "treecko"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 525,
+                        "y": 335
+                    }
+                ]
+            },
+            {
+                "name": "Bibarel",
+                "sections": [
+                    {
+                        "name": "Bibarel",
+                        "access_rules": [
+                            "bibarel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 580,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Turtwig",
+                "sections": [
+                    {
+                        "name": "Turtwig",
+                        "access_rules": [
+                            "turtwig"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 620,
+                        "y": 295
+                    }
+                ]
+            },
+            {
+                "name": "Bulbasaur",
+                "sections": [
+                    {
+                        "name": "Bulbasaur",
+                        "access_rules": [
+                            "bulbasaur"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 655,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Bidoof",
+                "sections": [
+                    {
+                        "name": "Bidoof",
+                        "access_rules": [
+                            "bidoof"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 695,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Oddish",
+                "sections": [
+                    {
+                        "name": "Oddish",
+                        "access_rules": [
+                            "oddish"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 690,
+                        "y": 195
+                    }
+                ]
+            },
+            {
+                "name": "Shroomish",
+                "sections": [
+                    {
+                        "name": "Shroomish",
+                        "access_rules": [
+                            "shroomish"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 655,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "Munchlax",
+                "sections": [
+                    {
+                        "name": "Munchlax",
+                        "access_rules": [
+                            "munchlax"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 610,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Bonsly",
+                "sections": [
+                    {
+                        "name": "Bonsly",
+                        "access_rules": [
+                            "bonsly"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 570,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Lotad",
+                "sections": [
+                    {
+                        "name": "Lotad",
+                        "access_rules": [
+                            "lotad"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 525,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Weedle",
+                "sections": [
+                    {
+                        "name": "Weedle",
+                        "access_rules": [
+                            "weedle"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 475,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Caterpie",
+                "sections": [
+                    {
+                        "name": "Caterpie",
+                        "access_rules": [
+                            "caterpie"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 420,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Magikarp",
+                "sections": [
+                    {
+                        "name": "Magikarp",
+                        "access_rules": [
+                            "magikarp"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 375,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Mew",
+                "sections": [
+                    {
+                        "name": "Mew",
+                        "access_rules": [
+                            "mew"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 325,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Jolteon",
+                "sections": [
+                    {
+                        "name": "Jolteon",
+                        "access_rules": [
+                            "jolteon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 280,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Arcanine",
+                "sections": [
+                    {
+                        "name": "Arcanine",
+                        "access_rules": [
+                            "arcanine"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 235,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Leafeon",
+                "sections": [
+                    {
+                        "name": "Leafeon",
+                        "access_rules": [
+                            "leafeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 195,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Scyther",
+                "sections": [
+                    {
+                        "name": "Scyther",
+                        "access_rules": [
+                            "scyther"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 160,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Ponyta",
+                "sections": [
+                    {
+                        "name": "Ponyta",
+                        "access_rules": [
+                            "ponyta"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 150,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Shinx",
+                "sections": [
+                    {
+                        "name": "Shinx",
+                        "access_rules": [
+                            "shinx"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 185,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Eevee",
+                "sections": [
+                    {
+                        "name": "Eevee",
+                        "access_rules": [
+                            "eevee"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 230,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Pachirisu",
+                "sections": [
+                    {
+                        "name": "Pachirisu",
+                        "access_rules": [
+                            "pachirisu"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 275,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Buneary",
+                "sections": [
+                    {
+                        "name": "Buneary",
+                        "access_rules": [
+                            "buneary"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 320,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "name": "Croagunk",
+                "sections": [
+                    {
+                        "name": "Croagunk",
+                        "access_rules": [
+                            "croagunk"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 370,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

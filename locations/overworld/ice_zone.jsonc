@@ -144,7 +144,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 1",
+                        "name": "Igloo Housing 1",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -152,7 +152,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 1 - Primeape Unlocked",
+                        "name": "Igloo Housing 1 - Primeape Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -160,7 +160,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 2",
+                        "name": "Igloo Housing 2",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -168,7 +168,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 2 - Ursaring Unlocked",
+                        "name": "Igloo Housing 2 - Ursaring Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -176,7 +176,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 3",
+                        "name": "Igloo Housing 3",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -189,41 +189,6 @@
                         "map": "ice_zone_overworld",
                         "x": 850,
                         "y": 800
-                    }
-                ]
-            },
-            {
-                "name": "Mamoswine",
-                "access_rules": [
-                    "ice_zone_frozen_lake_unlock"
-                ],
-                "sections": [
-                    {
-                        "name": "Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ice Rescue - Mamoswine Unlocked",
-                        "access_rules": [
-                            "$canDashOverworld"
-                        ],
-                        "visibility_rules": [
-                            "$unlock_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 530,
-                        "y": 760
                     }
                 ]
             },
@@ -312,55 +277,52 @@
                 ]
             },
             {
-                "name": "Christmas Tree Quest",
-                "access_rules": [
-                    "delibird_unlock"
-                ],
+                "name": "Christmas Tree Present",
                 "sections": [
                     {
                         "name": "Stage 1",
                         "access_rules": [
-                            "spheal"
+                            "$canClearChristmasStage1"
                         ],
                         "visibility_rules": [
-                            "$quiz_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Stage 2",
                         "access_rules": [
-                            "spheal, teddiursa"
+                            "$canClearChristmasStage2"
                         ],
                         "visibility_rules": [
-                            "$quiz_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Stage 3",
                         "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle"
+                            "$canClearChristmasStage3"
                         ],
                         "visibility_rules": [
-                            "$quiz_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Stage 4",
                         "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                            "$canClearChristmasStage4"
                         ],
                         "visibility_rules": [
-                            "$quiz_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Delibird Power Competition - Friendship",
                         "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
+                            "$canBefriendDelibird"
                         ],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -370,7 +332,7 @@
                     {
                         "name": "Kirlia Power Competition - Friendship",
                         "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum, delibird"
+                            "$canClearChristmasStage4"
                         ],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -392,7 +354,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "$canBattle"
+                            "[$canBattle]"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -429,12 +391,17 @@
                         "y": 490
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Lower Lift Area",
+        "access_rules": [
+            "@IceZoneLowerLiftRegion"
+        ],
+        "children": [
             {
                 "name": "Lower Lift Area",
-                "access_rules": [
-                    "@IceZoneLowerLiftRegion"
-                ],
                 "sections": [
                     {
                         "name": "Corphish Power Competition - Friendship",
@@ -484,200 +451,25 @@
                         "y": 180
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Empoleon Area",
+        "access_rules": [
+            "@IceZoneEmpoleonArea"
+        ],
+        "children": [
             {
-                "name": "Empoleon's Snow Slide Attraction",
-                "access_rules": [
-                    "@IceZoneEmpoleonMinigame"
-                ],
+                "name": "Empoleon",
                 "sections": [
                     {
-                        "name": "Empoleon - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
-                            "empoleon_prisma_activated"
+                            "@IceZoneEmpoleonMinigame, empoleon_prisma_activated"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyEmpoleonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [
-                            "snowboard"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teddiursa",
-                        "access_rules": [
-                            "teddiursa"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magikarp",
-                        "access_rules": [
-                            "magikarp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Empoleon",
-                        "access_rules": [
-                            "empoleon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glaceon",
-                        "access_rules": [
-                            "glaceon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blastoise",
-                        "access_rules": [
-                            "blastoise"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glalie",
-                        "access_rules": [
-                            "glalie"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapras",
-                        "access_rules": [
-                            "lapras"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Delibird",
-                        "access_rules": [
-                            "delibird"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piloswine",
-                        "access_rules": [
-                            "piloswine"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prinplup",
-                        "access_rules": [
-                            "prinplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Squirtle",
-                        "access_rules": [
-                            "squirtle"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piplup",
-                        "access_rules": [
-                            "piplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Quagsire",
-                        "access_rules": [
-                            "quagsire"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spheal",
-                        "access_rules": [
-                            "spheal"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Suicune",
-                        "access_rules": [
-                            "suicune"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Suicune Friendship",
-                        "access_rules": [
-                            "$canBeatAllEmpoleonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -687,6 +479,46 @@
                         "map": "ice_zone_empoleon",
                         "x": 510,
                         "y": 340
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Frozen Lake Area",
+        "access_rules": [
+            "@IceZoneFrozenLake"
+        ],
+        "children": [
+            {
+                "name": "Mamoswine",
+                "sections": [
+                    {
+                        "name": "Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ice Rescue - Mamoswine Unlocked",
+                        "access_rules": [
+                            "$canDashOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$unlock_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 530,
+                        "y": 760
                     }
                 ]
             }

@@ -7,15 +7,11 @@
     },
     {
         "name": "BeachZonePelliperMinigame",
-        "access_rules": [
-            "@BeachZoneOverworld"
-        ]
+        "access_rules": []
     },
     {
         "name": "BeachZoneGyaradosMinigame",
-        "access_rules": [
-            "@BeachZoneOverworld, @BeachZoneRecycleArea"
-        ]
+        "access_rules": []
     },
     {
         "name": "BeachZoneRecycleArea",
@@ -26,7 +22,8 @@
     {
         "name": "BeachZoneMiddleIsle",
         "access_rules": [
-            "@BeachZoneOverworld, beach_zone_bridge1_unlock"
+            "@BeachZoneOverworld, beach_zone_bridge1_unlock",
+            "@BeachZoneOverworld, beach_zone_bridge2_unlock"
         ]
     }
 ]

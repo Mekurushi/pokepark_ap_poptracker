@@ -97,7 +97,7 @@
         "type": "toggle",
         "img": "images/items/prisma_activated.png",
         "codes": "mew_power_comp_locations_activated",
-        "initial_active_state": false
+        "initial_active_state": true
     },
     {
         "name": "Automatic Map Switching",

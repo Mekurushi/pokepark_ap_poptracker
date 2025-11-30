@@ -1,6 +1,6 @@
 {
     "settings_popup": {
-        "type": "container",
+        "type": "array",
         "background": "#000000",
         "content": {
             "type": "dock",

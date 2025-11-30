@@ -39,7 +39,11 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Haunted Zone Rotom Area"] = {"Haunted Zone", "Rotom Area"},
     ["Granite Zone Main Area"] = {"Granite Zone"},
     ["Flower Zone Main Area"] = {"Flower Zone"},
-    ["Skygarden"] = {"Skygarden"}
+    ["Skygarden"] = {"Skygarden"},
+    ["Bulbasaur's Daring Dash Attraction"] = {"Attractions", "Bulbasaur's Daring Dash"},
+    ["Venusaur's Vine Swing Attraction"] = {"Attractions", "Venusaur's Vine Swing"},
+    ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},
+    ["Empoleon's Snow Slide Attraction"] = {"Attractions", "Empoleon's Snow Slide"}
 
 }
 -- gets the data storage key for hints for the current player

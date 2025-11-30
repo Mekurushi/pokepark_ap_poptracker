@@ -1,56 +1,122 @@
 {
-    "prismas": {
-        "type": "container",
+    "prismas_vertical": {
+        "type": "array",
+        "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "64",
-                "item_margin": "-19,0",
+                "item_size": "32",
+                "item_margin": "0,0",
+                "margin": "0,0,0,0",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows": [
+                    [
+                        "bulbasaur_prisma_deactivated"
+                    ],
+                    [
+                        "venusaur_prisma_deactivated"
+                    ],
+                    [
+                        "pelipper_prisma_deactivated"
+                    ],
+                    [
+                        "gyarados_prisma_deactivated"
+                    ],
+                    [
+                        "empoleon_prisma_deactivated"
+                    ],
+                    [
+                        "bastiodon_prisma_deactivated"
+                    ],
+                    [
+                        "rhyperior_prisma_deactivated"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "32",
+                "item_margin": "0,0",
+                "margin": "28,-208,0,0",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows": [
+                    [
+                        "blaziken_prisma_deactivated"
+                    ],
+                    [
+                        "tangrowth_prisma_deactivated"
+                    ],
+                    [
+                        "dusknoir_prisma_deactivated"
+                    ],
+                    [
+                        "rotom_prisma_deactivated"
+                    ],
+                    [
+                        "absol_prisma_deactivated"
+                    ],
+                    [
+                        "salamence_prisma_deactivated"
+                    ],
+                    [
+                        "rayquaza_prisma_deactivated"
+                    ]
+                ]
+            }
+        ]
+    },
+    "prismas_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "32",
+                "item_margin": "0,0",
                 "margin": "0,0,0,0",
                 "item_h_alignment": "center",
                 "item_v_alignment": "center",
                 "rows": [
                     [
                         "bulbasaur_prisma_deactivated",
-                        "",
                         "venusaur_prisma_deactivated",
-                        "",
                         "pelipper_prisma_deactivated",
-                        "",
                         "gyarados_prisma_deactivated",
-                        "",
                         "empoleon_prisma_deactivated",
-                        "",
                         "bastiodon_prisma_deactivated",
-                        "",
-                        "rhyperior_prisma_deactivated",
-                        ""
-                    ],
+                        "rhyperior_prisma_deactivated"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "32",
+                "item_margin": "0,0",
+                "margin": "16,-5,0,0",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows": [
                     [
-                        "",
-                        "",
                         "blaziken_prisma_deactivated",
-                        "",
                         "tangrowth_prisma_deactivated",
-                        "",
                         "dusknoir_prisma_deactivated",
-                        "",
                         "rotom_prisma_deactivated",
-                        "",
                         "absol_prisma_deactivated",
-                        "",
                         "salamence_prisma_deactivated",
-                        "",
-                        "rayquaza_prisma_deactivated",
-                        ""
+                        "rayquaza_prisma_deactivated"
                     ]
                 ]
             }
         ]
     },
     "prismas_broadcast": {
-        "type": "container",
+        "type": "array",
         "content": [
             {
                 "type": "itemgrid",

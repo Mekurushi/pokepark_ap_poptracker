@@ -6,13 +6,25 @@
         ]
     },
     {
+        "name": "IceZoneEmpoleonArea",
+        "access_rules": [
+            "gyarados_prisma_activated"
+        ]
+    },
+    {
         "name": "IceZoneEmpoleonMinigame",
         "access_rules": []
     },
     {
+        "name": "IceZoneFrozenLake",
+        "access_rules": [
+            "@IceZoneOverworld, ice_zone_frozen_lake_unlock"
+        ]
+    },
+    {
         "name": "IceZoneLowerLiftRegion",
         "access_rules": [
-            "ice_zone_lift_unlock"
+            "@IceZoneOverworld, ice_zone_lift_unlock"
         ]
     }
 ]

@@ -127,6 +127,18 @@ function canFarmBerries()
     return has("dash_beginner")
 end
 
+function canReachBeachZoneRecycleArea()
+    return canReachBeachZone() and has("beach_zone_bridge2_unlock")
+end
+
+function canFarmBerriesIntermediate()
+    return canReachBeachZoneRecycleArea()
+end
+
+function canFarmBerriesAdvanced()
+    return canReachMagmaZone() and has("golem_unlock")
+end
+
 function canPlayCatch()
     if isHarderEnemyAI() then
         return has("dash_intermediate")
@@ -524,3 +536,65 @@ end
 function canReachGraniteZone()
     return canReachGraniteZoneFromTreehouse() or canReachGraniteZoneFromFlowerZone()
 end
+
+local fast_travel_items = {"meadow_zone_fast_travel", "beach_zone_fast_travel", "ice_zone_fast_travel",
+                           "cavern_zone_fast_travel", "magma_zone_fast_travel", "haunted_zone_fast_travel",
+                           "granite_zone_fast_travel", "flower_zone_fast_travel"}
+
+function hasOneFastTravelItem()
+    return hasAny(fast_travel_items)
+end
+
+function canClearChristmasStage1()
+    return hasAll({"delibird_unlock", "spheal"})
+end
+
+function canClearChristmasStage2()
+    return canClearChristmasStage1() and has("teddiursa")
+end
+
+function canClearChristmasStage3()
+    return canClearChristmasStage2() and hasAll({"squirtle", "squirtle_unlock"})
+end
+
+function canClearChristmasStage4()
+    return canClearChristmasStage3() and hasAll({"smoochum", "smoochum_unlock"})
+end
+
+function canBefriendDelibird()
+    if errand_locations_activated() then
+        return canClearChristmasStage4()
+    end
+    return has("delibird_unlock")
+end
+function StateChanged()
+    updateFriendshipItemCount()
+    updatePrismaItemCount()
+end
+
+function updateFriendshipItemCount()
+    local count = 0
+    for _, friendship_code in ipairs(pokemon_friendship_items) do
+        if Tracker:ProviderCountForCode(friendship_code) > 0 then
+            count = count + 1
+        end
+    end
+    friendship_count = Tracker:FindObjectForCode("friendship_count")
+    friendship_count.AcquiredCount = count
+    friendship_count.MinCount = count
+    friendship_count.MaxCount = count
+end
+
+function updatePrismaItemCount()
+    local count = 0
+    for _, prisma_code in ipairs(prisma_items) do
+        if Tracker:ProviderCountForCode(prisma_code) > 0 then
+            count = count + 1
+        end
+    end
+    prisma_count = Tracker:FindObjectForCode("prisma_count")
+    prisma_count.AcquiredCount = count
+    prisma_count.MinCount = count
+    prisma_count.MaxCount = count
+end
+

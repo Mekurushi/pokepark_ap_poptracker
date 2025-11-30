@@ -1,408 +1,23 @@
 [
     {
-        "name": "Beach Zone",
+        "name": "Beach Zone Main Area",
         "access_rules": [
             "@BeachZoneOverworld"
         ],
         "children": [
             {
-                "name": "Gyarados' Aqua Dash Attraction",
-                "access_rules": [
-                    "@BeachZoneGyaradosMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Gyarados - Friendship",
-                        "access_rules": [
-                            "gyarados_prisma_activated"
-                        ],
-                        "visibility_rules": [
-                            "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyGyaradosMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [
-                            "surfboard"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Psyduck",
-                        "access_rules": [
-                            "psyduck"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Azurill",
-                        "access_rules": [
-                            "azurill"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Slowpoke",
-                        "access_rules": [
-                            "slowpoke"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Empoleon",
-                        "access_rules": [
-                            "empoleon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Floatzel",
-                        "access_rules": [
-                            "floatzel"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Feraligatr",
-                        "access_rules": [
-                            "feraligatr"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Golduck",
-                        "access_rules": [
-                            "golduck"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vaporeon",
-                        "access_rules": [
-                            "vaporeon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prinplup",
-                        "access_rules": [
-                            "prinplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bibarel",
-                        "access_rules": [
-                            "bibarel"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Buizel",
-                        "access_rules": [
-                            "buizel"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Corsola",
-                        "access_rules": [
-                            "corsola"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piplup",
-                        "access_rules": [
-                            "piplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lotad",
-                        "access_rules": [
-                            "lotad"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Manaphy",
-                        "access_rules": [
-                            "manaphy"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Manaphy Friendship",
-                        "access_rules": [
-                            "$canBeatAllGyaradosMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "beach_zone_overworld",
-                        "x": 550,
-                        "y": 1000
-                    }
-                ]
-            },
-            {
-                "name": "Pelipper's Circle Circuit Attraction",
+                "name": "Pelipper",
                 "access_rules": [
                     "@BeachZonePelliperMinigame"
                 ],
                 "sections": [
                     {
-                        "name": "Pelipper - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "pelipper_prisma_activated"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyPelipperMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [
-                            "balloon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Staraptor",
-                        "access_rules": [
-                            "staraptor"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Togekiss",
-                        "access_rules": [
-                            "togekiss"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Honchkrow",
-                        "access_rules": [
-                            "honchkrow"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gliscor",
-                        "access_rules": [
-                            "gliscor"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pelipper",
-                        "access_rules": [
-                            "pelipper"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Staravia",
-                        "access_rules": [
-                            "staravia"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pidgeotto",
-                        "access_rules": [
-                            "pidgeotto"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Butterfree",
-                        "access_rules": [
-                            "butterfree"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tropius",
-                        "access_rules": [
-                            "tropius"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Murkrow",
-                        "access_rules": [
-                            "murkrow"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Taillow",
-                        "access_rules": [
-                            "taillow"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spearow",
-                        "access_rules": [
-                            "spearow"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Starly",
-                        "access_rules": [
-                            "starly"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wingull",
-                        "access_rules": [
-                            "wingull"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Latias",
-                        "access_rules": [
-                            "latias"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Latias Friendship",
-                        "access_rules": [
-                            "$canBeatAllPelipperMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -722,7 +337,65 @@
                 ]
             },
             {
+                "name": "Wailord",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "$canReachBeachZoneRecycleArea"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 840,
+                        "y": 1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beach Zone Recycle Area",
+        "access_rules": [
+            "@BeachZoneOverworld"
+        ],
+        "children": [
+            {
+                "name": "Gyarados",
+                "access_rules": [
+                    "@BeachZoneGyaradosMinigame"
+                ],
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "gyarados_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
                 "name": "Bottle Recycling",
+                "access_rules": [
+                    "$canReachBeachZoneRecycleArea"
+                ],
                 "sections": [
                     {
                         "name": "Stage 1",
@@ -795,20 +468,27 @@
                         "x": 550,
                         "y": 890
                     }
-                ],
-                "access_rules": [
-                    "@BeachZoneRecycleArea"
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Beach Zone Middle Isle",
+        "access_rules": [
+            "@BeachZoneMiddleIsle"
+        ],
+        "children": [
             {
-                "name": "Middle Isle Area",
+                "name": "Piplup Power Competition",
                 "access_rules": [
                     "@BeachZoneMiddleIsle"
                 ],
                 "sections": [
                     {
-                        "name": "Piplup Power Competition - Friendship",
-                        "access_rules": [],
+                        "name": "Friendship",
+                        "access_rules": [
+                            "[$canBattle]"
+                        ],
                         "visibility_rules": [
                             "$battle_locations_activated"
                         ],
@@ -820,26 +500,6 @@
                         "map": "beach_zone_overworld",
                         "x": 550,
                         "y": 690
-                    }
-                ]
-            },
-            {
-                "name": "Wailord",
-                "sections": [
-                    {
-                        "name": "Friendship",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$errand_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "beach_zone_overworld",
-                        "x": 840,
-                        "y": 1000
                     }
                 ]
             }

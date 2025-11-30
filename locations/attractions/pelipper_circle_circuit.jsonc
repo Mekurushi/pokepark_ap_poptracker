@@ -1,0 +1,383 @@
+[
+    {
+        "name": "Pelipper's Circle Circuit Attraction",
+        "access_rules": [
+            "@BeachZonePelliperMinigame"
+        ],
+        "parent": "BeachZoneOverworld",
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyPelipperMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "balloon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Latias",
+                "sections": [
+                    {
+                        "name": "Latias",
+                        "access_rules": [
+                            "latias"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latias Friendship",
+                        "access_rules": [
+                            "$canBeatAllPelipperMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Staraptor",
+                "sections": [
+                    {
+                        "name": "Staraptor",
+                        "access_rules": [
+                            "staraptor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Togekiss",
+                "sections": [
+                    {
+                        "name": "Togekiss",
+                        "access_rules": [
+                            "togekiss"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Honchkrow",
+                "sections": [
+                    {
+                        "name": "Honchkrow",
+                        "access_rules": [
+                            "honchkrow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Gliscor",
+                "sections": [
+                    {
+                        "name": "Gliscor",
+                        "access_rules": [
+                            "gliscor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Pelipper",
+                "sections": [
+                    {
+                        "name": "Pelipper",
+                        "access_rules": [
+                            "pelipper"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Staravia",
+                "sections": [
+                    {
+                        "name": "Staravia",
+                        "access_rules": [
+                            "staravia"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Pidgeotto",
+                "sections": [
+                    {
+                        "name": "Pidgeotto",
+                        "access_rules": [
+                            "pidgeotto"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Butterfree",
+                "sections": [
+                    {
+                        "name": "Butterfree",
+                        "access_rules": [
+                            "butterfree"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Tropius",
+                "sections": [
+                    {
+                        "name": "Tropius",
+                        "access_rules": [
+                            "tropius"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Murkrow",
+                "sections": [
+                    {
+                        "name": "Murkrow",
+                        "access_rules": [
+                            "murkrow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Taillow",
+                "sections": [
+                    {
+                        "name": "Taillow",
+                        "access_rules": [
+                            "taillow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Spearow",
+                "sections": [
+                    {
+                        "name": "Spearow",
+                        "access_rules": [
+                            "spearow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Starly",
+                "sections": [
+                    {
+                        "name": "Starly",
+                        "access_rules": [
+                            "starly"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Wingull",
+                "sections": [
+                    {
+                        "name": "Wingull",
+                        "access_rules": [
+                            "wingull"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

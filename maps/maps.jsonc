@@ -89,5 +89,35 @@
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/skygarden.png"
+  },
+  {
+    "name": "bulbasaur_daring_dash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/bulbasaur_daring_dash.png"
+  },
+  {
+    "name": "venusaur_vine_swing",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/venusaur_vine_swing.png"
+  },
+  {
+    "name": "pelipper_circle_circuit",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/pelipper_circle_circuit.png"
+  },
+  {
+    "name": "gyarados_aqua_dash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/gyarados_aqua_dash.png"
+  },
+  {
+    "name": "empoleon_snow_slide",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/empoleon_snow_slide.png"
   }
 ]

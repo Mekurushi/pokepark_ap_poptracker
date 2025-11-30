@@ -4,10 +4,14 @@
         "access_rules": []
     },
     {
-        "name": "MeadowZoneVenusaurMinigame",
+        "name": "MeadowZoneVenusaurArea",
         "access_rules": [
-            "bulbasaur_prisma"
+            "@MeadowZoneOverworld, bulbasaur_prisma_activated"
         ]
+    },
+    {
+        "name": "MeadowZoneVenusaurMinigame",
+        "access_rules": []
     },
     {
         "name": "MeadowZoneBulbasaurMinigame",

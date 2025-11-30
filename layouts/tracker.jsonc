@@ -1,93 +1,163 @@
 {
   "tracker_default": {
-    "background": "#1D1A14",
-    "type": "dock",
-    "content": [
-      {
-        "type": "dock",
-        "dock": "left",
-        "background": "#212121",
-        "content": [
-          {
-            "type": "tabbed",
-            "dock": "top",
-            "tabs": [
-              {
-                "type": "group",
-                "header": "Friendships",
-                "background": "#525260",
-                "content": {
-                  "type": "layout",
-                  "key": "friendships"
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": [
+                {
+                  "type": "group",
+                  "header": "Friendships",
+                  "content": {
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "type": "layout",
+                    "key": "friendships_vertical"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Unlocks",
+                  "content": {
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "type": "layout",
+                    "key": "unlocks_vertical"
+                  }
                 }
-              },
-              {
-                "type": "group",
-                "header": "Unlocks",
-                "background": "#525260",
-                "content": {
-                  "type": "layout",
-                  "key": "unlocks"
-                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "item_grid_vertical"
               }
-            ]
-          },
-          {
-            "type": "tabbed",
-            "dock": "top",
-            "tabs": [
-              {
-                "type": "group",
-                "header": "Powers",
-                "background": "#525260",
-                "content": {
-                  "type": "layout",
-                  "key": "powers"
-                }
+            },
+            {
+              "type": "group",
+              "header": "Powers",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "powers_vertical"
               }
-            ]
-          },
-          {
-            "type": "tabbed",
-            "dock": "top",
-            "tabs": [
-              {
-                "type": "group",
-                "header": "Items",
-                "background": "#525260",
-                "content": {
-                  "type": "layout",
-                  "key": "item_grid"
-                }
+            },
+            {
+              "type": "group",
+              "dock": "top",
+              "header": "Prismas",
+              "content": {
+                "type": "layout",
+                "key": "prismas_vertical"
               }
-            ]
-          },
-          {
-            "type": "tabbed",
-            "dock": "top",
-            "tabs": [
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": {
+            "type": "dock",
+            "content": [
               {
-                "type": "group",
-                "header": "Prismas",
-                "background": "#525260",
-                "content": {
-                  "type": "layout",
-                  "key": "prismas"
-                }
+                "type": "layout",
+                "key": "layout_maps"
               }
             ]
           }
-        ]
-      },
-      {
-        "type": "container",
-        "content": [
-          {
-            "type": "layout",
-            "key": "layout_maps"
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "tabbed",
+              "dock": "left",
+              "tabs": [
+                {
+                  "type": "group",
+                  "header": "Friendships",
+                  "content": {
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "type": "layout",
+                    "key": "friendships_horizontal"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Unlocks",
+                  "content": {
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "type": "layout",
+                    "key": "unlocks_horizontal"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "dock": "top",
+              "header": "Prismas",
+              "content": {
+                "type": "layout",
+                "key": "prismas_horizontal"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "item_grid_horizontal"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Powers",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "powers_horizontal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": {
+            "type": "dock",
+            "content": [
+              {
+                "type": "layout",
+                "key": "layout_maps"
+              }
+            ]
           }
-        ]
-      }
-    ]
+        }
+      ]
+    }
   }
 }

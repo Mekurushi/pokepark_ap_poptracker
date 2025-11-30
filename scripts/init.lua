@@ -45,6 +45,13 @@ Tracker:AddLocations("locations/overworld/flower_zone.jsonc")
 Tracker:AddLocations("locations/entrances/flower_zone.jsonc")
 Tracker:AddLocations("locations/overworld/skygarden.jsonc")
 Tracker:AddLocations("locations/entrances/skygarden.jsonc")
+
+Tracker:AddLocations("locations/attractions/bulbasaur_daring_dash.jsonc")
+Tracker:AddLocations("locations/attractions/venusaur_vine_swing.jsonc")
+Tracker:AddLocations("locations/attractions/pelipper_circle_circuit.jsonc")
+Tracker:AddLocations("locations/attractions/gyarados_aqua_dash.jsonc")
+Tracker:AddLocations("locations/attractions/empoleon_snow_slide.jsonc")
+
 -- Layout
 Tracker:AddLayouts("layouts/tracker.jsonc")
 
@@ -61,3 +68,4 @@ Tracker:AddLayouts("layouts/settings.jsonc")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+ScriptHost:AddWatchForCode("StateChanged", "*", StateChanged)
