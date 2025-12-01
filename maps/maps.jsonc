@@ -125,5 +125,17 @@
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/bastiodon_panel_crush.png"
+  },
+  {
+    "name": "rhyperior_bumper_burn",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rhyperior_bumper_burn.png"
+  },
+  {
+    "name": "blaziken_boulder_bash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/blaziken_boulder_bash.png"
   }
 ]

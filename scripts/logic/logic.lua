@@ -27,6 +27,10 @@ local prisma_items = {"bulbasaur_prisma_activated", "venusaur_prisma_activated",
                       "dusknoir_prisma_activated", "rotom_prisma_activated", "absol_prisma_activated",
                       "salamence_prisma_activated", "rayquaza_prisma_activated"}
 
+function each_zone_activated()
+    return Tracker:ProviderCountForCode("each_zone") == 1
+end
+
 function battle_locations_activated()
     return Tracker:ProviderCountForCode("remove_battle_power_comp_locations") == 0
 end

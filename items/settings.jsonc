@@ -112,5 +112,12 @@
         "img": "images/items/pokemons/riolu.png",
         "codes": "harder_enemy_ai",
         "initial_active_state": false
+    },
+    {
+        "name": "Each Zone",
+        "type": "toggle",
+        "img": "images/items/pokemons/riolu.png",
+        "codes": "each_zone",
+        "initial_active_state": false
     }
 ]

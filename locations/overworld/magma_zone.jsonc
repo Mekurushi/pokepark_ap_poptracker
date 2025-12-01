@@ -21,7 +21,7 @@
                     {
                         "name": "Torchic Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -31,7 +31,7 @@
                     {
                         "name": "Chimchar Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -41,10 +41,10 @@
                     {
                         "name": "Chimchar Power Competition - Infernape Unlocked",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
-                            "$battle_locations_activated"
+                            "$battle_locations_activated, $each_zone_activated"
                         ],
                         "item_count": 1
                     },
@@ -97,7 +97,7 @@
                     {
                         "name": "Baltoy Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], baltoy_unlock, $canDestroyObjectsOverworld"
+                            "$canBattleThunderBoltImmune, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -107,7 +107,7 @@
                     {
                         "name": "Baltoy Power Competition - Claydol Unlocked",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], baltoy_unlock, $canDestroyObjectsOverworld"
+                            "$canBattleThunderBoltImmune, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -296,12 +296,47 @@
                         "y": 650
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Magma Zone Blaziken Area",
+        "access_rules": [
+            "@MagmaZoneBlazikenArea"
+        ],
+        "children": [
+            {
+                "name": "Blaziken",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "rayquaza_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_blaziken",
+                        "x": 520,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magma Zone Circle Area",
+        "access_rules": [
+            "@MagmaZoneCircleArea"
+        ],
+        "children": [
             {
                 "name": "Rhyperior",
-                "access_rules": [
-                    "@MagmaZoneCircleArea"
-                ],
                 "sections": [
                     {
                         "name": "Iron Disc Errand",
@@ -333,203 +368,7 @@
                 ]
             },
             {
-                "name": "Rhyperior's Bumper Burn Attraction",
-                "access_rules": [
-                    "@MagmaZoneCircleArea, @MagmaZoneRhyperiorMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyRhyperiorMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magnemite",
-                        "access_rules": [
-                            "magnemite"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rhyperior",
-                        "access_rules": [
-                            "rhyperior"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tyranitar",
-                        "access_rules": [
-                            "tyranitar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hitmontop",
-                        "access_rules": [
-                            "hitmontop"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Flareon",
-                        "access_rules": [
-                            "flareon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Venusaur",
-                        "access_rules": [
-                            "venusaur"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snorlax",
-                        "access_rules": [
-                            "snorlax"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torterra",
-                        "access_rules": [
-                            "torterra"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magnezone",
-                        "access_rules": [
-                            "magnezone"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Claydol",
-                        "access_rules": [
-                            "claydol"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Quilava",
-                        "access_rules": [
-                            "quilava"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torkoal",
-                        "access_rules": [
-                            "torkoal"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Baltoy",
-                        "access_rules": [
-                            "baltoy"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bonsly",
-                        "access_rules": [
-                            "bonsly"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heatran",
-                        "access_rules": [
-                            "heatran"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heatran Friendship",
-                        "access_rules": [
-                            "$canBeatAllRhyperiorMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "magma_zone_overworld",
-                        "x": 620,
-                        "y": 550
-                    }
-                ]
-            },
-            {
                 "name": "Meditite",
-                "access_rules": [
-                    "@MagmaZoneCircleArea"
-                ],
                 "sections": [
                     {
                         "name": "Power Competition - Friendship",
@@ -550,9 +389,6 @@
             },
             {
                 "name": "Circle Area",
-                "access_rules": [
-                    "@MagmaZoneCircleArea"
-                ],
                 "sections": [
                     {
                         "name": "Ninetales Power Competition - Friendship",
@@ -637,7 +473,7 @@
                     {
                         "name": "Charmander Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "$canBattle"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -655,9 +491,6 @@
             },
             {
                 "name": "Farfetch'd",
-                "access_rules": [
-                    "@MagmaZoneCircleArea"
-                ],
                 "sections": [
                     {
                         "name": "Power Competition - Friendship",
@@ -680,9 +513,6 @@
             },
             {
                 "name": "Magcargo",
-                "access_rules": [
-                    "@MagmaZoneCircleArea"
-                ],
                 "sections": [
                     {
                         "name": "Power Competition - Friendship",
@@ -700,224 +530,6 @@
                         "map": "magma_zone_overworld",
                         "x": 630,
                         "y": 80
-                    }
-                ]
-            },
-            {
-                "name": "Blaziken's Boulder Bash Attraction",
-                "access_rules": [
-                    "@MagmaZoneCircleArea, @MagmaZoneBlazikenMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyBlazikenMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Geodude",
-                        "access_rules": [
-                            "geodude"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Phanpy",
-                        "access_rules": [
-                            "phanpy"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blaziken",
-                        "access_rules": [
-                            "blaziken"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Garchomp",
-                        "access_rules": [
-                            "garchomp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scizor",
-                        "access_rules": [
-                            "scizor"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magmortar",
-                        "access_rules": [
-                            "magmortar"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hitmonchan",
-                        "access_rules": [
-                            "hitmonchan"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Machamp",
-                        "access_rules": [
-                            "machamp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Marowak",
-                        "access_rules": [
-                            "marowak"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Farfetch'd",
-                        "access_rules": [
-                            "farfetchd"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cranidos",
-                        "access_rules": [
-                            "cranidos"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Camerupt",
-                        "access_rules": [
-                            "camerupt"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bastiodon",
-                        "access_rules": [
-                            "bastiodon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mawile",
-                        "access_rules": [
-                            "mawile"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Groudon",
-                        "access_rules": [
-                            "groudon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Groudon Friendship",
-                        "access_rules": [
-                            "$canBeatAllBlazikenMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "magma_zone_blaziken",
-                        "x": 520,
-                        "y": 350
-                    }
-                ]
-            },
-            {
-                "name": "Blaziken",
-                "access_rules": [
-                    "@MagmaZoneCircleArea, @MagmaZoneBlazikenMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Power Competition - Friendship",
-                        "access_rules": [
-                            "rayquaza_prisma_activated"
-                        ],
-                        "visibility_rules": [
-                            "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "magma_zone_blaziken",
-                        "x": 520,
-                        "y": 300
                     }
                 ]
             }

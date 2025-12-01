@@ -8,19 +8,21 @@
     {
         "name": "MagmaZoneCircleArea",
         "access_rules": [
-            "magma_zone_firewall_unlock"
+            "@MagmaZoneOverworld, magma_zone_firewall_unlock"
+        ]
+    },
+    {
+        "name": "MagmaZoneBlazikenArea",
+        "access_rules": [
+            "@MagmaZoneCircleArea, rhyperior_prisma_activated"
         ]
     },
     {
         "name": "MagmaZoneRhyperiorMinigame",
-        "access_rules": [
-            "@MagmaZoneCircleArea"
-        ]
+        "access_rules": []
     },
     {
         "name": "MagmaZoneBlazikenMinigame",
-        "access_rules": [
-            "@MagmaZoneCircleArea, rhyperior_prisma_activated"
-        ]
+        "access_rules": []
     }
 ]

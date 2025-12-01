@@ -130,7 +130,8 @@
 						"remove_pokemon_unlock_locations",
 						"postgame_locations_activated",
 						"mew_power_comp_locations_activated",
-						"harder_enemy_ai"
+						"harder_enemy_ai",
+						"each_zone"
 					]
 				]
 			}

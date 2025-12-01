@@ -44,7 +44,8 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Venusaur's Vine Swing Attraction"] = {"Attractions", "Venusaur's Vine Swing"},
     ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},
     ["Empoleon's Snow Slide Attraction"] = {"Attractions", "Empoleon's Snow Slide"},
-    ["Bastiodon's Panel Crush Attraction"] = {"Attractions", "Bastiodon's Panel Crush"}
+    ["Bastiodon's Panel Crush Attraction"] = {"Attractions", "Bastiodon's Panel Crush"},
+    ["Blaziken's Boulder Bash Attraction"] = {"Attractions", "Blaziken's Boulder Bash"}
 
 }
 -- gets the data storage key for hints for the current player
@@ -187,6 +188,7 @@ function apply_slot_data(slot_data)
     setFromSlotData('remove_attraction_prisma_locations', 'remove_attraction_prisma_locations')
     setFromSlotData('remove_pokemon_unlock_locations', 'remove_pokemon_unlock_locations')
     setFromSlotData('harder_enemy_ai', 'harder_enemy_ai')
+    setFromSlotData('each_zone', 'each_zone')
 end
 
 -- called right after an AP slot is connected

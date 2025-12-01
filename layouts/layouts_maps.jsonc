@@ -283,6 +283,32 @@
 									]
 								}
 							]
+						},
+						{
+							"title": "Rhyperior's Bumper Burn",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rhyperior_bumper_burn"
+									]
+								}
+							]
+						},
+						{
+							"title": "Blaziken's Boulder Bash",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"blaziken_boulder_bash"
+									]
+								}
+							]
 						}
 					]
 				}
