@@ -1,6 +1,6 @@
 [
     {
-        "name": "HauntedZoneOverworld",
+        "name": "HauntedZoneMainArea",
         "access_rules": [
             "$canReachHauntedZone"
         ]
@@ -12,9 +12,27 @@
         ]
     },
     {
-        "name": "HauntedZoneMansionDoors",
+        "name": "HauntedZoneMansionBallroomArea",
         "access_rules": [
-            "$canReachHauntedZoneMansionRooms"
+            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansionStudyArea",
+        "access_rules": [
+            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansionGengarArea",
+        "access_rules": [
+            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansionAnticArea",
+        "access_rules": [
+            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
         ]
     },
     {
@@ -25,6 +43,12 @@
         "name": "HauntedZoneDusknoirMinigame",
         "access_rules": [
             "dusknoir_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotomArea",
+        "access_rules": [
+            "$canAccessRotomMinigame"
         ]
     },
     {

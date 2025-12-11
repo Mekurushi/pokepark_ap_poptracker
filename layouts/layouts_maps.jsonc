@@ -309,6 +309,45 @@
 									]
 								}
 							]
+						},
+						{
+							"title": "Tangrowth's Swing-Along",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"tangrowth_swing_along"
+									]
+								}
+							]
+						},
+						{
+							"title": "Dusknoir's Speed Slam",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"dusknoir_speed_slam"
+									]
+								}
+							]
+						},
+						{
+							"title": "Rotom's Spooky Shoot-'em-Up",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rotom_spooky_shoot"
+									]
+								}
+							]
 						}
 					]
 				}

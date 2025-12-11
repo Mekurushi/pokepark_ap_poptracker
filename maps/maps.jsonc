@@ -137,5 +137,23 @@
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/blaziken_boulder_bash.png"
+  },
+  {
+    "name": "tangrowth_swing_along",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/tangrowth_swing_along.png"
+  },
+  {
+    "name": "dusknoir_speed_slam",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/dusknoir_speed_slam.png"
+  },
+  {
+    "name": "rotom_spooky_shoot",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rotom_spooky_shoot.png"
   }
 ]

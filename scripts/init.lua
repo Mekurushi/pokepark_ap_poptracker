@@ -54,6 +54,9 @@ Tracker:AddLocations("locations/attractions/empoleon_snow_slide.jsonc")
 Tracker:AddLocations("locations/attractions/bastiodon_panel_crush.jsonc")
 Tracker:AddLocations("locations/attractions/rhyperior_bumper_burn.jsonc")
 Tracker:AddLocations("locations/attractions/blaziken_boulder_bash.jsonc")
+Tracker:AddLocations("locations/attractions/tangrowth_swing_along.jsonc")
+Tracker:AddLocations("locations/attractions/dusknoir_speed_slam.jsonc")
+Tracker:AddLocations("locations/attractions/rotom_spooky_shoot.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/tracker.jsonc")

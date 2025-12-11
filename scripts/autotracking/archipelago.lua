@@ -45,7 +45,10 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},
     ["Empoleon's Snow Slide Attraction"] = {"Attractions", "Empoleon's Snow Slide"},
     ["Bastiodon's Panel Crush Attraction"] = {"Attractions", "Bastiodon's Panel Crush"},
-    ["Blaziken's Boulder Bash Attraction"] = {"Attractions", "Blaziken's Boulder Bash"}
+    ["Blaziken's Boulder Bash Attraction"] = {"Attractions", "Blaziken's Boulder Bash"},
+    ["Tangrowth's Swing-Along Attraction"] = {"Attractions", "Tangrowth's Swing-Along"},
+    ["Rotom's Spooky Shoot-'em-Up Attraction"] = {"Attractions", "Rotom's Spooky Shoot-'em-Up"},
+    ["Dusknoir's Speed Slam Attraction"] = {"Attractions", "Dusknoir's Speed Slam"}
 
 }
 -- gets the data storage key for hints for the current player
