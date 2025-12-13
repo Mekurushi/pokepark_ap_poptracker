@@ -155,5 +155,17 @@
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/rotom_spooky_shoot.png"
+  },
+  {
+    "name": "absol_hurdle_bounce",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/absol_hurdle_bounce.png"
+  },
+  {
+    "name": "salamence_sky_race",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/salamence_sky_race.png"
   }
 ]

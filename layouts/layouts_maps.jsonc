@@ -348,6 +348,32 @@
 									]
 								}
 							]
+						},
+						{
+							"title": "Absol's Hurdle Bounce",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"absol_hurdle_bounce"
+									]
+								}
+							]
+						},
+						{
+							"title": "Salamence's Sky Race",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"salamence_sky_race"
+									]
+								}
+							]
 						}
 					]
 				}
