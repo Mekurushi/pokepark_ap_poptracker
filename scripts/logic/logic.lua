@@ -565,6 +565,26 @@ function canClearChristmasStage4()
     return canClearChristmasStage3() and hasAll({"smoochum", "smoochum_unlock"})
 end
 
+function canBeatMewPowerCompetitionStage1()
+    return true
+end
+
+function canBeatMewPowerCompetitionStage2()
+    return canBeatMewPowerCompetitionStage1() and canBattleAdvanced()
+end
+
+function canBeatMewPowerCompetitionStage3()
+    return canBeatMewPowerCompetitionStage2() and canBattleThunderBoltImmuneAdvanced()
+end
+
+function canBeatMewPowerCompetitionStage4()
+    return canBeatMewPowerCompetitionStage3()
+end
+
+function canBeatMew()
+    return canBeatMewPowerCompetitionStage4() and maximizedDash()
+end
+
 function canBefriendDelibird()
     if errand_locations_activated() then
         return canClearChristmasStage4()
