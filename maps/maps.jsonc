@@ -167,5 +167,11 @@
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/salamence_sky_race.png"
+  },
+  {
+    "name": "rayquaza_balloon_panic",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rayquaza_balloon_panic.png"
   }
 ]

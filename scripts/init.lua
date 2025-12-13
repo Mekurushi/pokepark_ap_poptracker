@@ -59,6 +59,7 @@ Tracker:AddLocations("locations/attractions/dusknoir_speed_slam.jsonc")
 Tracker:AddLocations("locations/attractions/rotom_spooky_shoot.jsonc")
 Tracker:AddLocations("locations/attractions/absol_hurdle_bounce.jsonc")
 Tracker:AddLocations("locations/attractions/salamence_sky_race.jsonc")
+Tracker:AddLocations("locations/attractions/rayquaza_balloon_panic.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/tracker.jsonc")

@@ -374,6 +374,19 @@
 									]
 								}
 							]
+						},
+						{
+							"title": "Rayquaza's Balloon Panic",
+							"type": "array",
+							"orientation": "vertical",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rayquaza_balloon_panic"
+									]
+								}
+							]
 						}
 					]
 				}

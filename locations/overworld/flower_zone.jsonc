@@ -6,198 +6,18 @@
         ],
         "children": [
             {
-                "name": "Rayquaza's Balloon Panic Attraction",
+                "name": "Rayquaza",
                 "access_rules": [
                     "@FlowerZoneRayquazaMinigame"
                 ],
                 "sections": [
                     {
-                        "name": "Rayquaza - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "rayquaza_prisma_activated"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyRayquazaMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [
-                            "balloon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lucario",
-                        "access_rules": [
-                            "lucario"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glaceon",
-                        "access_rules": [
-                            "glaceon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Luxray",
-                        "access_rules": [
-                            "luxray"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mamoswine",
-                        "access_rules": [
-                            "mamoswine"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Infernape",
-                        "access_rules": [
-                            "infernape"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Floatzel",
-                        "access_rules": [
-                            "floatzel"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rhyperior",
-                        "access_rules": [
-                            "rhyperior"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Absol",
-                        "access_rules": [
-                            "absol"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Breloom",
-                        "access_rules": [
-                            "breloom"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mareep",
-                        "access_rules": [
-                            "mareep"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cyndaquil",
-                        "access_rules": [
-                            "cyndaquil"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Totodile",
-                        "access_rules": [
-                            "totodile"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chikorita",
-                        "access_rules": [
-                            "chikorita"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mime Jr.",
-                        "access_rules": [
-                            "mimejr"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Deoxys",
-                        "access_rules": [
-                            "deoxys"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Deoxys Friendship",
-                        "access_rules": [
-                            "$canBeatAllRayquazaMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -214,7 +34,7 @@
                 "name": "Rayquaza Area",
                 "sections": [
                     {
-                        "name": "Skiploom Power Competition - Friendship",
+                        "name": "Skiploom Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -222,7 +42,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Budew Power Competition - Friendship",
+                        "name": "Budew Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -230,7 +50,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Dragonite Power Competition - Friendship",
+                        "name": "Dragonite Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate"
                         ],
@@ -240,7 +60,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mareep Power Competition - Friendship",
+                        "name": "Mareep Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -262,7 +82,7 @@
                 "name": "Shaymin Area",
                 "sections": [
                     {
-                        "name": "Cyndaquil Power Competition - Friendship",
+                        "name": "Cyndaquil Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -272,7 +92,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lucario Power Competition - Friendship",
+                        "name": "Lucario Chase Power Competition - Friendship",
                         "access_rules": [
                             "$hasEnoughFriendshipLucario, $canPlayCatchIntermediate"
                         ],
@@ -282,7 +102,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Furret Power Competition - Friendship",
+                        "name": "Furret Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -290,7 +110,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Teddiursa Power Competition - Friendship",
+                        "name": "Teddiursa Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -300,7 +120,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Meditite Power Competition - Friendship",
+                        "name": "Meditite Quiz Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -308,7 +128,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bellossom Power Competition - Friendship",
+                        "name": "Bellossom Errand - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
