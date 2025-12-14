@@ -17,7 +17,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spheal Power Competition - Friendship",
+                        "name": "Spheal Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -27,7 +27,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Krabby Power Competition - Friendship",
+                        "name": "Krabby Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, krabby_unlock"
                         ],
@@ -37,7 +37,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mudkip Power Competition - Friendship",
+                        "name": "Mudkip Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "mudkip_unlock"
                         ],
@@ -59,7 +59,7 @@
                 "name": "Glalie Area",
                 "sections": [
                     {
-                        "name": "Octillery Power Competition - Friendship",
+                        "name": "Octillery Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -69,7 +69,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Teddiursa Power Competition - Friendship",
+                        "name": "Teddiursa Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -79,7 +79,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ursaring Power Competition - Friendship",
+                        "name": "Ursaring Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], ursaring_unlock"
                         ],
@@ -101,7 +101,7 @@
                 "name": "Sneasel Area",
                 "sections": [
                     {
-                        "name": "Primeape Power Competition - Friendship",
+                        "name": "Primeape Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, primeape_unlock"
                         ],
@@ -111,7 +111,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sneasel Power Competition - Friendship",
+                        "name": "Sneasel Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, sneasel_unlock"
                         ],
@@ -136,7 +136,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Errand - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -196,7 +196,7 @@
                 "name": "Empoleon Entrance Area",
                 "sections": [
                     {
-                        "name": "Taillow Power Competition - Friendship",
+                        "name": "Taillow Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -206,7 +206,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Staravia Power Competition - Friendship",
+                        "name": "Staravia Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -216,7 +216,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Piloswine Power Competition - Friendship",
+                        "name": "Piloswine Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmune]"
                         ],
@@ -238,7 +238,7 @@
                 "name": "Christmas Tree Area",
                 "sections": [
                     {
-                        "name": "Starly Power Competition - Friendship",
+                        "name": "Starly Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -248,7 +248,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Smoochum Power Competition - Friendship",
+                        "name": "Smoochum Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], smoochum_unlock"
                         ],
@@ -258,7 +258,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Squirtle Power Competition - Friendship",
+                        "name": "Squirtle Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], squirtle_unlock"
                         ],
@@ -320,7 +320,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Delibird Power Competition - Friendship",
+                        "name": "Delibird Quiz Power Competition - Friendship",
                         "access_rules": [
                             "$canBefriendDelibird"
                         ],
@@ -330,12 +330,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kirlia Power Competition - Friendship",
+                        "name": "Kirlia Errand - Friendship",
                         "access_rules": [
                             "$canClearChristmasStage4"
                         ],
                         "visibility_rules": [
-                            "$quiz_locations_activated"
+                            "$errand_locations_activated"
                         ],
                         "item_count": 1
                     }
@@ -352,7 +352,7 @@
                 "name": "Prinplup",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -374,7 +374,7 @@
                 "name": "Glaceon",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, $hasEnoughFriendshipGlaceon"
                         ],
@@ -404,7 +404,7 @@
                 "name": "Lower Lift Area",
                 "sections": [
                     {
-                        "name": "Corphish Power Competition - Friendship",
+                        "name": "Corphish Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], corphish_unlock"
                         ],
@@ -414,7 +414,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Wingull Power Competition - Friendship",
+                        "name": "Wingull Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -424,7 +424,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Quagsire Power Competition - Friendship",
+                        "name": "Quagsire Errand - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
                         ],
@@ -434,7 +434,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Froslass Power Competition -- Friendship",
+                        "name": "Froslass Battle Power Competition -- Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -494,7 +494,7 @@
                 "name": "Mamoswine",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
                         ],

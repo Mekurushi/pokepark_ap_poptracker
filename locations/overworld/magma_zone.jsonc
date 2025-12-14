@@ -9,7 +9,7 @@
                 "name": "Entrance Area",
                 "sections": [
                     {
-                        "name": "Aron Power Competition - Friendship",
+                        "name": "Aron Errand - Friendship",
                         "access_rules": [
                             "$canDashOverworld"
                         ],
@@ -19,7 +19,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Torchic Power Competition - Friendship",
+                        "name": "Torchic Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -29,7 +29,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chimchar Power Competition - Friendship",
+                        "name": "Chimchar Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -39,7 +39,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chimchar Power Competition - Infernape Unlocked",
+                        "name": "Chimchar Battle Power Competition - Infernape Unlocked",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -49,7 +49,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Geodude Power Competition - Friendship",
+                        "name": "Geodude Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -57,7 +57,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Power Competition - Friendship",
+                        "name": "Bonsly Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -65,7 +65,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Magby Power Competition - Friendship",
+                        "name": "Magby Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -75,7 +75,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Vulpix Power Competition - Friendship",
+                        "name": "Vulpix Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -85,7 +85,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Vulpix Power Competition - Ninetales Unlocked",
+                        "name": "Vulpix Chase Power Competition - Ninetales Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -95,7 +95,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Baltoy Power Competition - Friendship",
+                        "name": "Baltoy Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattleThunderBoltImmune, baltoy_unlock"
                         ],
@@ -105,7 +105,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Baltoy Power Competition - Claydol Unlocked",
+                        "name": "Baltoy Battle Power Competition - Claydol Unlocked",
                         "access_rules": [
                             "$canBattleThunderBoltImmune, baltoy_unlock"
                         ],
@@ -127,7 +127,7 @@
                 "name": "Hitmontop",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Errand - Friendship",
                         "access_rules": [
                             "$canDashOverworld"
                         ],
@@ -159,7 +159,7 @@
                 "name": "Torkoal",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, torkoal_unlock"
                         ],
@@ -181,7 +181,7 @@
                 "name": "Golem",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "golem_unlock"
                         ],
@@ -203,7 +203,7 @@
                 "name": "Camerupt",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
@@ -257,7 +257,7 @@
                 "name": "Claydol",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, claydol_unlock"
                         ],
@@ -279,7 +279,7 @@
                 "name": "Groudon",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune, groudon_unlock"
                         ],
@@ -371,7 +371,7 @@
                 "name": "Meditite",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Quiz Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -391,7 +391,7 @@
                 "name": "Circle Area",
                 "sections": [
                     {
-                        "name": "Ninetales Power Competition - Friendship",
+                        "name": "Ninetales Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, ninetales_unlock"
                         ],
@@ -401,7 +401,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Flareon Power Competition - Friendship",
+                        "name": "Flareon Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -411,7 +411,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Quilava Power Competition - Friendship",
+                        "name": "Quilava Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -421,7 +421,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Infernape Power Competition - Friendship",
+                        "name": "Infernape Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, infernape_unlock"
                         ],
@@ -431,7 +431,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ponyta Power Competition - Friendship",
+                        "name": "Ponyta Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, ponyta_unlock"
                         ],
@@ -441,7 +441,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hitmonchan Power Competition - Friendship",
+                        "name": "Hitmonchan Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, hitmonchan_unlock"
                         ],
@@ -451,7 +451,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hitmonchan Power Competition - Hitmonlee Unlocked",
+                        "name": "Hitmonchan Battle Power Competition - Hitmonlee Unlocked",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, hitmonchan_unlock"
                         ],
@@ -461,7 +461,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Magmortar Power Competition - Friendship",
+                        "name": "Magmortar Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleAdvanced], $canBattle, magmortar_unlock"
                         ],
@@ -471,7 +471,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Charmander Power Competition - Friendship",
+                        "name": "Charmander Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -493,7 +493,7 @@
                 "name": "Farfetch'd",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -515,7 +515,7 @@
                 "name": "Magcargo",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "rhyperior_prisma_activated, bastiodon_prisma_activated"
                         ],

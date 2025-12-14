@@ -19,7 +19,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Friendship",
+                        "name": "Magnemite - Friendship",
                         "access_rules": [
                             "magnemite_unlock",
                             "magnemite_unlock2",
@@ -43,7 +43,7 @@
                 "name": "Magma Zone Entrance Area",
                 "sections": [
                     {
-                        "name": "Magnezone Power Competition - Friendship",
+                        "name": "Magnezone Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, magnezone_unlock"
                         ],
@@ -53,7 +53,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Power Competition - Friendship",
+                        "name": "Bonsly Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -61,7 +61,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Power Competition - Sudowoodo Unlocked",
+                        "name": "Bonsly Hide and Seek Power Competition - Sudowoodo Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -69,7 +69,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Dugtrio Power Competition - Friendship",
+                        "name": "Dugtrio - Friendship",
                         "access_rules": [
                             "bastiodon_prisma_activated"
                         ],
@@ -79,7 +79,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Aron Power Competition - Friendship",
+                        "name": "Aron Errand - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld"
                         ],
@@ -89,7 +89,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Electivire Power Competition - Friendship",
+                        "name": "Electivire Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleAdvanced], $canBattle, electivire_unlock"
                         ],
@@ -99,7 +99,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sudowoodo Power Competition - Friendship",
+                        "name": "Sudowoodo Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "sudowoodo_unlock"
                         ],
@@ -121,7 +121,7 @@
                 "name": "Center Area",
                 "sections": [
                     {
-                        "name": "Golbat Power Competition - Friendship",
+                        "name": "Golbat Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate"
                         ],
@@ -131,7 +131,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Zubat Power Competition - Friendship",
+                        "name": "Zubat Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -141,7 +141,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mawile Power Competition - Friendship",
+                        "name": "Mawile Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate"
                         ],
@@ -185,7 +185,7 @@
                 "name": "Machamp Athletic Area",
                 "sections": [
                     {
-                        "name": "Geodude Power Competition - Friendship",
+                        "name": "Geodude Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -193,7 +193,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Machamp Power Competition - Friendship",
+                        "name": "Machamp - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -201,7 +201,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Machamp Power Competition - Machamp Unlocked",
+                        "name": "Machamp - Machamp Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -209,7 +209,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Teddiursa Power Competition - Friendship",
+                        "name": "Teddiursa Quiz Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -217,7 +217,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Meowth Power Competition - Friendship",
+                        "name": "Meowth Quiz Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -225,7 +225,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Raichu Power Competition - Friendship",
+                        "name": "Raichu Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, raichu_unlock"
                         ],
@@ -235,7 +235,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hitmonlee Power Competition - Friendship",
+                        "name": "Hitmonlee Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, hitmonlee_unlock"
                         ],
@@ -257,7 +257,7 @@
                 "name": "Marowak",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
                         ],
@@ -279,7 +279,7 @@
                 "name": "Deep Area",
                 "sections": [
                     {
-                        "name": "Scizor Power Competition - Friendship",
+                        "name": "Scizor Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -289,7 +289,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Phanpy Power Competition - Friendship",
+                        "name": "Phanpy Errand - Friendship",
                         "access_rules": [
                             "$canDestroyObjectsOverworld, phanpy_unlock"
                         ],
@@ -299,7 +299,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cranidos Power Competition - Friendship",
+                        "name": "Cranidos Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -309,7 +309,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Torchic Power Competition - Friendship",
+                        "name": "Torchic Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -319,7 +319,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chimchar Power Competition - Friendship",
+                        "name": "Chimchar Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattle"
                         ],
@@ -373,7 +373,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Friendship",
                         "access_rules": [
                             "bastiodon_prisma_activated, diglett_unlock"
                         ],
@@ -395,7 +395,7 @@
                 "name": "Gible",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "$canBattleThunderBoltImmune"
                         ],

@@ -34,7 +34,7 @@
                 "name": "Treehouse Entrance Area",
                 "sections": [
                     {
-                        "name": "Slowpoke Power Competition - Friendship",
+                        "name": "Slowpoke Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -44,7 +44,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Slowpoke Power Competition - Mudkip Unlocked",
+                        "name": "Slowpoke Chase Power Competition - Mudkip Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -54,7 +54,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Psyduck Power Competition - Friendship",
+                        "name": "Psyduck Hide and Seek Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -62,7 +62,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Psyduck Power Competition - Golduck Unlocked",
+                        "name": "Psyduck Hide and Seek Power Competition - Golduck Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
@@ -70,7 +70,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Azurill Power Competition - Friendship",
+                        "name": "Azurill Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -80,7 +80,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Azurill Power Competition - Totodile Unlocked",
+                        "name": "Azurill Chase Power Competition - Totodile Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -90,7 +90,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Buizel Power Competition - Friendship",
+                        "name": "Buizel Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -100,7 +100,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Buizel Power Competition - Floatzel Unlocked",
+                        "name": "Buizel Chase Power Competition - Floatzel Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -122,7 +122,7 @@
                 "name": "Beach Area",
                 "sections": [
                     {
-                        "name": "Totodile Power Competition - Friendship",
+                        "name": "Totodile Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], totodile_unlock"
                         ],
@@ -132,7 +132,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spearow Power Competition - Friendship",
+                        "name": "Spearow Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -142,7 +142,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mudkip Power Competition - Friendship",
+                        "name": "Mudkip Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "mudkip_unlock"
                         ],
@@ -152,7 +152,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Blastoise Power Competition - Friendship",
+                        "name": "Blastoise Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle, blastoise_unlock"
                         ],
@@ -162,7 +162,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Starly Power Competition - Friendship",
+                        "name": "Starly Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -172,7 +172,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Krabby Power Competition - Friendship",
+                        "name": "Krabby Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, krabby_unlock"
                         ],
@@ -182,7 +182,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Corphish Power Competition - Friendship",
+                        "name": "Corphish Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], corphish_unlock"
                         ],
@@ -204,7 +204,7 @@
                 "name": "Drifblim Area",
                 "sections": [
                     {
-                        "name": "Taillow Power Competition - Friendship",
+                        "name": "Taillow Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -214,7 +214,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Pidgeotto Power Competition - Friendship",
+                        "name": "Pidgeotto Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -224,7 +224,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Wingull Power Competition - Friendship",
+                        "name": "Wingull Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -234,7 +234,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Staravia Power Competition - Friendship",
+                        "name": "Staravia Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -256,7 +256,7 @@
                 "name": "Corsola",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Quiz Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$quiz_locations_activated"
@@ -276,7 +276,7 @@
                 "name": "West Area",
                 "sections": [
                     {
-                        "name": "Vaporeon Power Competition - Friendship",
+                        "name": "Vaporeon Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchIntermediate, $hasEnoughFriendshipVaporeon"
                         ],
@@ -286,7 +286,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Floatzel Power Competition - Friendship",
+                        "name": "Floatzel Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], floatzel_unlock"
                         ],
@@ -296,7 +296,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Golduck Power Competition - Friendship",
+                        "name": "Golduck Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], golduck_unlock"
                         ],
@@ -318,7 +318,7 @@
                 "name": "Feraligatr",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleIntermediate], $canBattle"
                         ],
@@ -340,7 +340,7 @@
                 "name": "Wailord",
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Errand - Friendship",
                         "access_rules": [
                             "$canReachBeachZoneRecycleArea"
                         ],
@@ -479,13 +479,13 @@
         ],
         "children": [
             {
-                "name": "Piplup Power Competition",
+                "name": "Piplup",
                 "access_rules": [
                     "@BeachZoneMiddleIsle"
                 ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],

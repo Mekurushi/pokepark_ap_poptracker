@@ -9,7 +9,7 @@
                 "name": "Treehouse Entrance Area",
                 "sections": [
                     {
-                        "name": "Aipom Power Competition - Friendship",
+                        "name": "Aipom Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -19,7 +19,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Aipom Power Competition - Ambipom Unlocked",
+                        "name": "Aipom Chase Power Competition - Ambipom Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -29,7 +29,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ambipom Power Competition - Friendship",
+                        "name": "Ambipom Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], ambipom_unlock"
                         ],
@@ -39,7 +39,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mankey Power Competition - Friendship",
+                        "name": "Mankey Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -49,7 +49,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mankey Power Competition - Chimchar Unlocked",
+                        "name": "Mankey Battle Power Competition - Chimchar Unlocked",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -59,14 +59,14 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Oddish Power Competition - Friendship",
+                        "name": "Oddish Hide and Seek Power Competition - Friendship",
                         "visibility_rules": [
                             "$hide_and_seek_locations_activated"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Torterra Power Competition - Friendship",
+                        "name": "Torterra Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, torterra_unlock"
                         ],
@@ -98,7 +98,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Chase Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], weedle_unlock"
                         ],
@@ -130,7 +130,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, magikarp_unlock"
                         ],
@@ -162,7 +162,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, shroomish_unlock"
                         ],
@@ -187,14 +187,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Scyther Unlocked",
+                        "name": "Battle Power Competition - Scyther Unlocked",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -223,7 +223,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, caterpie_unlock"
                         ],
@@ -233,7 +233,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Power Competition - Butterfree Unlocked",
+                        "name": "Chase Power Competition - Butterfree Unlocked",
                         "access_rules": [
                             "$canPlayCatch, caterpie_unlock"
                         ],
@@ -255,7 +255,7 @@
                 "name": "Bridge Area",
                 "sections": [
                     {
-                        "name": "Starly Power Competition - Friendship",
+                        "name": "Starly Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, starly_unlock1",
                             "$canPlayCatch, starly_unlock2"
@@ -266,7 +266,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Butterfree Power Competition - Friendship",
+                        "name": "Butterfree Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, butterfree_unlock"
                         ],
@@ -276,7 +276,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Treecko Power Competition - Friendship",
+                        "name": "Treecko Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -286,7 +286,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lotad Power Competition - Friendship",
+                        "name": "Lotad Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], lotad_unlock"
                         ],
@@ -308,7 +308,7 @@
                 "name": "Leafeon Area",
                 "sections": [
                     {
-                        "name": "Leafeon Power Competition - Friendship",
+                        "name": "Leafeon Chase Power Competition - Friendship",
                         "access_rules": [
                             "$hasEnoughFriendshipLeafeon, $canPlayCatchIntermediate"
                         ],
@@ -318,7 +318,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Scyther Power Competition - Friendship",
+                        "name": "Scyther Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], scyther_unlock"
                         ],
@@ -340,7 +340,7 @@
                 "name": "Spearow Athletic Area",
                 "sections": [
                     {
-                        "name": "Spearow Power Competition - Friendship",
+                        "name": "Spearow Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle]"
                         ],
@@ -350,7 +350,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sudowoodo Power Competition - Friendship",
+                        "name": "Sudowoodo Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "sudowoodo_unlock"
                         ],
@@ -372,7 +372,7 @@
                 "name": "Bulbasaur Area",
                 "sections": [
                     {
-                        "name": "Bonsly Power Competition - Friendship",
+                        "name": "Bonsly Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "bonsly_unlock"
                         ],
@@ -382,7 +382,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bonsly Power Competition - Sudowoodo Unlocked",
+                        "name": "Bonsly Hide and Seek Power Competition - Sudowoodo Unlocked",
                         "access_rules": [
                             "bonsly_unlock"
                         ],
@@ -392,7 +392,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Turtwig Power Competition - Friendship",
+                        "name": "Turtwig Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -402,7 +402,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Turtwig Power Competition - Pachirisu Unlocked",
+                        "name": "Turtwig Chase Power Competition - Pachirisu Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -412,7 +412,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Turtwig Power Competition - Bonsly Unlocked",
+                        "name": "Turtwig Chase Power Competition - Bonsly Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -422,7 +422,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Pachirisu Power Competition - Friendship",
+                        "name": "Pachirisu Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, pachirisu_unlock"
                         ],
@@ -432,7 +432,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Buneary Power Competition - Friendship",
+                        "name": "Buneary Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -442,7 +442,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Buneary Power Competition - Lotad Unlocked",
+                        "name": "Buneary Chase Power Competition - Lotad Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -452,7 +452,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Buneary Power Competition - Shinx Unlocked",
+                        "name": "Buneary Chase Power Competition - Shinx Unlocked",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -519,7 +519,7 @@
                 "name": "Shinx",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, shinx_unlock"
                         ],
@@ -541,7 +541,7 @@
                 "name": "Celebi",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatchAdvanced, celebi_unlock"
                         ],
@@ -563,7 +563,7 @@
                 "name": "Bidoof Area",
                 "sections": [
                     {
-                        "name": "Chimchar Power Competition - Friendship",
+                        "name": "Chimchar Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], chimchar_unlock"
                         ],
@@ -583,7 +583,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bibarel Power Competition - Friendship",
+                        "name": "Bibarel Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], bibarel_unlock"
                         ],
@@ -616,7 +616,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Completed - Beach Bidoof Unlocked",
+                        "name": "Beach Bidoof Unlocked",
                         "access_rules": [],
                         "item_count": 1
                     },
@@ -676,6 +676,7 @@
         "access_rules": [
             "@MeadowZoneVenusaurArea"
         ],
+        "parent": "MeadowZoneOverworld",
         "children": [
             {
                 "name": "Venusaur",
