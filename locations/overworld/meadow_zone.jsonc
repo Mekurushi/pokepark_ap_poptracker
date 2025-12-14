@@ -2,7 +2,9 @@
     {
         "name": "Meadow Zone Main Area",
         "access_rules": [
-            "@MeadowZoneOverworld"
+            "@MeadowZoneMainAreaTreehouseGateExit",
+            "@MeadowZoneMainAreaPokeparkEntranceExit",
+            "@MeadowZoneMainAreaDrifblimTravelExit"
         ],
         "children": [
             {
@@ -493,7 +495,7 @@
             {
                 "name": "Bulbasaur",
                 "access_rules": [
-                    "@MeadowZoneBulbasaurMinigame"
+                    "@BulbasaurAttractionBulbasaurEntrance"
                 ],
                 "sections": [
                     {
@@ -652,7 +654,7 @@
     {
         "name": "Meadow Zone Venusaur Area",
         "access_rules": [
-            "@MeadowZoneVenusaurArea"
+            "@MeadowZoneVenusaurAreaVenusaurGateExit"
         ],
         "children": [
             {

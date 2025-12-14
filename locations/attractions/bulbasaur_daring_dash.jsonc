@@ -2,9 +2,8 @@
     {
         "name": "Bulbasaur's Daring Dash Attraction",
         "access_rules": [
-            "@MeadowZoneBulbasaurMinigame"
+            "@BulbasaurAttractionBulbasaurExit"
         ],
-        "parent": "MeadowZoneOverworld",
         "children": [
             {
                 "name": "Pikachu",

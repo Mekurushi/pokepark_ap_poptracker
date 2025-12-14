@@ -631,7 +631,7 @@ function updateFriendshipItemCount()
             count = count + 1
         end
     end
-    friendship_count = Tracker:FindObjectForCode("friendship_count")
+    local friendship_count = Tracker:FindObjectForCode("friendship_count")
     friendship_count.AcquiredCount = count
     friendship_count.MinCount = count
     friendship_count.MaxCount = count
@@ -644,9 +644,36 @@ function updatePrismaItemCount()
             count = count + 1
         end
     end
-    prisma_count = Tracker:FindObjectForCode("prisma_count")
+    local prisma_count = Tracker:FindObjectForCode("prisma_count")
     prisma_count.AcquiredCount = count
     prisma_count.MinCount = count
     prisma_count.MaxCount = count
 end
 
+-- naming convention ExitRegion+EntranceName+Entrance/Exit
+local exit_to_entrance = {
+    -- Pokepark Entrance leading
+    ["PokeparkEntranceMeadowZoneGateExit"] = "@PokeparkEntranceMeadowZoneGateEntrance",
+
+    -- Meadow Zone Main Area leading
+    ["MeadowZoneMainAreaTreehouseGateExit"] = "@MeadowZoneMainAreaTreehouseGateEntrance",
+    ["MeadowZoneMainAreaDrifblimTravelExit"] = "@MeadowZoneMainAreaDrifblimTravelEntrance",
+    ["MeadowZoneMainAreaPokeparkEntranceExit"] = "@MeadowZoneMainAreaPokeparkEntranceEntrance",
+    ["MeadowZoneMainAreaVenusaurGateExit"] = "@MeadowZoneMainAreaVenusaurGateEntrance",
+
+    -- Meadow Zone Venusaur Area leading
+    ["MeadowZoneVenusaurAreaVenusaurGateExit"] = "@MeadowZoneVenusaurAreaVenusaurGateEntrance",
+
+    -- Meadow Zone Attractions leading (Attractions are always both way connected)
+    ["BulbasaurAttractionBulbasaurExit"] = "@BulbasaurAttractionBulbasaurEntrance",
+    ["VenusaurAttractionVenusaurExit"] = "@VenusaurAttractionVenusaurEntrance",
+
+    -- Treehouse leading
+    ["TreehouseMeadowZoneGateExit"] = "@TreehouseMeadowZoneGateEntrance"
+
+}
+function exit_accessibility(exit_name)
+    local entrance_name = exit_to_entrance[exit_name]
+    local entrance = Tracker:FindObjectForCode(entrance_name)
+    return entrance.AccessibilityLevel
+end

@@ -1,0 +1,8 @@
+[
+    {
+        "name": "TreehouseMeadowZoneGateExit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseMeadowZoneGateExit"
+        ]
+    }
+]

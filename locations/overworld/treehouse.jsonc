@@ -1,6 +1,7 @@
 [
   {
     "name": "Treehouse",
+    "access_rules": [],
     "children": [
       {
         "name": "Thunderbolt",

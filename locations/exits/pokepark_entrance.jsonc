@@ -1,0 +1,9 @@
+[
+    // Main Area
+    {
+        "name": "PokeparkEntranceMeadowZoneGateExit",
+        "access_rules": [
+            "$exit_accessibility|PokeparkEntranceMeadowZoneGateExit"
+        ]
+    }
+]

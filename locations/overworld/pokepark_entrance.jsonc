@@ -2,7 +2,7 @@
     {
         "name": "Pokepark Entrance",
         "access_rules": [
-            "@MeadowZoneOverworld"
+            "@PokeparkEntranceMeadowZoneGateExit"
         ],
         "children": [
             {

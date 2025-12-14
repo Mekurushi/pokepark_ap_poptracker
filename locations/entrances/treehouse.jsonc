@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MeadowZoneMainAreaTreehouseGateEntrance",
+        "parent": "Treehouse",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMainAreaDrifblimTravelEntrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
+    }
+]

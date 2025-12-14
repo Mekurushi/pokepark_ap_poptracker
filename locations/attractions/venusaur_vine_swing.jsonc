@@ -2,9 +2,8 @@
     {
         "name": "Venusaur's Vine Swing Attraction",
         "access_rules": [
-            "@MeadowZoneVenusaurMinigame"
+            "@VenusaurAttractionVenusaurExit"
         ],
-        "parent": "MeadowZoneVenusaurArea",
         "children": [
             {
                 "name": "Pikachu",

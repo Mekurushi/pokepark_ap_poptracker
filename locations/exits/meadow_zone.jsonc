@@ -1,0 +1,47 @@
+[
+    // Main Area
+    {
+        "name": "MeadowZoneMainAreaTreehouseGateExit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMainAreaTreehouseGateExit"
+        ]
+    },
+    {
+        "name": "MeadowZoneMainAreaDrifblimTravelExit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMainAreaDrifblimTravelExit"
+        ]
+    },
+    {
+        "name": "MeadowZoneMainAreaPokeparkEntranceExit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMainAreaPokeparkEntranceExit"
+        ]
+    },
+    {
+        "name": "MeadowZoneMainAreaVenusaurGateExit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMainAreaVenusaurGateExit"
+        ]
+    },
+    // Venusaur Area
+    {
+        "name": "MeadowZoneVenusaurAreaVenusaurGateExit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneVenusaurAreaVenusaurGateExit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "BulbasaurAttractionBulbasaurExit",
+        "access_rules": [
+            "$exit_accessibility|BulbasaurAttractionBulbasaurExit"
+        ]
+    },
+    {
+        "name": "VenusaurAttractionVenusaurExit",
+        "access_rules": [
+            "$exit_accessibility|VenusaurAttractionVenusaurExit"
+        ]
+    }
+]
