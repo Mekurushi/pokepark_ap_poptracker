@@ -61,7 +61,7 @@
                     {
                         "name": "Octillery Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -81,7 +81,7 @@
                     {
                         "name": "Ursaring Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], ursaring_unlock"
+                            "[$canBattle], $canBattleGlitched, ursaring_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -103,7 +103,7 @@
                     {
                         "name": "Primeape Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, primeape_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, primeape_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -208,7 +208,7 @@
                     {
                         "name": "Staravia Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -218,7 +218,7 @@
                     {
                         "name": "Piloswine Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -250,7 +250,7 @@
                     {
                         "name": "Smoochum Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], smoochum_unlock"
+                            "[$canBattle], $canBattleGlitched, smoochum_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -260,7 +260,7 @@
                     {
                         "name": "Squirtle Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], squirtle_unlock"
+                            "[$canBattle], $canBattleGlitched, squirtle_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -354,7 +354,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -406,7 +406,7 @@
                     {
                         "name": "Corphish Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], corphish_unlock"
+                            "[$canBattle], $canBattleGlitched, corphish_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -436,7 +436,7 @@
                     {
                         "name": "Froslass Battle Power Competition -- Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -496,7 +496,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, mamoswine_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

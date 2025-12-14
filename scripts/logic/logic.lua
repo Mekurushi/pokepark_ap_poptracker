@@ -175,6 +175,10 @@ function canBattle()
     return hasAny({"thunderbolt_beginner", "iron_tail_beginner"})
 end
 
+function canBattleGlitched()
+    return hasAny({"thunderbolt_beginner", "iron_tail_beginner", "dash_beginner"})
+end
+
 function canBattleIntermediate()
     if isHarderEnemyAI() then
         return hasAny({"thunderbolt_intermediate", "iron_tail_advanced"}) and has("health_advanced")
@@ -194,6 +198,10 @@ function canBattleThunderBoltImmune()
         return hasAny({"dash_intermediate", "iron_tail_beginner"}) and has("health_beginner")
     end
     return hasAny({"dash_beginner", "iron_tail_beginner"}) and has("health_beginner")
+end
+
+function canBattleThunderBoltImmuneGlitched()
+    return hasAny({"dash_beginner", "iron_tail_beginner"})
 end
 
 function canBattleThunderBoltImmuneIntermediate()
@@ -583,6 +591,26 @@ end
 
 function canBeatMew()
     return canBeatMewPowerCompetitionStage4() and maximizedDash()
+end
+
+function canBeatMewPowerCompetitionStage1Glitched()
+    return true
+end
+
+function canBeatMewPowerCompetitionStage2Glitched()
+    return canBeatMewPowerCompetitionStage1Glitched() and canBattleGlitched()
+end
+
+function canBeatMewPowerCompetitionStage3Glitched()
+    return canBeatMewPowerCompetitionStage2Glitched() and canBattleThunderBoltImmuneGlitched()
+end
+
+function canBeatMewPowerCompetitionStage4Glitched()
+    return canBeatMewPowerCompetitionStage3Glitched()
+end
+
+function canBeatMewGlitched()
+    return canBeatMewPowerCompetitionStage4Glitched() and has("dash_advanced")
 end
 
 function canBefriendDelibird()

@@ -95,7 +95,7 @@
                     {
                         "name": "Ambipom Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, ambipom_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, ambipom_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -105,7 +105,7 @@
                     {
                         "name": "Gliscor Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -147,7 +147,7 @@
                     {
                         "name": "Honchkrow Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, honchkrow_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, honchkrow_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -355,7 +355,7 @@
                     {
                         "name": "Electabuzz Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, electabuzz_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, electabuzz_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -365,7 +365,7 @@
                     {
                         "name": "Skuntank Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, skuntank_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, skuntank_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -438,7 +438,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle"
+                            "[$canBattleIntermediate], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -490,7 +490,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle, darkrai_unlock"
+                            "[$canBattleAdvanced], $canBattleGlitched, darkrai_unlock"
                         ],
                         "visibility_rules": [
                             "$legendary_locations_activated"
@@ -522,7 +522,7 @@
                     {
                         "name": "Mismagius Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, mismagius_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, mismagius_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -612,7 +612,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], voltorb_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched, voltorb_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -644,7 +644,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, gengar_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, gengar_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -706,7 +706,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, breloom_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, breloom_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

@@ -49,7 +49,7 @@
                     {
                         "name": "Tyranitar Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle, tyranitar_unlock"
+                            "[$canBattleAdvanced], $canBattleGlitched, tyranitar_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -71,7 +71,7 @@
                     {
                         "name": "Charizard Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle"
+                            "[$canBattleAdvanced], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -89,7 +89,7 @@
                     {
                         "name": "Baltoy Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], baltoy_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -99,7 +99,7 @@
                     {
                         "name": "Baltoy Battle Power Competition - Claydol Unlocked",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], baltoy_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -229,7 +229,7 @@
                     {
                         "name": "Marowak Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -239,7 +239,7 @@
                     {
                         "name": "Claydol Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, claydol_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, claydol_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -286,7 +286,7 @@
                     {
                         "name": "Staraptor Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle"
+                            "[$canBattleAdvanced], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -296,7 +296,7 @@
                     {
                         "name": "Staraptor Battle Power Competition - Aerodactyl Unlocked",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle"
+                            "[$canBattleAdvanced], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -306,7 +306,7 @@
                     {
                         "name": "Aerodactyl Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle, aerodactyl_unlock"
+                            "[$canBattleAdvanced], $canBattleGlitched, aerodactyl_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -346,7 +346,7 @@
                     {
                         "name": "Garchomp Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune, garchomp_unlock"
+                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmuneGlitched, garchomp_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

@@ -45,7 +45,7 @@
                     {
                         "name": "Magnezone Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, magnezone_unlock"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, magnezone_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -91,7 +91,7 @@
                     {
                         "name": "Electivire Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle, electivire_unlock"
+                            "[$canBattleAdvanced], $canBattleGlitched, electivire_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -237,7 +237,7 @@
                     {
                         "name": "Hitmonlee Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, hitmonlee_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, hitmonlee_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -259,7 +259,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune"
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -281,7 +281,7 @@
                     {
                         "name": "Scizor Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle"
+                            "[$canBattleIntermediate], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -301,7 +301,7 @@
                     {
                         "name": "Cranidos Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle"
+                            "[$canBattleIntermediate], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -311,7 +311,7 @@
                     {
                         "name": "Torchic Battle Power Competition - Friendship",
                         "access_rules": [
-                            "$canBattle"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -321,7 +321,7 @@
                     {
                         "name": "Chimchar Battle Power Competition - Friendship",
                         "access_rules": [
-                            "$canBattle"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -397,7 +397,7 @@
                     {
                         "name": "Battle Power Competition - Friendship",
                         "access_rules": [
-                            "$canBattleThunderBoltImmune"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
