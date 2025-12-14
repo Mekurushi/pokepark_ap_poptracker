@@ -218,7 +218,7 @@
                     {
                         "name": "Piloswine Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

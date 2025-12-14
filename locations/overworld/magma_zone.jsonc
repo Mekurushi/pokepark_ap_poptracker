@@ -97,7 +97,7 @@
                     {
                         "name": "Baltoy Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched, baltoy_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -107,7 +107,7 @@
                     {
                         "name": "Baltoy Battle Power Competition - Claydol Unlocked",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], $canBattleThunderboltImmuneGlitched baltoy_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"

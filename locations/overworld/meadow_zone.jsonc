@@ -1,6 +1,6 @@
 [
     {
-        "name": "Meadow Zone",
+        "name": "Meadow Zone Main Area",
         "access_rules": [
             "@MeadowZoneOverworld"
         ],
@@ -654,7 +654,6 @@
         "access_rules": [
             "@MeadowZoneVenusaurArea"
         ],
-        "parent": "MeadowZoneOverworld",
         "children": [
             {
                 "name": "Venusaur",
