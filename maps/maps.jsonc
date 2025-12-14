@@ -13,6 +13,12 @@
     "img": "images/maps/meadow_zone_overworld.png"
   },
   {
+    "name": "pokepark_entrance",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/pokepark_entrance.png"
+  },
+  {
     "name": "venusaur_minigame",
     "location_size": 24,
     "location_border_thickness": 4,

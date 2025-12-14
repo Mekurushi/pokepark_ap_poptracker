@@ -538,28 +538,6 @@
                 ]
             },
             {
-                "name": "Celebi",
-                "sections": [
-                    {
-                        "name": "Chase Power Competition - Friendship",
-                        "access_rules": [
-                            "$canPlayCatchAdvanced, celebi_unlock"
-                        ],
-                        "visibility_rules": [
-                            "$legendary_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "meadow_zone_overworld",
-                        "x": 510,
-                        "y": 990
-                    }
-                ]
-            },
-            {
                 "name": "Bidoof Area",
                 "sections": [
                     {

@@ -40,6 +40,7 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Granite Zone Main Area"] = {"Granite Zone"},
     ["Flower Zone Main Area"] = {"Flower Zone"},
     ["Skygarden"] = {"Skygarden"},
+    ["Pokepark Entrance"] = {"Pokepark Entrance"},
     ["Bulbasaur's Daring Dash Attraction"] = {"Attractions", "Bulbasaur's Daring Dash"},
     ["Venusaur's Vine Swing Attraction"] = {"Attractions", "Venusaur's Vine Swing"},
     ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},

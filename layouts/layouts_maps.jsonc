@@ -12,6 +12,15 @@
 				}
 			},
 			{
+				"title": "Pokepark Entrance",
+				"content": {
+					"type": "map",
+					"maps": [
+						"pokepark_entrance"
+					]
+				}
+			},
+			{
 				"title": "Meadow Zone",
 				"content": {
 					"type": "tabbed",

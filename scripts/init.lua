@@ -27,6 +27,7 @@ Tracker:AddMaps("maps/maps.jsonc")
 
 -- Locations
 Tracker:AddLocations("locations/overworld/treehouse.jsonc")
+Tracker:AddLocations("locations/overworld/pokepark_entrance.jsonc")
 Tracker:AddLocations("locations/overworld/meadow_zone.jsonc")
 Tracker:AddLocations("locations/entrances/meadow_zone.jsonc")
 Tracker:AddLocations("locations/overworld/beach_zone.jsonc")
