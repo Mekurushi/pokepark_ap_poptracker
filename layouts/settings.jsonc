@@ -31,6 +31,24 @@
                                     "type": "layout",
                                     "key": "locations_logic_grid"
                                 }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Goal",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "goal_logic_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Misc",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "misc_settings_grid"
+                                }
                             }
                         ]
                     }
@@ -57,5 +75,89 @@
                 }
             ]
         }
+    },
+    "required_prismas_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "64,64",
+                "rows": [
+                    [
+                        "required_prismas"
+                    ]
+                ]
+            }
+        ]
+    },
+    "locations_logic_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "128,128",
+                "rows": [
+                    [
+                        "remove_battle_power_comp_locations",
+                        "remove_chase_power_comp_locations",
+                        "remove_quiz_power_comp_locations",
+                        "remove_hide_and_seek_power_comp_locations",
+                        "remove_errand_power_comp_locations",
+                        "remove_misc_power_comp_locations"
+                    ],
+                    [
+                        "remove_legendary_pokemon_power_comp_locations",
+                        "remove_power_training_locations",
+                        "remove_attraction_locations",
+                        "remove_attraction_prisma_locations",
+                        "remove_pokemon_unlock_locations",
+                        "each_zone"
+                    ]
+                ]
+            }
+        ]
+    },
+    "goal_logic_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "128,128",
+                "rows": [
+                    [
+                        "postgame_locations_activated",
+                        "mew_power_comp_locations_activated"
+                    ]
+                ]
+            }
+        ]
+    },
+    "misc_settings_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5,3",
+        "item_size": "128,128",
+        "rows": [
+            [
+                "harder_enemy_ai"
+            ]
+        ]
+    },
+    "auto_tracking_settings_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5,3",
+        "item_size": "128,128",
+        "rows": [
+            [
+                "setting_map_tracking"
+            ]
+        ]
     }
 }
