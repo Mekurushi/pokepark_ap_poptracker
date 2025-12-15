@@ -7,12 +7,6 @@
         ]
     },
     {
-        "name": "MeadowZoneMain_TreehouseDrifblim_Exit",
-        "access_rules": [
-            "$exit_accessibility|MeadowZoneMain_TreehouseDrifblim_Exit"
-        ]
-    },
-    {
         "name": "MeadowZoneMain_PokeparkGate_Exit",
         "access_rules": [
             "$exit_accessibility|MeadowZoneMain_PokeparkGate_Exit"
@@ -22,6 +16,13 @@
         "name": "MeadowZoneMain_VenusaurGate_Exit",
         "access_rules": [
             "$exit_accessibility|MeadowZoneMain_VenusaurGate_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "MeadowZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMain_BeachDrifblim_Exit"
         ]
     },
     // Venusaur Exits

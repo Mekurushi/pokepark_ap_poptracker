@@ -6,12 +6,14 @@
             "$exit_accessibility|BeachZoneMain_TreehouseGate_Exit"
         ]
     },
+    // Fast Travel
     {
-        "name": "BeachZoneMain_TreehouseDrifblim_Exit",
+        "name": "BeachZoneMain_MeadowDrifblim_Exit",
         "access_rules": [
-            "$exit_accessibility|BeachZoneMain_TreehouseDrifblim_Exit"
+            "$exit_accessibility|BeachZoneMain_MeadowDrifblim_Exit"
         ]
     },
+    // Beach Zone Inner Exits
     {
         "name": "BeachZoneLapras_IceZoneLapras_Exit",
         "access_rules": [

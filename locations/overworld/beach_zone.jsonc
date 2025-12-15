@@ -4,6 +4,7 @@
         "access_rules": [
             "@BeachZoneMain_TreehouseGate_Exit",
             "@BeachZoneMain_TreehouseDrifblim_Exit",
+            "@BeachZoneMain_MeadowDrifblim_Exit",
             "@BeachZoneMain_LaprasRock_Exit",
             "@BeachZoneMain_PelipperAttraction_Exit",
             "@BeachZoneMain_RecycleBridge_Exit",

@@ -657,10 +657,12 @@ local exit_to_entrance = {
 
     -- Meadow Zone Main Area leading
     ["MeadowZoneMain_TreehouseGate_Exit"] = "@Treehouse_MeadowGate_Entrance",
-    ["MeadowZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_PokeparkGate_Exit"] = "@PokeparkEntrance_MeadowGate_Entrance",
     ["MeadowZoneMain_VenusaurGate_Exit"] = "@MeadowZoneVenusaur_MainGate_Entrance",
     ["MeadowZoneMain_BulbasaurAttraction_Exit"] = "@BulbasaurAttraction_Bulbasaur_Entrance",
+    -- Meadow Zone Fast Travel
+    ["MeadowZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -680,6 +682,7 @@ local exit_to_entrance = {
     -- Treehouse Entrances
     ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
+    ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",

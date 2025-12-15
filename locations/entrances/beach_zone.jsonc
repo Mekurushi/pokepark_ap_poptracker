@@ -15,6 +15,13 @@
         "parent": "@Beach Zone Main Area",
         "access_rules": []
     },
+    {
+        "name": "BeachZoneMain_MeadowDrifblim_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
+    },
     // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",
