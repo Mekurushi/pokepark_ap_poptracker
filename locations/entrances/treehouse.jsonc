@@ -13,6 +13,13 @@
         ]
     },
     {
+        "name": "Treehouse_TreehouseDrifblim_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
         "name": "Treehouse_BeachGate_Entrance",
         "parent": "Treehouse",
         "access_rules": [

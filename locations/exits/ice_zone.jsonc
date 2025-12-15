@@ -1,9 +1,76 @@
 [
     // Main Area
     {
-        "name": "IceZoneLapras_BeachLapras_Exit",
+        "name": "IceZoneMain_BeachLapras_Exit",
         "access_rules": [
-            "$exit_accessibility|IceZoneLapras_BeachLapras_Exit"
+            "$exit_accessibility|IceZoneMain_BeachLapras_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_UpperLift_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_UpperLift_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneLower_LowerLift_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneLower_LowerLift_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FrozenLake_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_FrozenLake_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneLake_MainLake_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneLake_MainLake_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_EmpoleonAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneEmpoleon_EmpoleonAttraction_Exit"
+        ]
+    },
+    {
+        "name": "EmpoleonAttraction_Empoleon_Exit",
+        "access_rules": [
+            "$exit_accessibility|EmpoleonAttraction_Empoleon_Exit"
+        ]
+    },
+    // Empoleon Area
+    {
+        "name": "IceZoneMain_EmpoleonGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_EmpoleonGate_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_MainGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneEmpoleon_MainGate_Exit"
         ]
     }
 ]

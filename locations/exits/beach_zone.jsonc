@@ -8,6 +8,12 @@
     },
     // Fast Travel
     {
+        "name": "BeachZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
         "name": "BeachZoneMain_MeadowDrifblim_Exit",
         "access_rules": [
             "$exit_accessibility|BeachZoneMain_MeadowDrifblim_Exit"

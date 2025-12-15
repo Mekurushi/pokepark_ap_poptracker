@@ -1,8 +1,14 @@
 [
     {
-        "name": "Ice Zone",
+        "name": "Ice Zone Main Area",
         "access_rules": [
-            "@IceZoneLapras_BeachLapras_Exit"
+            "@IceZoneMain_BeachLapras_Exit",
+            "@IceZoneMain_TreehouseDrifblim_Exit",
+            "@IceZoneMain_MeadowDrifblim_Exit",
+            "@IceZoneMain_BeachDrifblim_Exit",
+            "@IceZoneMain_UpperLift_Exit",
+            "@IceZoneMain_EmpoleonGate_Exit",
+            "@IceZoneMain_FrozenLake_Exit"
         ],
         "children": [
             {
@@ -397,7 +403,7 @@
     {
         "name": "Ice Zone Lower Lift Area",
         "access_rules": [
-            "@IceZoneLowerLiftRegion"
+            "@IceZoneLower_LowerLift_Exit"
         ],
         "children": [
             {
@@ -457,7 +463,8 @@
     {
         "name": "Ice Zone Empoleon Area",
         "access_rules": [
-            "@IceZoneEmpoleonArea"
+            "@IceZoneEmpoleon_MainGate_Exit",
+            "@IceZoneEmpoleon_EmpoleonAttraction_Exit"
         ],
         "children": [
             {
@@ -466,7 +473,7 @@
                     {
                         "name": "Friendship",
                         "access_rules": [
-                            "@IceZoneEmpoleonMinigame, empoleon_prisma_activated"
+                            "@IceZoneEmpoleon_EmpoleonAttraction_Entrance, empoleon_prisma_activated"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -487,7 +494,7 @@
     {
         "name": "Ice Zone Frozen Lake Area",
         "access_rules": [
-            "@IceZoneFrozenLake"
+            "@IceZoneLake_MainLake_Exit"
         ],
         "children": [
             {

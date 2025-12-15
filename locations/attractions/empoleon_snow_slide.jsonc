@@ -2,9 +2,8 @@
     {
         "name": "Empoleon's Snow Slide Attraction",
         "access_rules": [
-            "@IceZoneEmpoleonMinigame"
+            "@EmpoleonAttraction_Empoleon_Exit"
         ],
-        "parent": "IceZoneEmpoleonArea",
         "children": [
             {
                 "name": "Pikachu",

@@ -704,10 +704,29 @@ local exit_to_entrance = {
     ["BeachZoneRecycle_GyaradosAttraction_Exit"] = "@GyaradosAttraction_Gyarados_Entrance",
     ["GyaradosAttraction_Gyarados_Exit"] = "@BeachZoneRecycle_GyaradosAttraction_Entrance",
 
-    -- Ice Zone leading
-    ["IceZoneLapras_BeachLapras_Exit"] = "@BeachZoneLapras_IceZoneLapras_Entrance"
+    -- Ice Zone Exits
+    ["IceZoneMain_BeachLapras_Exit"] = "@BeachZoneLapras_IceZoneLapras_Entrance",
+    ["IceZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_TreehouseDrifblim_Entrance",
+    ["IceZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_IceDrifblim_Entrance",
+
+    -- Inner
+    ["IceZoneMain_UpperLift_Exit"] = "@IceZoneLower_LowerLift_Entrance",
+    ["IceZoneLower_LowerLift_Exit"] = "@IceZoneMain_UpperLift_Entrance",
+
+    ["IceZoneMain_FrozenLake_Exit"] = "@IceZoneLake_MainLake_Entrance",
+    ["IceZoneLake_MainLake_Exit"] = "@IceZoneMain_FrozenLake_Entrance",
+
+    -- Empoleon Area
+    ["IceZoneMain_EmpoleonGate_Exit"] = "@IceZoneEmpoleon_MainGate_Entrance",
+    ["IceZoneEmpoleon_MainGate_Exit"] = "@IceZoneMain_EmpoleonGate_Entrance",
+
+    -- Ice Zone attractions
+    ["IceZoneEmpoleon_EmpoleonAttraction_Exit"] = "@EmpoleonAttraction_Empoleon_Entrance",
+    ["EmpoleonAttraction_Empoleon_Exit"] = "@IceZoneEmpoleon_EmpoleonAttraction_Entrance"
 
 }
+
 function exit_accessibility(exit_name)
     local entrance_name = exit_to_entrance[exit_name]
     local entrance = Tracker:FindObjectForCode(entrance_name)

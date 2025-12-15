@@ -1,36 +1,57 @@
 [
     {
-        "name": "IceZoneOverworld",
+        "name": "IceZoneLapras_BeachLapras_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneLower_LowerLift_Entrance",
+        "parent": "@Ice Zone Lower Lift Area",
         "access_rules": [
-            "$canReachIceZone"
+            "ice_zone_lift_unlock"
         ]
     },
     {
-        "name": "IceZoneEmpoleonArea",
+        "name": "IceZoneMain_UpperLift_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "ice_zone_lift_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneLake_MainLake_Entrance",
+        "parent": "@Ice Zone Frozen Lake Area",
+        "access_rules": [
+            "ice_zone_frozen_lake_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FrozenLake_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "ice_zone_frozen_lake_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_MainGate_Entrance",
+        "parent": "@Ice Zone Empoleon Area",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneMain_EmpoleonGate_Entrance",
+        "parent": "@Ice Zone Main Area",
         "access_rules": [
             "gyarados_prisma_activated"
         ]
     },
     {
-        "name": "IceZoneEmpoleonMinigame",
+        "name": "EmpoleonAttraction_Empoleon_Entrance",
+        "parent": "@Empoleon's Snow Slide Attraction",
         "access_rules": []
     },
     {
-        "name": "IceZoneFrozenLake",
-        "access_rules": [
-            "@IceZoneOverworld, ice_zone_frozen_lake_unlock"
-        ]
-    },
-    {
-        "name": "IceZoneLowerLiftRegion",
-        "access_rules": [
-            "@IceZoneOverworld, ice_zone_lift_unlock"
-        ]
-    },
-    // new
-    {
-        "name": "IceZoneLapras_BeachLapras_Entrance",
-        "parent": "@Ice Zone",
+        "name": "IceZoneEmpoleon_EmpoleonAttraction_Entrance",
+        "parent": "@Ice Zone Empoleon Area",
         "access_rules": []
-    },
+    }
 ]

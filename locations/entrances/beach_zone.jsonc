@@ -22,6 +22,13 @@
             "meadow_zone_fast_travel"
         ]
     },
+    {
+        "name": "BeachZoneMain_IceDrifblim_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
     // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",

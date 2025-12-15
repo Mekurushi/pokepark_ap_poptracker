@@ -30,6 +30,13 @@
             "beach_zone_fast_travel"
         ]
     },
+    {
+        "name": "MeadowZoneMain_IceDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
     // Venusaur Area
     {
         "name": "MeadowZoneVenusaur_MainGate_Entrance",
