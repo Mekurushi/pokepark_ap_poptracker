@@ -2,7 +2,7 @@
     {
         "name": "Ice Zone",
         "access_rules": [
-            "@IceZoneOverworld"
+            "@IceZoneLapras_BeachLapras_Exit"
         ],
         "children": [
             {

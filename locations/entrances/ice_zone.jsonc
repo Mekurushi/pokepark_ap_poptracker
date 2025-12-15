@@ -26,5 +26,11 @@
         "access_rules": [
             "@IceZoneOverworld, ice_zone_lift_unlock"
         ]
-    }
+    },
+    // new
+    {
+        "name": "IceZoneLapras_BeachLapras_Entrance",
+        "parent": "@Ice Zone",
+        "access_rules": []
+    },
 ]

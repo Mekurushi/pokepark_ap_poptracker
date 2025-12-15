@@ -2,13 +2,18 @@
     {
         "name": "Beach Zone Main Area",
         "access_rules": [
-            "@BeachZoneOverworld"
+            "@BeachZoneMain_TreehouseGate_Exit",
+            "@BeachZoneMain_TreehouseDrifblim_Exit",
+            "@BeachZoneMain_LaprasRock_Exit",
+            "@BeachZoneMain_PelipperAttraction_Exit",
+            "@BeachZoneMain_RecycleBridge_Exit",
+            "@BeachZoneMain_MiddleBridge_Exit"
         ],
         "children": [
             {
                 "name": "Pelipper",
                 "access_rules": [
-                    "@BeachZonePelliperMinigame"
+                    "@BeachZoneMain_PelipperAttraction_Entrance"
                 ],
                 "sections": [
                     {
@@ -363,13 +368,14 @@
     {
         "name": "Beach Zone Recycle Area",
         "access_rules": [
-            "@BeachZoneOverworld"
+            "@BeachZoneRecycle_MainBridge_Exit",
+            "@BeachZoneRecycle_GyaradosAttraction_Exit"
         ],
         "children": [
             {
                 "name": "Gyarados",
                 "access_rules": [
-                    "@BeachZoneGyaradosMinigame"
+                    "@BeachZoneMain_GyaradosAttraction_Entrance"
                 ],
                 "sections": [
                     {
@@ -394,7 +400,7 @@
             {
                 "name": "Bottle Recycling",
                 "access_rules": [
-                    "$canReachBeachZoneRecycleArea"
+                    "@BeachZoneRecycle_MainBridge_Exit"
                 ],
                 "sections": [
                     {
@@ -475,14 +481,11 @@
     {
         "name": "Beach Zone Middle Isle",
         "access_rules": [
-            "@BeachZoneMiddleIsle"
+            "@BeachZoneMiddle_MainBridge_Exit"
         ],
         "children": [
             {
                 "name": "Piplup",
-                "access_rules": [
-                    "@BeachZoneMiddleIsle"
-                ],
                 "sections": [
                     {
                         "name": "Battle Power Competition - Friendship",
@@ -503,6 +506,13 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "name": "Beach Zone Lapras Area",
+        "access_rules": [
+            "@BeachZoneLapras_IceZoneLapras_Exit",
+            "@BeachZoneLapras_MainRock_Exit"
         ]
     }
 ]

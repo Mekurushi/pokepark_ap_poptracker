@@ -2,7 +2,7 @@
     {
         "name": "Bulbasaur's Daring Dash Attraction",
         "access_rules": [
-            "@BulbasaurAttractionBulbasaurExit"
+            "@BulbasaurAttraction_Bulbasaur_Exit"
         ],
         "children": [
             {

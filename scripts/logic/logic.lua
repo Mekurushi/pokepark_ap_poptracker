@@ -649,27 +649,60 @@ function updatePrismaItemCount()
     prisma_count.MinCount = count
     prisma_count.MaxCount = count
 end
-
--- naming convention ExitRegion+EntranceName+Entrance/Exit
+-- naming convention [LocationWhereExitIs]_[ExitType(e.g. Gate)]_Exit → @[LocationWhereEntranceIs]_[EntranceType(e.g. Gate)]_Entrance
+-- entrance location needs always parent
 local exit_to_entrance = {
     -- Pokepark Entrance leading
-    ["PokeparkEntranceMeadowZoneGateExit"] = "@PokeparkEntranceMeadowZoneGateEntrance",
+    ["PokeparkEntrance_MeadowGate_Exit"] = "@MeadowZoneMain_PokeparkGate_Entrance",
 
     -- Meadow Zone Main Area leading
-    ["MeadowZoneMainAreaTreehouseGateExit"] = "@MeadowZoneMainAreaTreehouseGateEntrance",
-    ["MeadowZoneMainAreaDrifblimTravelExit"] = "@MeadowZoneMainAreaDrifblimTravelEntrance",
-    ["MeadowZoneMainAreaPokeparkEntranceExit"] = "@MeadowZoneMainAreaPokeparkEntranceEntrance",
-    ["MeadowZoneMainAreaVenusaurGateExit"] = "@MeadowZoneMainAreaVenusaurGateEntrance",
+    ["MeadowZoneMain_TreehouseGate_Exit"] = "@Treehouse_MeadowGate_Entrance",
+    ["MeadowZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_PokeparkGate_Exit"] = "@PokeparkEntrance_MeadowGate_Entrance",
+    ["MeadowZoneMain_VenusaurGate_Exit"] = "@MeadowZoneVenusaur_MainGate_Entrance",
+    ["MeadowZoneMain_BulbasaurAttraction_Exit"] = "@BulbasaurAttraction_Bulbasaur_Entrance",
 
-    -- Meadow Zone Venusaur Area leading
-    ["MeadowZoneVenusaurAreaVenusaurGateExit"] = "@MeadowZoneVenusaurAreaVenusaurGateEntrance",
+    -- Meadow Zone Venusaur Area Exits
+    ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
+    ["MeadowZoneVenusaur_VenusaurAttraction_Exit"] = "@VenusaurAttraction_Venusaur_Entrance",
 
-    -- Meadow Zone Attractions leading (Attractions are always both way connected)
-    ["BulbasaurAttractionBulbasaurExit"] = "@BulbasaurAttractionBulbasaurEntrance",
-    ["VenusaurAttractionVenusaurExit"] = "@VenusaurAttractionVenusaurEntrance",
+    -- Meadow Zone Attractions Exits
+    ["BulbasaurAttraction_Bulbasaur_Exit"] = "@MeadowZoneMain_BulbasaurAttraction_Entrance",
+    ["VenusaurAttraction_Venusaur_Exit"] = "@MeadowZoneVenusaur_VenusaurAttraction_Entrance",
 
     -- Treehouse leading
-    ["TreehouseMeadowZoneGateExit"] = "@TreehouseMeadowZoneGateEntrance"
+    ["Treehouse_MeadowGate_Exit"] = "@MeadowZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
+
+    -- Beach Zone Exits
+    -- Treehouse Entrances
+    ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
+    ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
+
+    -- Ice Zone Entrances
+    ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",
+
+    -- Inner Beach Zone Main Entrances
+    ["BeachZoneMain_LaprasRock_Exit"] = "@BeachZoneLapras_MainRock_Entrance",
+    ["BeachZoneLapras_MainRock_Exit"] = "@BeachZoneMain_LaprasRock_Entrance",
+
+    ["BeachZoneMain_RecycleBridge_Exit"] = "@BeachZoneRecycle_MainBridge_Entrance",
+    ["BeachZoneRecycle_MainBridge_Exit"] = "@BeachZoneMain_RecycleBridge_Entrance",
+
+    ["BeachZoneMain_MiddleBridge_Exit"] = "@BeachZoneMiddle_MainBridge_Entrance",
+    ["BeachZoneMiddle_MainBridge_Exit"] = "@BeachZoneMain_MiddleBridge_Entrance",
+
+    -- Beach Zone attractions
+    ["BeachZoneMain_PelipperAttraction_Exit"] = "@PelipperAttraction_Pelipper_Entrance",
+    ["PelipperAttraction_Pelipper_Exit"] = "@BeachZoneMain_PelipperAttraction_Entrance",
+
+    ["BeachZoneRecycle_GyaradosAttraction_Exit"] = "@GyaradosAttraction_Gyarados_Entrance",
+    ["GyaradosAttraction_Gyarados_Exit"] = "@BeachZoneRecycle_GyaradosAttraction_Entrance",
+
+    -- Ice Zone leading
+    ["IceZoneLapras_BeachLapras_Exit"] = "@BeachZoneLapras_IceZoneLapras_Entrance"
 
 }
 function exit_accessibility(exit_name)

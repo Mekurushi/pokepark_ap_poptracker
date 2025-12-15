@@ -1,47 +1,59 @@
 [
     // Main Area
     {
-        "name": "MeadowZoneMainAreaTreehouseGateExit",
+        "name": "MeadowZoneMain_TreehouseGate_Exit",
         "access_rules": [
-            "$exit_accessibility|MeadowZoneMainAreaTreehouseGateExit"
+            "$exit_accessibility|MeadowZoneMain_TreehouseGate_Exit"
         ]
     },
     {
-        "name": "MeadowZoneMainAreaDrifblimTravelExit",
+        "name": "MeadowZoneMain_TreehouseDrifblim_Exit",
         "access_rules": [
-            "$exit_accessibility|MeadowZoneMainAreaDrifblimTravelExit"
+            "$exit_accessibility|MeadowZoneMain_TreehouseDrifblim_Exit"
         ]
     },
     {
-        "name": "MeadowZoneMainAreaPokeparkEntranceExit",
+        "name": "MeadowZoneMain_PokeparkGate_Exit",
         "access_rules": [
-            "$exit_accessibility|MeadowZoneMainAreaPokeparkEntranceExit"
+            "$exit_accessibility|MeadowZoneMain_PokeparkGate_Exit"
         ]
     },
     {
-        "name": "MeadowZoneMainAreaVenusaurGateExit",
+        "name": "MeadowZoneMain_VenusaurGate_Exit",
         "access_rules": [
-            "$exit_accessibility|MeadowZoneMainAreaVenusaurGateExit"
+            "$exit_accessibility|MeadowZoneMain_VenusaurGate_Exit"
         ]
     },
-    // Venusaur Area
+    // Venusaur Exits
     {
-        "name": "MeadowZoneVenusaurAreaVenusaurGateExit",
+        "name": "MeadowZoneVenusaur_MainGate_Exit",
         "access_rules": [
-            "$exit_accessibility|MeadowZoneVenusaurAreaVenusaurGateExit"
+            "$exit_accessibility|MeadowZoneVenusaur_MainGate_Exit"
+        ]
+    },
+    {
+        "name": "MeadowZoneVenusaur_VenusaurAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneVenusaur_VenusaurAttraction_Exit"
         ]
     },
     // Attractions
     {
-        "name": "BulbasaurAttractionBulbasaurExit",
+        "name": "MeadowZoneMain_BulbasaurAttraction_Exit",
         "access_rules": [
-            "$exit_accessibility|BulbasaurAttractionBulbasaurExit"
+            "$exit_accessibility|MeadowZoneMain_BulbasaurAttraction_Exit"
         ]
     },
     {
-        "name": "VenusaurAttractionVenusaurExit",
+        "name": "BulbasaurAttraction_Bulbasaur_Exit",
         "access_rules": [
-            "$exit_accessibility|VenusaurAttractionVenusaurExit"
+            "$exit_accessibility|BulbasaurAttraction_Bulbasaur_Exit"
+        ]
+    },
+    {
+        "name": "VenusaurAttraction_Venusaur_Exit",
+        "access_rules": [
+            "$exit_accessibility|VenusaurAttraction_Venusaur_Exit"
         ]
     }
 ]

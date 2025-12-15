@@ -1,0 +1,82 @@
+[
+    // Main Area
+    {
+        "name": "BeachZoneMain_TreehouseGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_TreehouseGate_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneLapras_IceZoneLapras_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneLapras_IceZoneLapras_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_LaprasRock_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_LaprasRock_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneLapras_MainRock_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneLapras_MainRock_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_RecycleBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_RecycleBridge_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneRecycle_MainBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneRecycle_MainBridge_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_MiddleBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_MiddleBridge_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMiddle_MainBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMiddle_MainBridge_Exit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "PelipperAttraction_Pelipper_Exit",
+        "access_rules": [
+            "$exit_accessibility|PelipperAttraction_Pelipper_Exit"
+        ]
+    },
+    {
+        "name": "GyaradosAttraction_Gyarados_Exit",
+        "access_rules": [
+            "$exit_accessibility|GyaradosAttraction_Gyarados_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_PelipperAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_PelipperAttraction_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneRecycle_GyaradosAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneRecycle_GyaradosAttraction_Exit"
+        ]
+    }
+]

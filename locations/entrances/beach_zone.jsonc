@@ -1,29 +1,84 @@
 [
+    // Out of Beach Zone
     {
-        "name": "BeachZoneOverworld",
-        "access_rules": [
-            "$canReachBeachZone"
-        ]
-    },
-    {
-        "name": "BeachZonePelliperMinigame",
+        "name": "BeachZoneLapras_IceZoneLapras_Entrance",
+        "parent": "@Beach Zone Lapras Area",
         "access_rules": []
     },
     {
-        "name": "BeachZoneGyaradosMinigame",
+        "name": "BeachZoneMain_TreehouseGate_Entrance",
+        "parent": "@Beach Zone Main Area",
         "access_rules": []
     },
     {
-        "name": "BeachZoneRecycleArea",
+        "name": "BeachZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": []
+    },
+    // Inner Entrances
+    {
+        "name": "BeachZoneRecycle_MainBridge_Entrance",
+        "parent": "@Beach Zone Recycle Area",
         "access_rules": [
-            "@BeachZoneOverworld, beach_zone_bridge2_unlock"
+            "beach_zone_bridge2_unlock"
         ]
     },
     {
-        "name": "BeachZoneMiddleIsle",
+        "name": "BeachZoneMain_RecycleBridge_Entrance",
+        "parent": "@Beach Zone Main Area",
         "access_rules": [
-            "@BeachZoneOverworld, beach_zone_bridge1_unlock",
-            "@BeachZoneOverworld, beach_zone_bridge2_unlock"
+            "beach_zone_bridge2_unlock"
         ]
+    },
+    {
+        "name": "BeachZoneMiddle_MainBridge_Entrance",
+        "parent": "@Beach Zone Middle Isle",
+        "access_rules": [
+            "beach_zone_bridge1_unlock",
+            "beach_zone_bridge2_unlock"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_MiddleBridge_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "beach_zone_bridge1_unlock",
+            "beach_zone_bridge2_unlock"
+        ]
+    },
+    {
+        "name": "BeachZoneLapras_MainRock_Entrance",
+        "parent": "@Beach Zone Lapras Area",
+        "access_rules": [
+            "gyarados_prisma_activated"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_LaprasRock_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "gyarados_prisma_activated"
+        ]
+    },
+    // Attractions
+    {
+        "name": "BeachZoneMain_PelipperAttraction_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "BeachZoneRecycle_GyaradosAttraction_Entrance",
+        "parent": "@Beach Zone Recycle Area",
+        "access_rules": []
+    },
+    {
+        "name": "PelipperAttraction_Pelipper_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "GyaradosAttraction_Gyarados_Entrance",
+        "parent": "@Beach Zone Recycle Area",
+        "access_rules": []
     }
 ]

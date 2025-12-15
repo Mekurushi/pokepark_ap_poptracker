@@ -1,9 +1,9 @@
 [
     // Main Area
     {
-        "name": "PokeparkEntranceMeadowZoneGateExit",
+        "name": "PokeparkEntrance_MeadowGate_Exit",
         "access_rules": [
-            "$exit_accessibility|PokeparkEntranceMeadowZoneGateExit"
+            "$exit_accessibility|PokeparkEntrance_MeadowGate_Exit"
         ]
     }
 ]

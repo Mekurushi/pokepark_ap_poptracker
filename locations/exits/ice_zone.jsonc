@@ -1,0 +1,9 @@
+[
+    // Main Area
+    {
+        "name": "IceZoneLapras_BeachLapras_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneLapras_BeachLapras_Exit"
+        ]
+    }
+]

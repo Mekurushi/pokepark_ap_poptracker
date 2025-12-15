@@ -2,9 +2,8 @@
     {
         "name": "Gyarados' Aqua Dash Attraction",
         "access_rules": [
-            "@BeachZoneGyaradosMinigame"
+            "@GyaradosAttraction_Gyarados_Exit"
         ],
-        "parent": "BeachZoneRecycleArea",
         "children": [
             {
                 "name": "Pikachu",

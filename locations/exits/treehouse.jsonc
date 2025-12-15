@@ -1,8 +1,27 @@
 [
     {
-        "name": "TreehouseMeadowZoneGateExit",
+        "name": "Treehouse_MeadowGate_Exit",
         "access_rules": [
-            "$exit_accessibility|TreehouseMeadowZoneGateExit"
+            "$exit_accessibility|Treehouse_MeadowGate_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_BeachGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_BeachGate_Exit"
+        ]
+    },
+    // Fast Travels
+    {
+        "name": "Treehouse_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_BeachDrifblim_Exit"
         ]
     }
 ]

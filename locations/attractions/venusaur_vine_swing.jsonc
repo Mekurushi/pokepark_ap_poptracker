@@ -2,7 +2,7 @@
     {
         "name": "Venusaur's Vine Swing Attraction",
         "access_rules": [
-            "@VenusaurAttractionVenusaurExit"
+            "@VenusaurAttraction_Venusaur_Exit"
         ],
         "children": [
             {

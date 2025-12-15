@@ -2,9 +2,8 @@
     {
         "name": "Pelipper's Circle Circuit Attraction",
         "access_rules": [
-            "@BeachZonePelliperMinigame"
+            "@PelipperAttraction_Pelipper_Exit"
         ],
-        "parent": "BeachZoneOverworld",
         "children": [
             {
                 "name": "Pikachu",

@@ -1,6 +1,6 @@
 [
     {
-        "name": "MeadowZoneMainAreaPokeparkEntranceEntrance",
+        "name": "PokeparkEntrance_MeadowGate_Entrance",
         "parent": "@Pokepark Entrance",
         "access_rules": []
     }

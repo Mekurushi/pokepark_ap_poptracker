@@ -1,36 +1,51 @@
 [
     // Main Area
     {
-        "name": "MeadowZoneVenusaurAreaVenusaurGateEntrance",
+        "name": "MeadowZoneMain_VenusaurGate_Entrance",
         "parent": "@Meadow Zone Main Area",
         "access_rules": [
             "bulbasaur_prisma_activated"
         ]
     },
     {
-        "name": "PokeparkEntranceMeadowZoneGateEntrance",
+        "name": "MeadowZoneMain_PokeparkGate_Entrance",
         "parent": "@Meadow Zone Main Area",
         "access_rules": []
     },
     {
-        "name": "TreehouseMeadowZoneGateEntrance",
+        "name": "MeadowZoneMain_TreehouseGate_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMain_TreehouseDrifblim_Entrance",
         "parent": "@Meadow Zone Main Area",
         "access_rules": []
     },
     // Venusaur Area
     {
-        "name": "MeadowZoneMainAreaVenusaurGateEntrance",
+        "name": "MeadowZoneVenusaur_MainGate_Entrance",
         "parent": "@Meadow Zone Venusaur Area",
         "access_rules": []
     },
     // Attractions
     {
-        "name": "BulbasaurAttractionBulbasaurEntrance",
+        "name": "BulbasaurAttraction_Bulbasaur_Entrance",
+        "parent": "@Bulbasaur's Daring Dash Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "VenusaurAttraction_Venusaur_Entrance",
+        "parent": "@Venusaur's Vine Swing Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMain_BulbasaurAttraction_Entrance",
         "parent": "@Meadow Zone Main Area",
         "access_rules": []
     },
     {
-        "name": "VenusaurAttractionVenusaurEntrance",
+        "name": "MeadowZoneVenusaur_VenusaurAttraction_Entrance",
         "parent": "@Meadow Zone Venusaur Area",
         "access_rules": []
     }
