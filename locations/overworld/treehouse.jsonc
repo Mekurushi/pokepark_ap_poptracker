@@ -1,7 +1,13 @@
 [
   {
     "name": "Treehouse",
-    "access_rules": [],
+    "access_rules": [
+      "@Treehouse_MeadowGate_Exit",
+      "@Treehouse_BeachGate_Exit",
+      "@Treehouse_MeadowDrifblim_Exit",
+      "@Treehouse_BeachDrifblim_Exit",
+      "@Treehouse_IceDrifblim_Exit"
+    ],
     "children": [
       {
         "name": "Thunderbolt",

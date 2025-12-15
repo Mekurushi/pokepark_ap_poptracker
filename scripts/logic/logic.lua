@@ -663,6 +663,7 @@ local exit_to_entrance = {
     -- Meadow Zone Fast Travel
     ["MeadowZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -677,12 +678,14 @@ local exit_to_entrance = {
     ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
     ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_IceDrifblim_Exit"] = "@IceZoneMain_TreehouseDrifblim_Entrance",
 
     -- Beach Zone Exits
     -- Treehouse Entrances
     ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
     ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",

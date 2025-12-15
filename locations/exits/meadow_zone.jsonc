@@ -31,6 +31,12 @@
             "$exit_accessibility|MeadowZoneMain_BeachDrifblim_Exit"
         ]
     },
+    {
+        "name": "MeadowZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMain_IceDrifblim_Exit"
+        ]
+    },
     // Venusaur Exits
     {
         "name": "MeadowZoneVenusaur_MainGate_Exit",

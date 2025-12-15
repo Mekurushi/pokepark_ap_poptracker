@@ -23,5 +23,11 @@
         "access_rules": [
             "$exit_accessibility|Treehouse_BeachDrifblim_Exit"
         ]
+    },
+    {
+        "name": "Treehouse_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_IceDrifblim_Exit"
+        ]
     }
 ]

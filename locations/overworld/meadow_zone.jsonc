@@ -7,7 +7,8 @@
             "@MeadowZoneMain_PokeparkGate_Exit",
             "@MeadowZoneMain_VenusaurGate_Exit",
             "@MeadowZoneMain_BulbasaurAttraction_Exit",
-            "@MeadowZoneMain_BeachDrifblim_Exit"
+            "@MeadowZoneMain_BeachDrifblim_Exit",
+            "@MeadowZoneMain_IceDrifblim_Exit"
         ],
         "children": [
             {
