@@ -1,0 +1,156 @@
+[
+    // Main Area
+    {
+        "name": "HauntedZoneMain_TreehouseGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_TreehouseGate_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_MainGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_MainGate_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_MansionGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_MansionGate_Exit"
+        ]
+    },
+    // Inner
+    {
+        "name": "HauntedZoneBallroom_WhiteGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneBallroom_WhiteGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_WhiteGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_WhiteGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneStudy_RedGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneStudy_RedGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_RedGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_RedGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneGengar_BlueGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneGengar_BlueGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_BlueGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_BlueGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneAntic_GreenGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneAntic_GreenGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_GreenGemDoor_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_GreenGemDoor_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotom_Bookshelf_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneRotom_Bookshelf_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneStudy_Bookshelf_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneStudy_Bookshelf_Exit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "HauntedZoneMain_TangrowthAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_TangrowthAttraction_Exit"
+        ]
+    },
+    {
+        "name": "TangrowthAttraction_Tangrowth_Exit",
+        "access_rules": [
+            "$exit_accessibility|TangrowthAttraction_Tangrowth_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_DusknoirAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMansion_DusknoirAttraction_Exit"
+        ]
+    },
+    {
+        "name": "DusknoirAttraction_Dusknoir_Exit",
+        "access_rules": [
+            "$exit_accessibility|DusknoirAttraction_Dusknoir_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotom_RotomAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneRotom_RotomAttraction_Exit"
+        ]
+    },
+    {
+        "name": "RotomAttraction_Rotom_Exit",
+        "access_rules": [
+            "$exit_accessibility|RotomAttraction_Rotom_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "HauntedZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+]

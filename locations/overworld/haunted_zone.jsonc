@@ -2,7 +2,19 @@
     {
         "name": "Haunted Zone Main Area",
         "access_rules": [
-            "@HauntedZoneMainArea"
+            "@HauntedZoneMain_TreehouseGate_Exit",
+            "@HauntedZoneMain_TreehouseDrifblim_Exit",
+            "@HauntedZoneMain_MeadowDrifblim_Exit",
+            "@HauntedZoneMain_BeachDrifblim_Exit",
+            "@HauntedZoneMain_IceDrifblim_Exit",
+            "@HauntedZoneMain_CavernDrifblim_Exit",
+            "@HauntedZoneMain_MagmaDrifblim_Exit",
+            "@HauntedZoneMain_TangrowthAttraction_Exit",
+            "@HauntedZoneMain_MansionGate_Exit",
+            "@HauntedZoneMansion_WhiteGemDoor_Exit",
+            "@HauntedZoneMansion_RedGemDoor_Exit",
+            "@HauntedZoneMansion_BlueGemDoor_Exit",
+            "@HauntedZoneMansion_DusknoirAttraction_Exit"
         ],
         "children": [
             {
@@ -229,14 +241,11 @@
             },
             {
                 "name": "Tangrowth",
-                "access_rules": [
-                    "@HauntedZoneTangrowthMinigame"
-                ],
                 "sections": [
                     {
                         "name": "Friendship",
                         "access_rules": [
-                            "tangrowth_prisma_activated"
+                            "@HauntedZoneMain_TangrowthAttraction_Entrance, tangrowth_prisma_activated"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"
@@ -250,7 +259,8 @@
     {
         "name": "Haunted Zone Mansion Area",
         "access_rules": [
-            "@HauntedZoneMansion"
+            "@HauntedZoneMansion_MainGate_Exit",
+            "@HauntedZoneMansion_WhiteGemDoor_Exit"
         ],
         "children": [
             {
@@ -459,7 +469,7 @@
     {
         "name": "Haunted Zone Mansion Ballroom Area",
         "access_rules": [
-            "@HauntedZoneMansionBallroomArea"
+            "@HauntedZoneBallroom_WhiteGemDoor_Exit"
         ],
         "children": [
             {
@@ -575,7 +585,8 @@
     {
         "name": "Haunted Zone Mansion Study Area",
         "access_rules": [
-            "@HauntedZoneMansionStudyArea"
+            "@HauntedZoneStudy_RedGemDoor_Exit",
+            "@HauntedZoneStudy_Bookshelf_Exit"
         ],
         "children": [
             {
@@ -603,7 +614,7 @@
     {
         "name": "Haunted Zone Mansion Gengar Area",
         "access_rules": [
-            "@HauntedZoneMansionGengarArea"
+            "@HauntedZoneGengar_BlueGemDoor_Exit"
         ],
         "children": [
             {
@@ -675,7 +686,7 @@
     {
         "name": "Haunted Zone Mansion Antic Area",
         "access_rules": [
-            "@HauntedZoneMansionAnticArea"
+            "@HauntedZoneAntic_GreenGemDoor_Exit"
         ],
         "children": [
             {
@@ -739,6 +750,13 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "name": "Haunted Zone Rotom Area",
+        "access_rules": [
+            "@HauntedZoneRotom_Bookshelf_Exit",
+            "@HauntedZoneRotom_RotomAttraction_Exit"
         ]
     }
 ]

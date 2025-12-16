@@ -52,6 +52,13 @@
             "magma_zone_fast_travel"
         ]
     },
+    {
+        "name": "CavernZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Cavern Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
     // Magma Zone
     {
         "name": "Cavern_MagmaTruck_Entrance",

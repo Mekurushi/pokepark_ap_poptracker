@@ -37,6 +37,12 @@
             "$exit_accessibility|BeachZoneMain_MagmaDrifblim_Exit"
         ]
     },
+    {
+        "name": "BeachZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
     // Beach Zone Inner Exits
     {
         "name": "BeachZoneLapras_IceZoneLapras_Exit",

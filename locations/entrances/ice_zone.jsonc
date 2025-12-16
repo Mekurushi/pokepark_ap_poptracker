@@ -86,5 +86,12 @@
         "access_rules": [
             "magma_zone_fast_travel"
         ]
+    },
+    {
+        "name": "IceZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
     }
 ]

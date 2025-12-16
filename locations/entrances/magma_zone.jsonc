@@ -64,6 +64,13 @@
             "cavern_zone_fast_travel"
         ]
     },
+    {
+        "name": "MagmaZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
     // Attractions
     {
         "name": "RhyperiorAttraction_Rhyperior_Entrance",

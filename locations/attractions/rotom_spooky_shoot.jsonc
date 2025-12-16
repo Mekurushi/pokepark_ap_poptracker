@@ -2,9 +2,8 @@
     {
         "name": "Rotom's Spooky Shoot-'em-Up Attraction",
         "access_rules": [
-            "@HauntedZoneRotomMinigame"
+            "@RotomAttraction_Rotom_Exit"
         ],
-        "parent": "HauntedZoneRotomArea",
         "children": [
             {
                 "name": "Pikachu",

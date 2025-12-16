@@ -37,6 +37,12 @@
         ]
     },
     {
+        "name": "IceZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
         "name": "IceZoneMain_UpperLift_Exit",
         "access_rules": [
             "$exit_accessibility|IceZoneMain_UpperLift_Exit"

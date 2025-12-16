@@ -2,9 +2,8 @@
     {
         "name": "Tangrowth's Swing-Along Attraction",
         "access_rules": [
-            "@HauntedZoneTangrowthMinigame"
+            "@TangrowthAttraction_Tangrowth_Exit"
         ],
-        "parent": "HauntedZoneMainArea",
         "children": [
             {
                 "name": "Pikachu",

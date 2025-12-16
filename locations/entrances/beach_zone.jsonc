@@ -43,6 +43,13 @@
             "magma_zone_fast_travel"
         ]
     },
+    {
+        "name": "BeachZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
     // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",

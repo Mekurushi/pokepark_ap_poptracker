@@ -1,60 +1,168 @@
 [
     {
-        "name": "HauntedZoneMainArea",
+        "name": "HauntedZoneMain_TreehouseGate_Entrance",
+        "parent": "Haunted Zone Main Area",
         "access_rules": [
-            "$canReachHauntedZone"
+            "blaziken_prisma_activated"
         ]
     },
     {
-        "name": "HauntedZoneMansion",
+        "name": "HauntedZoneMain_MansionGate_Entrance",
+        "parent": "Haunted Zone Main Area",
         "access_rules": [
-            "$canReachHauntedZoneMansion"
+            "tangrowth_prisma_activated"
         ]
     },
     {
-        "name": "HauntedZoneMansionBallroomArea",
+        "name": "HauntedZoneMansion_MainGate_Entrance",
+        "parent": "Haunted Zone Mansion Area",
+        "access_rules": []
+    },
+    // Inner
+    {
+        "name": "HauntedZoneMansion_WhiteGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Area",
         "access_rules": [
-            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+            "haunted_zone_mansion_doors_unlock"
         ]
     },
     {
-        "name": "HauntedZoneMansionStudyArea",
+        "name": "HauntedZoneBallroom_WhiteGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Ballroom Area",
         "access_rules": [
-            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+            "haunted_zone_mansion_doors_unlock"
         ]
     },
     {
-        "name": "HauntedZoneMansionGengarArea",
+        "name": "HauntedZoneMansion_RedGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Area",
         "access_rules": [
-            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+            "haunted_zone_mansion_doors_unlock"
         ]
     },
     {
-        "name": "HauntedZoneMansionAnticArea",
+        "name": "HauntedZoneStudy_RedGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Study Area",
         "access_rules": [
-            "@HauntedZoneMansion, $canReachHauntedZoneMansionRooms"
+            "haunted_zone_mansion_doors_unlock"
         ]
     },
     {
-        "name": "HauntedZoneTangrowthMinigame",
+        "name": "HauntedZoneMansion_BlueGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Area",
+        "access_rules": [
+            "haunted_zone_mansion_doors_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneGengar_BlueGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Gengar Area",
+        "access_rules": [
+            "haunted_zone_mansion_doors_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneMansion_GreenGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Area",
+        "access_rules": [
+            "haunted_zone_mansion_doors_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneAntic_GreenGemDoor_Entrance",
+        "parent": "Haunted Zone Mansion Antic Area",
+        "access_rules": [
+            "haunted_zone_mansion_doors_unlock"
+        ]
+    },
+    {
+        "name": "HauntedZoneStudy_Bookshelf_Entrance",
+        "parent": "Haunted Zone Mansion Study Area",
+        "access_rules": [
+            "dusknoir_prisma_activated"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotom_Bookshelf_Entrance",
+        "parent": "Haunted Zone Rotom Area",
+        "access_rules": [
+            "dusknoir_prisma_activated"
+        ]
+    },
+    // Attractions
+    {
+        "name": "TangrowthAttraction_Tangrowth_Entrance",
+        "parent": "Tangrowth's Swing-Along Attraction",
         "access_rules": []
     },
     {
-        "name": "HauntedZoneDusknoirMinigame",
+        "name": "HauntedZoneMain_TangrowthAttraction_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "DusknoirAttraction_Dusknoir_Entrance",
+        "parent": "Dusknoir's Speed Slam Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneMansion_DusknoirAttraction_Entrance",
+        "parent": "Haunted Zone Mansion Area",
         "access_rules": [
             "dusknoir_unlock"
         ]
     },
     {
-        "name": "HauntedZoneRotomArea",
+        "name": "RotomAttraction_Rotom_Entrance",
+        "parent": "Rotom's Spooky Shoot-'em-Up Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneRotom_RotomAttraction_Entrance",
+        "parent": "Haunted Zone Rotom Area",
         "access_rules": [
             "$canAccessRotomMinigame"
         ]
     },
+    // Fast Travel
     {
-        "name": "HauntedZoneRotomMinigame",
+        "name": "HauntedZoneMain_MeadowDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
         "access_rules": [
-            "$canAccessRotomMinigame"
+            "meadow_zone_fast_travel"
         ]
-    }
+    },
+    {
+        "name": "HauntedZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneMain_BeachDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_IceDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_CavernDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_MagmaDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
 ]

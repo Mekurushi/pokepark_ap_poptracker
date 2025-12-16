@@ -666,6 +666,7 @@ local exit_to_entrance = {
     ["MeadowZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -679,21 +680,25 @@ local exit_to_entrance = {
     ["Treehouse_MeadowGate_Exit"] = "@MeadowZoneMain_TreehouseGate_Entrance",
     ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
     ["Treehouse_CavernGate_Exit"] = "@CavernZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_HauntedGate_Exit"] = "@HauntedZoneMain_TreehouseGate_Entrance",
 
     ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_IceDrifblim_Exit"] = "@IceZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_CavernDrifblim_Exit"] = "@CavernZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_MagmaDrifblim_Exit"] = "@MagmaZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_HauntedDrifblim_Exit"] = "@HauntedZoneMain_TreehouseDrifblim_Entrance",
 
     -- Beach Zone Exits
     -- Treehouse Entrances
     ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
+
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
     ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",
@@ -717,11 +722,13 @@ local exit_to_entrance = {
 
     -- Ice Zone Exits
     ["IceZoneMain_BeachLapras_Exit"] = "@BeachZoneLapras_IceZoneLapras_Entrance",
+
     ["IceZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_IceDrifblim_Entrance",
     ["IceZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_IceDrifblim_Entrance",
 
     -- Inner
     ["IceZoneMain_UpperLift_Exit"] = "@IceZoneLower_LowerLift_Entrance",
@@ -747,6 +754,7 @@ local exit_to_entrance = {
     ["CavernZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_CavernDrifblim_Entrance",
 
     -- Cavern Zone Attractions
     ["CavernZoneMain_BastiodonAttraction_Exit"] = "@BastiodonAttraction_Bastiodon_Entrance",
@@ -760,6 +768,7 @@ local exit_to_entrance = {
     ["MagmaZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MagmaDrifblim_Entrance",
     ["MagmaZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MagmaDrifblim_Entrance",
     ["MagmaZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_MagmaDrifblim_Entrance",
 
     -- Magma Zone Inner Entrances
     ["MagmaZoneMain_CircleFireWall_Exit"] = "@MagmaZoneCircle_MainFireWall_Entrance",
@@ -773,7 +782,49 @@ local exit_to_entrance = {
     ["RhyperiorAttraction_Rhyperior_Exit"] = "@MagmaZoneCircle_RhyperiorAttraction_Entrance",
 
     ["MagmaZoneBlaziken_BlazikenAttraction_Exit"] = "@BlazikenAttraction_Blaziken_Entrance",
-    ["BlazikenAttraction_Blaziken_Exit"] = "@MagmaZoneBlaziken_BlazikenAttraction_Entrance"
+    ["BlazikenAttraction_Blaziken_Exit"] = "@MagmaZoneBlaziken_BlazikenAttraction_Entrance",
+
+    -- Haunted Zone
+    ["HauntedZoneMain_TreehouseGate_Exit"] = "@Treehouse_HauntedGate_Entrance",
+
+    -- Haunted Zone Fast Travel
+    ["HauntedZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_HauntedDrifblim_Entrance",
+
+    -- Haunted Zone Attractions
+    ["HauntedZoneMain_TangrowthAttraction_Exit"] = "@TangrowthAttraction_Tangrowth_Entrance",
+    ["TangrowthAttraction_Tangrowth_Exit"] = "@HauntedZoneMain_TangrowthAttraction_Entrance",
+
+    ["HauntedZoneMansion_DusknoirAttraction_Exit"] = "@DusknoirAttraction_Dusknoir_Entrance",
+    ["DusknoirAttraction_Dusknoir_Exit"] = "@HauntedZoneMansion_DusknoirAttraction_Entrance",
+
+    ["HauntedZoneRotom_RotomAttraction_Exit"] = "@RotomAttraction_Rotom_Entrance",
+    ["RotomAttraction_Rotom_Exit"] = "@HauntedZoneRotom_RotomAttraction_Entrance",
+
+    -- Haunted Zone Mansion
+    ["HauntedZoneMansion_MainGate_Exit"] = "@HauntedZoneMain_MansionGate_Entrance",
+    ["HauntedZoneMain_MansionGate_Exit"] = "@HauntedZoneMansion_MainGate_Entrance",
+
+    -- Inner Haunted Mansion Area
+    ["HauntedZoneBallroom_WhiteGemDoor_Exit"] = "@HauntedZoneMansion_WhiteGemDoor_Entrance",
+    ["HauntedZoneMansion_WhiteGemDoor_Exit"] = "@HauntedZoneBallroom_WhiteGemDoor_Entrance",
+
+    ["HauntedZoneStudy_RedGemDoor_Exit"] = "@HauntedZoneMansion_RedGemDoor_Entrance",
+    ["HauntedZoneMansion_RedGemDoor_Exit"] = "@HauntedZoneStudy_RedGemDoor_Entrance",
+
+    ["HauntedZoneGengar_BlueGemDoor_Exit"] = "@HauntedZoneMansion_BlueGemDoor_Entrance",
+    ["HauntedZoneMansion_BlueGemDoor_Exit"] = "@HauntedZoneGengar_BlueGemDoor_Entrance",
+
+    ["HauntedZoneAntic_GreenGemDoor_Exit"] = "@HauntedZoneMansion_GreenGemDoor_Entrance",
+    ["HauntedZoneMansion_GreenGemDoor_Exit"] = "@HauntedZoneAntic_GreenGemDoor_Entrance",
+
+    -- intermission entrance neccessary
+    ["HauntedZoneRotom_Bookshelf_Exit"] = "@HauntedZoneStudy_Bookshelf_Entrance",
+    ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneRotom_Bookshelf_Entrance"
 
 }
 

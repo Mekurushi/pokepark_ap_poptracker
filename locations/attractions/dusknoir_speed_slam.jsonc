@@ -2,9 +2,8 @@
     {
         "name": "Dusknoir's Speed Slam Attraction",
         "access_rules": [
-            "@HauntedZoneDusknoirMinigame"
+            "@DusknoirAttraction_Dusknoir_Exit"
         ],
-        "parent": "HauntedZoneMansion",
         "children": [
             {
                 "name": "Pikachu",

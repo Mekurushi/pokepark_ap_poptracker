@@ -44,6 +44,12 @@
         ]
     },
     {
+        "name": "MeadowZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
         "name": "MeadowZoneMain_MagmaDrifblim_Exit",
         "access_rules": [
             "$exit_accessibility|MeadowZoneMain_MagmaDrifblim_Exit"
