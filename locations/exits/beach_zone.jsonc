@@ -25,6 +25,12 @@
             "$exit_accessibility|BeachZoneMain_IceDrifblim_Exit"
         ]
     },
+    {
+        "name": "BeachZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_CavernDrifblim_Exit"
+        ]
+    },
     // Beach Zone Inner Exits
     {
         "name": "BeachZoneLapras_IceZoneLapras_Exit",

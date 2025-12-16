@@ -1,0 +1,52 @@
+[
+    // Main Area
+    {
+        "name": "CavernZoneMain_TreehouseGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_TreehouseGate_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_MagmaTruck_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_MagmaTruck_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "CavernZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_BastiodonAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_BastiodonAttraction_Exit"
+        ]
+    },
+    {
+        "name": "BastiodonAttraction_Bastiodon_Exit",
+        "access_rules": [
+            "$exit_accessibility|BastiodonAttraction_Bastiodon_Exit"
+        ]
+    }
+]

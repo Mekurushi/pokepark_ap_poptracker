@@ -24,5 +24,11 @@
     {
         "name": "MagmaZoneBlazikenMinigame",
         "access_rules": []
+    },
+    //
+    {
+        "name": "Magma_CavernTruck_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": []
     }
 ]

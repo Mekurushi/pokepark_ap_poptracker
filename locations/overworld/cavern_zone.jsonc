@@ -1,8 +1,14 @@
 [
     {
-        "name": "Cavern Zone",
+        "name": "Cavern Zone Main Area",
         "access_rules": [
-            "@CavernZoneOverworld"
+            "@CavernZoneMain_TreehouseGate_Exit",
+            "@CavernZoneMain_MagmaTruck_Exit",
+            "@CavernZoneMain_TreehouseDrifblim_Exit",
+            "@CavernZoneMain_MeadowDrifblim_Exit",
+            "@CavernZoneMain_BeachDrifblim_Exit",
+            "@CavernZoneMain_IceDrifblim_Exit",
+            "@CavernZoneMain_BastiodonAttraction_Exit"
         ],
         "children": [
             {
@@ -420,7 +426,7 @@
                     {
                         "name": "Friendship",
                         "access_rules": [
-                            "bastiodon_prisma_activated, $canAccessBastiodonMinigame"
+                            "bastiodon_prisma_activated, @CavernZoneMain_BastiodonAttraction_Entrance"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"

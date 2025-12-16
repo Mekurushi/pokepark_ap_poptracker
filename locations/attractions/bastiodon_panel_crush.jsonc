@@ -2,9 +2,8 @@
     {
         "name": "Bastiodon's Panel Crush Attraction",
         "access_rules": [
-            "@CavernZoneBastiodonMinigame"
+            "@BastiodonAttraction_Bastiodon_Exit"
         ],
-        "parent": "CavernZoneOverworld",
         "children": [
             {
                 "name": "Pikachu",

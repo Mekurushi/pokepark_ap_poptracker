@@ -6,6 +6,20 @@
         "access_rules": []
     },
     {
+        "name": "Treehouse_CavernGate_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "empoleon_prisma_activated"
+        ]
+    },
+    {
+        "name": "Treehouse_CavernDrifblim_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
         "name": "Treehouse_MeadowDrifblim_Entrance",
         "parent": "Treehouse",
         "access_rules": [
@@ -13,7 +27,7 @@
         ]
     },
     {
-        "name": "Treehouse_TreehouseDrifblim_Entrance",
+        "name": "Treehouse_IceDrifblim_Entrance",
         "parent": "Treehouse",
         "access_rules": [
             "ice_zone_fast_travel"

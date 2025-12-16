@@ -72,5 +72,12 @@
         "access_rules": [
             "beach_zone_fast_travel"
         ]
+    },
+    {
+        "name": "IceZoneMain_CavernDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
     }
 ]

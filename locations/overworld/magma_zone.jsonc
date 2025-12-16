@@ -1,8 +1,8 @@
 [
     {
-        "name": "Magma Zone",
+        "name": "Magma Zone Main Area",
         "access_rules": [
-            "@MagmaZoneOverworld"
+            "@MagmaZoneMain_CavernTruck_Exit"
         ],
         "children": [
             {

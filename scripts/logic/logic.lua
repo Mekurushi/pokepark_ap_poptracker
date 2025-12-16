@@ -664,6 +664,7 @@ local exit_to_entrance = {
     ["MeadowZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -676,9 +677,12 @@ local exit_to_entrance = {
     -- Treehouse leading
     ["Treehouse_MeadowGate_Exit"] = "@MeadowZoneMain_TreehouseGate_Entrance",
     ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_CavernGate_Exit"] = "@CavernZoneMain_TreehouseGate_Entrance",
+
     ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_IceDrifblim_Exit"] = "@IceZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_CavernDrifblim_Exit"] = "@CavernZoneMain_TreehouseDrifblim_Entrance",
 
     -- Beach Zone Exits
     -- Treehouse Entrances
@@ -686,6 +690,7 @@ local exit_to_entrance = {
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
     ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",
@@ -709,9 +714,10 @@ local exit_to_entrance = {
 
     -- Ice Zone Exits
     ["IceZoneMain_BeachLapras_Exit"] = "@BeachZoneLapras_IceZoneLapras_Entrance",
-    ["IceZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_TreehouseDrifblim_Entrance",
+    ["IceZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_IceDrifblim_Entrance",
     ["IceZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_IceDrifblim_Entrance",
 
     -- Inner
     ["IceZoneMain_UpperLift_Exit"] = "@IceZoneLower_LowerLift_Entrance",
@@ -726,7 +732,23 @@ local exit_to_entrance = {
 
     -- Ice Zone attractions
     ["IceZoneEmpoleon_EmpoleonAttraction_Exit"] = "@EmpoleonAttraction_Empoleon_Entrance",
-    ["EmpoleonAttraction_Empoleon_Exit"] = "@IceZoneEmpoleon_EmpoleonAttraction_Entrance"
+    ["EmpoleonAttraction_Empoleon_Exit"] = "@IceZoneEmpoleon_EmpoleonAttraction_Entrance",
+
+    -- Cavern Zone
+    ["CavernZoneMain_TreehouseGate_Exit"] = "@Treehouse_CavernGate_Entrance",
+    ["CavernZoneMain_MagmaTruck_Exit"] = "@Magma_CavernTruck_Entrance",
+
+    ["CavernZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_CavernDrifblim_Entrance",
+    ["CavernZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_CavernDrifblim_Entrance",
+
+    -- Cavern Zone Attractions
+    ["CavernZoneMain_BastiodonAttraction_Exit"] = "@BastiodonAttraction_Bastiodon_Entrance",
+    ["BastiodonAttraction_Bastiodon_Exit"] = "@CavernZoneMain_BastiodonAttraction_Entrance",
+
+    -- Magma Zone 
+    ["MagmaZoneMain_CavernTruck_Exit"] = "@Cavern_MagmaTruck_Entrance"
 
 }
 

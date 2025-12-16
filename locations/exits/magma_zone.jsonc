@@ -1,0 +1,9 @@
+[
+    // Main Area
+    {
+        "name": "MagmaZoneMain_CavernTruck_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_CavernTruck_Exit"
+        ]
+    }
+]

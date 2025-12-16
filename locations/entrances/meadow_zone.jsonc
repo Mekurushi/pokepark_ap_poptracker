@@ -37,6 +37,13 @@
             "ice_zone_fast_travel"
         ]
     },
+    {
+        "name": "MeadowZoneMain_CavernDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
     // Venusaur Area
     {
         "name": "MeadowZoneVenusaur_MainGate_Entrance",

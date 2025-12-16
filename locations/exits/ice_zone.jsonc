@@ -25,6 +25,12 @@
         ]
     },
     {
+        "name": "IceZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
         "name": "IceZoneMain_UpperLift_Exit",
         "access_rules": [
             "$exit_accessibility|IceZoneMain_UpperLift_Exit"
