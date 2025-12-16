@@ -1,34 +1,88 @@
 [
     {
-        "name": "MagmaZoneOverworld",
-        "access_rules": [
-            "$canReachMagmaZone"
-        ]
-    },
-    {
-        "name": "MagmaZoneCircleArea",
-        "access_rules": [
-            "@MagmaZoneOverworld, magma_zone_firewall_unlock"
-        ]
-    },
-    {
-        "name": "MagmaZoneBlazikenArea",
-        "access_rules": [
-            "@MagmaZoneCircleArea, rhyperior_prisma_activated"
-        ]
-    },
-    {
-        "name": "MagmaZoneRhyperiorMinigame",
-        "access_rules": []
-    },
-    {
-        "name": "MagmaZoneBlazikenMinigame",
-        "access_rules": []
-    },
-    //
-    {
         "name": "Magma_CavernTruck_Entrance",
         "parent": "@Magma Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MagmaZoneCircle_MainFireWall_Entrance",
+        "parent": "@Magma Zone Circle Area",
+        "access_rules": [
+            "magma_zone_firewall_unlock"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_CircleFireWall_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "magma_zone_firewall_unlock"
+        ]
+    },
+    {
+        "name": "MagmaZoneBlaziken_MainGate_Entrance",
+        "parent": "@Magma Zone Blaziken Area",
+        "access_rules": []
+    },
+    {
+        "name": "MagmaZoneCircle_BlazikenGate_Entrance",
+        "parent": "@Magma Zone Circle Area",
+        "access_rules": [
+            "rhyperior_prisma_activated"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "MagmaZoneMain_MeadowDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MagmaZoneMain_BeachDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_IceDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_CavernDrifblim_Entrance",
+        "parent": "@Magma Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    // Attractions
+    {
+        "name": "RhyperiorAttraction_Rhyperior_Entrance",
+        "parent": "@Rhyperior's Bumper Burn Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "MagmaZoneCircle_RhyperiorAttraction_Entrance",
+        "parent": "@Magma Zone Circle Area",
+        "access_rules": []
+    },
+    {
+        "name": "BlazikenAttraction_Blaziken_Entrance",
+        "parent": "@Blaziken's Boulder Bash Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "MagmaZoneBlaziken_BlazikenAttraction_Entrance",
+        "parent": "@Magma Zone Blaziken Area",
         "access_rules": []
     }
 ]

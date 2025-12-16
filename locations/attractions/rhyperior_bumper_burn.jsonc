@@ -2,9 +2,8 @@
     {
         "name": "Rhyperior's Bumper Burn Attraction",
         "access_rules": [
-            "@MagmaZoneRhyperiorMinigame"
+            "@RhyperiorAttraction_Rhyperior_Exit"
         ],
-        "parent": "MagmaZoneCircleArea",
         "children": [
             {
                 "name": "Pikachu",

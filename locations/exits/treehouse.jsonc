@@ -45,5 +45,11 @@
         "access_rules": [
             "$exit_accessibility|Treehouse_CavernDrifblim_Exit"
         ]
+    },
+    {
+        "name": "Treehouse_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_MagmaDrifblim_Exit"
+        ]
     }
 ]

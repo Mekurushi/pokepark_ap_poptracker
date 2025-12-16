@@ -36,6 +36,13 @@
             "cavern_zone_fast_travel"
         ]
     },
+    {
+        "name": "BeachZoneMain_MagmaDrifblim_Entrance",
+        "parent": "@Beach Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
     // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",

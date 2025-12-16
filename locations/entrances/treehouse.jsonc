@@ -46,5 +46,12 @@
         "access_rules": [
             "beach_zone_fast_travel"
         ]
+    },
+    {
+        "name": "Treehouse_MagmaDrifblim_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
     }
 ]

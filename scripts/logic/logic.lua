@@ -665,6 +665,7 @@ local exit_to_entrance = {
     ["MeadowZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -683,6 +684,7 @@ local exit_to_entrance = {
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_IceDrifblim_Exit"] = "@IceZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_CavernDrifblim_Exit"] = "@CavernZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_MagmaDrifblim_Exit"] = "@MagmaZoneMain_TreehouseDrifblim_Entrance",
 
     -- Beach Zone Exits
     -- Treehouse Entrances
@@ -691,6 +693,7 @@ local exit_to_entrance = {
     ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",
@@ -718,6 +721,7 @@ local exit_to_entrance = {
     ["IceZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_IceDrifblim_Entrance",
 
     -- Inner
     ["IceZoneMain_UpperLift_Exit"] = "@IceZoneLower_LowerLift_Entrance",
@@ -742,13 +746,34 @@ local exit_to_entrance = {
     ["CavernZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_CavernDrifblim_Entrance",
 
     -- Cavern Zone Attractions
     ["CavernZoneMain_BastiodonAttraction_Exit"] = "@BastiodonAttraction_Bastiodon_Entrance",
     ["BastiodonAttraction_Bastiodon_Exit"] = "@CavernZoneMain_BastiodonAttraction_Entrance",
 
     -- Magma Zone 
-    ["MagmaZoneMain_CavernTruck_Exit"] = "@Cavern_MagmaTruck_Entrance"
+    ["MagmaZoneMain_CavernTruck_Exit"] = "@Cavern_MagmaTruck_Entrance",
+
+    ["MagmaZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MagmaDrifblim_Entrance",
+
+    -- Magma Zone Inner Entrances
+    ["MagmaZoneMain_CircleFireWall_Exit"] = "@MagmaZoneCircle_MainFireWall_Entrance",
+    ["MagmaZoneCircle_MainFireWall_Exit"] = "@MagmaZoneMain_CircleFireWall_Entrance",
+
+    ["MagmaZoneCircle_BlazikenGate_Exit"] = "@MagmaZoneBlaziken_MainGate_Entrance",
+    ["MagmaZoneBlaziken_MainGate_Exit"] = "@MagmaZoneCircle_BlazikenGate_Entrance",
+
+    -- Magma Zone Attractions
+    ["MagmaZoneCircle_RhyperiorAttraction_Exit"] = "@RhyperiorAttraction_Rhyperior_Entrance",
+    ["RhyperiorAttraction_Rhyperior_Exit"] = "@MagmaZoneCircle_RhyperiorAttraction_Entrance",
+
+    ["MagmaZoneBlaziken_BlazikenAttraction_Exit"] = "@BlazikenAttraction_Blaziken_Entrance",
+    ["BlazikenAttraction_Blaziken_Exit"] = "@MagmaZoneBlaziken_BlazikenAttraction_Entrance"
 
 }
 

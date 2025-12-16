@@ -38,6 +38,13 @@
         ]
     },
     {
+        "name": "CavernZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+    // Attractions
+    {
         "name": "CavernZoneMain_BastiodonAttraction_Exit",
         "access_rules": [
             "$exit_accessibility|CavernZoneMain_BastiodonAttraction_Exit"

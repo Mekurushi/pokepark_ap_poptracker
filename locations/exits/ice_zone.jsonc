@@ -31,6 +31,12 @@
         ]
     },
     {
+        "name": "IceZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+    {
         "name": "IceZoneMain_UpperLift_Exit",
         "access_rules": [
             "$exit_accessibility|IceZoneMain_UpperLift_Exit"

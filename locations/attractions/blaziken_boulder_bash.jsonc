@@ -2,9 +2,8 @@
     {
         "name": "Blaziken's Boulder Bash Attraction",
         "access_rules": [
-            "@MagmaZoneBlazikenMinigame"
+            "@BlazikenAttraction_Blaziken_Exit"
         ],
-        "parent": "MagmaZoneBlazikenArea",
         "children": [
             {
                 "name": "Pikachu",

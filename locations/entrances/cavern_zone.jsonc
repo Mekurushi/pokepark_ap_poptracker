@@ -45,6 +45,13 @@
             "ice_zone_fast_travel"
         ]
     },
+    {
+        "name": "CavernZoneMain_MagmaDrifblim_Entrance",
+        "parent": "@Cavern Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
     // Magma Zone
     {
         "name": "Cavern_MagmaTruck_Entrance",
