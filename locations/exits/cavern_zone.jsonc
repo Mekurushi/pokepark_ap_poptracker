@@ -49,6 +49,18 @@
             "$exit_accessibility|CavernZoneMain_HauntedDrifblim_Exit"
         ]
     },
+    {
+        "name": "CavernZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|CavernZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
     // Attractions
     {
         "name": "CavernZoneMain_BastiodonAttraction_Exit",

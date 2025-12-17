@@ -8,6 +8,10 @@
             "@CavernZoneMain_MeadowDrifblim_Exit",
             "@CavernZoneMain_BeachDrifblim_Exit",
             "@CavernZoneMain_IceDrifblim_Exit",
+            "@CavernZoneMain_MagmaDrifblim_Exit",
+            "@CavernZoneMain_HauntedDrifblim_Exit",
+            "@CavernZoneMain_GraniteDrifblim_Exit",
+            "@CavernZoneMain_FlowerDrifblim_Exit",
             "@CavernZoneMain_BastiodonAttraction_Exit"
         ],
         "children": [

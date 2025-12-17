@@ -27,6 +27,12 @@
             "$exit_accessibility|Treehouse_HauntedGate_Exit"
         ]
     },
+    {
+        "name": "Treehouse_GraniteGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_GraniteGate_Exit"
+        ]
+    },
     // Fast Travels
     {
         "name": "Treehouse_MeadowDrifblim_Exit",
@@ -62,6 +68,18 @@
         "name": "Treehouse_HauntedDrifblim_Exit",
         "access_rules": [
             "$exit_accessibility|Treehouse_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_FlowerDrifblim_Exit"
         ]
     }
 ]

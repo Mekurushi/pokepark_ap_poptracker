@@ -9,12 +9,10 @@
             "@HauntedZoneMain_IceDrifblim_Exit",
             "@HauntedZoneMain_CavernDrifblim_Exit",
             "@HauntedZoneMain_MagmaDrifblim_Exit",
+            "@HauntedZoneMain_GraniteDrifblim_Exit",
+            "@HauntedZoneMain_FlowerDrifblim_Exit",
             "@HauntedZoneMain_TangrowthAttraction_Exit",
             "@HauntedZoneMain_MansionGate_Exit",
-            "@HauntedZoneMansion_WhiteGemDoor_Exit",
-            "@HauntedZoneMansion_RedGemDoor_Exit",
-            "@HauntedZoneMansion_BlueGemDoor_Exit",
-            "@HauntedZoneMansion_DusknoirAttraction_Exit"
         ],
         "children": [
             {
@@ -260,7 +258,11 @@
         "name": "Haunted Zone Mansion Area",
         "access_rules": [
             "@HauntedZoneMansion_MainGate_Exit",
-            "@HauntedZoneMansion_WhiteGemDoor_Exit"
+            "@HauntedZoneMansion_WhiteGemDoor_Exit",
+            "@HauntedZoneMansion_RedGemDoor_Exit",
+            "@HauntedZoneMansion_BlueGemDoor_Exit",
+            "@HauntedZoneMansion_GreenGemDoor_Exit",
+            "@HauntedZoneMansion_DusknoirAttraction_Exit"
         ],
         "children": [
             {

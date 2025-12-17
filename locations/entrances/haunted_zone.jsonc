@@ -165,4 +165,18 @@
             "magma_zone_fast_travel"
         ]
     },
+    {
+        "name": "HauntedZoneMain_GraniteDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "granite_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_FlowerDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "access_rules": [
+            "flower_zone_fast_travel"
+        ]
+    },
 ]

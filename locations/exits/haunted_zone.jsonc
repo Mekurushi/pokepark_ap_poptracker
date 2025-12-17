@@ -153,4 +153,16 @@
             "$exit_accessibility|HauntedZoneMain_MagmaDrifblim_Exit"
         ]
     },
+    {
+        "name": "HauntedZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
 ]

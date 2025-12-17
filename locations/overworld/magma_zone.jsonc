@@ -3,12 +3,15 @@
         "name": "Magma Zone Main Area",
         "access_rules": [
             "@MagmaZoneMain_CavernTruck_Exit",
+            "@MagmaZoneMain_CircleFireWall_Exit",
             "@MagmaZoneMain_TreehouseDrifblim_Exit",
             "@MagmaZoneMain_MeadowDrifblim_Exit",
             "@MagmaZoneMain_BeachDrifblim_Exit",
             "@MagmaZoneMain_IceDrifblim_Exit",
             "@MagmaZoneMain_CavernDrifblim_Exit",
-            "@MagmaZoneMain_CircleFireWall_Exit"
+            "@MagmaZoneMain_HauntedDrifblim_Exit",
+            "@MagmaZoneMain_GraniteDrifblim_Exit",
+            "@MagmaZoneMain_FlowerDrifblim_Exit",
         ],
         "children": [
             {

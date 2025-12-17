@@ -6,6 +6,11 @@
             "@IceZoneMain_TreehouseDrifblim_Exit",
             "@IceZoneMain_MeadowDrifblim_Exit",
             "@IceZoneMain_BeachDrifblim_Exit",
+            "@IceZoneMain_CavernDrifblim_Exit",
+            "@IceZoneMain_MagmaDrifblim_Exit",
+            "@IceZoneMain_HauntedDrifblim_Exit",
+            "@IceZoneMain_GraniteDrifblim_Exit",
+            "@IceZoneMain_FlowerDrifblim_Exit",
             "@IceZoneMain_UpperLift_Exit",
             "@IceZoneMain_EmpoleonGate_Exit",
             "@IceZoneMain_FrozenLake_Exit"

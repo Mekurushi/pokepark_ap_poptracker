@@ -3,12 +3,17 @@
         "name": "Meadow Zone Main Area",
         "access_rules": [
             "@MeadowZoneMain_TreehouseGate_Exit",
-            "@MeadowZoneMain_TreehouseDrifblim_Exit",
             "@MeadowZoneMain_PokeparkGate_Exit",
             "@MeadowZoneMain_VenusaurGate_Exit",
-            "@MeadowZoneMain_BulbasaurAttraction_Exit",
+            "@MeadowZoneMain_TreehouseDrifblim_Exit",
             "@MeadowZoneMain_BeachDrifblim_Exit",
-            "@MeadowZoneMain_IceDrifblim_Exit"
+            "@MeadowZoneMain_IceDrifblim_Exit",
+            "@MeadowZoneMain_CavernDrifblim_Exit",
+            "@MeadowZoneMain_HauntedDrifblim_Exit",
+            "@MeadowZoneMain_MagmaDrifblim_Exit",
+            "@MeadowZoneMain_GraniteDrifblim_Exit",
+            "@MeadowZoneMain_FlowerDrifblim_Exit",
+            "@MeadowZoneMain_BulbasaurAttraction_Exit",
         ],
         "children": [
             {

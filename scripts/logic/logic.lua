@@ -123,6 +123,11 @@ function hasAny(items)
     return false
 end
 
+function canReachLocation(location_name)
+    local entrance = Tracker:FindObjectForCode(location_name)
+    return entrance.AccessibilityLevel
+end
+
 function isHarderEnemyAI()
     return has("harder_enemy_ai")
 end
@@ -136,11 +141,11 @@ function canReachBeachZoneRecycleArea()
 end
 
 function canFarmBerriesIntermediate()
-    return canReachBeachZoneRecycleArea()
+    return canReachLocation("@Beach Zone Recycle Area")
 end
 
 function canFarmBerriesAdvanced()
-    return canReachMagmaZone() and has("golem_unlock")
+    return canReachLocation("@Magma Zone Main Area") and has("golem_unlock")
 end
 
 function canPlayCatch()
@@ -468,87 +473,6 @@ function canBeatAllRayquazaMinigame()
     return hasAll(sky_pokemon_items)
 end
 
-function canReachBeachZoneFromIceZone()
-    return has("gyarados_prisma_activated") and hasAny({"ice_zone_fast_travel"})
-end
-
-function canReachBeachZoneFromTreehouse()
-    return hasAny({"venusaur_prisma_activated", "beach_zone_fast_travel"})
-end
-function canReachBeachZone()
-    return canReachBeachZoneFromTreehouse() or canReachBeachZoneFromIceZone()
-end
-
-function canReachCavernZoneFromMagmaZone()
-    return has("magma_zone_fast_travel")
-end
-
-function canReachCavernZoneFromTreehouse()
-    return hasAny({"empoleon_prisma_activated", "cavern_zone_fast_travel"})
-end
-
-function canReachCavernZone()
-    return canReachCavernZoneFromMagmaZone() or canReachCavernZoneFromTreehouse()
-end
-
-function canReachIceZoneFromBeachZone()
-    return has("gyarados_prisma_activated") and canReachBeachZone()
-end
-
-function canReachIceZoneFromTreehouse()
-    return has("ice_zone_fast_travel")
-end
-
-function canReachIceZone()
-    return canReachIceZoneFromTreehouse() or canReachIceZoneFromBeachZone()
-end
-
-function canReachMagmaZoneFromCavernZone()
-    return has("bastiodon_prisma_activated") and canReachCavernZone()
-end
-
-function canReachMagmaZoneFromTreehouse()
-    return has("magma_zone_fast_travel")
-end
-
-function canReachMagmaZone()
-    return canReachMagmaZoneFromTreehouse() or canReachMagmaZoneFromCavernZone()
-end
-
-function canReachHauntedZone()
-    return hasAny({"haunted_zone_fast_travel", "blaziken_prisma_activated"})
-end
-
-function canReachHauntedZoneMansion()
-    return has("tangrowth_prisma_activated")
-end
-
-function canReachHauntedZoneMansionRooms()
-    return has("haunted_zone_mansion_doors_unlock")
-end
-
-function canReachFlowerZoneFromTreehouse()
-    return has("flower_zone_fast_travel")
-end
-function canReachFlowerZoneFromGraniteZone()
-    return canReachGraniteZoneFromTreehouse()
-end
-function canReachFlowerZone()
-    return canReachFlowerZoneFromGraniteZone() or canReachFlowerZoneFromTreehouse()
-end
-
-function canReachGraniteZoneFromTreehouse()
-    return hasAny({"granite_zone_fast_travel", "rotom_prisma_activated"})
-end
-
-function canReachGraniteZoneFromFlowerZone()
-    return canReachFlowerZoneFromTreehouse()
-end
-
-function canReachGraniteZone()
-    return canReachGraniteZoneFromTreehouse() or canReachGraniteZoneFromFlowerZone()
-end
-
 local fast_travel_items = {"meadow_zone_fast_travel", "beach_zone_fast_travel", "ice_zone_fast_travel",
                            "cavern_zone_fast_travel", "magma_zone_fast_travel", "haunted_zone_fast_travel",
                            "granite_zone_fast_travel", "flower_zone_fast_travel"}
@@ -667,6 +591,8 @@ local exit_to_entrance = {
     ["MeadowZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_MeadowDrifblim_Entrance",
     ["MeadowZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_MeadowDrifblim_Entrance",
+    ["MeadowZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_MeadowDrifblim_Entrance",
 
     -- Meadow Zone Venusaur Area Exits
     ["MeadowZoneVenusaur_MainGate_Exit"] = "@MeadowZoneMain_VenusaurGate_Entrance",
@@ -681,6 +607,7 @@ local exit_to_entrance = {
     ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
     ["Treehouse_CavernGate_Exit"] = "@CavernZoneMain_TreehouseGate_Entrance",
     ["Treehouse_HauntedGate_Exit"] = "@HauntedZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_GraniteGate_Exit"] = "@GraniteZoneMain_TreehouseGate_Entrance",
 
     ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
@@ -688,17 +615,22 @@ local exit_to_entrance = {
     ["Treehouse_CavernDrifblim_Exit"] = "@CavernZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_MagmaDrifblim_Exit"] = "@MagmaZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_HauntedDrifblim_Exit"] = "@HauntedZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_GraniteDrifblim_Exit"] = "@GraniteZoneMain_TreehouseDrifblim_Entrance",
+    ["Treehouse_FlowerDrifblim_Exit"] = "@FlowerZoneMain_TreehouseDrifblim_Entrance",
 
     -- Beach Zone Exits
     -- Treehouse Entrances
     ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
 
+    -- Beach Zone Fast Travel Exits
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
     ["BeachZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_BeachDrifblim_Entrance",
     ["BeachZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_BeachDrifblim_Entrance",
+    ["BeachZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_BeachDrifblim_Entrance",
 
     -- Ice Zone Entrances
     ["BeachZoneLapras_IceZoneLapras_Exit"] = "@IceZoneLapras_BeachLapras_Entrance",
@@ -729,6 +661,8 @@ local exit_to_entrance = {
     ["IceZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_IceDrifblim_Entrance",
     ["IceZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_IceDrifblim_Entrance",
+    ["IceZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_IceDrifblim_Entrance",
 
     -- Inner
     ["IceZoneMain_UpperLift_Exit"] = "@IceZoneLower_LowerLift_Entrance",
@@ -755,6 +689,8 @@ local exit_to_entrance = {
     ["CavernZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_CavernDrifblim_Entrance",
     ["CavernZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_CavernDrifblim_Entrance",
+    ["CavernZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_CavernDrifblim_Entrance",
 
     -- Cavern Zone Attractions
     ["CavernZoneMain_BastiodonAttraction_Exit"] = "@BastiodonAttraction_Bastiodon_Entrance",
@@ -769,6 +705,8 @@ local exit_to_entrance = {
     ["MagmaZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_MagmaDrifblim_Entrance",
     ["MagmaZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_MagmaDrifblim_Entrance",
     ["MagmaZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_MagmaDrifblim_Entrance",
+    ["MagmaZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_MagmaDrifblim_Entrance",
 
     -- Magma Zone Inner Entrances
     ["MagmaZoneMain_CircleFireWall_Exit"] = "@MagmaZoneCircle_MainFireWall_Entrance",
@@ -794,6 +732,8 @@ local exit_to_entrance = {
     ["HauntedZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_HauntedDrifblim_Entrance",
     ["HauntedZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_HauntedDrifblim_Entrance",
     ["HauntedZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_HauntedDrifblim_Entrance",
+    ["HauntedZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_HauntedDrifblim_Entrance",
 
     -- Haunted Zone Attractions
     ["HauntedZoneMain_TangrowthAttraction_Exit"] = "@TangrowthAttraction_Tangrowth_Entrance",
@@ -824,7 +764,45 @@ local exit_to_entrance = {
 
     -- intermission entrance neccessary
     ["HauntedZoneRotom_Bookshelf_Exit"] = "@HauntedZoneStudy_Bookshelf_Entrance",
-    ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneRotom_Bookshelf_Entrance"
+    ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneRotom_Bookshelf_Entrance",
+
+    -- Granite Zone
+    ["GraniteZoneMain_TreehouseGate_Exit"] = "@Treehouse_GraniteGate_Entrance",
+    ["GraniteZoneMain_FlowerGate_Exit"] = "@FlowerZoneMain_GraniteGate_Entrance",
+
+    -- Fast Travel
+    ["GraniteZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_GraniteDrifblim_Entrance",
+    ["GraniteZoneMain_FlowerDrifblim_Exit"] = "@FlowerZoneMain_GraniteDrifblim_Entrance",
+
+    -- Granite Zone Attractions
+    ["GraniteZoneMain_AbsolAttraction_Exit"] = "@AbsolAttraction_Absol_Entrance",
+    ["AbsolAttraction_Absol_Exit"] = "@GraniteZoneMain_AbsolAttraction_Entrance",
+
+    ["GraniteZoneMain_SalamenceAttraction_Exit"] = "@SalamenceAttraction_Salamence_Entrance",
+    ["SalamenceAttraction_Salamence_Exit"] = "@GraniteZoneMain_SalamenceAttraction_Entrance",
+
+    -- Flower Zone
+    ["FlowerZoneMain_GraniteGate_Exit"] = "@GraniteZoneMain_FlowerGate_Entrance",
+
+    -- Fast Travel
+    ["FlowerZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_MeadowDrifblim_Exit"] = "@MeadowZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_BeachDrifblim_Exit"] = "@BeachZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_IceDrifblim_Exit"] = "@IceZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_CavernDrifblim_Exit"] = "@CavernZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_MagmaDrifblim_Exit"] = "@MagmaZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_HauntedDrifblim_Exit"] = "@HauntedZoneMain_FlowerDrifblim_Entrance",
+    ["FlowerZoneMain_GraniteDrifblim_Exit"] = "@GraniteZoneMain_FlowerDrifblim_Entrance",
+
+    -- Flower Zone Attractions
+    ["FlowerZoneMain_RayquazaAttraction_Exit"] = "@RayquazaAttraction_Rayquaza_Entrance",
+    ["RayquazaAttraction_Rayquaza_Exit"] = "@FlowerZoneMain_RayquazaAttraction_Entrance"
 
 }
 

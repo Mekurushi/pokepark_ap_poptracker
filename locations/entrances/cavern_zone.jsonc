@@ -59,6 +59,20 @@
             "haunted_zone_fast_travel"
         ]
     },
+    {
+        "name": "CavernZoneMain_GraniteDrifblim_Entrance",
+        "parent": "@Cavern Zone Main Area",
+        "access_rules": [
+            "granite_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "CavernZoneMain_FlowerDrifblim_Entrance",
+        "parent": "@Cavern Zone Main Area",
+        "access_rules": [
+            "flower_zone_fast_travel"
+        ]
+    },
     // Magma Zone
     {
         "name": "Cavern_MagmaTruck_Entrance",

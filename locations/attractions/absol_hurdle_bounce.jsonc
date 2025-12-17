@@ -2,9 +2,8 @@
     {
         "name": "Absol's Hurdle Bounce Attraction",
         "access_rules": [
-            "@GraniteZoneAbsolMinigame"
+            "@AbsolAttraction_Absol_Exit"
         ],
-        "parent": "GraniteZone",
         "children": [
             {
                 "name": "Pikachu",

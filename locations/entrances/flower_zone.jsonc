@@ -1,14 +1,75 @@
 [
     {
-        "name": "FlowerZoneOverworld",
+        "name": "FlowerZoneMain_GraniteGate_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": []
+    },
+    //Attractions
+    {
+        "name": "RayquazaAttraction_Rayquaza_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "FlowerZoneMain_RayquazaAttraction_Entrance",
+        "parent": "Flower Zone Main Area",
         "access_rules": [
-            "$canReachFlowerZone"
+            "rayquaza_unlock"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "FlowerZoneMain_MeadowDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "meadow_zone_fast_travel"
         ]
     },
     {
-        "name": "FlowerZoneRayquazaMinigame",
+        "name": "FlowerZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "FlowerZoneMain_BeachDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
         "access_rules": [
-            "rayquaza_unlock"
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_IceDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_CavernDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_MagmaDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_HauntedDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_GraniteDrifblim_Entrance",
+        "parent": "Flower Zone Main Area",
+        "access_rules": [
+            "granite_zone_fast_travel"
         ]
     }
 ]

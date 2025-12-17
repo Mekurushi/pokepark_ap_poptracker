@@ -1,0 +1,71 @@
+[
+    // Main Area
+    {
+        "name": "FlowerZoneMain_GraniteGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_GraniteGate_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "FlowerZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "FlowerZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "FlowerZoneMain_RayquazaAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|FlowerZoneMain_RayquazaAttraction_Exit"
+        ]
+    },
+    {
+        "name": "RayquazaAttraction_Rayquaza_Exit",
+        "access_rules": [
+            "$exit_accessibility|RayquazaAttraction_Rayquaza_Exit"
+        ]
+    },
+]

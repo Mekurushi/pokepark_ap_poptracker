@@ -55,6 +55,18 @@
             "$exit_accessibility|MeadowZoneMain_MagmaDrifblim_Exit"
         ]
     },
+    {
+        "name": "MeadowZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MeadowZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
     // Venusaur Exits
     {
         "name": "MeadowZoneVenusaur_MainGate_Exit",

@@ -43,6 +43,18 @@
             "$exit_accessibility|BeachZoneMain_HauntedDrifblim_Exit"
         ]
     },
+    {
+        "name": "BeachZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "BeachZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|BeachZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
     // Beach Zone Inner Exits
     {
         "name": "BeachZoneLapras_IceZoneLapras_Exit",

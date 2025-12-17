@@ -5,11 +5,16 @@
             "@BeachZoneMain_TreehouseGate_Exit",
             "@BeachZoneMain_TreehouseDrifblim_Exit",
             "@BeachZoneMain_MeadowDrifblim_Exit",
+            "@BeachZoneMain_IceDrifblim_Exit",
+            "@BeachZoneMain_CavernDrifblim_Exit",
+            "@BeachZoneMain_MagmaDrifblim_Exit",
+            "@BeachZoneMain_HauntedDrifblim_Exit",
+            "@BeachZoneMain_GraniteDrifblim_Exit",
+            "@BeachZoneMain_FlowerDrifblim_Exit",
             "@BeachZoneMain_LaprasRock_Exit",
             "@BeachZoneMain_PelipperAttraction_Exit",
             "@BeachZoneMain_RecycleBridge_Exit",
             "@BeachZoneMain_MiddleBridge_Exit",
-            "@BeachZoneMain_IceDrifblim_Exit"
         ],
         "children": [
             {

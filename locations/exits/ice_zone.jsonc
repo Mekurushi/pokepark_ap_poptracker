@@ -43,6 +43,18 @@
         ]
     },
     {
+        "name": "IceZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
+    {
         "name": "IceZoneMain_UpperLift_Exit",
         "access_rules": [
             "$exit_accessibility|IceZoneMain_UpperLift_Exit"

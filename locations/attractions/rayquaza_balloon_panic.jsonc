@@ -2,9 +2,8 @@
     {
         "name": "Rayquaza's Balloon Panic Attraction",
         "access_rules": [
-            "@FlowerZoneRayquazaMinigame"
+            "@RayquazaAttraction_Rayquaza_Exit"
         ],
-        "parent": "FlowerZoneOverworld",
         "children": [
             {
                 "name": "Pikachu",
@@ -21,9 +20,7 @@
                     },
                     {
                         "name": "Pikachu",
-                        "access_rules": [
-                            "balloon"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "$attraction_locations_activated"
                         ],

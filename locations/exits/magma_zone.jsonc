@@ -67,6 +67,18 @@
             "$exit_accessibility|MagmaZoneMain_HauntedDrifblim_Exit"
         ]
     },
+    {
+        "name": "MagmaZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
     // Attractions
     {
         "name": "MagmaZoneCircle_RhyperiorAttraction_Exit",

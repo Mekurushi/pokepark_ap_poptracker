@@ -1,8 +1,17 @@
 [
     {
-        "name": "Flower Zone",
+        "name": "Flower Zone Main Area",
         "access_rules": [
-            "@FlowerZoneOverworld"
+            "@FlowerZoneMain_GraniteGate_Exit",
+            "@FlowerZoneMain_TreehouseDrifblim_Exit",
+            "@FlowerZoneMain_MeadowDrifblim_Exit",
+            "@FlowerZoneMain_BeachDrifblim_Exit",
+            "@FlowerZoneMain_IceDrifblim_Exit",
+            "@FlowerZoneMain_CavernDrifblim_Exit",
+            "@FlowerZoneMain_MagmaDrifblim_Exit",
+            "@FlowerZoneMain_HauntedDrifblim_Exit",
+            "@FlowerZoneMain_GraniteDrifblim_Exit",
+            "@FlowerZoneMain_RayquazaAttraction_Exit"
         ],
         "children": [
             {
@@ -11,7 +20,7 @@
                     {
                         "name": "Friendship",
                         "access_rules": [
-                            "rayquaza_prisma_activated, rayquaza_unlock"
+                            "rayquaza_prisma_activated, @FlowerZoneMain_RayquazaAttraction_Entrance"
                         ],
                         "visibility_rules": [
                             "$misc_locations_activated"

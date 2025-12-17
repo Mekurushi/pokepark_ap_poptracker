@@ -71,7 +71,9 @@ Tracker:AddLocations("locations/exits/magma_zone.jsonc")
 Tracker:AddLocations("locations/entrances/haunted_zone.jsonc")
 Tracker:AddLocations("locations/exits/haunted_zone.jsonc")
 Tracker:AddLocations("locations/entrances/granite_zone.jsonc")
+Tracker:AddLocations("locations/exits/granite_zone.jsonc")
 Tracker:AddLocations("locations/entrances/flower_zone.jsonc")
+Tracker:AddLocations("locations/exits/flower_zone.jsonc")
 Tracker:AddLocations("locations/entrances/skygarden.jsonc")
 
 -- Layout

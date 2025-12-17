@@ -27,6 +27,13 @@
             "blaziken_prisma_activated"
         ]
     },
+    {
+        "name": "Treehouse_GraniteGate_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "rotom_prisma_activated"
+        ]
+    },
     // fast travel
     {
         "name": "Treehouse_MeadowDrifblim_Entrance",
@@ -69,5 +76,19 @@
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
-    }
+    },
+    {
+        "name": "Treehouse_GraniteDrifblim_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "granite_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "Treehouse_FlowerDrifblim_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "flower_zone_fast_travel"
+        ]
+    },
 ]

@@ -2,9 +2,8 @@
     {
         "name": "Salamence's Sky Race Attraction",
         "access_rules": [
-            "@GraniteZoneSalamenceMinigame"
+            "@SalamenceAttraction_Salamence_Exit"
         ],
-        "parent": "GraniteZone",
         "children": [
             {
                 "name": "Pikachu",

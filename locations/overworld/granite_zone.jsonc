@@ -1,8 +1,19 @@
 [
     {
-        "name": "Granite Zone",
+        "name": "Granite Zone Main Area",
         "access_rules": [
-            "@GraniteZone"
+            "@GraniteZoneMain_TreehouseGate_Exit",
+            "@GraniteZoneMain_FlowerGate_Exit",
+            "@GraniteZoneMain_AbsolAttraction_Exit",
+            "@GraniteZoneMain_SalamenceAttraction_Exit",
+            "@GraniteZoneMain_TreehouseDrifblim_Exit",
+            "@GraniteZoneMain_MeadowDrifblim_Exit",
+            "@GraniteZoneMain_BeachDrifblim_Exit",
+            "@GraniteZoneMain_IceDrifblim_Exit",
+            "@GraniteZoneMain_CavernDrifblim_Exit",
+            "@GraniteZoneMain_MagmaDrifblim_Exit",
+            "@GraniteZoneMain_HauntedDrifblim_Exit",
+            "@GraniteZoneMain_FlowerDrifblim_Exit"
         ],
         "children": [
             {
@@ -258,7 +269,7 @@
             {
                 "name": "Absol",
                 "access_rules": [
-                    "@GraniteZoneAbsolMinigame"
+                    "@GraniteZoneMain_AbsolAttraction_Entrance"
                 ],
                 "sections": [
                     {
@@ -365,7 +376,7 @@
             {
                 "name": "Salamence",
                 "access_rules": [
-                    "@GraniteZoneSalamenceMinigame"
+                    "@GraniteZoneMain_SalamenceAttraction_Entrance"
                 ],
                 "sections": [
                     {
