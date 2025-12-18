@@ -137,11 +137,11 @@ function canFarmBerries()
 end
 
 function canReachBeachZoneRecycleArea()
-    return canReachBeachZone() and has("beach_zone_bridge2_unlock")
+    return canReachLocation("@Beach Zone Recycle Area")
 end
 
 function canFarmBerriesIntermediate()
-    return canReachLocation("@Beach Zone Recycle Area")
+    return canReachBeachZoneRecycleArea()
 end
 
 function canFarmBerriesAdvanced()
@@ -802,7 +802,11 @@ local exit_to_entrance = {
 
     -- Flower Zone Attractions
     ["FlowerZoneMain_RayquazaAttraction_Exit"] = "@RayquazaAttraction_Rayquaza_Entrance",
-    ["RayquazaAttraction_Rayquaza_Exit"] = "@FlowerZoneMain_RayquazaAttraction_Entrance"
+    ["RayquazaAttraction_Rayquaza_Exit"] = "@FlowerZoneMain_RayquazaAttraction_Entrance",
+
+    -- Skygarden
+    ["Skygarden_PiplupBalloon_Exit"] = "@Treehouse_PiplupBalloon_Entrance",
+    ["Treehouse_PiplupBalloon_Exit"] = "@Skygarden_PiplupBalloon_Entrance"
 
 }
 

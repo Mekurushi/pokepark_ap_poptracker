@@ -7,6 +7,7 @@
       "@Treehouse_CavernGate_Exit",
       "@Treehouse_HauntedGate_Exit",
       "@Treehouse_GraniteGate_Exit",
+      "@Treehouse_PiplupBalloon_Exit",
       "@Treehouse_MeadowDrifblim_Exit",
       "@Treehouse_BeachDrifblim_Exit",
       "@Treehouse_IceDrifblim_Exit",
@@ -253,5 +254,11 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Treehouse - Meadow Zone",
+    "access_rules": [
+      "@TreehouseMeadow_MeadowGate_Exit"
+    ],
   }
 ]

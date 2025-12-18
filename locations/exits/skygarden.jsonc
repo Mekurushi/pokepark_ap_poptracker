@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Skygarden_PiplupBalloon_Exit",
+        "access_rules": [
+            "$exit_accessibility|Skygarden_PiplupBalloon_Exit"
+        ]
+    },
+]

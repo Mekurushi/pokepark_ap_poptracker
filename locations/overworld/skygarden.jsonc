@@ -2,7 +2,7 @@
     {
         "name": "Skygarden",
         "access_rules": [
-            "@PiplupAirBalloon"
+            "@Skygarden_PiplupBalloon_Exit"
         ],
         "children": [
             {

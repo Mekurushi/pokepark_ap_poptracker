@@ -44,12 +44,16 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Bulbasaur's Daring Dash Attraction"] = {"Attractions", "Bulbasaur's Daring Dash"},
     ["Venusaur's Vine Swing Attraction"] = {"Attractions", "Venusaur's Vine Swing"},
     ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},
+    ["Gyarados' Aqua Dash Attraction"] = {"Attractions", "Gyarados' Aqua Dash"},
     ["Empoleon's Snow Slide Attraction"] = {"Attractions", "Empoleon's Snow Slide"},
     ["Bastiodon's Panel Crush Attraction"] = {"Attractions", "Bastiodon's Panel Crush"},
     ["Blaziken's Boulder Bash Attraction"] = {"Attractions", "Blaziken's Boulder Bash"},
     ["Tangrowth's Swing-Along Attraction"] = {"Attractions", "Tangrowth's Swing-Along"},
     ["Rotom's Spooky Shoot-'em-Up Attraction"] = {"Attractions", "Rotom's Spooky Shoot-'em-Up"},
-    ["Dusknoir's Speed Slam Attraction"] = {"Attractions", "Dusknoir's Speed Slam"}
+    ["Dusknoir's Speed Slam Attraction"] = {"Attractions", "Dusknoir's Speed Slam"},
+    ["Absol's Hurdle Bounce Attraction"] = {"Attractions", "Absol's Hurdle Bounce"},
+    ["Salamence's Sky Race Attraction"] = {"Attractions", "Salamence's Sky Race"},
+    ["Rayquaza's Balloon Panic Attraction"] = {"Attractions", "Rayquaza's Balloon Panic"}
 
 }
 -- gets the data storage key for hints for the current player

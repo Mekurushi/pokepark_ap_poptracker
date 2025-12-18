@@ -33,6 +33,12 @@
             "$exit_accessibility|Treehouse_GraniteGate_Exit"
         ]
     },
+    {
+        "name": "Treehouse_PiplupBalloon_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_PiplupBalloon_Exit"
+        ]
+    },
     // Fast Travels
     {
         "name": "Treehouse_MeadowDrifblim_Exit",

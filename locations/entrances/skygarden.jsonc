@@ -1,8 +1,7 @@
 [
     {
-        "name": "PiplupAirBalloon",
-        "access_rules": [
-            "$has_required_prismas"
-        ]
+        "name": "Skygarden_PiplupBalloon_Entrance",
+        "parent": "Skygarden",
+        "access_rules": []
     }
 ]

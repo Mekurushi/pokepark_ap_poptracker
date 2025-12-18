@@ -34,6 +34,13 @@
             "rotom_prisma_activated"
         ]
     },
+    {
+        "name": "Treehouse_PiplupBalloon_Entrance",
+        "parent": "Treehouse",
+        "access_rules": [
+            "$has_required_prismas"
+        ]
+    },
     // fast travel
     {
         "name": "Treehouse_MeadowDrifblim_Entrance",
