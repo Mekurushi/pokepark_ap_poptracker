@@ -2,9 +2,7 @@
     {
         "name": "CavernZoneMain_TreehouseGate_Entrance",
         "parent": "@Cavern Zone Main Area",
-        "access_rules": [
-            "empoleon_prisma_activated"
-        ]
+        "access_rules": []
     },
     {
         "name": "CavernZoneMain_BastiodonAttraction_Entrance",

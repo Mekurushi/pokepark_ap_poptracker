@@ -2,9 +2,31 @@
     //TODO Treehouse needs probably interconnection region after the gates
     //Gates
     {
-        "name": "Treehouse_MeadowGate_Entrance",
+        "name": "TreehouseMeadow_MeadowConnection_Entrance",
         "parent": "Treehouse",
         "access_rules": []
+    },
+    {
+        "name": "TreehouseMeadow_MeadowGate_Entrance",
+        "parent": "Treehouse - Meadow Zone",
+        "access_rules": []
+    },
+    {
+        "name": "Treehouse_MeadowGate_Entrance",
+        "parent": "Treehouse - Meadow Zone",
+        "access_rules": []
+    },
+    {
+        "name": "TreehouseBeach_BeachConnection_Entrance",
+        "parent": "Treehouse - Beach Zone",
+        "access_rules": []
+    },
+    {
+        "name": "TreehouseBeach_BeachGate_Entrance",
+        "parent": "Treehouse - Beach Zone",
+        "access_rules": [
+            "venusaur_prisma_activated"
+        ]
     },
     {
         "name": "Treehouse_BeachGate_Entrance",
@@ -21,10 +43,41 @@
         ]
     },
     {
+        "name": "TreehouseCavern_CavernGate_Entrance",
+        "parent": "Treehouse - Cavern Zone",
+        "access_rules": [
+            "empoleon_prisma_activated"
+        ]
+    },
+    {
+        "name": "TreehouseCavern_CavernConnection_Entrance",
+        "parent": "Treehouse - Cavern Zone",
+        "access_rules": []
+    },
+    {
+        "name": "TreehouseHaunted_HauntedGate_Entrance",
+        "parent": "Treehouse - Haunted Zone",
+        "access_rules": [
+            "blaziken_prisma_activated"
+        ]
+    },
+    {
         "name": "Treehouse_HauntedGate_Entrance",
         "parent": "Treehouse",
         "access_rules": [
             "blaziken_prisma_activated"
+        ]
+    },
+    {
+        "name": "TreehouseHaunted_HauntedConnection_Entrance",
+        "parent": "Treehouse - Haunted Zone",
+        "access_rules": []
+    },
+    {
+        "name": "TreehouseGranite_GraniteGate_Entrance",
+        "parent": "Treehouse - Granite Zone",
+        "access_rules": [
+            "rotom_prisma_activated"
         ]
     },
     {
@@ -33,6 +86,11 @@
         "access_rules": [
             "rotom_prisma_activated"
         ]
+    },
+    {
+        "name": "TreehouseGranite_GraniteConnection_Entrance",
+        "parent": "Treehouse - Granite Zone",
+        "access_rules": []
     },
     {
         "name": "Treehouse_PiplupBalloon_Entrance",

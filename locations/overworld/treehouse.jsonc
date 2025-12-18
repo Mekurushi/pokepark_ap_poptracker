@@ -258,7 +258,36 @@
   {
     "name": "Treehouse - Meadow Zone",
     "access_rules": [
+      "@TreehouseMeadow_MeadowConnection_Exit",
       "@TreehouseMeadow_MeadowGate_Exit"
+    ],
+  },
+  {
+    "name": "Treehouse - Beach Zone",
+    "access_rules": [
+      "@TreehouseBeach_BeachGate_Exit",
+      "@TreehouseBeach_BeachGate_Exit"
+    ],
+  },
+  {
+    "name": "Treehouse - Cavern Zone",
+    "access_rules": [
+      "@TreehouseCavern_CavernConnection_Exit",
+      "@TreehouseCavern_CavernGate_Exit"
+    ],
+  },
+  {
+    "name": "Treehouse - Haunted Zone",
+    "access_rules": [
+      "@TreehouseHaunted_HauntedConnection_Exit",
+      "@TreehouseHaunted_HauntedGate_Exit"
+    ],
+  },
+  {
+    "name": "Treehouse - Granite Zone",
+    "access_rules": [
+      "@TreehouseGranite_GraniteConnection_Exit",
+      "@TreehouseGranite_GraniteGate_Exit"
     ],
   }
 ]

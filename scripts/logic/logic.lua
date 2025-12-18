@@ -580,7 +580,7 @@ local exit_to_entrance = {
     ["PokeparkEntrance_MeadowGate_Exit"] = "@MeadowZoneMain_PokeparkGate_Entrance",
 
     -- Meadow Zone Main Area leading
-    ["MeadowZoneMain_TreehouseGate_Exit"] = "@Treehouse_MeadowGate_Entrance",
+    ["MeadowZoneMain_TreehouseGate_Exit"] = "@TreehouseMeadow_MeadowConnection_Entrance",
     ["MeadowZoneMain_PokeparkGate_Exit"] = "@PokeparkEntrance_MeadowGate_Entrance",
     ["MeadowZoneMain_VenusaurGate_Exit"] = "@MeadowZoneVenusaur_MainGate_Entrance",
     ["MeadowZoneMain_BulbasaurAttraction_Exit"] = "@BulbasaurAttraction_Bulbasaur_Entrance",
@@ -603,11 +603,25 @@ local exit_to_entrance = {
     ["VenusaurAttraction_Venusaur_Exit"] = "@MeadowZoneVenusaur_VenusaurAttraction_Entrance",
 
     -- Treehouse leading
-    ["Treehouse_MeadowGate_Exit"] = "@MeadowZoneMain_TreehouseGate_Entrance",
-    ["Treehouse_BeachGate_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
-    ["Treehouse_CavernGate_Exit"] = "@CavernZoneMain_TreehouseGate_Entrance",
-    ["Treehouse_HauntedGate_Exit"] = "@HauntedZoneMain_TreehouseGate_Entrance",
-    ["Treehouse_GraniteGate_Exit"] = "@GraniteZoneMain_TreehouseGate_Entrance",
+    ["TreehouseMeadow_MeadowConnection_Exit"] = "@MeadowZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_MeadowGate_Exit"] = "@TreehouseMeadow_MeadowGate_Entrance",
+    ["TreehouseMeadow_MeadowGate_Exit"] = "@Treehouse_MeadowGate_Entrance",
+
+    ["TreehouseBeach_BeachConnection_Exit"] = "@BeachZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_BeachGate_Exit"] = "@TreehouseBeach_BeachGate_Entrance",
+    ["TreehouseBeach_BeachGate_Exit"] = "@Treehouse_BeachGate_Entrance",
+
+    ["TreehouseCavern_CavernConnection_Exit"] = "@CavernZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_CavernGate_Exit"] = "@TreehouseCavern_CavernGate_Entrance",
+    ["TreehouseCavern_CavernGate_Exit"] = "@Treehouse_CavernGate_Entrance",
+
+    ["TreehouseHaunted_HauntedConnection_Exit"] = "@HauntedZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_HauntedGate_Exit"] = "@TreehouseHaunted_HauntedGate_Entrance",
+    ["TreehouseHaunted_HauntedGate_Exit"] = "@Treehouse_HauntedGate_Entrance",
+
+    ["TreehouseGranite_GraniteConnection_Exit"] = "@GraniteZoneMain_TreehouseGate_Entrance",
+    ["Treehouse_GraniteGate_Exit"] = "@TreehouseGranite_GraniteGate_Entrance",
+    ["TreehouseGranite_GraniteGate_Exit"] = "@Treehouse_GraniteGate_Entrance",
 
     ["Treehouse_MeadowDrifblim_Exit"] = "@MeadowZoneMain_TreehouseDrifblim_Entrance",
     ["Treehouse_BeachDrifblim_Exit"] = "@BeachZoneMain_TreehouseDrifblim_Entrance",
@@ -620,7 +634,7 @@ local exit_to_entrance = {
 
     -- Beach Zone Exits
     -- Treehouse Entrances
-    ["BeachZoneMain_TreehouseGate_Exit"] = "@Treehouse_BeachGate_Entrance",
+    ["BeachZoneMain_TreehouseGate_Exit"] = "@TreehouseBeach_BeachConnection_Entrance",
 
     -- Beach Zone Fast Travel Exits
     ["BeachZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_BeachDrifblim_Entrance",
@@ -680,7 +694,7 @@ local exit_to_entrance = {
     ["EmpoleonAttraction_Empoleon_Exit"] = "@IceZoneEmpoleon_EmpoleonAttraction_Entrance",
 
     -- Cavern Zone
-    ["CavernZoneMain_TreehouseGate_Exit"] = "@Treehouse_CavernGate_Entrance",
+    ["CavernZoneMain_TreehouseGate_Exit"] = "@TreehouseCavern_CavernConnection_Entrance",
     ["CavernZoneMain_MagmaTruck_Exit"] = "@Magma_CavernTruck_Entrance",
 
     ["CavernZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_CavernDrifblim_Entrance",
@@ -723,7 +737,7 @@ local exit_to_entrance = {
     ["BlazikenAttraction_Blaziken_Exit"] = "@MagmaZoneBlaziken_BlazikenAttraction_Entrance",
 
     -- Haunted Zone
-    ["HauntedZoneMain_TreehouseGate_Exit"] = "@Treehouse_HauntedGate_Entrance",
+    ["HauntedZoneMain_TreehouseGate_Exit"] = "@TreehouseHaunted_HauntedConnection_Entrance",
 
     -- Haunted Zone Fast Travel
     ["HauntedZoneMain_TreehouseDrifblim_Exit"] = "@Treehouse_HauntedDrifblim_Entrance",
@@ -767,7 +781,7 @@ local exit_to_entrance = {
     ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneRotom_Bookshelf_Entrance",
 
     -- Granite Zone
-    ["GraniteZoneMain_TreehouseGate_Exit"] = "@Treehouse_GraniteGate_Entrance",
+    ["GraniteZoneMain_TreehouseGate_Exit"] = "@TreehouseGranite_GraniteConnection_Entrance",
     ["GraniteZoneMain_FlowerGate_Exit"] = "@FlowerZoneMain_GraniteGate_Entrance",
 
     -- Fast Travel

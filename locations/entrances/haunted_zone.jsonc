@@ -2,9 +2,7 @@
     {
         "name": "HauntedZoneMain_TreehouseGate_Entrance",
         "parent": "Haunted Zone Main Area",
-        "access_rules": [
-            "blaziken_prisma_activated"
-        ]
+        "access_rules": []
     },
     {
         "name": "HauntedZoneMain_MansionGate_Entrance",
