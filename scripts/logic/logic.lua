@@ -778,9 +778,11 @@ local exit_to_entrance = {
     ["HauntedZoneAntic_GreenGemDoor_Exit"] = "@HauntedZoneMansion_GreenGemDoor_Entrance",
     ["HauntedZoneMansion_GreenGemDoor_Exit"] = "@HauntedZoneAntic_GreenGemDoor_Entrance",
 
-    -- intermission entrance neccessary
-    ["HauntedZoneRotom_Bookshelf_Exit"] = "@HauntedZoneStudy_Bookshelf_Entrance",
-    ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneRotom_Bookshelf_Entrance",
+    -- Rotom Area connection
+    ["HauntedZoneSecret_Bookshelf_Exit"] = "@HauntedZoneStudy_Bookshelf_Entrance",
+    ["HauntedZoneRotom_SecretConnection_Exit"] = "@HauntedZoneSecret_RotomConnection_Entrance",
+    ["HauntedZoneSecret_RotomConnection_Exit"] = "@HauntedZoneRotom_SecretConnection_Entrance",
+    ["HauntedZoneStudy_Bookshelf_Exit"] = "@HauntedZoneSecret_Bookshelf_Entrance",
 
     -- Granite Zone
     ["GraniteZoneMain_TreehouseGate_Exit"] = "@TreehouseGranite_GraniteConnection_Entrance",

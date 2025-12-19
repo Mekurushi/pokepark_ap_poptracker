@@ -68,9 +68,21 @@
         ]
     },
     {
-        "name": "HauntedZoneRotom_Bookshelf_Exit",
+        "name": "HauntedZoneSecret_Bookshelf_Exit",
         "access_rules": [
-            "$exit_accessibility|HauntedZoneRotom_Bookshelf_Exit"
+            "$exit_accessibility|HauntedZoneSecret_Bookshelf_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneRotom_SecretConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneRotom_SecretConnection_Exit"
+        ]
+    },
+    {
+        "name": "HauntedZoneSecret_RotomConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|HauntedZoneSecret_RotomConnection_Exit"
         ]
     },
     {

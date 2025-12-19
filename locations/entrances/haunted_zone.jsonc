@@ -81,8 +81,18 @@
         ]
     },
     {
-        "name": "HauntedZoneRotom_Bookshelf_Entrance",
+        "name": "HauntedZoneSecret_RotomConnection_Entrance",
+        "parent": "Haunted Zone Secret Area",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneRotom_SecretConnection_Entrance",
         "parent": "Haunted Zone Rotom Area",
+        "access_rules": []
+    },
+    {
+        "name": "HauntedZoneSecret_Bookshelf_Entrance",
+        "parent": "Haunted Zone Secret Area",
         "access_rules": [
             "dusknoir_prisma_activated"
         ]

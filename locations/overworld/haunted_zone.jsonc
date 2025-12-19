@@ -757,8 +757,15 @@
     {
         "name": "Haunted Zone Rotom Area",
         "access_rules": [
-            "@HauntedZoneRotom_Bookshelf_Exit",
+            "@HauntedZoneRotom_SecretConnection_Exit",
             "@HauntedZoneRotom_RotomAttraction_Exit"
+        ]
+    },
+    {
+        "name": "Haunted Zone Secret Area",
+        "access_rules": [
+            "@HauntedZoneSecret_Bookshelf_Exit",
+            "@HauntedZoneSecret_RotomConnection_Exit"
         ]
     }
 ]
