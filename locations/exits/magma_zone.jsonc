@@ -19,15 +19,27 @@
         ]
     },
     {
-        "name": "MagmaZoneCircle_BlazikenGate_Exit",
+        "name": "MagmaZoneMagcargo_BlazikenGate_Exit",
         "access_rules": [
-            "$exit_accessibility|MagmaZoneCircle_BlazikenGate_Exit"
+            "$exit_accessibility|MagmaZoneMagcargo_BlazikenGate_Exit"
         ]
     },
     {
         "name": "MagmaZoneBlaziken_MainGate_Exit",
         "access_rules": [
             "$exit_accessibility|MagmaZoneBlaziken_MainGate_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneCircle_BlazikenBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneCircle_BlazikenBridge_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMagcargo_BlazikenBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMagcargo_BlazikenBridge_Exit"
         ]
     },
     // Fast Travel
@@ -103,5 +115,5 @@
         "access_rules": [
             "$exit_accessibility|BlazikenAttraction_Blaziken_Exit"
         ]
-    },
+    }
 ]

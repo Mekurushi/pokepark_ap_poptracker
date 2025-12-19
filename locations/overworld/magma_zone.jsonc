@@ -116,7 +116,7 @@
                     {
                         "name": "Baltoy Battle Power Competition - Claydol Unlocked",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched baltoy_unlock"
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched, baltoy_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -343,7 +343,7 @@
         "name": "Magma Zone Circle Area",
         "access_rules": [
             "@MagmaZoneCircle_MainFireWall_Exit",
-            "@MagmaZoneCircle_BlazikenGate_Exit",
+            "@MagmaZoneCircle_BlazikenBridge_Exit",
             "@MagmaZoneCircle_RhyperiorAttraction_Exit"
         ],
         "children": [
@@ -523,6 +523,15 @@
                     }
                 ]
             },
+        ]
+    },
+    {
+        "name": "Magma Zone Magcargo Area",
+        "access_rules": [
+            "@MagmaZoneMagcargo_BlazikenGate_Exit",
+            "@MagmaZoneMagcargo_BlazikenBridge_Exit"
+        ],
+        "children": [
             {
                 "name": "Magcargo",
                 "sections": [

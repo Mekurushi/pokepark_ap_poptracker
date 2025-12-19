@@ -726,8 +726,10 @@ local exit_to_entrance = {
     ["MagmaZoneMain_CircleFireWall_Exit"] = "@MagmaZoneCircle_MainFireWall_Entrance",
     ["MagmaZoneCircle_MainFireWall_Exit"] = "@MagmaZoneMain_CircleFireWall_Entrance",
 
-    ["MagmaZoneCircle_BlazikenGate_Exit"] = "@MagmaZoneBlaziken_MainGate_Entrance",
-    ["MagmaZoneBlaziken_MainGate_Exit"] = "@MagmaZoneCircle_BlazikenGate_Entrance",
+    ["MagmaZoneMagcargo_BlazikenGate_Exit"] = "@MagmaZoneBlaziken_MainGate_Entrance",
+    ["MagmaZoneBlaziken_MainGate_Exit"] = "@MagmaZoneMagcargo_BlazikenGate_Entrance",
+    ["MagmaZoneCircle_BlazikenBridge_Exit"] = "@MagmaZoneMagcargo_BlazikenBridge_Entrance",
+    ["MagmaZoneMagcargo_BlazikenBridge_Exit"] = "@MagmaZoneCircle_BlazikenBridge_Entrance",
 
     -- Magma Zone Attractions
     ["MagmaZoneCircle_RhyperiorAttraction_Exit"] = "@RhyperiorAttraction_Rhyperior_Entrance",

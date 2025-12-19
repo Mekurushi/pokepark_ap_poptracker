@@ -24,7 +24,21 @@
         "access_rules": []
     },
     {
-        "name": "MagmaZoneCircle_BlazikenGate_Entrance",
+        "name": "MagmaZoneMagcargo_BlazikenGate_Entrance",
+        "parent": "@Magma Zone Magcargo Area",
+        "access_rules": [
+            "rhyperior_prisma_activated"
+        ]
+    },
+    {
+        "name": "MagmaZoneMagcargo_BlazikenBridge_Entrance",
+        "parent": "@Magma Zone Magcargo Area",
+        "access_rules": [
+            "rhyperior_prisma_activated"
+        ]
+    },
+    {
+        "name": "MagmaZoneCircle_BlazikenBridge_Entrance",
         "parent": "@Magma Zone Circle Area",
         "access_rules": [
             "rhyperior_prisma_activated"
