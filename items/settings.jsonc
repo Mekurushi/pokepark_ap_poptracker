@@ -107,6 +107,13 @@
         "initial_active_state": true
     },
     {
+        "name": "Load Checked Entrances From Archipelago",
+        "type": "toggle",
+        "img": "images/items/settings/entrances_from_ap.png",
+        "codes": "setting_load_exit_assignments_from_ap",
+        "initial_active_state": true
+    },
+    {
         "name": "Harder Enemy AI",
         "type": "toggle",
         "img": "images/items/settings/harder_enemy_ai.png",

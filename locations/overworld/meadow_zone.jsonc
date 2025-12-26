@@ -13,7 +13,7 @@
             "@MeadowZoneMain_MagmaDrifblim_Exit",
             "@MeadowZoneMain_GraniteDrifblim_Exit",
             "@MeadowZoneMain_FlowerDrifblim_Exit",
-            "@MeadowZoneMain_BulbasaurAttraction_Exit",
+            "@MeadowZoneMain_BulbasaurAttraction_Exit"
         ],
         "children": [
             {
@@ -109,7 +109,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Battle Chase Power Competition - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [
                             "[$canBattle], $canBattleGlitched, weedle_unlock"
                         ],

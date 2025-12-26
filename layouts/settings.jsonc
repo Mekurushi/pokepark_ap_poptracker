@@ -156,7 +156,8 @@
         "item_size": "128,128",
         "rows": [
             [
-                "setting_map_tracking"
+                "setting_map_tracking",
+                "setting_load_exit_assignments_from_ap"
             ]
         ]
     }

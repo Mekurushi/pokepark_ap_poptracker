@@ -2,7 +2,7 @@
     {
         "name": "Ice Zone Main Area",
         "access_rules": [
-            "@IceZoneMain_BeachLapras_Exit",
+            "@IceZoneMain_IceLapras_Exit",
             "@IceZoneMain_TreehouseDrifblim_Exit",
             "@IceZoneMain_MeadowDrifblim_Exit",
             "@IceZoneMain_BeachDrifblim_Exit",

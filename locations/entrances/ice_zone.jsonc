@@ -1,6 +1,6 @@
 [
     {
-        "name": "IceZoneLapras_BeachLapras_Entrance",
+        "name": "IceZoneMain_IceLapras_Entrance",
         "parent": "@Ice Zone Main Area",
         "access_rules": []
     },

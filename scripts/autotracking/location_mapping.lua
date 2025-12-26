@@ -320,7 +320,7 @@ LOCATION_MAPPING = {
     [BASE_LOCATION_ID + 304] = {{"@Magma Zone Circle Area/Circle Area/Hitmonchan Battle Power Competition - Hitmonlee Unlocked"}},
     [BASE_LOCATION_ID + 305] = {{"@Magma Zone Main Area/Hitmontop/Errand - Friendship"}},
     [BASE_LOCATION_ID + 306] = {{"@Magma Zone Circle Area/Circle Area/Magmortar Battle Power Competition - Friendship"}},
-    [BASE_LOCATION_ID + 307] = {{"@Magma Zone Circle Area/Magcargo/Friendship"}},
+    [BASE_LOCATION_ID + 307] = {{"@Magma Zone Magcargo Area/Magcargo/Friendship"}},
     [BASE_LOCATION_ID + 308] = {{"@Magma Zone Blaziken Area/Blaziken/Friendship"}},
     [BASE_LOCATION_ID + 309] = {{"@Magma Zone Circle Area/Rhyperior/Iron Disc Errand"}},
     [BASE_LOCATION_ID + 310] = {{"@Magma Zone Circle Area/Rhyperior/Friendship"}},
@@ -629,7 +629,7 @@ LOCATION_MAPPING = {
                                 {"@Flower Zone Main Area/Shaymin Area/Furret Hide and Seek Power Competition - Friendship"}},
     [BASE_LOCATION_ID + 582] = {{"@Magma Zone Main Area/Claydol/Battle Power Competition - Friendship"},
                                 {"@Granite Zone Main Area/Pyramid Area/Claydol Battle Power Competition - Friendship"}},
-    [BASE_LOCATION_ID + 583] = {{"@Meadow Zone Main Area/Celebi/Chase Power Competition - Friendship"}},
+    [BASE_LOCATION_ID + 583] = {{"@Pokepark Entrance/Celebi/Chase Power Competition - Friendship"}},
     [BASE_LOCATION_ID + 584] = {{"@Magma Zone Main Area/Groudon/Battle Power Competition - Friendship"}},
     [BASE_LOCATION_ID + 585] = {{"@Haunted Zone Mansion Ballroom Area/Darkrai/Battle Power Competition - Friendship"}},
     [BASE_LOCATION_ID + 586] = {{"@Granite Zone Main Area/Jirachi/Chase Power Competition - Friendship"}}

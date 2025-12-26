@@ -1,7 +1,7 @@
 [
     // Out of Beach Zone
     {
-        "name": "BeachZoneLapras_IceZoneLapras_Entrance",
+        "name": "BeachZoneLapras_BeachZoneLapras_Entrance",
         "parent": "@Beach Zone Lapras Area",
         "access_rules": []
     },

@@ -1,9 +1,9 @@
 [
     // Main Area
     {
-        "name": "IceZoneMain_BeachLapras_Exit",
+        "name": "IceZoneMain_IceLapras_Exit",
         "access_rules": [
-            "$exit_accessibility|IceZoneMain_BeachLapras_Exit"
+            "$exit_accessibility|IceZoneMain_IceLapras_Exit"
         ]
     },
     {

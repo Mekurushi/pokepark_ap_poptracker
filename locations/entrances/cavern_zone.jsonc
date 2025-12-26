@@ -73,7 +73,7 @@
     },
     // Magma Zone
     {
-        "name": "Cavern_MagmaTruck_Entrance",
+        "name": "CavernZoneMain_MagmaTruck_Entrance",
         "parent": "@Cavern Zone Main Area",
         "access_rules": [
             "bastiodon_prisma_activated"

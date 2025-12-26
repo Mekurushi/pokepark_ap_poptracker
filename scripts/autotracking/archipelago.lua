@@ -18,6 +18,8 @@ if Highlight then
     }
 end
 
+local Entrances = require("scripts/logic/entrance")
+
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
@@ -157,7 +159,7 @@ end
 function apply_slot_data(slot_data)
     -- autotracking settings from YAML
     local function setFromSlotData(slot_data_key, item_code)
-        local v = slot_data[slot_data_key]
+        local v = (slot_data.options and slot_data.options[slot_data_key]) or slot_data[slot_data_key]
         if not v then
             print(string.format("Could not find key '%s' in slot data", slot_data_key))
             return nil
@@ -197,6 +199,24 @@ function apply_slot_data(slot_data)
     setFromSlotData('remove_pokemon_unlock_locations', 'remove_pokemon_unlock_locations')
     setFromSlotData('harder_enemy_ai', 'harder_enemy_ai')
     setFromSlotData('each_zone', 'each_zone')
+
+    SLOT_DATA_EXIT_TO_ENTRANCE = {}
+    local load_assignments_from_ap = Tracker:FindObjectForCode("setting_load_exit_assignments_from_ap")
+    if load_assignments_from_ap.Active then
+        visited_stages_key = string.format(VISITED_STAGES_FORMAT, Archipelago.PlayerNumber)
+
+        Archipelago:Get({visited_stages_key})
+
+        local entrances = slot_data["entrances"]
+        if entrances then
+            for entrance, exit in pairs(entrances) do
+                Entrances.slot_data_exit_to_entrance[exit] = entrance
+            end
+        else
+            print("'entrances' was not present in slot_data, automatic entrance assignment will not be available")
+        end
+        Entrances.update_exit_to_entrance()
+    end
 end
 
 -- called right after an AP slot is connected

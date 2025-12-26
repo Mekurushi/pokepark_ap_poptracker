@@ -57,9 +57,9 @@
     },
     // Beach Zone Inner Exits
     {
-        "name": "BeachZoneLapras_IceZoneLapras_Exit",
+        "name": "BeachZoneLapras_BeachZoneLapras_Exit",
         "access_rules": [
-            "$exit_accessibility|BeachZoneLapras_IceZoneLapras_Exit"
+            "$exit_accessibility|BeachZoneLapras_BeachZoneLapras_Exit"
         ]
     },
     {

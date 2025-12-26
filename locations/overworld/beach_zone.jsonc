@@ -518,7 +518,7 @@
     {
         "name": "Beach Zone Lapras Area",
         "access_rules": [
-            "@BeachZoneLapras_IceZoneLapras_Exit",
+            "@BeachZoneLapras_BeachZoneLapras_Exit",
             "@BeachZoneLapras_MainRock_Exit"
         ]
     }
