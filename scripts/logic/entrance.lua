@@ -508,17 +508,17 @@ Entrances.slot_data_name_to_local = {
     ["Treehouse - Piplup Skyballoon"] = "Treehouse_PiplupBalloon"
 }
 
-function Entrances.update_exit_to_entrance()
-    Entrances.exit_to_entrance = {}
-    for entrance, exit in pairs(Entrances.slot_data_exit_to_entrance) do
-        local entrance_mapped = Entrances.slot_data_name_to_local[entrance]
-        local exit_mapped = Entrances.slot_data_name_to_local[exit]
-
-        if entrance_mapped and exit_mapped then
-            local new_entrance_name = "@" .. entrance_mapped .. "_Entrance"
-            local new_exit_name = exit_mapped .. "_Exit"
-            Entrances.exit_to_entrance[new_exit_name] = new_entrance_name
-        end
+function Entrances.exit_accessibility(exit_name)
+    local load_assignments_from_ap = Tracker:FindObjectForCode("setting_load_exit_assignments_from_ap")
+    if load_assignments_from_ap.Active and Entrances.slot_data_exit_to_entrance and
+        next(Entrances.slot_data_exit_to_entrance) then
+        local entrance_name = Entrances.slot_data_exit_to_entrance[exit_name]
+        local entrance = Tracker:FindObjectForCode(entrance_name)
+        return entrance.AccessibilityLevel
+    else
+        local entrance_name = Entrances.exit_to_entrance[exit_name]
+        local entrance = Tracker:FindObjectForCode(entrance_name)
+        return entrance.AccessibilityLevel
     end
 end
 

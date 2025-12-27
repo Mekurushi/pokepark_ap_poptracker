@@ -577,7 +577,5 @@ function updatePrismaItemCount()
 end
 
 function exit_accessibility(exit_name)
-    local entrance_name = Entrances.exit_to_entrance[exit_name]
-    local entrance = Tracker:FindObjectForCode(entrance_name)
-    return entrance.AccessibilityLevel
+    return Entrances.exit_accessibility(exit_name)
 end

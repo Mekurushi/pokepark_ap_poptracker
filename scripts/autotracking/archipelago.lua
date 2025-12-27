@@ -210,12 +210,18 @@ function apply_slot_data(slot_data)
         local entrances = slot_data["entrances"]
         if entrances then
             for entrance, exit in pairs(entrances) do
-                Entrances.slot_data_exit_to_entrance[exit] = entrance
+                local entrance_mapped = Entrances.slot_data_name_to_local[entrance]
+                local exit_mapped = Entrances.slot_data_name_to_local[exit]
+
+                if entrance_mapped and exit_mapped then
+                    local new_entrance_name = "@" .. entrance_mapped .. "_Entrance"
+                    local new_exit_name = exit_mapped .. "_Exit"
+                    Entrances.slot_data_exit_to_entrance[new_exit_name] = new_entrance_name
+                end
             end
         else
             print("'entrances' was not present in slot_data, automatic entrance assignment will not be available")
         end
-        Entrances.update_exit_to_entrance()
     end
 end
 
