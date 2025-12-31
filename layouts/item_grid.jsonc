@@ -11,7 +11,7 @@
 					{
 						"type": "itemgrid",
 						"h_alignment": "left",
-						"item_size": "32",
+						"item_size": "32,32",
 						"item_margin": "1,1",
 						"margin": "1,1,1,1",
 						"item_h_alignment": "center",
@@ -53,7 +53,7 @@
 					{
 						"type": "itemgrid",
 						"h_alignment": "left",
-						"item_size": "32",
+						"item_size": "32,32",
 						"item_margin": "1,1",
 						"margin": "1,1,1,1",
 						"item_h_alignment": "center",

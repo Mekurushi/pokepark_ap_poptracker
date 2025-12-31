@@ -110,7 +110,6 @@
 						{
 							"title": "Main Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -123,7 +122,6 @@
 						{
 							"title": "Blaziken Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -144,7 +142,6 @@
 						{
 							"title": "Main Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -157,7 +154,6 @@
 						{
 							"title": "Mansion Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -170,7 +166,6 @@
 						{
 							"title": "Rotom Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -218,7 +213,6 @@
 						{
 							"title": "Bulbasaur's Daring Dash",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -231,7 +225,6 @@
 						{
 							"title": "Venusaur's Vine Swing",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -244,7 +237,6 @@
 						{
 							"title": "Pelipper's Circle Circuit",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -257,7 +249,6 @@
 						{
 							"title": "Gyarados' Aqua Dash",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -270,7 +261,6 @@
 						{
 							"title": "Empoleon's Snow Slide",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -283,7 +273,6 @@
 						{
 							"title": "Bastiodon's Panel Crush",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -296,7 +285,6 @@
 						{
 							"title": "Rhyperior's Bumper Burn",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -309,7 +297,6 @@
 						{
 							"title": "Blaziken's Boulder Bash",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -322,7 +309,6 @@
 						{
 							"title": "Tangrowth's Swing-Along",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -335,7 +321,6 @@
 						{
 							"title": "Dusknoir's Speed Slam",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -348,7 +333,6 @@
 						{
 							"title": "Rotom's Spooky Shoot-'em-Up",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -361,7 +345,6 @@
 						{
 							"title": "Absol's Hurdle Bounce",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -374,7 +357,6 @@
 						{
 							"title": "Salamence's Sky Race",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -387,7 +369,6 @@
 						{
 							"title": "Rayquaza's Balloon Panic",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",

@@ -6,7 +6,7 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "32",
+                "item_size": "32,32",
                 "item_margin": "0,0",
                 "margin": "0,0,0,0",
                 "item_h_alignment": "center",
@@ -38,7 +38,7 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "32",
+                "item_size": "32,32",
                 "item_margin": "0,0",
                 "margin": "28,-208,0,0",
                 "item_h_alignment": "center",
@@ -76,7 +76,7 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "32",
+                "item_size": "32,32",
                 "item_margin": "0,0",
                 "margin": "0,0,0,0",
                 "item_h_alignment": "center",
@@ -96,7 +96,7 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "32",
+                "item_size": "32,32",
                 "item_margin": "0,0",
                 "margin": "16,-5,0,0",
                 "item_h_alignment": "center",
