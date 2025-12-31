@@ -2,79 +2,81 @@
     "settings_popup": {
         "type": "array",
         "background": "#000000",
-        "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "group",
-                    "header": "Game",
-                    "dock": "left",
-                    "content": {
-                        "type": "dock",
+        "content": [
+            {
+                "type": "dock",
+                "dropshadow": true,
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Game",
                         "dock": "left",
-                        "content": [
-                            {
-                                "type": "group",
-                                "header": "Required Prismas",
-                                "dock": "left",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "required_prismas_grid"
+                        "content": {
+                            "type": "dock",
+                            "dock": "left",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Required Prismas",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "required_prismas_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Location Logic",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "locations_logic_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Goal",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "goal_logic_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Misc",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "misc_settings_grid"
+                                    }
                                 }
-                            },
-                            {
-                                "type": "group",
-                                "header": "Location Logic",
-                                "dock": "left",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "locations_logic_grid"
-                                }
-                            },
-                            {
-                                "type": "group",
-                                "header": "Goal",
-                                "dock": "left",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "goal_logic_grid"
-                                }
-                            },
-                            {
-                                "type": "group",
-                                "header": "Misc",
-                                "dock": "left",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "misc_settings_grid"
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "type": "group",
-                    "header": "Tracker",
-                    "dock": "left",
-                    "content": {
-                        "type": "dock",
+                            ]
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Tracker",
                         "dock": "left",
-                        "content": [
-                            {
-                                "type": "group",
-                                "header": "Auto Tracking",
-                                "dock": "left",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "auto_tracking_settings_grid"
+                        "content": {
+                            "type": "dock",
+                            "dock": "left",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Auto Tracking",
+                                    "dock": "left",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "auto_tracking_settings_grid"
+                                    }
                                 }
-                            }
-                        ]
+                            ]
+                        }
                     }
-                }
-            ]
-        }
+                ]
+            }
+        ]
     },
     "required_prismas_grid": {
         "type": "array",
