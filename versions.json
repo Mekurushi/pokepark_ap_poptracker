@@ -3,7 +3,7 @@
         {
             "package_version": "1.1.0",
             "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/archive/refs/tags/v1.1.0.zip",
-            "sha256": "",
+            "sha256": "92dc9b474208da049fc3f7079838f1ed3bd03d95ea08cf235a76b308e9bbcb90",
             "changelog": [
                 "updated logic to match 1.x.x",
                 "added randomized entrances support",
