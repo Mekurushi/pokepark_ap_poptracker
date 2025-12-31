@@ -1,44 +1,70 @@
 {
-	"powers": {
-		"type": "container",
+	"powers_vertical": {
+		"type": "array",
+		"orientation": "vertical",
 		"content": [
 			{
-				"type": "itemgrid",
-				"h_alignment": "center",
-				"item_size": "64",
-				"item_margin": "1,1",
-				"margin": "1,1,1,1",
-				"item_h_alignment": "center",
-				"item_v_alignment": "center",
-				"rows": [
-					[
-						"dash_beginner",
-						"thunderbolt_beginner",
-						"iron_tail_beginner",
-						"health_beginner"
-					]
+				"type": "array",
+				"orientation": "vertical",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_size": "32,32",
+						"item_margin": "1,1",
+						"margin": "0,0,0,0",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"rows": [
+							[
+								"dash_beginner"
+							],
+							[
+								"thunderbolt_beginner"
+							],
+							[
+								"iron_tail_beginner"
+							],
+							[
+								"health_beginner"
+							],
+							[
+								"double_dash"
+							]
+						]
+					}
 				]
 			}
 		]
 	},
-	"powers_broadcast": {
-		"type": "container",
+	"powers_horizontal": {
+		"type": "array",
+		"orientation": "vertical",
 		"content": [
 			{
-				"type": "itemgrid",
-				"h_alignment": "center",
-				"item_size": "16",
-				"item_margin": "1,1",
-				"margin": "1,1,1,1",
-				"item_h_alignment": "center",
-				"item_v_alignment": "center",
-				"rows": [
-					[
-						"dash_beginner",
-						"thunderbolt_beginner",
-						"iron_tail_beginner",
-						"health_beginner"
-					]
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_size": "32,32",
+						"item_margin": "1,1",
+						"margin": "0,0,0,0",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"rows": [
+							[
+								"dash_beginner",
+								"thunderbolt_beginner",
+								"iron_tail_beginner",
+								"health_beginner",
+								"double_dash"
+							]
+						]
+					}
 				]
 			}
 		]

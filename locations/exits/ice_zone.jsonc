@@ -1,0 +1,106 @@
+[
+    // Main Area
+    {
+        "name": "IceZoneMain_IceLapras_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_IceLapras_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_UpperLift_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_UpperLift_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneLower_LowerLift_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneLower_LowerLift_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FrozenLake_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_FrozenLake_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneLake_MainLake_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneLake_MainLake_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_EmpoleonAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneEmpoleon_EmpoleonAttraction_Exit"
+        ]
+    },
+    {
+        "name": "EmpoleonAttraction_Empoleon_Exit",
+        "access_rules": [
+            "$exit_accessibility|EmpoleonAttraction_Empoleon_Exit"
+        ]
+    },
+    // Empoleon Area
+    {
+        "name": "IceZoneMain_EmpoleonGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneMain_EmpoleonGate_Exit"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_MainGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|IceZoneEmpoleon_MainGate_Exit"
+        ]
+    }
+]

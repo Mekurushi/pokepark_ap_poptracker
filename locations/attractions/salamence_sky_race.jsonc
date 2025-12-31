@@ -1,0 +1,382 @@
+[
+    {
+        "name": "Salamence's Sky Race Attraction",
+        "access_rules": [
+            "@SalamenceAttraction_Salamence_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnySalamenceMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "balloon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Latios",
+                "sections": [
+                    {
+                        "name": "Latios",
+                        "access_rules": [
+                            "latios"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Latios Friendship",
+                        "access_rules": [
+                            "$canBeatAllSalamenceMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Salamence",
+                "sections": [
+                    {
+                        "name": "Salamence",
+                        "access_rules": [
+                            "salamence"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Charizard",
+                "sections": [
+                    {
+                        "name": "Charizard",
+                        "access_rules": [
+                            "charizard"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Dragonite",
+                "sections": [
+                    {
+                        "name": "Dragonite",
+                        "access_rules": [
+                            "dragonite"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Flygon",
+                "sections": [
+                    {
+                        "name": "Flygon",
+                        "access_rules": [
+                            "flygon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Aerodactyl",
+                "sections": [
+                    {
+                        "name": "Aerodactyl",
+                        "access_rules": [
+                            "aerodactyl"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Staraptor",
+                "sections": [
+                    {
+                        "name": "Staraptor",
+                        "access_rules": [
+                            "staraptor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Honchkrow",
+                "sections": [
+                    {
+                        "name": "Honchkrow",
+                        "access_rules": [
+                            "honchkrow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Gliscor",
+                "sections": [
+                    {
+                        "name": "Gliscor",
+                        "access_rules": [
+                            "gliscor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Pidgeotto",
+                "sections": [
+                    {
+                        "name": "Pidgeotto",
+                        "access_rules": [
+                            "pidgeotto"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Togekiss",
+                "sections": [
+                    {
+                        "name": "Togekiss",
+                        "access_rules": [
+                            "togekiss"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Golbat",
+                "sections": [
+                    {
+                        "name": "Golbat",
+                        "access_rules": [
+                            "golbat"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Taillow",
+                "sections": [
+                    {
+                        "name": "Taillow",
+                        "access_rules": [
+                            "taillow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Murkrow",
+                "sections": [
+                    {
+                        "name": "Murkrow",
+                        "access_rules": [
+                            "murkrow"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Zubat",
+                "sections": [
+                    {
+                        "name": "Zubat",
+                        "access_rules": [
+                            "zubat"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

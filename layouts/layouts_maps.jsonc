@@ -12,6 +12,15 @@
 				}
 			},
 			{
+				"title": "Pokepark Entrance",
+				"content": {
+					"type": "map",
+					"maps": [
+						"pokepark_entrance"
+					]
+				}
+			},
+			{
 				"title": "Meadow Zone",
 				"content": {
 					"type": "tabbed",
@@ -101,7 +110,6 @@
 						{
 							"title": "Main Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -114,7 +122,6 @@
 						{
 							"title": "Blaziken Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -135,7 +142,6 @@
 						{
 							"title": "Main Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -148,7 +154,6 @@
 						{
 							"title": "Mansion Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -161,7 +166,6 @@
 						{
 							"title": "Rotom Area",
 							"type": "array",
-							"orientation": "vertical",
 							"content": [
 								{
 									"type": "map",
@@ -198,6 +202,182 @@
 					"type": "map",
 					"maps": [
 						"skygarden"
+					]
+				}
+			},
+			{
+				"title": "Attractions",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Bulbasaur's Daring Dash",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"bulbasaur_daring_dash"
+									]
+								}
+							]
+						},
+						{
+							"title": "Venusaur's Vine Swing",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"venusaur_vine_swing"
+									]
+								}
+							]
+						},
+						{
+							"title": "Pelipper's Circle Circuit",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"pelipper_circle_circuit"
+									]
+								}
+							]
+						},
+						{
+							"title": "Gyarados' Aqua Dash",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"gyarados_aqua_dash"
+									]
+								}
+							]
+						},
+						{
+							"title": "Empoleon's Snow Slide",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"empoleon_snow_slide"
+									]
+								}
+							]
+						},
+						{
+							"title": "Bastiodon's Panel Crush",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"bastiodon_panel_crush"
+									]
+								}
+							]
+						},
+						{
+							"title": "Rhyperior's Bumper Burn",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rhyperior_bumper_burn"
+									]
+								}
+							]
+						},
+						{
+							"title": "Blaziken's Boulder Bash",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"blaziken_boulder_bash"
+									]
+								}
+							]
+						},
+						{
+							"title": "Tangrowth's Swing-Along",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"tangrowth_swing_along"
+									]
+								}
+							]
+						},
+						{
+							"title": "Dusknoir's Speed Slam",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"dusknoir_speed_slam"
+									]
+								}
+							]
+						},
+						{
+							"title": "Rotom's Spooky Shoot-'em-Up",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rotom_spooky_shoot"
+									]
+								}
+							]
+						},
+						{
+							"title": "Absol's Hurdle Bounce",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"absol_hurdle_bounce"
+									]
+								}
+							]
+						},
+						{
+							"title": "Salamence's Sky Race",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"salamence_sky_race"
+									]
+								}
+							]
+						},
+						{
+							"title": "Rayquaza's Balloon Panic",
+							"type": "array",
+							"content": [
+								{
+									"type": "map",
+									"maps": [
+										"rayquaza_balloon_panic"
+									]
+								}
+							]
+						}
 					]
 				}
 			}

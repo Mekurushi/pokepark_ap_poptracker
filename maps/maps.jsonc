@@ -13,6 +13,12 @@
     "img": "images/maps/meadow_zone_overworld.png"
   },
   {
+    "name": "pokepark_entrance",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/pokepark_entrance.png"
+  },
+  {
     "name": "venusaur_minigame",
     "location_size": 24,
     "location_border_thickness": 4,
@@ -89,5 +95,89 @@
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/skygarden.png"
+  },
+  {
+    "name": "bulbasaur_daring_dash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/bulbasaur_daring_dash.png"
+  },
+  {
+    "name": "venusaur_vine_swing",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/venusaur_vine_swing.png"
+  },
+  {
+    "name": "pelipper_circle_circuit",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/pelipper_circle_circuit.png"
+  },
+  {
+    "name": "gyarados_aqua_dash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/gyarados_aqua_dash.png"
+  },
+  {
+    "name": "empoleon_snow_slide",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/empoleon_snow_slide.png"
+  },
+  {
+    "name": "bastiodon_panel_crush",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/bastiodon_panel_crush.png"
+  },
+  {
+    "name": "rhyperior_bumper_burn",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rhyperior_bumper_burn.png"
+  },
+  {
+    "name": "blaziken_boulder_bash",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/blaziken_boulder_bash.png"
+  },
+  {
+    "name": "tangrowth_swing_along",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/tangrowth_swing_along.png"
+  },
+  {
+    "name": "dusknoir_speed_slam",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/dusknoir_speed_slam.png"
+  },
+  {
+    "name": "rotom_spooky_shoot",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rotom_spooky_shoot.png"
+  },
+  {
+    "name": "absol_hurdle_bounce",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/absol_hurdle_bounce.png"
+  },
+  {
+    "name": "salamence_sky_race",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/salamence_sky_race.png"
+  },
+  {
+    "name": "rayquaza_balloon_panic",
+    "location_size": 12,
+    "location_border_thickness": 4,
+    "img": "images/maps/rayquaza_balloon_panic.png"
   }
 ]

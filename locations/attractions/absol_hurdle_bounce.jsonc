@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Absol's Hurdle Bounce Attraction",
+        "access_rules": [
+            "@AbsolAttraction_Absol_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyAbsolMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Chikorita",
+                "sections": [
+                    {
+                        "name": "Chikorita",
+                        "access_rules": [
+                            "chikorita"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Shaymin",
+                "sections": [
+                    {
+                        "name": "Shaymin",
+                        "access_rules": [
+                            "shaymin"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shaymin Friendship",
+                        "access_rules": [
+                            "$canBeatAllAbsolMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Absol",
+                "sections": [
+                    {
+                        "name": "Absol",
+                        "access_rules": [
+                            "absol"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Lucario",
+                "sections": [
+                    {
+                        "name": "Lucario",
+                        "access_rules": [
+                            "lucario"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Ponyta",
+                "sections": [
+                    {
+                        "name": "Ponyta",
+                        "access_rules": [
+                            "ponyta"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Ninetales",
+                "sections": [
+                    {
+                        "name": "Ninetales",
+                        "access_rules": [
+                            "ninetales"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Lopunny",
+                "sections": [
+                    {
+                        "name": "Lopunny",
+                        "access_rules": [
+                            "lopunny"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Espeon",
+                "sections": [
+                    {
+                        "name": "Espeon",
+                        "access_rules": [
+                            "espeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Infernape",
+                "sections": [
+                    {
+                        "name": "Infernape",
+                        "access_rules": [
+                            "infernape"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Breloom",
+                "sections": [
+                    {
+                        "name": "Breloom",
+                        "access_rules": [
+                            "breloom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Riolu",
+                "sections": [
+                    {
+                        "name": "Riolu",
+                        "access_rules": [
+                            "riolu"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Furret",
+                "sections": [
+                    {
+                        "name": "Furret",
+                        "access_rules": [
+                            "furret"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Mareep",
+                "sections": [
+                    {
+                        "name": "Mareep",
+                        "access_rules": [
+                            "mareep"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Eevee",
+                "sections": [
+                    {
+                        "name": "Eevee",
+                        "access_rules": [
+                            "eevee"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Vulpix",
+                "sections": [
+                    {
+                        "name": "Vulpix",
+                        "access_rules": [
+                            "vulpix"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "absol_hurdle_bounce",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

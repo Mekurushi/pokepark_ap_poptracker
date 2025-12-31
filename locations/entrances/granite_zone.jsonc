@@ -1,18 +1,91 @@
 [
+    //
     {
-        "name": "GraniteZone",
-        "access_rules": [
-            "$canReachGraniteZone"
-        ]
-    },
-    {
-        "name": "GraniteZoneAbsolMinigame",
+        "name": "GraniteZoneMain_TreehouseGate_Entrance",
+        "parent": "Granite Zone Main Area",
         "access_rules": []
     },
     {
-        "name": "GraniteZoneSalamenceMinigame",
+        "name": "GraniteZoneMain_FlowerGate_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": []
+    },
+    // Attractions
+    {
+        "name": "AbsolAttraction_Absol_Entrance",
+        "parent": "Absol's Hurdle Bounce Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "GraniteZoneMain_AbsolAttraction_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "SalamenceAttraction_Salamence_Entrance",
+        "parent": "Salamence's Sky Race Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "GraniteZoneMain_SalamenceAttraction_Entrance",
+        "parent": "Granite Zone Main Area",
         "access_rules": [
             "$canAccessSalamenceMinigame"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "GraniteZoneMain_MeadowDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "GraniteZoneMain_BeachDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_IceDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_CavernDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_MagmaDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_HauntedDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_FlowerDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "access_rules": [
+            "flower_zone_fast_travel"
         ]
     }
 ]

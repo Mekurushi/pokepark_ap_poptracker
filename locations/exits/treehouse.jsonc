@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Always",
+        "access_rules": []
+    },
+    {
+        "name": "TreehouseMeadow_MeadowConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseMeadow_MeadowConnection_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_MeadowGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_MeadowGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseMeadow_MeadowGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseMeadow_MeadowGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseBeach_BeachConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseBeach_BeachConnection_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_BeachGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_BeachGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseBeach_BeachGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseBeach_BeachGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseCavern_CavernConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseCavern_CavernConnection_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_CavernGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_CavernGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseCavern_CavernGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseCavern_CavernGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseHaunted_HauntedConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseHaunted_HauntedConnection_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_HauntedGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_HauntedGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseHaunted_HauntedGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseHaunted_HauntedGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseGranite_GraniteConnection_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseGranite_GraniteConnection_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_GraniteGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_GraniteGate_Exit"
+        ]
+    },
+    {
+        "name": "TreehouseGranite_GraniteGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|TreehouseGranite_GraniteGate_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_PiplupBalloon_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_PiplupBalloon_Exit"
+        ]
+    },
+    // Fast Travels
+    {
+        "name": "Treehouse_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_MagmaDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "Treehouse_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|Treehouse_FlowerDrifblim_Exit"
+        ]
+    }
+]

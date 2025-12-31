@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Venusaur's Vine Swing Attraction",
+        "access_rules": [
+            "@VenusaurAttraction_Venusaur_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "[$canBeatAnyVenusaurMinigame]"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Munchlax",
+                "sections": [
+                    {
+                        "name": "Munchlax",
+                        "access_rules": [
+                            "munchlax"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Magikarp",
+                "sections": [
+                    {
+                        "name": "Magikarp",
+                        "access_rules": [
+                            "magikarp"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Jirachi",
+                "sections": [
+                    {
+                        "name": "Jirachi",
+                        "access_rules": [
+                            "jirachi"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jirachi Friendship",
+                        "access_rules": [
+                            "$canBeatAllVenusaurMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Blaziken",
+                "sections": [
+                    {
+                        "name": "Blaziken",
+                        "access_rules": [
+                            "blaziken"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Infernape",
+                "sections": [
+                    {
+                        "name": "Infernape",
+                        "access_rules": [
+                            "infernape"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Lucario",
+                "sections": [
+                    {
+                        "name": "Lucario",
+                        "access_rules": [
+                            "lucario"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Primeape",
+                "sections": [
+                    {
+                        "name": "Primeape",
+                        "access_rules": [
+                            "primeape"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Tangrowth",
+                "sections": [
+                    {
+                        "name": "Tangrowth",
+                        "access_rules": [
+                            "tangrowth"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Ambipom",
+                "sections": [
+                    {
+                        "name": "Ambipom",
+                        "access_rules": [
+                            "ambipom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Croagunk",
+                "sections": [
+                    {
+                        "name": "Croagunk",
+                        "access_rules": [
+                            "croagunk"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Mankey",
+                "sections": [
+                    {
+                        "name": "Mankey",
+                        "access_rules": [
+                            "mankey"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Aipom",
+                "sections": [
+                    {
+                        "name": "Aipom",
+                        "access_rules": [
+                            "aipom"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Chimchar",
+                "sections": [
+                    {
+                        "name": "Chimchar",
+                        "access_rules": [
+                            "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Treecko",
+                "sections": [
+                    {
+                        "name": "Treecko",
+                        "access_rules": [
+                            "treecko"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Pachirisu",
+                "sections": [
+                    {
+                        "name": "Pachirisu",
+                        "access_rules": [
+                            "pachirisu"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

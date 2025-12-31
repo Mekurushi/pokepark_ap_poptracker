@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Bastiodon's Panel Crush Attraction",
+        "access_rules": [
+            "@BastiodonAttraction_Bastiodon_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyBastiodonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Sableye",
+                "sections": [
+                    {
+                        "name": "Sableye",
+                        "access_rules": [
+                            "sableye"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Meowth",
+                "sections": [
+                    {
+                        "name": "Meowth",
+                        "access_rules": [
+                            "meowth"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Torchic",
+                "sections": [
+                    {
+                        "name": "Torchic",
+                        "access_rules": [
+                            "torchic"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Metagross",
+                "sections": [
+                    {
+                        "name": "Metagross",
+                        "access_rules": [
+                            "metagross"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Metagross Friendship",
+                        "access_rules": [
+                            "$canBeatAllBastiodonMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Electivire",
+                "sections": [
+                    {
+                        "name": "Electivire",
+                        "access_rules": [
+                            "electivire"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Magmortar",
+                "sections": [
+                    {
+                        "name": "Magmortar",
+                        "access_rules": [
+                            "magmortar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Hitmonlee",
+                "sections": [
+                    {
+                        "name": "Hitmonlee",
+                        "access_rules": [
+                            "hitmonlee"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Ursaring",
+                "sections": [
+                    {
+                        "name": "Ursaring",
+                        "access_rules": [
+                            "ursaring"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Mr. Mime",
+                "sections": [
+                    {
+                        "name": "Mr. Mime",
+                        "access_rules": [
+                            "mr_mime"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Raichu",
+                "sections": [
+                    {
+                        "name": "Raichu",
+                        "access_rules": [
+                            "raichu"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Sudowoodo",
+                "sections": [
+                    {
+                        "name": "Sudowoodo",
+                        "access_rules": [
+                            "sudowoodo"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Charmander",
+                "sections": [
+                    {
+                        "name": "Charmander",
+                        "access_rules": [
+                            "charmander"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Gible",
+                "sections": [
+                    {
+                        "name": "Gible",
+                        "access_rules": [
+                            "gible"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Chimchar",
+                "sections": [
+                    {
+                        "name": "Chimchar",
+                        "access_rules": [
+                            "chimchar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Magby",
+                "sections": [
+                    {
+                        "name": "Magby",
+                        "access_rules": [
+                            "magby"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

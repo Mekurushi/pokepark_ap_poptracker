@@ -2,6 +2,8 @@
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
 -- example:
+local Entrances = require("scripts/logic/entrance")
+
 function has_more_then_n_consumable(n)
     local count = Tracker:ProviderCountForCode('consumable')
     local val = (count > tonumber(n))
@@ -26,6 +28,10 @@ local prisma_items = {"bulbasaur_prisma_activated", "venusaur_prisma_activated",
                       "rhyperior_prisma_activated", "blaziken_prisma_activated", "tangrowth_prisma_activated",
                       "dusknoir_prisma_activated", "rotom_prisma_activated", "absol_prisma_activated",
                       "salamence_prisma_activated", "rayquaza_prisma_activated"}
+
+function each_zone_activated()
+    return Tracker:ProviderCountForCode("each_zone") == 1
+end
 
 function battle_locations_activated()
     return Tracker:ProviderCountForCode("remove_battle_power_comp_locations") == 0
@@ -119,12 +125,29 @@ function hasAny(items)
     return false
 end
 
+function canReachLocation(location_name)
+    local entrance = Tracker:FindObjectForCode(location_name)
+    return entrance.AccessibilityLevel
+end
+
 function isHarderEnemyAI()
     return has("harder_enemy_ai")
 end
 
 function canFarmBerries()
     return has("dash_beginner")
+end
+
+function canReachBeachZoneRecycleArea()
+    return canReachLocation("@Beach Zone Recycle Area")
+end
+
+function canFarmBerriesIntermediate()
+    return canReachBeachZoneRecycleArea()
+end
+
+function canFarmBerriesAdvanced()
+    return canReachLocation("@Magma Zone Main Area") and has("golem_unlock")
 end
 
 function canPlayCatch()
@@ -159,6 +182,10 @@ function canBattle()
     return hasAny({"thunderbolt_beginner", "iron_tail_beginner"})
 end
 
+function canBattleGlitched()
+    return hasAny({"thunderbolt_beginner", "iron_tail_beginner", "dash_beginner"})
+end
+
 function canBattleIntermediate()
     if isHarderEnemyAI() then
         return hasAny({"thunderbolt_intermediate", "iron_tail_advanced"}) and has("health_advanced")
@@ -178,6 +205,10 @@ function canBattleThunderBoltImmune()
         return hasAny({"dash_intermediate", "iron_tail_beginner"}) and has("health_beginner")
     end
     return hasAny({"dash_beginner", "iron_tail_beginner"}) and has("health_beginner")
+end
+
+function canBattleThunderBoltImmuneGlitched()
+    return hasAny({"dash_beginner", "iron_tail_beginner"})
 end
 
 function canBattleThunderBoltImmuneIntermediate()
@@ -444,83 +475,107 @@ function canBeatAllRayquazaMinigame()
     return hasAll(sky_pokemon_items)
 end
 
-function canReachBeachZoneFromIceZone()
-    return has("gyarados_prisma_activated") and hasAny({"ice_zone_fast_travel"})
+local fast_travel_items = {"meadow_zone_fast_travel", "beach_zone_fast_travel", "ice_zone_fast_travel",
+                           "cavern_zone_fast_travel", "magma_zone_fast_travel", "haunted_zone_fast_travel",
+                           "granite_zone_fast_travel", "flower_zone_fast_travel"}
+
+function hasOneFastTravelItem()
+    return hasAny(fast_travel_items)
 end
 
-function canReachBeachZoneFromTreehouse()
-    return hasAny({"venusaur_prisma_activated", "beach_zone_fast_travel"})
-end
-function canReachBeachZone()
-    return canReachBeachZoneFromTreehouse() or canReachBeachZoneFromIceZone()
+function canClearChristmasStage1()
+    return hasAll({"delibird_unlock", "spheal"})
 end
 
-function canReachCavernZoneFromMagmaZone()
-    return has("magma_zone_fast_travel")
+function canClearChristmasStage2()
+    return canClearChristmasStage1() and has("teddiursa")
 end
 
-function canReachCavernZoneFromTreehouse()
-    return hasAny({"empoleon_prisma_activated", "cavern_zone_fast_travel"})
+function canClearChristmasStage3()
+    return canClearChristmasStage2() and hasAll({"squirtle", "squirtle_unlock"})
 end
 
-function canReachCavernZone()
-    return canReachCavernZoneFromMagmaZone() or canReachCavernZoneFromTreehouse()
+function canClearChristmasStage4()
+    return canClearChristmasStage3() and hasAll({"smoochum", "smoochum_unlock"})
 end
 
-function canReachIceZoneFromBeachZone()
-    return has("gyarados_prisma_activated") and canReachBeachZone()
+function canBeatMewPowerCompetitionStage1()
+    return true
 end
 
-function canReachIceZoneFromTreehouse()
-    return has("ice_zone_fast_travel")
+function canBeatMewPowerCompetitionStage2()
+    return canBeatMewPowerCompetitionStage1() and canBattleAdvanced()
 end
 
-function canReachIceZone()
-    return canReachIceZoneFromTreehouse() or canReachIceZoneFromBeachZone()
+function canBeatMewPowerCompetitionStage3()
+    return canBeatMewPowerCompetitionStage2() and canBattleThunderBoltImmuneAdvanced()
 end
 
-function canReachMagmaZoneFromCavernZone()
-    return has("bastiodon_prisma_activated") and canReachCavernZone()
+function canBeatMewPowerCompetitionStage4()
+    return canBeatMewPowerCompetitionStage3()
 end
 
-function canReachMagmaZoneFromTreehouse()
-    return has("magma_zone_fast_travel")
+function canBeatMew()
+    return canBeatMewPowerCompetitionStage4() and maximizedDash()
 end
 
-function canReachMagmaZone()
-    return canReachMagmaZoneFromTreehouse() or canReachMagmaZoneFromCavernZone()
+function canBeatMewPowerCompetitionStage1Glitched()
+    return true
 end
 
-function canReachHauntedZone()
-    return hasAny({"haunted_zone_fast_travel", "blaziken_prisma_activated"})
+function canBeatMewPowerCompetitionStage2Glitched()
+    return canBeatMewPowerCompetitionStage1Glitched() and canBattleGlitched()
 end
 
-function canReachHauntedZoneMansion()
-    return has("tangrowth_prisma_activated")
+function canBeatMewPowerCompetitionStage3Glitched()
+    return canBeatMewPowerCompetitionStage2Glitched() and canBattleThunderBoltImmuneGlitched()
 end
 
-function canReachHauntedZoneMansionRooms()
-    return has("haunted_zone_mansion_doors_unlock")
+function canBeatMewPowerCompetitionStage4Glitched()
+    return canBeatMewPowerCompetitionStage3Glitched()
 end
 
-function canReachFlowerZoneFromTreehouse()
-    return has("flower_zone_fast_travel")
-end
-function canReachFlowerZoneFromGraniteZone()
-    return canReachGraniteZoneFromTreehouse()
-end
-function canReachFlowerZone()
-    return canReachFlowerZoneFromGraniteZone() or canReachFlowerZoneFromTreehouse()
+function canBeatMewGlitched()
+    return canBeatMewPowerCompetitionStage4Glitched() and has("dash_advanced")
 end
 
-function canReachGraniteZoneFromTreehouse()
-    return hasAny({"granite_zone_fast_travel", "rotom_prisma_activated"})
+function canBefriendDelibird()
+    if errand_locations_activated() then
+        return canClearChristmasStage4()
+    end
+    return has("delibird_unlock")
+end
+function StateChanged()
+    updateFriendshipItemCount()
+    updatePrismaItemCount()
 end
 
-function canReachGraniteZoneFromFlowerZone()
-    return canReachFlowerZoneFromTreehouse()
+function updateFriendshipItemCount()
+    local count = 0
+    for _, friendship_code in ipairs(pokemon_friendship_items) do
+        if Tracker:ProviderCountForCode(friendship_code) > 0 then
+            count = count + 1
+        end
+    end
+    local friendship_count = Tracker:FindObjectForCode("friendship_count")
+    friendship_count.AcquiredCount = count
+    friendship_count.MinCount = count
+    friendship_count.MaxCount = count
 end
 
-function canReachGraniteZone()
-    return canReachGraniteZoneFromTreehouse() or canReachGraniteZoneFromFlowerZone()
+function updatePrismaItemCount()
+    local count = 0
+    for _, prisma_code in ipairs(prisma_items) do
+        if Tracker:ProviderCountForCode(prisma_code) > 0 then
+            count = count + 1
+        end
+    end
+    local prisma_count = Tracker:FindObjectForCode("prisma_count")
+    prisma_count.AcquiredCount = count
+    prisma_count.MinCount = count
+    prisma_count.MaxCount = count
+end
+
+function exit_accessibility(exit_name)
+    return Entrances.exit_accessibility(exit_name)
 end

@@ -1,8 +1,19 @@
 [
     {
-        "name": "Ice Zone",
+        "name": "Ice Zone Main Area",
         "access_rules": [
-            "@IceZoneOverworld"
+            "@IceZoneMain_IceLapras_Exit",
+            "@IceZoneMain_TreehouseDrifblim_Exit",
+            "@IceZoneMain_MeadowDrifblim_Exit",
+            "@IceZoneMain_BeachDrifblim_Exit",
+            "@IceZoneMain_CavernDrifblim_Exit",
+            "@IceZoneMain_MagmaDrifblim_Exit",
+            "@IceZoneMain_HauntedDrifblim_Exit",
+            "@IceZoneMain_GraniteDrifblim_Exit",
+            "@IceZoneMain_FlowerDrifblim_Exit",
+            "@IceZoneMain_UpperLift_Exit",
+            "@IceZoneMain_EmpoleonGate_Exit",
+            "@IceZoneMain_FrozenLake_Exit"
         ],
         "children": [
             {
@@ -17,7 +28,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spheal Power Competition - Friendship",
+                        "name": "Spheal Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -27,7 +38,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Krabby Power Competition - Friendship",
+                        "name": "Krabby Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, krabby_unlock"
                         ],
@@ -37,7 +48,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mudkip Power Competition - Friendship",
+                        "name": "Mudkip Hide and Seek Power Competition - Friendship",
                         "access_rules": [
                             "mudkip_unlock"
                         ],
@@ -59,9 +70,9 @@
                 "name": "Glalie Area",
                 "sections": [
                     {
-                        "name": "Octillery Power Competition - Friendship",
+                        "name": "Octillery Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle]"
+                            "[$canBattle], $canBattleGlitched"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -69,7 +80,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Teddiursa Power Competition - Friendship",
+                        "name": "Teddiursa Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch"
                         ],
@@ -79,9 +90,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ursaring Power Competition - Friendship",
+                        "name": "Ursaring Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattle], ursaring_unlock"
+                            "[$canBattle], $canBattleGlitched, ursaring_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -101,9 +112,9 @@
                 "name": "Sneasel Area",
                 "sections": [
                     {
-                        "name": "Primeape Power Competition - Friendship",
+                        "name": "Primeape Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattle, primeape_unlock"
+                            "[$canBattleIntermediate], $canBattleGlitched, primeape_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -111,7 +122,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sneasel Power Competition - Friendship",
+                        "name": "Sneasel Chase Power Competition - Friendship",
                         "access_rules": [
                             "$canPlayCatch, sneasel_unlock"
                         ],
@@ -136,7 +147,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Friendship",
+                        "name": "Errand - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -144,7 +155,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 1",
+                        "name": "Igloo Housing 1",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -152,7 +163,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 1 - Primeape Unlocked",
+                        "name": "Igloo Housing 1 - Primeape Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -160,7 +171,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 2",
+                        "name": "Igloo Housing 2",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -168,7 +179,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 2 - Ursaring Unlocked",
+                        "name": "Igloo Housing 2 - Ursaring Unlocked",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -176,7 +187,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Igloo Quest 3",
+                        "name": "Igloo Housing 3",
                         "access_rules": [],
                         "visibility_rules": [
                             "$errand_locations_activated"
@@ -193,15 +204,311 @@
                 ]
             },
             {
-                "name": "Mamoswine",
-                "access_rules": [
-                    "ice_zone_frozen_lake_unlock"
-                ],
+                "name": "Empoleon Entrance Area",
                 "sections": [
                     {
-                        "name": "Power Competition - Friendship",
+                        "name": "Taillow Chase Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmune, mamoswine_unlock"
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staravia Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piloswine Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmune], $canBattleThunderBoltImmuneGlitched"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 250,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Christmas Tree Area",
+                "sections": [
+                    {
+                        "name": "Starly Chase Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smoochum Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched, smoochum_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squirtle Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched, squirtle_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "Christmas Tree Present",
+                "sections": [
+                    {
+                        "name": "Stage 1",
+                        "access_rules": [
+                            "$canClearChristmasStage1"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stage 2",
+                        "access_rules": [
+                            "$canClearChristmasStage2"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stage 3",
+                        "access_rules": [
+                            "$canClearChristmasStage3"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stage 4",
+                        "access_rules": [
+                            "$canClearChristmasStage4"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Delibird Quiz Power Competition - Friendship",
+                        "access_rules": [
+                            "$canBefriendDelibird"
+                        ],
+                        "visibility_rules": [
+                            "$quiz_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kirlia Errand - Friendship",
+                        "access_rules": [
+                            "$canClearChristmasStage4"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 160,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "Prinplup",
+                "sections": [
+                    {
+                        "name": "Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Glaceon",
+                "sections": [
+                    {
+                        "name": "Chase Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch, $hasEnoughFriendshipGlaceon"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 100,
+                        "y": 490
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Lower Lift Area",
+        "access_rules": [
+            "@IceZoneLower_LowerLift_Exit"
+        ],
+        "children": [
+            {
+                "name": "Lower Lift Area",
+                "sections": [
+                    {
+                        "name": "Corphish Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched, corphish_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wingull Chase Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatch"
+                        ],
+                        "visibility_rules": [
+                            "$chase_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quagsire Errand - Friendship",
+                        "access_rules": [
+                            "$canDestroyObjectsOverworld"
+                        ],
+                        "visibility_rules": [
+                            "$errand_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Froslass Battle Power Competition -- Friendship",
+                        "access_rules": [
+                            "[$canBattle], $canBattleGlitched"
+                        ],
+                        "visibility_rules": [
+                            "$battle_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 150,
+                        "y": 180
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Empoleon Area",
+        "access_rules": [
+            "@IceZoneEmpoleon_MainGate_Exit",
+            "@IceZoneEmpoleon_EmpoleonAttraction_Exit"
+        ],
+        "children": [
+            {
+                "name": "Empoleon",
+                "sections": [
+                    {
+                        "name": "Friendship",
+                        "access_rules": [
+                            "@IceZoneEmpoleon_EmpoleonAttraction_Entrance, empoleon_prisma_activated"
+                        ],
+                        "visibility_rules": [
+                            "$misc_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_empoleon",
+                        "x": 510,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Frozen Lake Area",
+        "access_rules": [
+            "@IceZoneLake_MainLake_Exit"
+        ],
+        "children": [
+            {
+                "name": "Mamoswine",
+                "sections": [
+                    {
+                        "name": "Battle Power Competition - Friendship",
+                        "access_rules": [
+                            "[$canBattleThunderBoltImmuneIntermediate], $canBattleThunderBoltImmuneGlitched, mamoswine_unlock"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
@@ -224,469 +531,6 @@
                         "map": "ice_zone_overworld",
                         "x": 530,
                         "y": 760
-                    }
-                ]
-            },
-            {
-                "name": "Empoleon Entrance Area",
-                "sections": [
-                    {
-                        "name": "Taillow Power Competition - Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
-                        ],
-                        "visibility_rules": [
-                            "$chase_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Staravia Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piloswine Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattleThunderBoltImmune]"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 250,
-                        "y": 840
-                    }
-                ]
-            },
-            {
-                "name": "Christmas Tree Area",
-                "sections": [
-                    {
-                        "name": "Starly Power Competition - Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
-                        ],
-                        "visibility_rules": [
-                            "$chase_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Smoochum Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattle], smoochum_unlock"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Squirtle Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattle], squirtle_unlock"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 200,
-                        "y": 480
-                    }
-                ]
-            },
-            {
-                "name": "Christmas Tree Quest",
-                "access_rules": [
-                    "delibird_unlock"
-                ],
-                "sections": [
-                    {
-                        "name": "Stage 1",
-                        "access_rules": [
-                            "spheal"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stage 2",
-                        "access_rules": [
-                            "spheal, teddiursa"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stage 3",
-                        "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stage 4",
-                        "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Delibird Power Competition - Friendship",
-                        "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kirlia Power Competition - Friendship",
-                        "access_rules": [
-                            "spheal, teddiursa, squirtle_unlock, squirtle, smoochum_unlock, smoochum, delibird"
-                        ],
-                        "visibility_rules": [
-                            "$quiz_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 160,
-                        "y": 460
-                    }
-                ]
-            },
-            {
-                "name": "Prinplup",
-                "sections": [
-                    {
-                        "name": "Power Competition - Friendship",
-                        "access_rules": [
-                            "$canBattle"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 200,
-                        "y": 380
-                    }
-                ]
-            },
-            {
-                "name": "Glaceon",
-                "sections": [
-                    {
-                        "name": "Power Competition - Friendship",
-                        "access_rules": [
-                            "$canPlayCatch, $hasEnoughFriendshipGlaceon"
-                        ],
-                        "visibility_rules": [
-                            "$chase_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 100,
-                        "y": 490
-                    }
-                ]
-            },
-            {
-                "name": "Lower Lift Area",
-                "access_rules": [
-                    "@IceZoneLowerLiftRegion"
-                ],
-                "sections": [
-                    {
-                        "name": "Corphish Power Competition - Friendship",
-                        "access_rules": [
-                            "[$canBattle], corphish_unlock"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wingull Power Competition - Friendship",
-                        "access_rules": [
-                            "$canPlayCatch"
-                        ],
-                        "visibility_rules": [
-                            "$chase_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Quagsire Power Competition - Friendship",
-                        "access_rules": [
-                            "$canDestroyObjectsOverworld"
-                        ],
-                        "visibility_rules": [
-                            "$errand_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Froslass Power Competition -- Friendship",
-                        "access_rules": [
-                            "[$canBattle]"
-                        ],
-                        "visibility_rules": [
-                            "$battle_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_overworld",
-                        "x": 150,
-                        "y": 180
-                    }
-                ]
-            },
-            {
-                "name": "Empoleon's Snow Slide Attraction",
-                "access_rules": [
-                    "@IceZoneEmpoleonMinigame"
-                ],
-                "sections": [
-                    {
-                        "name": "Empoleon - Friendship",
-                        "access_rules": [
-                            "empoleon_prisma_activated"
-                        ],
-                        "visibility_rules": [
-                            "$misc_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prisma",
-                        "access_rules": [
-                            "$canBeatAnyEmpoleonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_prisma_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pikachu",
-                        "access_rules": [
-                            "snowboard"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teddiursa",
-                        "access_rules": [
-                            "teddiursa"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Magikarp",
-                        "access_rules": [
-                            "magikarp"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Empoleon",
-                        "access_rules": [
-                            "empoleon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glaceon",
-                        "access_rules": [
-                            "glaceon"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blastoise",
-                        "access_rules": [
-                            "blastoise"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glalie",
-                        "access_rules": [
-                            "glalie"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapras",
-                        "access_rules": [
-                            "lapras"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Delibird",
-                        "access_rules": [
-                            "delibird"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piloswine",
-                        "access_rules": [
-                            "piloswine"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Prinplup",
-                        "access_rules": [
-                            "prinplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Squirtle",
-                        "access_rules": [
-                            "squirtle"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Piplup",
-                        "access_rules": [
-                            "piplup"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Quagsire",
-                        "access_rules": [
-                            "quagsire"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spheal",
-                        "access_rules": [
-                            "spheal"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Suicune",
-                        "access_rules": [
-                            "suicune"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Suicune Friendship",
-                        "access_rules": [
-                            "$canBeatAllEmpoleonMinigame"
-                        ],
-                        "visibility_rules": [
-                            "$attraction_locations_activated"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ice_zone_empoleon",
-                        "x": 510,
-                        "y": 340
                     }
                 ]
             }

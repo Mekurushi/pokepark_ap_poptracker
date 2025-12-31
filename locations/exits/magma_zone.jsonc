@@ -1,0 +1,119 @@
+[
+    // Main Area
+    {
+        "name": "MagmaZoneMain_CavernTruck_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_CavernTruck_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_CircleFireWall_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_CircleFireWall_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneCircle_MainFireWall_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneCircle_MainFireWall_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMagcargo_BlazikenGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMagcargo_BlazikenGate_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneBlaziken_MainGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneBlaziken_MainGate_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneCircle_BlazikenBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneCircle_BlazikenBridge_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMagcargo_BlazikenBridge_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMagcargo_BlazikenBridge_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "MagmaZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_GraniteDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_GraniteDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "MagmaZoneCircle_RhyperiorAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneCircle_RhyperiorAttraction_Exit"
+        ]
+    },
+    {
+        "name": "RhyperiorAttraction_Rhyperior_Exit",
+        "access_rules": [
+            "$exit_accessibility|RhyperiorAttraction_Rhyperior_Exit"
+        ]
+    },
+    {
+        "name": "MagmaZoneBlaziken_BlazikenAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|MagmaZoneBlaziken_BlazikenAttraction_Exit"
+        ]
+    },
+    {
+        "name": "BlazikenAttraction_Blaziken_Exit",
+        "access_rules": [
+            "$exit_accessibility|BlazikenAttraction_Blaziken_Exit"
+        ]
+    }
+]

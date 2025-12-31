@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Dusknoir's Speed Slam Attraction",
+        "access_rules": [
+            "@DusknoirAttraction_Dusknoir_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyDusknoirMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Stunky",
+                "sections": [
+                    {
+                        "name": "Stunky",
+                        "access_rules": [
+                            "stunky"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Darkrai",
+                "sections": [
+                    {
+                        "name": "Darkrai",
+                        "access_rules": [
+                            "darkrai"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darkrai Friendship",
+                        "access_rules": [
+                            "$canBeatAllDusknoirMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Gengar",
+                "sections": [
+                    {
+                        "name": "Gengar",
+                        "access_rules": [
+                            "gengar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Mismagius",
+                "sections": [
+                    {
+                        "name": "Mismagius",
+                        "access_rules": [
+                            "mismagius"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Scizor",
+                "sections": [
+                    {
+                        "name": "Scizor",
+                        "access_rules": [
+                            "scizor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Espeon",
+                "sections": [
+                    {
+                        "name": "Espeon",
+                        "access_rules": [
+                            "espeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Dusknoir",
+                "sections": [
+                    {
+                        "name": "Dusknoir",
+                        "access_rules": [
+                            "dusknoir"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Umbreon",
+                "sections": [
+                    {
+                        "name": "Umbreon",
+                        "access_rules": [
+                            "umbreon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Cranidos",
+                "sections": [
+                    {
+                        "name": "Cranidos",
+                        "access_rules": [
+                            "cranidos"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Skuntank",
+                "sections": [
+                    {
+                        "name": "Skuntank",
+                        "access_rules": [
+                            "skuntank"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Voltorb",
+                "sections": [
+                    {
+                        "name": "Voltorb",
+                        "access_rules": [
+                            "voltorb"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Gastly",
+                "sections": [
+                    {
+                        "name": "Gastly",
+                        "access_rules": [
+                            "gastly"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Duskull",
+                "sections": [
+                    {
+                        "name": "Duskull",
+                        "access_rules": [
+                            "duskull"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Misdreavus",
+                "sections": [
+                    {
+                        "name": "Misdreavus",
+                        "access_rules": [
+                            "misdreavus"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Krabby",
+                "sections": [
+                    {
+                        "name": "Krabby",
+                        "access_rules": [
+                            "krabby"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

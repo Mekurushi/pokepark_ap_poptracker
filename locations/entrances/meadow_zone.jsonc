@@ -1,16 +1,102 @@
 [
+    // Main Area
     {
-        "name": "MeadowZoneOverworld",
-        "access_rules": []
-    },
-    {
-        "name": "MeadowZoneVenusaurMinigame",
+        "name": "MeadowZoneMain_VenusaurGate_Entrance",
+        "parent": "@Meadow Zone Main Area",
         "access_rules": [
-            "bulbasaur_prisma"
+            "bulbasaur_prisma_activated"
         ]
     },
     {
-        "name": "MeadowZoneBulbasaurMinigame",
+        "name": "MeadowZoneMain_PokeparkGate_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMain_TreehouseGate_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": []
+    },
+    // Fast Travel
+    {
+        "name": "MeadowZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMain_BeachDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_IceDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "ice_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_CavernDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_MagmaDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_GraniteDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "granite_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "MeadowZoneMain_FlowerDrifblim_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": [
+            "flower_zone_fast_travel"
+        ]
+    },
+    // Venusaur Area
+    {
+        "name": "MeadowZoneVenusaur_MainGate_Entrance",
+        "parent": "@Meadow Zone Venusaur Area",
+        "access_rules": []
+    },
+    // Attractions
+    {
+        "name": "BulbasaurAttraction_Bulbasaur_Entrance",
+        "parent": "@Bulbasaur's Daring Dash Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "VenusaurAttraction_Venusaur_Entrance",
+        "parent": "@Venusaur's Vine Swing Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneMain_BulbasaurAttraction_Entrance",
+        "parent": "@Meadow Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "MeadowZoneVenusaur_VenusaurAttraction_Entrance",
+        "parent": "@Meadow Zone Venusaur Area",
         "access_rules": []
     }
 ]

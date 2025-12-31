@@ -1,0 +1,382 @@
+[
+    {
+        "name": "Gyarados' Aqua Dash Attraction",
+        "access_rules": [
+            "@GyaradosAttraction_Gyarados_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyGyaradosMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "surfboard"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Psyduck",
+                "sections": [
+                    {
+                        "name": "Psyduck",
+                        "access_rules": [
+                            "psyduck"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Azurill",
+                "sections": [
+                    {
+                        "name": "Azurill",
+                        "access_rules": [
+                            "azurill"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Slowpoke",
+                "sections": [
+                    {
+                        "name": "Slowpoke",
+                        "access_rules": [
+                            "slowpoke"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Manaphy",
+                "sections": [
+                    {
+                        "name": "Manaphy",
+                        "access_rules": [
+                            "manaphy"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manaphy Friendship",
+                        "access_rules": [
+                            "$canBeatAllGyaradosMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Empoleon",
+                "sections": [
+                    {
+                        "name": "Empoleon",
+                        "access_rules": [
+                            "empoleon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Floatzel",
+                "sections": [
+                    {
+                        "name": "Floatzel",
+                        "access_rules": [
+                            "floatzel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Feraligatr",
+                "sections": [
+                    {
+                        "name": "Feraligatr",
+                        "access_rules": [
+                            "feraligatr"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Golduck",
+                "sections": [
+                    {
+                        "name": "Golduck",
+                        "access_rules": [
+                            "golduck"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Vaporeon",
+                "sections": [
+                    {
+                        "name": "Vaporeon",
+                        "access_rules": [
+                            "vaporeon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Prinplup",
+                "sections": [
+                    {
+                        "name": "Prinplup",
+                        "access_rules": [
+                            "prinplup"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Bibarel",
+                "sections": [
+                    {
+                        "name": "Bibarel",
+                        "access_rules": [
+                            "bibarel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Buizel",
+                "sections": [
+                    {
+                        "name": "Buizel",
+                        "access_rules": [
+                            "buizel"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Corsola",
+                "sections": [
+                    {
+                        "name": "Corsola",
+                        "access_rules": [
+                            "corsola"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Piplup",
+                "sections": [
+                    {
+                        "name": "Piplup",
+                        "access_rules": [
+                            "piplup"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Lotad",
+                "sections": [
+                    {
+                        "name": "Lotad",
+                        "access_rules": [
+                            "lotad"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

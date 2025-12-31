@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Blaziken's Boulder Bash Attraction",
+        "access_rules": [
+            "@BlazikenAttraction_Blaziken_Exit"
+        ],
+        "children": [
+            {
+                "name": "Pikachu",
+                "sections": [
+                    {
+                        "name": "Prisma",
+                        "access_rules": [
+                            "$canBeatAnyBlazikenMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_prisma_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Geodude",
+                "sections": [
+                    {
+                        "name": "Geodude",
+                        "access_rules": [
+                            "geodude"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Phanpy",
+                "sections": [
+                    {
+                        "name": "Phanpy",
+                        "access_rules": [
+                            "phanpy"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Groudon",
+                "sections": [
+                    {
+                        "name": "Groudon",
+                        "access_rules": [
+                            "groudon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Groudon Friendship",
+                        "access_rules": [
+                            "$canBeatAllBlazikenMinigame"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Blaziken",
+                "sections": [
+                    {
+                        "name": "Blaziken",
+                        "access_rules": [
+                            "blaziken"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Garchomp",
+                "sections": [
+                    {
+                        "name": "Garchomp",
+                        "access_rules": [
+                            "garchomp"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Scizor",
+                "sections": [
+                    {
+                        "name": "Scizor",
+                        "access_rules": [
+                            "scizor"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Magmortar",
+                "sections": [
+                    {
+                        "name": "Magmortar",
+                        "access_rules": [
+                            "magmortar"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Hitmonchan",
+                "sections": [
+                    {
+                        "name": "Hitmonchan",
+                        "access_rules": [
+                            "hitmonchan"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Machamp",
+                "sections": [
+                    {
+                        "name": "Machamp",
+                        "access_rules": [
+                            "machamp"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Marowak",
+                "sections": [
+                    {
+                        "name": "Marowak",
+                        "access_rules": [
+                            "marowak"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Farfetch'd",
+                "sections": [
+                    {
+                        "name": "Farfetch'd",
+                        "access_rules": [
+                            "farfetchd"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Cranidos",
+                "sections": [
+                    {
+                        "name": "Cranidos",
+                        "access_rules": [
+                            "cranidos"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Camerupt",
+                "sections": [
+                    {
+                        "name": "Camerupt",
+                        "access_rules": [
+                            "camerupt"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Bastiodon",
+                "sections": [
+                    {
+                        "name": "Bastiodon",
+                        "access_rules": [
+                            "bastiodon"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Mawile",
+                "sections": [
+                    {
+                        "name": "Mawile",
+                        "access_rules": [
+                            "mawile"
+                        ],
+                        "visibility_rules": [
+                            "$attraction_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

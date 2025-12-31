@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pokepark Entrance",
+        "access_rules": [
+            "@PokeparkEntrance_MeadowGate_Exit"
+        ],
+        "children": [
+            {
+                "name": "Celebi",
+                "sections": [
+                    {
+                        "name": "Chase Power Competition - Friendship",
+                        "access_rules": [
+                            "$canPlayCatchAdvanced, celebi_unlock"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_locations_activated"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pokepark_entrance",
+                        "x": 640,
+                        "y": 420
+                    }
+                ]
+            }
+        ]
+    }
+]

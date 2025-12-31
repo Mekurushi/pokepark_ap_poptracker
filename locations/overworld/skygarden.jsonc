@@ -2,7 +2,7 @@
     {
         "name": "Skygarden",
         "access_rules": [
-            "@PiplupAirBalloon"
+            "@Skygarden_PiplupBalloon_Exit"
         ],
         "children": [
             {
@@ -13,12 +13,15 @@
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"
                         ],
+                        "access_rules": [
+                            "[$canBeatMewPowerCompetitionStage1], $canBeatMewPowerCompetitionStage1Glitched"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Power Competition - Stage 2",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle"
+                            "[$canBeatMewPowerCompetitionStage2], $canBeatMewPowerCompetitionStage2Glitched"
                         ],
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"
@@ -28,7 +31,7 @@
                     {
                         "name": "Power Competition - Stage 3",
                         "access_rules": [
-                            "[$canBattleThunderBoltImmuneAdvanced], $canBattleThunderBoltImmune"
+                            "[$canBeatMewPowerCompetitionStage3], $canBeatMewPowerCompetitionStage3Glitched"
                         ],
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"
@@ -38,7 +41,7 @@
                     {
                         "name": "Power Competition - Stage 4",
                         "access_rules": [
-                            "[$canBattleAdvanced], $canBattle"
+                            "[$canBeatMewPowerCompetitionStage4], $canBeatMewPowerCompetitionStage4Glitched"
                         ],
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"
@@ -48,7 +51,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$maximizedDash], $canPlayCatchIntermediate"
+                            "[$canBeatMew], , $canBeatMewGlitched"
                         ],
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"

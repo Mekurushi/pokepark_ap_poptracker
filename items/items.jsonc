@@ -29,6 +29,12 @@
     ]
   },
   {
+    "name": "Double Dash",
+    "type": "toggle",
+    "codes": "double_dash",
+    "img": "images/items/powers/double_dash.png"
+  },
+  {
     "name": "Progressive Thunderbolt",
     "type": "progressive",
     "allow_disabled": true,
@@ -2117,5 +2123,23 @@
     "type": "toggle",
     "codes": "ice_zone_lift_unlock",
     "img": "images/Items/ice_zone_lift.png"
+  },
+  {
+    "name": "Friendship Count",
+    "type": "consumable",
+    "codes": "friendship_count",
+    "img": "images/Items/best_friend_diary.png"
+  },
+  {
+    "name": "Prisma Count",
+    "type": "consumable",
+    "codes": "prisma_count",
+    "img": "images/items/prisma_activated.png"
+  },
+  {
+    "name": "Berries Count",
+    "type": "consumable",
+    "codes": "berries",
+    "img": "images/Items/berry.png"
   }
 ]

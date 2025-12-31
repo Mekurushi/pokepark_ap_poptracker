@@ -1,18 +1,111 @@
 [
     {
-        "name": "IceZoneOverworld",
-        "access_rules": [
-            "$canReachIceZone"
-        ]
-    },
-    {
-        "name": "IceZoneEmpoleonMinigame",
+        "name": "IceZoneMain_IceLapras_Entrance",
+        "parent": "@Ice Zone Main Area",
         "access_rules": []
     },
     {
-        "name": "IceZoneLowerLiftRegion",
+        "name": "IceZoneLower_LowerLift_Entrance",
+        "parent": "@Ice Zone Lower Lift Area",
         "access_rules": [
             "ice_zone_lift_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneMain_UpperLift_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "ice_zone_lift_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneLake_MainLake_Entrance",
+        "parent": "@Ice Zone Frozen Lake Area",
+        "access_rules": [
+            "ice_zone_frozen_lake_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FrozenLake_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "ice_zone_frozen_lake_unlock"
+        ]
+    },
+    {
+        "name": "IceZoneEmpoleon_MainGate_Entrance",
+        "parent": "@Ice Zone Empoleon Area",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneMain_EmpoleonGate_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "gyarados_prisma_activated"
+        ]
+    },
+    {
+        "name": "EmpoleonAttraction_Empoleon_Entrance",
+        "parent": "@Empoleon's Snow Slide Attraction",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneEmpoleon_EmpoleonAttraction_Entrance",
+        "parent": "@Ice Zone Empoleon Area",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneMain_MeadowDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": []
+    },
+    {
+        "name": "IceZoneMain_BeachDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "beach_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_CavernDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "cavern_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_MagmaDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "magma_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_HauntedDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "haunted_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_GraniteDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "granite_zone_fast_travel"
+        ]
+    },
+    {
+        "name": "IceZoneMain_FlowerDrifblim_Entrance",
+        "parent": "@Ice Zone Main Area",
+        "access_rules": [
+            "flower_zone_fast_travel"
         ]
     }
 ]

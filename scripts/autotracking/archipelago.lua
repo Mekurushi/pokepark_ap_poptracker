@@ -18,6 +18,8 @@ if Highlight then
     }
 end
 
+local Entrances = require("scripts/logic/entrance")
+
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
@@ -39,7 +41,21 @@ local STAGE_NAME_TO_TAB_NAME = {
     ["Haunted Zone Rotom Area"] = {"Haunted Zone", "Rotom Area"},
     ["Granite Zone Main Area"] = {"Granite Zone"},
     ["Flower Zone Main Area"] = {"Flower Zone"},
-    ["Skygarden"] = {"Skygarden"}
+    ["Skygarden"] = {"Skygarden"},
+    ["Pokepark Entrance"] = {"Pokepark Entrance"},
+    ["Bulbasaur's Daring Dash Attraction"] = {"Attractions", "Bulbasaur's Daring Dash"},
+    ["Venusaur's Vine Swing Attraction"] = {"Attractions", "Venusaur's Vine Swing"},
+    ["Pelipper's Circle Circuit Attraction"] = {"Attractions", "Pelipper's Circle Circuit"},
+    ["Gyarados' Aqua Dash Attraction"] = {"Attractions", "Gyarados' Aqua Dash"},
+    ["Empoleon's Snow Slide Attraction"] = {"Attractions", "Empoleon's Snow Slide"},
+    ["Bastiodon's Panel Crush Attraction"] = {"Attractions", "Bastiodon's Panel Crush"},
+    ["Blaziken's Boulder Bash Attraction"] = {"Attractions", "Blaziken's Boulder Bash"},
+    ["Tangrowth's Swing-Along Attraction"] = {"Attractions", "Tangrowth's Swing-Along"},
+    ["Rotom's Spooky Shoot-'em-Up Attraction"] = {"Attractions", "Rotom's Spooky Shoot-'em-Up"},
+    ["Dusknoir's Speed Slam Attraction"] = {"Attractions", "Dusknoir's Speed Slam"},
+    ["Absol's Hurdle Bounce Attraction"] = {"Attractions", "Absol's Hurdle Bounce"},
+    ["Salamence's Sky Race Attraction"] = {"Attractions", "Salamence's Sky Race"},
+    ["Rayquaza's Balloon Panic Attraction"] = {"Attractions", "Rayquaza's Balloon Panic"}
 
 }
 -- gets the data storage key for hints for the current player
@@ -143,7 +159,7 @@ end
 function apply_slot_data(slot_data)
     -- autotracking settings from YAML
     local function setFromSlotData(slot_data_key, item_code)
-        local v = slot_data[slot_data_key]
+        local v = (slot_data.options and slot_data.options[slot_data_key]) or slot_data[slot_data_key]
         if not v then
             print(string.format("Could not find key '%s' in slot data", slot_data_key))
             return nil
@@ -182,6 +198,31 @@ function apply_slot_data(slot_data)
     setFromSlotData('remove_attraction_prisma_locations', 'remove_attraction_prisma_locations')
     setFromSlotData('remove_pokemon_unlock_locations', 'remove_pokemon_unlock_locations')
     setFromSlotData('harder_enemy_ai', 'harder_enemy_ai')
+    setFromSlotData('each_zone', 'each_zone')
+
+    SLOT_DATA_EXIT_TO_ENTRANCE = {}
+    local load_assignments_from_ap = Tracker:FindObjectForCode("setting_load_exit_assignments_from_ap")
+    if load_assignments_from_ap.Active then
+        visited_stages_key = string.format(VISITED_STAGES_FORMAT, Archipelago.PlayerNumber)
+
+        Archipelago:Get({visited_stages_key})
+
+        local entrances = slot_data["entrances"]
+        if entrances then
+            for entrance, exit in pairs(entrances) do
+                local entrance_mapped = Entrances.slot_data_name_to_local[entrance]
+                local exit_mapped = Entrances.slot_data_name_to_local[exit]
+
+                if entrance_mapped and exit_mapped then
+                    local new_entrance_name = "@" .. entrance_mapped .. "_Entrance"
+                    local new_exit_name = exit_mapped .. "_Exit"
+                    Entrances.slot_data_exit_to_entrance[new_exit_name] = new_entrance_name
+                end
+            end
+        else
+            print("'entrances' was not present in slot_data, automatic entrance assignment will not be available")
+        end
+    end
 end
 
 -- called right after an AP slot is connected

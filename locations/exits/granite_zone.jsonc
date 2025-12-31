@@ -1,0 +1,89 @@
+[
+    // Main Area
+    {
+        "name": "GraniteZoneMain_TreehouseGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_TreehouseGate_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_FlowerGate_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_FlowerGate_Exit"
+        ]
+    },
+    // Fast Travel
+    {
+        "name": "GraniteZoneMain_TreehouseDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_TreehouseDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_MeadowDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_MeadowDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_BeachDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_BeachDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_IceDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_IceDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_CavernDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_CavernDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_MagmaDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_MagmaDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_HauntedDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_HauntedDrifblim_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_FlowerDrifblim_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_FlowerDrifblim_Exit"
+        ]
+    },
+    // Attractions
+    {
+        "name": "GraniteZoneMain_AbsolAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_AbsolAttraction_Exit"
+        ]
+    },
+    {
+        "name": "AbsolAttraction_Absol_Exit",
+        "access_rules": [
+            "$exit_accessibility|AbsolAttraction_Absol_Exit"
+        ]
+    },
+    {
+        "name": "GraniteZoneMain_SalamenceAttraction_Exit",
+        "access_rules": [
+            "$exit_accessibility|GraniteZoneMain_SalamenceAttraction_Exit"
+        ]
+    },
+    {
+        "name": "SalamenceAttraction_Salamence_Exit",
+        "access_rules": [
+            "$exit_accessibility|SalamenceAttraction_Salamence_Exit"
+        ]
+    },
+]
