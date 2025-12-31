@@ -149,12 +149,10 @@
           "type": "dock",
           "content": {
             "type": "dock",
-            "content": [
-              {
-                "type": "layout",
-                "key": "layout_maps"
-              }
-            ]
+            "content": {
+              "type": "layout",
+              "key": "layout_maps"
+            }
           }
         }
       ]
