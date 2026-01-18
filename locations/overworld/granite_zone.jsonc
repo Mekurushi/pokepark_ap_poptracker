@@ -132,7 +132,7 @@
                     {
                         "name": "Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate, absol_prisma_activated"
+                            "$canPlayCatchIntermediate"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
