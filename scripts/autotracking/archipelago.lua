@@ -173,13 +173,13 @@ function apply_slot_data(slot_data)
         set_setting_item(obj, v)
 
     end
-    if slot_data["goal"] == 1 then
+    if slot_data.options["goal"] == 1 then
         local obj = Tracker:FindObjectForCode("postgame_locations_activated")
         set_setting_item(obj, 1)
         local obj = Tracker:FindObjectForCode("mew_power_comp_locations_activated")
         set_setting_item(obj, 0)
     end
-    if slot_data["goal"] == 0 then
+    if slot_data.options["goal"] == 0 then
         local obj = Tracker:FindObjectForCode("postgame_locations_activated")
         set_setting_item(obj, 0)
         local obj = Tracker:FindObjectForCode("mew_power_comp_locations_activated")
