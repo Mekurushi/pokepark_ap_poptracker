@@ -132,7 +132,7 @@
                     {
                         "name": "Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate"
+                            "$canPlayCatchAdvanced"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -327,7 +327,7 @@
                     {
                         "name": "Arcanine Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate"
+                            "$canPlayCatchAdvanced"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
@@ -347,7 +347,7 @@
                     {
                         "name": "Jolteon Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatchIntermediate, jolteon_unlock, $hasEnoughFriendshipJolteon"
+                            "$canPlayCatchAdvanced, jolteon_unlock, $hasEnoughFriendshipJolteon"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
