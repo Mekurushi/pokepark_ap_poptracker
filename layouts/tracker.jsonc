@@ -8,6 +8,7 @@
         {
           "type": "dock",
           "dock": "left",
+          "h_alignment": "stretch",
           "v_alignment": "stretch",
           "content": [
             {
@@ -66,13 +67,12 @@
           ]
         },
         {
-          "type": "dock",
+          "type": "container",
+          "h_alignment": "stretch",
+          "v_alignment": "stretch",
           "content": {
-            "type": "dock",
-            "content": {
-              "type": "layout",
-              "key": "layout_maps"
-            }
+            "type": "layout",
+            "key": "layout_maps"
           }
         }
       ]
@@ -87,70 +87,78 @@
         {
           "type": "dock",
           "dock": "bottom",
+          "h_alignment": "stretch",
           "content": [
             {
               "type": "tabbed",
               "dock": "left",
               "tabs": [
                 {
-                  "type": "group",
                   "header": "Friendships",
                   "content": {
-                    "h_alignment": "center",
-                    "v_alignment": "center",
                     "type": "layout",
-                    "key": "friendships_horizontal"
+                    "key": "friendships_horizontal",
+                    "h_alignment": "center",
+                    "v_alignment": "center"
                   }
                 },
                 {
-                  "type": "group",
                   "header": "Unlocks",
                   "content": {
-                    "h_alignment": "center",
-                    "v_alignment": "center",
                     "type": "layout",
-                    "key": "unlocks_horizontal"
+                    "key": "unlocks_horizontal",
+                    "h_alignment": "center",
+                    "v_alignment": "center"
                   }
                 }
               ]
             },
             {
-              "type": "group",
-              "dock": "top",
-              "header": "Prismas",
-              "content": {
-                "type": "layout",
-                "key": "prismas_horizontal"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Items",
+              "type": "dock",
               "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "item_grid_horizontal"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Powers",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "powers_horizontal"
-              }
+              "content": [
+                {
+                  "type": "dock",
+                  "dock": "top",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Prismas",
+                      "dock": "left",
+                      "content": {
+                        "type": "layout",
+                        "key": "prismas_horizontal"
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Items",
+                      "content": {
+                        "type": "layout",
+                        "key": "item_grid_horizontal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "header": "Powers",
+                  "content": {
+                    "type": "layout",
+                    "key": "powers_horizontal"
+                  }
+                }
+              ]
             }
           ]
         },
         {
-          "type": "dock",
+          "type": "container",
+          "h_alignment": "stretch",
+          "v_alignment": "stretch",
           "content": {
-            "type": "dock",
-            "content": {
-              "type": "layout",
-              "key": "layout_maps"
-            }
+            "type": "layout",
+            "key": "layout_maps"
           }
         }
       ]
