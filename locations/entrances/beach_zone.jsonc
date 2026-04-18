@@ -2,64 +2,64 @@
     // Out of Beach Zone
     {
         "name": "BeachZoneLapras_BeachZoneLapras_Entrance",
-        "parent": "@Beach Zone Lapras Area",
+        "parent": "Beach Zone Lapras Area",
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_TreehouseGate_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_TreehouseDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_MeadowDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "meadow_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_IceDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "ice_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_CavernDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_MagmaDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "magma_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_HauntedDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_GraniteDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "granite_zone_fast_travel"
         ]
     },
     {
         "name": "BeachZoneMain_FlowerDrifblim_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "flower_zone_fast_travel"
         ]
@@ -67,21 +67,21 @@
     // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",
-        "parent": "@Beach Zone Recycle Area",
+        "parent": "Beach Zone Recycle Area",
         "access_rules": [
             "beach_zone_bridge2_unlock"
         ]
     },
     {
         "name": "BeachZoneMain_RecycleBridge_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "beach_zone_bridge2_unlock"
         ]
     },
     {
         "name": "BeachZoneMiddle_MainBridge_Entrance",
-        "parent": "@Beach Zone Middle Isle",
+        "parent": "Beach Zone Middle Isle",
         "access_rules": [
             "beach_zone_bridge1_unlock",
             "beach_zone_bridge2_unlock"
@@ -89,7 +89,7 @@
     },
     {
         "name": "BeachZoneMain_MiddleBridge_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "beach_zone_bridge1_unlock",
             "beach_zone_bridge2_unlock"
@@ -97,14 +97,14 @@
     },
     {
         "name": "BeachZoneLapras_MainRock_Entrance",
-        "parent": "@Beach Zone Lapras Area",
+        "parent": "Beach Zone Lapras Area",
         "access_rules": [
             "gyarados_prisma_activated"
         ]
     },
     {
         "name": "BeachZoneMain_LaprasRock_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": [
             "gyarados_prisma_activated"
         ]
@@ -112,22 +112,22 @@
     // Attractions
     {
         "name": "BeachZoneMain_PelipperAttraction_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": []
     },
     {
         "name": "BeachZoneRecycle_GyaradosAttraction_Entrance",
-        "parent": "@Beach Zone Recycle Area",
+        "parent": "Beach Zone Recycle Area",
         "access_rules": []
     },
     {
         "name": "PelipperAttraction_Pelipper_Entrance",
-        "parent": "@Beach Zone Main Area",
+        "parent": "Beach Zone Main Area",
         "access_rules": []
     },
     {
         "name": "GyaradosAttraction_Gyarados_Entrance",
-        "parent": "@Beach Zone Recycle Area",
+        "parent": "Beach Zone Recycle Area",
         "access_rules": []
     }
 ]
