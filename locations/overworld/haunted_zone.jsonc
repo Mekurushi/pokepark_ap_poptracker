@@ -12,8 +12,10 @@
             "@HauntedZoneMain_GraniteDrifblim_Exit",
             "@HauntedZoneMain_FlowerDrifblim_Exit",
             "@HauntedZoneMain_TangrowthAttraction_Exit",
-            "@HauntedZoneMain_MansionGate_Exit",
+            "@HauntedZoneMain_MansionGate_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Drifloon",
@@ -271,6 +273,8 @@
             "@HauntedZoneMansion_GreenGemDoor_Exit",
             "@HauntedZoneMansion_DusknoirAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Duskull",
@@ -480,6 +484,8 @@
         "access_rules": [
             "@HauntedZoneBallroom_WhiteGemDoor_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Misdreavus",
@@ -597,6 +603,8 @@
             "@HauntedZoneStudy_RedGemDoor_Exit",
             "@HauntedZoneStudy_Bookshelf_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Sableye",
@@ -625,6 +633,8 @@
         "access_rules": [
             "@HauntedZoneGengar_BlueGemDoor_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Voltorb",
@@ -697,6 +707,8 @@
         "access_rules": [
             "@HauntedZoneAntic_GreenGemDoor_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Spinarak",

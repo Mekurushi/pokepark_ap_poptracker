@@ -11,8 +11,10 @@
             "@MagmaZoneMain_CavernDrifblim_Exit",
             "@MagmaZoneMain_HauntedDrifblim_Exit",
             "@MagmaZoneMain_GraniteDrifblim_Exit",
-            "@MagmaZoneMain_FlowerDrifblim_Exit",
+            "@MagmaZoneMain_FlowerDrifblim_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Entrance Area",
@@ -314,6 +316,8 @@
             "@MagmaZoneBlaziken_MainGate_Exit",
             "@MagmaZoneBlaziken_BlazikenAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Blaziken",
@@ -346,6 +350,8 @@
             "@MagmaZoneCircle_BlazikenBridge_Exit",
             "@MagmaZoneCircle_RhyperiorAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Rhyperior",
@@ -522,7 +528,7 @@
                         "y": 340
                     }
                 ]
-            },
+            }
         ]
     },
     {
@@ -531,6 +537,8 @@
             "@MagmaZoneMagcargo_BlazikenGate_Exit",
             "@MagmaZoneMagcargo_BlazikenBridge_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Magcargo",

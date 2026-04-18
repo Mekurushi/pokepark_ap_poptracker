@@ -13,6 +13,8 @@
             "@FlowerZoneMain_GraniteDrifblim_Exit",
             "@FlowerZoneMain_RayquazaAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Rayquaza",

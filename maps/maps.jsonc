@@ -4,7 +4,7 @@
     "name": "treehouse",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/treehouse.png",
+    "img": "images/maps/treehouse.png"
   },
   {
     "name": "meadow_zone_overworld",

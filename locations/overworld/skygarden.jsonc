@@ -7,6 +7,8 @@
         "children": [
             {
                 "name": "Mew",
+                "chest_unopened_img": "images/locations/friendship_unopened.png",
+                "chest_opened_img": "images/locations/friendship_opened.png",
                 "sections": [
                     {
                         "name": "Power Competition - Stage 1",
@@ -66,6 +68,8 @@
                         "visibility_rules": [
                             "$postgame_locations_activated"
                         ],
+                        "chest_unopened_img": "images/locations/prisma_unopened.png",
+                        "chest_opened_img": "images/locations/prisma_opened.png",
                         "item_count": 1
                     },
                     {
@@ -76,6 +80,8 @@
                         "visibility_rules": [
                             "$postgame_locations_activated"
                         ],
+                        "chest_unopened_img": "images/locations/prisma_unopened.png",
+                        "chest_opened_img": "images/locations/prisma_opened.png",
                         "item_count": 1
                     },
                     {
@@ -86,6 +92,8 @@
                         "visibility_rules": [
                             "$postgame_locations_activated"
                         ],
+                        "chest_unopened_img": "images/locations/prisma_unopened.png",
+                        "chest_opened_img": "images/locations/prisma_opened.png",
                         "item_count": 1
                     }
                 ],

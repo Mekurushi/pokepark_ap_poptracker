@@ -15,6 +15,8 @@
             "@IceZoneMain_EmpoleonGate_Exit",
             "@IceZoneMain_FrozenLake_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Lapras Area",
@@ -410,6 +412,8 @@
         "access_rules": [
             "@IceZoneLower_LowerLift_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Lower Lift Area",
@@ -471,6 +475,8 @@
             "@IceZoneEmpoleon_MainGate_Exit",
             "@IceZoneEmpoleon_EmpoleonAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Empoleon",
@@ -501,6 +507,8 @@
         "access_rules": [
             "@IceZoneLake_MainLake_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Mamoswine",
