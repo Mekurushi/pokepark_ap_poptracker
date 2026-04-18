@@ -16,8 +16,7 @@
               "dock": "top",
               "tabs": [
                 {
-                  "type": "group",
-                  "header": "Friendships",
+                  "title": "Friendships",
                   "content": {
                     "h_alignment": "center",
                     "v_alignment": "center",
@@ -26,8 +25,7 @@
                   }
                 },
                 {
-                  "type": "group",
-                  "header": "Unlocks",
+                  "title": "Unlocks",
                   "content": {
                     "h_alignment": "center",
                     "v_alignment": "center",
@@ -94,7 +92,7 @@
               "dock": "left",
               "tabs": [
                 {
-                  "header": "Friendships",
+                  "title": "Friendships",
                   "content": {
                     "type": "layout",
                     "key": "friendships_horizontal",
@@ -103,7 +101,7 @@
                   }
                 },
                 {
-                  "header": "Unlocks",
+                  "title": "Unlocks",
                   "content": {
                     "type": "layout",
                     "key": "unlocks_horizontal",
