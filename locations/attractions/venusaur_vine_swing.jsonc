@@ -4,6 +4,8 @@
         "access_rules": [
             "@VenusaurAttraction_Venusaur_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Pikachu",
@@ -16,6 +18,8 @@
                         "visibility_rules": [
                             "$attraction_prisma_locations_activated"
                         ],
+                        "chest_unopened_img": "images/locations/prisma_unopened.png",
+                        "chest_opened_img": "images/locations/prisma_opened.png",
                         "item_count": 1
                     },
                     {

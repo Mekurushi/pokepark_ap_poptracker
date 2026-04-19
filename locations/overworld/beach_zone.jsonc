@@ -14,8 +14,10 @@
             "@BeachZoneMain_LaprasRock_Exit",
             "@BeachZoneMain_PelipperAttraction_Exit",
             "@BeachZoneMain_RecycleBridge_Exit",
-            "@BeachZoneMain_MiddleBridge_Exit",
+            "@BeachZoneMain_MiddleBridge_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Pelipper",
@@ -378,6 +380,8 @@
             "@BeachZoneRecycle_MainBridge_Exit",
             "@BeachZoneRecycle_GyaradosAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Gyarados",
@@ -490,6 +494,8 @@
         "access_rules": [
             "@BeachZoneMiddle_MainBridge_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Piplup",

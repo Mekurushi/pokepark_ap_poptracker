@@ -14,6 +14,8 @@
             "@CavernZoneMain_FlowerDrifblim_Exit",
             "@CavernZoneMain_BastiodonAttraction_Exit"
         ],
+        "chest_unopened_img": "images/locations/friendship_unopened.png",
+        "chest_opened_img": "images/locations/friendship_opened.png",
         "children": [
             {
                 "name": "Magnemite Entrance Area",

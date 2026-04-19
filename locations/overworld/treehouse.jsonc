@@ -18,12 +18,16 @@
       "@Treehouse_FlowerDrifblim_Exit",
       "@Always"
     ],
+    "chest_unopened_img": "images/locations/friendship_unopened.png",
+    "chest_opened_img": "images/locations/friendship_opened.png",
     "children": [
       {
         "name": "Thunderbolt",
         "visibility_rules": [
           "$power_training_locations_activated"
         ],
+        "chest_unopened_img": "images/locations/shop_unopened.png",
+        "chest_opened_img": "images/locations/shop_opened.png",
         "sections": [
           {
             "name": "Upgrade 1",
@@ -63,6 +67,8 @@
         "visibility_rules": [
           "$power_training_locations_activated"
         ],
+        "chest_unopened_img": "images/locations/shop_unopened.png",
+        "chest_opened_img": "images/locations/shop_opened.png",
         "sections": [
           {
             "name": "Upgrade 1",
@@ -113,6 +119,8 @@
         "visibility_rules": [
           "$power_training_locations_activated"
         ],
+        "chest_unopened_img": "images/locations/shop_unopened.png",
+        "chest_opened_img": "images/locations/shop_opened.png",
         "sections": [
           {
             "name": "Upgrade 1",
@@ -152,6 +160,8 @@
         "visibility_rules": [
           "$power_training_locations_activated"
         ],
+        "chest_unopened_img": "images/locations/shop_unopened.png",
+        "chest_opened_img": "images/locations/shop_opened.png",
         "sections": [
           {
             "name": "Upgrade 1",
@@ -260,34 +270,34 @@
     "access_rules": [
       "@TreehouseMeadow_MeadowConnection_Exit",
       "@TreehouseMeadow_MeadowGate_Exit"
-    ],
+    ]
   },
   {
     "name": "Treehouse - Beach Zone",
     "access_rules": [
       "@TreehouseBeach_BeachGate_Exit",
       "@TreehouseBeach_BeachGate_Exit"
-    ],
+    ]
   },
   {
     "name": "Treehouse - Cavern Zone",
     "access_rules": [
       "@TreehouseCavern_CavernConnection_Exit",
       "@TreehouseCavern_CavernGate_Exit"
-    ],
+    ]
   },
   {
     "name": "Treehouse - Haunted Zone",
     "access_rules": [
       "@TreehouseHaunted_HauntedConnection_Exit",
       "@TreehouseHaunted_HauntedGate_Exit"
-    ],
+    ]
   },
   {
     "name": "Treehouse - Granite Zone",
     "access_rules": [
       "@TreehouseGranite_GraniteConnection_Exit",
       "@TreehouseGranite_GraniteGate_Exit"
-    ],
+    ]
   }
 ]
