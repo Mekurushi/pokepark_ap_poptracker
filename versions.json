@@ -1,13 +1,42 @@
 {
     "versions": [
         {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.0.0/pokepark_ap_poptracker.zip",
+            "sha256": "61d1d98d0c66dc20e638c516bd1cb66bad4801ed70bef6c60555c284c49edcae",
+            "changelog": [
+                "initial release"
+            ]
+        },
+        {
             "package_version": "1.1.0",
-            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/archive/refs/tags/v1.1.0.zip",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.1.0/v1.1.0.zip",
             "sha256": "92dc9b474208da049fc3f7079838f1ed3bd03d95ea08cf235a76b308e9bbcb90",
             "changelog": [
                 "updated logic to match 1.x.x",
                 "added randomized entrances support",
                 "New Attraction Assets"
+            ]
+        },
+        {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.1.1/v1.1.1.zip",
+            "sha256": "9dd8b43fdfb64d8b67a10493fb90dd0e6c6da2c877755eaa01a078c0f909dfba",
+            "changelog": [
+                "fixed flygon rule"
+            ]
+        },
+        {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.2.0/pokepark_ap_poptracker.zip",
+            "sha256": "68517c9106c4fbffce623a7acf26bfa9f356f98c215362fc7aa352b6a607e484",
+            "changelog": [
+                "fixed loading goal setting from slot data",
+                "added tangrowth location on map",
+                "synced logic with apworld",
+                "fixed parent usage in entrances",
+                "improved layout scaling",
+                "added basic location icons"
             ]
         }
     ]
