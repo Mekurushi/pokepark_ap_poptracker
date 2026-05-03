@@ -275,7 +275,7 @@
   {
     "name": "Treehouse - Beach Zone",
     "access_rules": [
-      "@TreehouseBeach_BeachGate_Exit",
+      "@TreehouseBeach_BeachConnection_Exit",
       "@TreehouseBeach_BeachGate_Exit"
     ]
   },
