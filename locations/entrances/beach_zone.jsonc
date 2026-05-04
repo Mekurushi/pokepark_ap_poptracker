@@ -435,6 +435,11 @@
                         "chest_unopened_img": "images/items/empty.png",
                         "chest_opened_img": "images/items/empty.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Gyarados Prisma",
+                        "item_count": 0,
+                        "hosted_item": "gyarados_prisma_activated"
                     }
                 ],
                 "map_locations": [
