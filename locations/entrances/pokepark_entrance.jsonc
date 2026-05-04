@@ -2,6 +2,28 @@
     {
         "name": "PokeparkEntrance_MeadowGate_Entrance",
         "parent": "Pokepark Entrance",
+        "children": [
+            {
+                "name": "Pokepark Entrance - Meadow Zone Gate",
+                "sections": [
+                    {
+                        "name": "Pokepark Entrance - Meadow Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pokepark_entrance",
+                        "x": 590,
+                        "y": 100,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     }
 ]
