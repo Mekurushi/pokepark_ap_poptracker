@@ -2150,5 +2150,14 @@
     "max_quantity": 50,
     "initial_quantity": 50,
     "img": "images/Items/best_friend_diary.png"
+  },
+  {
+    "name": "Rotom Attraction Required Friendships",
+    "type": "consumable",
+    "codes": "required_rotom_attraction",
+    "min_quantity": 65,
+    "max_quantity": 65,
+    "initial_quantity": 65,
+    "img": "images/Items/best_friend_diary.png"
   }
 ]
