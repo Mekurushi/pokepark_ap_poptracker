@@ -1,16 +1,58 @@
 [
-    //
     {
         "name": "GraniteZoneMain_TreehouseGate_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Treehouse Connection",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Treehouse Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 795,
+                        "y": 990,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "GraniteZoneMain_FlowerGate_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Flower Zone Gate",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Flower Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 545,
+                        "y": 90,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
-    // Attractions
     {
         "name": "AbsolAttraction_Absol_Entrance",
         "parent": "Absol's Hurdle Bounce Attraction",
@@ -19,6 +61,28 @@
     {
         "name": "GraniteZoneMain_AbsolAttraction_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Absol Attraction",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Absol Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 890,
+                        "y": 520,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
@@ -29,26 +93,148 @@
     {
         "name": "GraniteZoneMain_SalamenceAttraction_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Salamence Attraction",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Salamence Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Required Friendship Salamence Attraction",
+                        "item_count": 0,
+                        "hosted_item": "required_salamence_attraction"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 160,
+                        "y": 60,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "$canAccessSalamenceMinigame"
-        ]
-    },
-    // Fast Travel
-    {
-        "name": "GraniteZoneMain_MeadowDrifblim_Entrance",
-        "parent": "Granite Zone Main Area",
-        "access_rules": [
-            "meadow_zone_fast_travel"
         ]
     },
     {
         "name": "GraniteZoneMain_TreehouseDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Treehouse Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Meadow Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Meadow Drifblim Fast Travel/Granite Zone Main Area - Meadow Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Beach Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Beach Drifblim Fast Travel/Granite Zone Main Area - Beach Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Ice Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Ice Drifblim Fast Travel/Granite Zone Main Area - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Cavern Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Cavern Drifblim Fast Travel/Granite Zone Main Area - Cavern Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Magma Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Magma Drifblim Fast Travel/Granite Zone Main Area - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Haunted Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Haunted Drifblim Fast Travel/Granite Zone Main Area - Haunted Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Flower Drifblim Fast Travel",
+                        "ref": "Granite Zone Main Area - Flower Drifblim Fast Travel/Granite Zone Main Area - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
+    },
+    {
+        "name": "GraniteZoneMain_MeadowDrifblim_Entrance",
+        "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Meadow Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Meadow Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "meadow_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
     },
     {
         "name": "GraniteZoneMain_BeachDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Beach Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Beach Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "beach_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_fast_travel"
         ]
@@ -56,6 +242,29 @@
     {
         "name": "GraniteZoneMain_IceDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -63,6 +272,29 @@
     {
         "name": "GraniteZoneMain_CavernDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Cavern Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Cavern Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "cavern_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
@@ -70,6 +302,29 @@
     {
         "name": "GraniteZoneMain_MagmaDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -77,6 +332,29 @@
     {
         "name": "GraniteZoneMain_HauntedDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Haunted Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Haunted Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "haunted_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
@@ -84,6 +362,29 @@
     {
         "name": "GraniteZoneMain_FlowerDrifblim_Entrance",
         "parent": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Granite Zone Main Area - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 170,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]

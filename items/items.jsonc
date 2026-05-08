@@ -2159,5 +2159,14 @@
     "max_quantity": 65,
     "initial_quantity": 65,
     "img": "images/Items/best_friend_diary.png"
+  },
+  {
+    "name": "Salamence Attraction Required Friendships",
+    "type": "consumable",
+    "codes": "required_salamence_attraction",
+    "min_quantity": 80,
+    "max_quantity": 80,
+    "initial_quantity": 80,
+    "img": "images/Items/best_friend_diary.png"
   }
 ]
