@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Rayquaza's Balloon Panic Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Deoxys"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Deoxys Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Lucario"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Glaceon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Luxray"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mamoswine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Infernape"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Floatzel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Rhyperior"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Absol"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Breloom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mareep"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Cyndaquil"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Totodile"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Chikorita"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mime Jr."
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rayquaza_balloon_panic",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Salamence's Sky Race Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Latios"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Latios Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Salamence"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Charizard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Dragonite"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Flygon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Aerodactyl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Staraptor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Honchkrow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Gliscor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Pidgeotto"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Togekiss"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Golbat"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Taillow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Murkrow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Zubat"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "salamence_sky_race",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

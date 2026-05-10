@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Rhyperior's Bumper Burn Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Magnemite"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Heatran"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Heatran Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Rhyperior"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Tyranitar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Hitmontop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Flareon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Venusaur"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Snorlax"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Torterra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Magnezone"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Claydol"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Quilava"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Torkoal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Baltoy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Bonsly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rhyperior_bumper_burn",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

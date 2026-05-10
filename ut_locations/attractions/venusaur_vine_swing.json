@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Venusaur's Vine Swing Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Munchlax"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Magikarp"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Jirachi"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Jirachi Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Blaziken"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Infernape"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Lucario"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Primeape"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Tangrowth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Ambipom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Croagunk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Mankey"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Aipom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Chimchar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Treecko"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Pachirisu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_vine_swing",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Empoleon's Snow Slide Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Teddiursa"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Magikarp"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Suicune"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Suicune Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Empoleon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Glaceon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Blastoise"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Glalie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Lapras"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Delibird"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Piloswine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Prinplup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Squirtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Piplup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Quagsire"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Spheal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "empoleon_snow_slide",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Gyarados' Aqua Dash Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Psyduck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Azurill"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Slowpoke"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Manaphy"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Manaphy Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Empoleon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Floatzel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Feraligatr"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Golduck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Vaporeon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Prinplup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Bibarel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Buizel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Corsola"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Piplup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Lotad"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gyarados_aqua_dash",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

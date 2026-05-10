@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Rotom's Spooky Shoot-'em-Up Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magnemite"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Rotom"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Rotom Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Porygon-Z"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magnezone"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Gengar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magmortar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Electivire"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Mismagius"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Claydol"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Electabuzz"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Haunter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Abra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Elekid"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Mr. Mime"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Baltoy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rotom_spooky_shoot",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

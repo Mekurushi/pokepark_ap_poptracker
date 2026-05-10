@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Dusknoir's Speed Slam Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Stunky"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Darkrai"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Darkrai Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Gengar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Mismagius"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Scizor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Espeon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Dusknoir"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Umbreon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Cranidos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Skuntank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Voltorb"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Gastly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Duskull"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Misdreavus"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Krabby"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dusknoir_speed_slam",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

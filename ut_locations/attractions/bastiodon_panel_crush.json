@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Bastiodon's Panel Crush Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Sableye"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Meowth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Torchic"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Metagross"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Metagross Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Electivire"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Magmortar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Hitmonlee"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Ursaring"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Mr. Mime"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Raichu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Sudowoodo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Charmander"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Gible"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Chimchar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Magby"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bastiodon_panel_crush",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

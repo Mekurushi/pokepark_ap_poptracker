@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Blaziken's Boulder Bash Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Geodude"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Phanpy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Groudon"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Groudon Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Blaziken"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Garchomp"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Scizor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Magmortar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Hitmonchan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Machamp"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Marowak"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Farfetch'd"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Cranidos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Camerupt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Bastiodon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Mawile"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "blaziken_boulder_bash",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

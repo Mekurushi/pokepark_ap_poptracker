@@ -1,0 +1,374 @@
+[
+    {
+        "name": "Bulbasaur's Daring Dash Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 420,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Chimchar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 475,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Treecko"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 525,
+                        "y": 335
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bibarel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 580,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Turtwig"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 620,
+                        "y": 295
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bulbasaur"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 655,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bidoof"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 695,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Oddish"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 690,
+                        "y": 195
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Shroomish"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 655,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Munchlax"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 610,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bonsly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 570,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Lotad"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 525,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Weedle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 475,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Caterpie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 420,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Magikarp"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 375,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Mew"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 325,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Jolteon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 280,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Arcanine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 235,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Leafeon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 195,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Scyther"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 160,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Ponyta"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 150,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Shinx"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 185,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Eevee"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 230,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Pachirisu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 275,
+                        "y": 315
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Buneary"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 320,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Croagunk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bulbasaur_daring_dash",
+                        "x": 370,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]
