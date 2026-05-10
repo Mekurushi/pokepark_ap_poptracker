@@ -1,23 +1,139 @@
 [
-    // Out of Beach Zone
     {
         "name": "BeachZoneLapras_BeachZoneLapras_Entrance",
         "parent": "Beach Zone Lapras Area",
+        "children": [
+            {
+                "name": "Beach Zone Lapras Area - Beach Zone Lapras",
+                "sections": [
+                    {
+                        "name": "Beach Zone Lapras Area - Beach Zone Lapras",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 70,
+                        "y": 900,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_TreehouseGate_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Treehouse Connection",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Treehouse Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 515,
+                        "y": 50,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_TreehouseDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Treehouse Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Meadow Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Meadow Drifblim Fast Travel/Beach Zone Main Area - Meadow Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Ice Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Ice Drifblim Fast Travel/Beach Zone Main Area - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Cavern Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Cavern Drifblim Fast Travel/Beach Zone Main Area - Cavern Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Magma Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Magma Drifblim Fast Travel/Beach Zone Main Area - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Haunted Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Haunted Drifblim Fast Travel/Beach Zone Main Area - Haunted Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Granite Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Granite Drifblim Fast Travel/Beach Zone Main Area - Granite Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Flower Drifblim Fast Travel",
+                        "ref": "Beach Zone Main Area - Flower Drifblim Fast Travel/Beach Zone Main Area - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "BeachZoneMain_MeadowDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Meadow Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Meadow Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "meadow_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "meadow_zone_fast_travel"
         ]
@@ -25,6 +141,29 @@
     {
         "name": "BeachZoneMain_IceDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -32,6 +171,29 @@
     {
         "name": "BeachZoneMain_CavernDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Cavern Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Cavern Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "cavern_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
@@ -39,6 +201,29 @@
     {
         "name": "BeachZoneMain_MagmaDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -46,6 +231,29 @@
     {
         "name": "BeachZoneMain_HauntedDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Haunted Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Haunted Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "haunted_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
@@ -53,6 +261,29 @@
     {
         "name": "BeachZoneMain_GraniteDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Granite Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Granite Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "granite_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "granite_zone_fast_travel"
         ]
@@ -60,11 +291,33 @@
     {
         "name": "BeachZoneMain_FlowerDrifblim_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 860,
+                        "y": 410,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]
     },
-    // Inner Entrances
     {
         "name": "BeachZoneRecycle_MainBridge_Entrance",
         "parent": "Beach Zone Recycle Area",
@@ -75,6 +328,47 @@
     {
         "name": "BeachZoneMain_RecycleBridge_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Recycle Bridge",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Recycle Bridge",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach Zone Bridge 2 Unlock",
+                        "item_count": 0,
+                        "hosted_item": "beach_zone_bridge2_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 690,
+                        "y": 900,
+                        "size": 35,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 540,
+                        "y": 780,
+                        "size": 35,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 370,
+                        "y": 810,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_bridge2_unlock"
         ]
@@ -90,6 +384,33 @@
     {
         "name": "BeachZoneMain_MiddleBridge_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Middle Bridge",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Middle Bridge",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach Zone Bridge 1 Unlock",
+                        "item_count": 0,
+                        "hosted_item": "beach_zone_bridge1_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 545,
+                        "y": 575,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_bridge1_unlock",
             "beach_zone_bridge2_unlock"
@@ -105,29 +426,99 @@
     {
         "name": "BeachZoneMain_LaprasRock_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Lapras Area Rock",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Lapras Area Rock",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gyarados Prisma",
+                        "item_count": 0,
+                        "hosted_item": "gyarados_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 230,
+                        "y": 815,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "gyarados_prisma_activated"
         ]
     },
-    // Attractions
     {
         "name": "BeachZoneMain_PelipperAttraction_Entrance",
         "parent": "Beach Zone Main Area",
+        "children": [
+            {
+                "name": "Beach Zone Main Area - Pelipper Attraction",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Pelipper Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 930,
+                        "y": 960,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "BeachZoneRecycle_GyaradosAttraction_Entrance",
         "parent": "Beach Zone Recycle Area",
+        "children": [
+            {
+                "name": "Beach Zone Recycle Area - Gyarados Attraction",
+                "sections": [
+                    {
+                        "name": "Beach Zone Recycle Area - Gyarados Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 515,
+                        "y": 1000,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "PelipperAttraction_Pelipper_Entrance",
-        "parent": "Beach Zone Main Area",
+        "parent": "Pelipper's Circle Circuit Attraction",
         "access_rules": []
     },
     {
         "name": "GyaradosAttraction_Gyarados_Entrance",
-        "parent": "Beach Zone Recycle Area",
+        "parent": "Gyarados' Aqua Dash Attraction",
         "access_rules": []
     }
 ]

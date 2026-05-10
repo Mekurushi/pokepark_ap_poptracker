@@ -2,11 +2,60 @@
     {
         "name": "HauntedZoneMain_TreehouseGate_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Treehouse Connection",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Treehouse Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 950,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "HauntedZoneMain_MansionGate_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Mansion Gate",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Mansion Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tangrowth Prisma",
+                        "item_count": 0,
+                        "hosted_item": "tangrowth_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 20,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "tangrowth_prisma_activated"
         ]
@@ -14,12 +63,60 @@
     {
         "name": "HauntedZoneMansion_MainGate_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - Main Area Gate",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Main Area Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 1000,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
-    // Inner
     {
         "name": "HauntedZoneMansion_WhiteGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - White Gem Door",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - White Gem Door",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Zone Doors Unlock",
+                        "item_count": 0,
+                        "hosted_item": "haunted_zone_mansion_doors_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 430,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_mansion_doors_unlock"
         ]
@@ -34,6 +131,40 @@
     {
         "name": "HauntedZoneMansion_RedGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - Red Gem Door",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Red Gem Door",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Zone Doors Unlock",
+                        "item_count": 0,
+                        "hosted_item": "haunted_zone_mansion_doors_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 495,
+                        "y": 605,
+                        "size": 35,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 280,
+                        "y": 605,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_mansion_doors_unlock"
         ]
@@ -48,6 +179,40 @@
     {
         "name": "HauntedZoneMansion_BlueGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - Blue Gem Door",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Blue Gem Door",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Zone Doors Unlock",
+                        "item_count": 0,
+                        "hosted_item": "haunted_zone_mansion_doors_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 655,
+                        "y": 770,
+                        "size": 35,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 620,
+                        "y": 890,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_mansion_doors_unlock"
         ]
@@ -62,6 +227,40 @@
     {
         "name": "HauntedZoneMansion_GreenGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - Green Gem Door",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Green Gem Door",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Zone Doors Unlock",
+                        "item_count": 0,
+                        "hosted_item": "haunted_zone_mansion_doors_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 770,
+                        "size": 35,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 445,
+                        "y": 895,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_mansion_doors_unlock"
         ]
@@ -76,6 +275,33 @@
     {
         "name": "HauntedZoneStudy_Bookshelf_Entrance",
         "parent": "Haunted Zone Mansion Study Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Study Area - Hidden Bookshelf",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Study Area - Hidden Bookshelf",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusknoir Prisma",
+                        "item_count": 0,
+                        "hosted_item": "dusknoir_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 635,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "dusknoir_prisma_activated"
         ]
@@ -83,11 +309,55 @@
     {
         "name": "HauntedZoneSecret_RotomConnection_Entrance",
         "parent": "Haunted Zone Secret Area",
+        "children": [
+            {
+                "name": "Haunted Zone Bookshelf Area - Rotom Connection",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Bookshelf Area - Rotom Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 100,
+                        "y": 685,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "HauntedZoneRotom_SecretConnection_Entrance",
         "parent": "Haunted Zone Rotom Area",
+        "children": [
+            {
+                "name": "Haunted Zone Rotom Area - Bookshelf Area Connection",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Rotom Area - Bookshelf Area Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_rotom",
+                        "x": 740,
+                        "y": 895,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
@@ -97,7 +367,6 @@
             "dusknoir_prisma_activated"
         ]
     },
-    // Attractions
     {
         "name": "TangrowthAttraction_Tangrowth_Entrance",
         "parent": "Tangrowth's Swing-Along Attraction",
@@ -106,6 +375,28 @@
     {
         "name": "HauntedZoneMain_TangrowthAttraction_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Tangrowth Attraction",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Tangrowth Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 635,
+                        "y": 270,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
@@ -116,6 +407,33 @@
     {
         "name": "HauntedZoneMansion_DusknoirAttraction_Entrance",
         "parent": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "name": "Haunted Zone Mansion Area - Dusknoir Attraction",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Dusknoir Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusknoir Unlock",
+                        "item_count": 0,
+                        "hosted_item": "dusknoir_unlock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 770,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "dusknoir_unlock"
         ]
@@ -128,26 +446,148 @@
     {
         "name": "HauntedZoneRotom_RotomAttraction_Entrance",
         "parent": "Haunted Zone Rotom Area",
+        "children": [
+            {
+                "name": "Haunted Zone Rotom Area - Rotom Attraction",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Rotom Area - Rotom Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Required Friendship Rotom Attraction",
+                        "item_count": 0,
+                        "hosted_item": "required_rotom_attraction"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_rotom",
+                        "x": 500,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "$canAccessRotomMinigame"
-        ]
-    },
-    // Fast Travel
-    {
-        "name": "HauntedZoneMain_MeadowDrifblim_Entrance",
-        "parent": "Haunted Zone Main Area",
-        "access_rules": [
-            "meadow_zone_fast_travel"
         ]
     },
     {
         "name": "HauntedZoneMain_TreehouseDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Treehouse Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Meadow Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Meadow Drifblim Fast Travel/Haunted Zone Main Area - Meadow Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Beach Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Beach Drifblim Fast Travel/Haunted Zone Main Area - Beach Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Ice Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Ice Drifblim Fast Travel/Haunted Zone Main Area - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Cavern Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Cavern Drifblim Fast Travel/Haunted Zone Main Area - Cavern Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Magma Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Magma Drifblim Fast Travel/Haunted Zone Main Area - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Granite Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Granite Drifblim Fast Travel/Haunted Zone Main Area - Granite Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Flower Drifblim Fast Travel",
+                        "ref": "Haunted Zone Main Area - Flower Drifblim Fast Travel/Haunted Zone Main Area - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
+    },
+    {
+        "name": "HauntedZoneMain_MeadowDrifblim_Entrance",
+        "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Meadow Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Meadow Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "meadow_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
+        "access_rules": [
+            "meadow_zone_fast_travel"
+        ]
     },
     {
         "name": "HauntedZoneMain_BeachDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Beach Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Beach Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "beach_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_fast_travel"
         ]
@@ -155,6 +595,29 @@
     {
         "name": "HauntedZoneMain_IceDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -162,6 +625,29 @@
     {
         "name": "HauntedZoneMain_CavernDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Cavern Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Cavern Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "cavern_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
@@ -169,6 +655,29 @@
     {
         "name": "HauntedZoneMain_MagmaDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -176,6 +685,29 @@
     {
         "name": "HauntedZoneMain_GraniteDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Granite Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Granite Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "granite_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "granite_zone_fast_travel"
         ]
@@ -183,8 +715,31 @@
     {
         "name": "HauntedZoneMain_FlowerDrifblim_Entrance",
         "parent": "Haunted Zone Main Area",
+        "children": [
+            {
+                "name": "Haunted Zone Main Area - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]
-    },
+    }
 ]

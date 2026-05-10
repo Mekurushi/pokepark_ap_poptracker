@@ -2,11 +2,60 @@
     {
         "name": "CavernZoneMain_TreehouseGate_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Treehouse Connection",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Treehouse Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 960,
+                        "y": 1000,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "CavernZoneMain_BastiodonAttraction_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Bastiodon Attraction",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Bastiodon Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Required Friendship Bastiodon Attraction",
+                        "item_count": 0,
+                        "hosted_item": "required_bastiodon_attraction"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 720,
+                        "y": 375,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "$canAccessBastiodonMinigame"
         ]
@@ -16,22 +65,117 @@
         "parent": "Bastiodon's Panel Crush Attraction",
         "access_rules": []
     },
-    // Fast Travel
+    {
+        "name": "CavernZoneMain_TreehouseDrifblim_Entrance",
+        "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Treehouse Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Meadow Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Meadow Drifblim Fast Travel/Cavern Zone Main Area - Meadow Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Beach Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Beach Drifblim Fast Travel/Cavern Zone Main Area - Beach Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Ice Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Ice Drifblim Fast Travel/Cavern Zone Main Area - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magma Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Magma Drifblim Fast Travel/Cavern Zone Main Area - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Haunted Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Haunted Drifblim Fast Travel/Cavern Zone Main Area - Haunted Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Granite Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Granite Drifblim Fast Travel/Cavern Zone Main Area - Granite Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Flower Drifblim Fast Travel",
+                        "ref": "Cavern Zone Main Area - Flower Drifblim Fast Travel/Cavern Zone Main Area - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
+        "access_rules": []
+    },
     {
         "name": "CavernZoneMain_MeadowDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Meadow Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Meadow Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "meadow_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "meadow_zone_fast_travel"
         ]
     },
     {
-        "name": "CavernZoneMain_TreehouseDrifblim_Entrance",
-        "parent": "Cavern Zone Main Area",
-        "access_rules": []
-    },
-    {
         "name": "CavernZoneMain_BeachDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Beach Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Beach Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "beach_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_fast_travel"
         ]
@@ -39,6 +183,29 @@
     {
         "name": "CavernZoneMain_IceDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -46,6 +213,29 @@
     {
         "name": "CavernZoneMain_MagmaDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -53,6 +243,29 @@
     {
         "name": "CavernZoneMain_HauntedDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Haunted Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Haunted Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "haunted_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
@@ -60,6 +273,29 @@
     {
         "name": "CavernZoneMain_GraniteDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Granite Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Granite Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "granite_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "granite_zone_fast_travel"
         ]
@@ -67,13 +303,62 @@
     {
         "name": "CavernZoneMain_FlowerDrifblim_Entrance",
         "parent": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 510,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]
     },
-    // Magma Zone
     {
         "name": "CavernZoneMain_MagmaTruck_Entrance",
+        "children": [
+            {
+                "name": "Cavern Zone Main Area - Magma Zone Truck",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magma Zone Truck",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bastiodon Prisma",
+                        "item_count": 0,
+                        "hosted_item": "bastiodon_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 400,
+                        "y": 70,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "parent": "Cavern Zone Main Area",
         "access_rules": [
             "bastiodon_prisma_activated"

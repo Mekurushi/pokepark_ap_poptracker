@@ -2,6 +2,28 @@
     {
         "name": "Skygarden_PiplupBalloon_Entrance",
         "parent": "Skygarden",
+        "children": [
+            {
+                "name": "Skygarden - Piplup Skyballoon",
+                "sections": [
+                    {
+                        "name": "Skygarden - Piplup Skyballoon",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "skygarden",
+                        "x": 515,
+                        "y": 980,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     }
 ]

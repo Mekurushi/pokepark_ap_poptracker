@@ -1,36 +1,125 @@
 [
-    //TODO Treehouse needs probably interconnection region after the gates
-    //Gates
     {
         "name": "TreehouseMeadow_MeadowConnection_Entrance",
         "parent": "Treehouse",
-        "access_rules": []
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Treehouse Meadow Passage - Meadow Zone Connection",
+                "sections": [
+                    {
+                        "name": "Treehouse Meadow Passage - Meadow Zone Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 1170,
+                        "y": 980,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "TreehouseMeadow_MeadowGate_Entrance",
         "parent": "Treehouse - Meadow Zone",
+        "sections": [],
         "access_rules": []
     },
     {
         "name": "Treehouse_MeadowGate_Entrance",
-        "parent": "Treehouse - Meadow Zone",
+        "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Meadow Zone Gate",
+                "sections": [
+                    {
+                        "name": "Treehouse - Meadow Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 820,
+                        "y": 900,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "TreehouseBeach_BeachConnection_Entrance",
         "parent": "Treehouse - Beach Zone",
-        "access_rules": []
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Treehouse Beach Passage - Beach Zone Connection",
+                "sections": [
+                    {
+                        "name": "Treehouse Beach Passage - Beach Zone Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 670,
+                        "y": 1070,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "TreehouseBeach_BeachGate_Entrance",
         "parent": "Treehouse - Beach Zone",
         "access_rules": [
             "venusaur_prisma_activated"
+        ],
+        "children": [
+            {
+                "name": "Treehouse - Beach Zone Gate",
+                "sections": [
+                    {
+                        "name": "Treehouse - Beach Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Venusaur Prisma",
+                        "item_count": 0,
+                        "hosted_item": "venusaur_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 490,
+                        "y": 1030,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
         ]
     },
     {
         "name": "Treehouse_BeachGate_Entrance",
         "parent": "Treehouse",
+        "sections": [],
         "access_rules": [
             "venusaur_prisma_activated"
         ]
@@ -38,6 +127,32 @@
     {
         "name": "Treehouse_CavernGate_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Cavern Zone Gate",
+                "sections": [
+                    {
+                        "name": "Treehouse - Cavern Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Empoleon Prisma",
+                        "item_count": 0,
+                        "hosted_item": "empoleon_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 300,
+                        "y": 570,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "empoleon_prisma_activated"
         ]
@@ -52,11 +167,33 @@
     {
         "name": "TreehouseCavern_CavernConnection_Entrance",
         "parent": "Treehouse - Cavern Zone",
+        "children": [
+            {
+                "name": "Treehouse Cavern Passage - Cavern Zone Connection",
+                "sections": [
+                    {
+                        "name": "Treehouse Cavern Passage - Cavern Zone Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 165,
+                        "y": 400,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "TreehouseHaunted_HauntedGate_Entrance",
         "parent": "Treehouse - Haunted Zone",
+        "sections": [],
         "access_rules": [
             "blaziken_prisma_activated"
         ]
@@ -64,6 +201,32 @@
     {
         "name": "Treehouse_HauntedGate_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Haunted Zone Gate",
+                "sections": [
+                    {
+                        "name": "Treehouse - Haunted Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Blaziken Prisma",
+                        "item_count": 0,
+                        "hosted_item": "blaziken_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 790,
+                        "y": 550,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "blaziken_prisma_activated"
         ]
@@ -71,11 +234,33 @@
     {
         "name": "TreehouseHaunted_HauntedConnection_Entrance",
         "parent": "Treehouse - Haunted Zone",
+        "children": [
+            {
+                "name": "Treehouse Haunted Passage - Haunted Zone Connection",
+                "sections": [
+                    {
+                        "name": "Treehouse Haunted Passage - Haunted Zone Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 960,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "TreehouseGranite_GraniteGate_Entrance",
         "parent": "Treehouse - Granite Zone",
+        "sections": [],
         "access_rules": [
             "rotom_prisma_activated"
         ]
@@ -83,6 +268,32 @@
     {
         "name": "Treehouse_GraniteGate_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Granite Zone Gate",
+                "sections": [
+                    {
+                        "name": "Treehouse - Granite Zone Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Rotom Prisma",
+                        "item_count": 0,
+                        "hosted_item": "rotom_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 620,
+                        "y": 480,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "rotom_prisma_activated"
         ]
@@ -90,19 +301,116 @@
     {
         "name": "TreehouseGranite_GraniteConnection_Entrance",
         "parent": "Treehouse - Granite Zone",
+        "children": [
+            {
+                "name": "Treehouse Granite Passage - Granite Zone Connection",
+                "sections": [
+                    {
+                        "name": "Treehouse Granite Passage - Granite Zone Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 620,
+                        "y": 240,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "Treehouse_PiplupBalloon_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Piplup Skyballoon",
+                "sections": [
+                    {
+                        "name": "Treehouse - Piplup Skyballoon",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Required Prismas",
+                        "item_count": 0,
+                        "hosted_item": "required_prismas"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 650,
+                        "y": 860,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "$has_required_prismas"
         ]
     },
-    // fast travel
     {
         "name": "Treehouse_MeadowDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Meadow Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "hosted_item": "meadow_zone_fast_travel",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treehouse - Beach Drifblim Fast Travel",
+                        "ref": "Treehouse - Beach Drifblim Fast Travel/Treehouse - Beach Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Ice Drifblim Fast Travel",
+                        "ref": "Treehouse - Ice Drifblim Fast Travel/Treehouse - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Cavern Drifblim Fast Travel",
+                        "ref": "Treehouse - Cavern Drifblim Fast Travel/Treehouse - Cavern Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Magma Drifblim Fast Travel",
+                        "ref": "Treehouse - Magma Drifblim Fast Travel/Treehouse - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Haunted Drifblim Fast Travel",
+                        "ref": "Treehouse - Haunted Drifblim Fast Travel/Treehouse - Haunted Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Granite Drifblim Fast Travel",
+                        "ref": "Treehouse - Granite Drifblim Fast Travel/Treehouse - Granite Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Treehouse - Flower Drifblim Fast Travel",
+                        "ref": "Treehouse - Flower Drifblim Fast Travel/Treehouse - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "meadow_zone_fast_travel"
         ]
@@ -110,6 +418,29 @@
     {
         "name": "Treehouse_BeachDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Beach Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Beach Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "beach_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_fast_travel"
         ]
@@ -117,6 +448,29 @@
     {
         "name": "Treehouse_IceDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -124,6 +478,29 @@
     {
         "name": "Treehouse_CavernDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Cavern Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Cavern Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "cavern_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
@@ -131,6 +508,29 @@
     {
         "name": "Treehouse_MagmaDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -138,6 +538,29 @@
     {
         "name": "Treehouse_HauntedDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Haunted Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Haunted Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "haunted_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
@@ -145,6 +568,29 @@
     {
         "name": "Treehouse_GraniteDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Granite Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Granite Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "granite_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "granite_zone_fast_travel"
         ]
@@ -152,6 +598,29 @@
     {
         "name": "Treehouse_FlowerDrifblim_Entrance",
         "parent": "Treehouse",
+        "children": [
+            {
+                "name": "Treehouse - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Treehouse - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treehouse",
+                        "x": 680,
+                        "y": 610,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]

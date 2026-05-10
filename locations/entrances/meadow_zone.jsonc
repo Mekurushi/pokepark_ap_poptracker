@@ -1,8 +1,33 @@
 [
-    // Main Area
     {
         "name": "MeadowZoneMain_VenusaurGate_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Venusaur Gate",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Venusaur Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    },
+                    {
+                        "name": "Bulbasaur Prisma",
+                        "item_count": 0,
+                        "hosted_item": "bulbasaur_prisma_activated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 240,
+                        "y": 320,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "bulbasaur_prisma_activated"
         ]
@@ -10,22 +35,136 @@
     {
         "name": "MeadowZoneMain_PokeparkGate_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Pokepark Entrance Gate",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Pokepark Entrance Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 510,
+                        "y": 1000,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "MeadowZoneMain_TreehouseGate_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Treehouse Connection",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Treehouse Connection",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 510,
+                        "y": 0,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
-    // Fast Travel
     {
         "name": "MeadowZoneMain_TreehouseDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Treehouse Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Beach Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Beach Drifblim Fast Travel/Meadow Zone Main Area - Beach Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Ice Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Ice Drifblim Fast Travel/Meadow Zone Main Area - Ice Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Cavern Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Cavern Drifblim Fast Travel/Meadow Zone Main Area - Cavern Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Magma Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Magma Drifblim Fast Travel/Meadow Zone Main Area - Magma Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Haunted Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Haunted Drifblim Fast Travel/Meadow Zone Main Area - Haunted Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Granite Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Granite Drifblim Fast Travel/Meadow Zone Main Area - Granite Drifblim Fast Travel"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Flower Drifblim Fast Travel",
+                        "ref": "Meadow Zone Main Area - Flower Drifblim Fast Travel/Meadow Zone Main Area - Flower Drifblim Fast Travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "MeadowZoneMain_BeachDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Beach Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Beach Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "beach_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "beach_zone_fast_travel"
         ]
@@ -33,6 +172,29 @@
     {
         "name": "MeadowZoneMain_IceDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Ice Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Ice Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "ice_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "ice_zone_fast_travel"
         ]
@@ -40,6 +202,29 @@
     {
         "name": "MeadowZoneMain_CavernDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Cavern Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Cavern Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "cavern_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "cavern_zone_fast_travel"
         ]
@@ -47,6 +232,29 @@
     {
         "name": "MeadowZoneMain_MagmaDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Magma Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Magma Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "magma_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "magma_zone_fast_travel"
         ]
@@ -54,6 +262,29 @@
     {
         "name": "MeadowZoneMain_HauntedDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Haunted Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Haunted Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "haunted_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "haunted_zone_fast_travel"
         ]
@@ -61,6 +292,29 @@
     {
         "name": "MeadowZoneMain_GraniteDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Granite Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Granite Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "granite_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "granite_zone_fast_travel"
         ]
@@ -68,17 +322,60 @@
     {
         "name": "MeadowZoneMain_FlowerDrifblim_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Flower Drifblim Fast Travel",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Flower Drifblim Fast Travel",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1,
+                        "hosted_item": "flower_zone_fast_travel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 535,
+                        "y": 440,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "flower_zone_fast_travel"
         ]
     },
-    // Venusaur Area
     {
         "name": "MeadowZoneVenusaur_MainGate_Entrance",
         "parent": "Meadow Zone Venusaur Area",
+        "children": [
+            {
+                "name": "Meadow Zone Venusaur Area - Meadow Zone Main Gate",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Venusaur Area - Meadow Zone Main Gate",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_minigame",
+                        "x": 520,
+                        "y": 1000,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
-    // Attractions
     {
         "name": "BulbasaurAttraction_Bulbasaur_Entrance",
         "parent": "Bulbasaur's Daring Dash Attraction",
@@ -92,11 +389,55 @@
     {
         "name": "MeadowZoneMain_BulbasaurAttraction_Entrance",
         "parent": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Meadow Zone Main Area - Bulbasaur Attraction",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Bulbasaur Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 500,
+                        "y": 710,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     },
     {
         "name": "MeadowZoneVenusaur_VenusaurAttraction_Entrance",
         "parent": "Meadow Zone Venusaur Area",
+        "children": [
+            {
+                "name": "Meadow Zone Venusaur Area - Venusaur Attraction",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Venusaur Area - Venusaur Attraction",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_minigame",
+                        "x": 500,
+                        "y": 280,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": []
     }
 ]

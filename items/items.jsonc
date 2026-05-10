@@ -2141,5 +2141,32 @@
     "type": "consumable",
     "codes": "berries",
     "img": "images/Items/berry.png"
+  },
+  {
+    "name": "Bastiodon Attraction Required Friendships",
+    "type": "consumable",
+    "codes": "required_bastiodon_attraction",
+    "min_quantity": 50,
+    "max_quantity": 50,
+    "initial_quantity": 50,
+    "img": "images/Items/best_friend_diary.png"
+  },
+  {
+    "name": "Rotom Attraction Required Friendships",
+    "type": "consumable",
+    "codes": "required_rotom_attraction",
+    "min_quantity": 65,
+    "max_quantity": 65,
+    "initial_quantity": 65,
+    "img": "images/Items/best_friend_diary.png"
+  },
+  {
+    "name": "Salamence Attraction Required Friendships",
+    "type": "consumable",
+    "codes": "required_salamence_attraction",
+    "min_quantity": 80,
+    "max_quantity": 80,
+    "initial_quantity": 80,
+    "img": "images/Items/best_friend_diary.png"
   }
 ]
