@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Cavern Zone Main Area",
+        "children": [
+            {
+                "name": "Magnemite Entrance Area",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Entrance -- Magnemite Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 850,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "name": "Magma Zone Entrance Area",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magnezone Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Dugtrio -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Electivire Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 490,
+                        "y": 80
+                    }
+                ]
+            },
+            {
+                "name": "Magma Zone Entrance Area",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Bonsly Hide and Seek Power Competition -- Sudowoodo Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Aron Errand -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Sudowoodo Hide and Seek Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 550,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Center Area",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Golbat Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Zubat Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Mawile Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 790,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Magma Zone Entrance -- Magnemite Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 385,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Geodude Hide and Seek Power Competition -- Friendshipp"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Machamp -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Machamp -- Machamp Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Teddiursa Quiz Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Hitmonlee Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 780,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Meowth Quiz Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Raichu Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 700,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Marowak Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 565,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Scizor Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Phanpy Errand -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Cranidos Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 330,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Torchic Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Chimchar Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 380,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Deep Inside -- Magnemite Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 270,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Diglett Crate -- Diglett Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Diglett -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 569,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Gible Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 535,
+                        "y": 610
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Bastiodon -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cavern_zone_overworld",
+                        "x": 720,
+                        "y": 410
+                    }
+                ]
+            }
+        ]
+    }
+]

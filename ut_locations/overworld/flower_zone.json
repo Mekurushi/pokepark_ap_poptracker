@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Flower Zone Main Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Flower Zone Main Area - Rayquaza -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 300,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Rayquaza Area",
+                "sections": [
+                    {
+                        "name": "Flower Zone Main Area - Skiploom -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Budew -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Dragonite Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Mareep Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 500,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Shaymin Area",
+                "sections": [
+                    {
+                        "name": "Flower Zone Main Area - Cyndaquil Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Lucario Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Bellossom Errand -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 600,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Shaymin Area",
+                "sections": [
+                    {
+                        "name": "Flower Zone Main Area - Furret Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Teddiursa Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Meditite Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flower_zone_overworld",
+                        "x": 550,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    }
+]

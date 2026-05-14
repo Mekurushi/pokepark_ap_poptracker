@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Treehouse",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Power Up - Thunderbolt Upgrade 1"
+          },
+          {
+            "name": "Treehouse - Power Up - Thunderbolt Upgrade 2"
+          },
+          {
+            "name": "Treehouse - Power Up - Thunderbolt Upgrade 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 500,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Power Up - Dash Upgrade 1"
+          },
+          {
+            "name": "Treehouse - Power Up - Dash Upgrade 2"
+          },
+          {
+            "name": "Treehouse - Power Up - Ponyta Unlocked"
+          },
+          {
+            "name": "Treehouse - Power Up - Dash Upgrade 3"
+          },
+          {
+            "name": "Treehouse - Power Up - Double Dash Upgrade"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 535,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Power Up - Health Upgrade 1"
+          },
+          {
+            "name": "Treehouse - Power Up - Health Upgrade 2"
+          },
+          {
+            "name": "Treehouse - Power Up - Health Upgrade 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 570,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Power Up - Iron Tail Upgrade 1"
+          },
+          {
+            "name": "Treehouse - Power Up - Iron Tail Upgrade 2"
+          },
+          {
+            "name": "Treehouse - Power Up - Iron Tail Upgrade 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 605,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Mime Jr. - Friendship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 570,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Burmy - Friendship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 650,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Abra - Friendship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 550,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Treehouse - Drifblim - Friendship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treehouse",
+            "x": 680,
+            "y": 650
+          }
+        ]
+      }
+    ]
+  }
+]

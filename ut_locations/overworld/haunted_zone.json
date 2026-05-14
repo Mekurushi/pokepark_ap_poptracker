@@ -1,0 +1,429 @@
+[
+    {
+        "name": "Haunted Zone Main Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Drifloon -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 555,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Raichu Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 720,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Meowth Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 590,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Gliscor Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 520,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Area",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Aipom Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Aipom Chase Power Competition -- Ambipom Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Ambipom Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 450,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "West Area",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Murkrow Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Murkrow Chase Power Competition -- Honchkrow Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Honchkrow Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 320,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Metapod Left Tree -- Metapod Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Metapod -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 420,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Kakuna Right Tree -- Kakuna Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Kakuna -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 620,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Tangrowth -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_overworld",
+                        "x": 625,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Duskull Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 500,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Dusknoir -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Area",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Elekid Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Elekid Hide and Seek Power Competition -- Electabuzz Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Stunky Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Stunky Chase Power Competition -- Skuntank Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 940
+                    }
+                ]
+            },
+            {
+                "name": "Floor Area",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Electabuzz Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Skuntank Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Espeon Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Umbreon Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Umbreon Chase Power Competition -- Espeon Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Haunter Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Gastly Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Riolu Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 350,
+                        "y": 750
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Ballroom Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Misdreavus Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 460,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Darkrai Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 460,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Electrode -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Mismagius Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Luxray Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Pichu Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 530,
+                        "y": 325
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Study Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Sableye Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 540
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Gengar Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Voltorb Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Voltorb Vase -- Voltorb Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 650,
+                        "y": 930
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Gengar Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Gengar Painting -- Gengar Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 680,
+                        "y": 900
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Zone Mansion Antic Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Spinarak -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 930
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Breloom Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Haunted Zone Mansion Area - Abra -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "haunted_zone_mansion",
+                        "x": 400,
+                        "y": 800
+                    }
+                ]
+            }
+        ]
+    }
+]

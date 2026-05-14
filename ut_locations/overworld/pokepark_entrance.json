@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Pokepark Entrance",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Pokepark Entrance - Celebi Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pokepark_entrance",
+                        "x": 640,
+                        "y": 420
+                    }
+                ]
+            }
+        ]
+    }
+]
