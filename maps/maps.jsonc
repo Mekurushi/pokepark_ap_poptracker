@@ -1,180 +1,180 @@
 [
   {
-    "name": "treehouse",
+    "name": "Treehouse",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/treehouse.png"
   },
   {
-    "name": "meadow_zone_overworld",
+    "name": "Meadow Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/meadow_zone_overworld.png"
   },
   {
-    "name": "pokepark_entrance",
+    "name": "Pokepark Entrance",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/pokepark_entrance.png"
   },
   {
-    "name": "venusaur_minigame",
+    "name": "Meadow Zone Venusaur Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/venusaur_minigame.png"
   },
   {
-    "name": "beach_zone_overworld",
+    "name": "Beach Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/beach_zone_overworld.png"
   },
   {
-    "name": "ice_zone_overworld",
+    "name": "Ice Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/ice_zone_overworld.png"
   },
   {
-    "name": "ice_zone_empoleon",
+    "name": "Ice Zone Empoleon Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/ice_zone_empoleon.png"
   },
   {
-    "name": "cavern_zone_overworld",
+    "name": "Cavern Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/cavern_zone_overworld.png"
   },
   {
-    "name": "magma_zone_overworld",
+    "name": "Magma Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/magma_zone_overworld.png"
   },
   {
-    "name": "magma_zone_blaziken",
+    "name": "Magma Zone Blaziken Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/magma_zone_blaziken.png"
   },
   {
-    "name": "haunted_zone_overworld",
+    "name": "Haunted Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/haunted_zone_overworld.png"
   },
   {
-    "name": "haunted_zone_mansion",
+    "name": "Haunted Zone Mansion Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/haunted_zone_mansion.png"
   },
   {
-    "name": "haunted_zone_rotom",
+    "name": "Haunted Zone Rotom Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/haunted_zone_rotom.png"
   },
   {
-    "name": "granite_zone_overworld",
+    "name": "Granite Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/granite_zone_overworld.png"
   },
   {
-    "name": "flower_zone_overworld",
+    "name": "Flower Zone Main Area",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/flower_zone_overworld.png"
   },
   {
-    "name": "skygarden",
+    "name": "Skygarden",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/skygarden.png"
   },
   {
-    "name": "bulbasaur_daring_dash",
+    "name": "Bulbasaur's Daring Dash Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/bulbasaur_daring_dash.png"
   },
   {
-    "name": "venusaur_vine_swing",
+    "name": "Venusaur's Vine Swing Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/venusaur_vine_swing.png"
   },
   {
-    "name": "pelipper_circle_circuit",
+    "name": "Pelipper's Circle Circuit Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/pelipper_circle_circuit.png"
   },
   {
-    "name": "gyarados_aqua_dash",
+    "name": "Gyarados' Aqua Dash Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/gyarados_aqua_dash.png"
   },
   {
-    "name": "empoleon_snow_slide",
+    "name": "Empoleon's Snow Slide Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/empoleon_snow_slide.png"
   },
   {
-    "name": "bastiodon_panel_crush",
+    "name": "Bastiodon's Panel Crush Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/bastiodon_panel_crush.png"
   },
   {
-    "name": "rhyperior_bumper_burn",
+    "name": "Rhyperior's Bumper Burn Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/rhyperior_bumper_burn.png"
   },
   {
-    "name": "blaziken_boulder_bash",
+    "name": "Blaziken's Boulder Bash Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/blaziken_boulder_bash.png"
   },
   {
-    "name": "tangrowth_swing_along",
+    "name": "Tangrowth's Swing-Along Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/tangrowth_swing_along.png"
   },
   {
-    "name": "dusknoir_speed_slam",
+    "name": "Dusknoir's Speed Slam Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/dusknoir_speed_slam.png"
   },
   {
-    "name": "rotom_spooky_shoot",
+    "name": "Rotom's Spooky Shoot-'em-Up Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/rotom_spooky_shoot.png"
   },
   {
-    "name": "absol_hurdle_bounce",
+    "name": "Absol's Hurdle Bounce Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/absol_hurdle_bounce.png"
   },
   {
-    "name": "salamence_sky_race",
+    "name": "Salamence's Sky Race Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/salamence_sky_race.png"
   },
   {
-    "name": "rayquaza_balloon_panic",
+    "name": "Rayquaza's Balloon Panic Attraction",
     "location_size": 12,
     "location_border_thickness": 4,
     "img": "images/maps/rayquaza_balloon_panic.png"

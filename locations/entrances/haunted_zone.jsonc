@@ -15,7 +15,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 950,
                         "size": 35,
@@ -47,7 +47,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 20,
                         "size": 35,
@@ -76,7 +76,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 530,
                         "y": 1000,
                         "size": 35,
@@ -108,7 +108,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 530,
                         "y": 430,
                         "size": 35,
@@ -149,14 +149,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 495,
                         "y": 605,
                         "size": 35,
                         "shape": "diamond"
                     },
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 280,
                         "y": 605,
                         "size": 35,
@@ -197,14 +197,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 655,
                         "y": 770,
                         "size": 35,
                         "shape": "diamond"
                     },
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 620,
                         "y": 890,
                         "size": 35,
@@ -245,14 +245,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 400,
                         "y": 770,
                         "size": 35,
                         "shape": "diamond"
                     },
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 445,
                         "y": 895,
                         "size": 35,
@@ -293,7 +293,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 400,
                         "y": 635,
                         "size": 35,
@@ -322,7 +322,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 100,
                         "y": 685,
                         "size": 35,
@@ -349,7 +349,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_rotom",
+                        "map": "Haunted Zone Rotom Area",
                         "x": 740,
                         "y": 895,
                         "size": 35,
@@ -388,7 +388,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 635,
                         "y": 270,
                         "size": 35,
@@ -425,7 +425,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_mansion",
+                        "map": "Haunted Zone Mansion Area",
                         "x": 530,
                         "y": 770,
                         "size": 35,
@@ -464,7 +464,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_rotom",
+                        "map": "Haunted Zone Rotom Area",
                         "x": 500,
                         "y": 205,
                         "size": 35,
@@ -521,7 +521,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -549,7 +549,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -579,7 +579,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -609,7 +609,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -639,7 +639,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -669,7 +669,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -699,7 +699,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
@@ -729,7 +729,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "haunted_zone_overworld",
+                        "map": "Haunted Zone Main Area",
                         "x": 520,
                         "y": 550,
                         "size": 35,
