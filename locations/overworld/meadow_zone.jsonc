@@ -91,7 +91,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 480,
                         "y": 260
                     }
@@ -123,7 +123,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 695,
                         "y": 335
                     }
@@ -155,7 +155,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 848,
                         "y": 367
                     }
@@ -187,7 +187,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 950,
                         "y": 400
                     }
@@ -216,7 +216,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 260,
                         "y": 360
                     }
@@ -258,7 +258,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 470,
                         "y": 470
                     }
@@ -311,7 +311,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 450,
                         "y": 600
                     }
@@ -343,7 +343,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 240,
                         "y": 490
                     }
@@ -375,7 +375,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 240,
                         "y": 640
                     }
@@ -497,7 +497,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 500,
                         "y": 800
                     }
@@ -522,7 +522,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 530,
                         "y": 730
                     }
@@ -544,7 +544,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 720,
                         "y": 780
                     }
@@ -586,7 +586,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 720,
                         "y": 580
                     }
@@ -654,7 +654,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "meadow_zone_overworld",
+                        "map": "Meadow Zone Main Area",
                         "x": 730,
                         "y": 480
                     }
@@ -687,7 +687,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "venusaur_minigame",
+                        "map": "Meadow Zone Venusaur Area",
                         "x": 540,
                         "y": 280
                     }

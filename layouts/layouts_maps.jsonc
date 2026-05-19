@@ -7,7 +7,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"treehouse"
+						"Treehouse"
 					]
 				}
 			},
@@ -21,7 +21,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"meadow_zone_overworld"
+									"Meadow Zone Main Area"
 								]
 							}
 						},
@@ -30,7 +30,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"venusaur_minigame"
+									"Meadow Zone Venusaur Area"
 								]
 							}
 						},
@@ -39,7 +39,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"pokepark_entrance"
+									"Pokepark Entrance"
 								]
 							}
 						},
@@ -51,7 +51,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"beach_zone_overworld"
+						"Beach Zone Main Area"
 					]
 				}
 			},
@@ -65,7 +65,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"ice_zone_overworld"
+									"Ice Zone Main Area"
 								]
 							}
 						},
@@ -74,7 +74,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"ice_zone_empoleon"
+									"Ice Zone Empoleon Area"
 								]
 							}
 						}
@@ -86,7 +86,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"cavern_zone_overworld"
+						"Cavern Zone Main Area"
 					]
 				}
 			},
@@ -100,7 +100,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"magma_zone_overworld"
+									"Magma Zone Main Area"
 								]
 							}
 						},
@@ -109,7 +109,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"magma_zone_blaziken"
+									"Magma Zone Blaziken Area"
 								]
 							}
 						}
@@ -126,7 +126,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"haunted_zone_overworld"
+									"Haunted Zone Main Area"
 								]
 							}
 						},
@@ -135,7 +135,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"haunted_zone_mansion"
+									"Haunted Zone Mansion Area"
 								]
 							}
 						},
@@ -144,7 +144,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"haunted_zone_rotom"
+									"Haunted Zone Rotom Area"
 								]
 							}
 						}
@@ -156,7 +156,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"granite_zone_overworld"
+						"Granite Zone Main Area"
 					]
 				}
 			},
@@ -165,7 +165,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"flower_zone_overworld"
+						"Flower Zone Main Area"
 					]
 				}
 			},
@@ -174,7 +174,7 @@
 				"content": {
 					"type": "map",
 					"maps": [
-						"skygarden"
+						"Skygarden"
 					]
 				}
 			},
@@ -188,7 +188,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"bulbasaur_daring_dash"
+									"Bulbasaur's Daring Dash Attraction"
 								]
 							}
 						},
@@ -197,7 +197,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"venusaur_vine_swing"
+									"Venusaur's Vine Swing Attraction"
 								]
 							}
 						},
@@ -206,7 +206,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"pelipper_circle_circuit"
+									"Pelipper's Circle Circuit Attraction"
 								]
 							}
 						},
@@ -215,7 +215,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"gyarados_aqua_dash"
+									"Gyarados' Aqua Dash Attraction"
 								]
 							}
 						},
@@ -224,7 +224,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"empoleon_snow_slide"
+									"Empoleon's Snow Slide Attraction"
 								]
 							}
 						},
@@ -233,7 +233,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"bastiodon_panel_crush"
+									"Bastiodon's Panel Crush Attraction"
 								]
 							}
 						},
@@ -242,7 +242,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"rhyperior_bumper_burn"
+									"Rhyperior's Bumper Burn Attraction"
 								]
 							}
 						},
@@ -251,7 +251,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"blaziken_boulder_bash"
+									"Blaziken's Boulder Bash Attraction"
 								]
 							}
 						},
@@ -260,7 +260,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"tangrowth_swing_along"
+									"Tangrowth's Swing-Along Attraction"
 								]
 							}
 						},
@@ -269,7 +269,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"dusknoir_speed_slam"
+									"Dusknoir's Speed Slam Attraction"
 								]
 							}
 						},
@@ -278,7 +278,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"rotom_spooky_shoot"
+									"Rotom's Spooky Shoot-'em-Up Attraction"
 								]
 							}
 						},
@@ -287,7 +287,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"absol_hurdle_bounce"
+									"Absol's Hurdle Bounce Attraction"
 								]
 							}
 						},
@@ -296,7 +296,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"salamence_sky_race"
+									"Salamence's Sky Race Attraction"
 								]
 							}
 						},
@@ -305,7 +305,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"rayquaza_balloon_panic"
+									"Rayquaza's Balloon Panic Attraction"
 								]
 							}
 						}

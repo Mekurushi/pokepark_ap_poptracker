@@ -15,7 +15,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 70,
                         "y": 900,
                         "size": 35,
@@ -42,7 +42,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 515,
                         "y": 50,
                         "size": 35,
@@ -97,7 +97,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -125,7 +125,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -155,7 +155,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -185,7 +185,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -215,7 +215,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -245,7 +245,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -275,7 +275,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -305,7 +305,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 860,
                         "y": 410,
                         "size": 35,
@@ -346,21 +346,21 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 690,
                         "y": 900,
                         "size": 35,
                         "shape": "diamond"
                     },
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 540,
                         "y": 780,
                         "size": 35,
                         "shape": "diamond"
                     },
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 370,
                         "y": 810,
                         "size": 35,
@@ -402,7 +402,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 545,
                         "y": 575,
                         "size": 35,
@@ -444,7 +444,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 230,
                         "y": 815,
                         "size": 35,
@@ -473,7 +473,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 930,
                         "y": 960,
                         "size": 35,
@@ -500,7 +500,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "beach_zone_overworld",
+                        "map": "Beach Zone Main Area",
                         "x": 515,
                         "y": 1000,
                         "size": 35,

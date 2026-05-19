@@ -128,7 +128,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 690,
                         "y": 860
                     }
@@ -160,7 +160,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 620,
                         "y": 860
                     }
@@ -182,7 +182,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 360,
                         "y": 880
                     }
@@ -204,7 +204,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 340,
                         "y": 580
                     }
@@ -236,7 +236,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 300,
                         "y": 520
                     }
@@ -258,7 +258,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 200,
                         "y": 450
                     }
@@ -280,7 +280,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 200,
                         "y": 600
                     }
@@ -302,7 +302,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 250,
                         "y": 650
                     }
@@ -335,7 +335,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_blaziken",
+                        "map": "Magma Zone Blaziken Area",
                         "x": 520,
                         "y": 300
                     }
@@ -379,7 +379,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 620,
                         "y": 510
                     }
@@ -399,7 +399,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 730,
                         "y": 550
                     }
@@ -501,7 +501,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 630,
                         "y": 710
                     }
@@ -523,7 +523,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 630,
                         "y": 340
                     }
@@ -556,7 +556,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "magma_zone_overworld",
+                        "map": "Magma Zone Main Area",
                         "x": 630,
                         "y": 80
                     }

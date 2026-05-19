@@ -32,7 +32,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "flower_zone_overworld",
+                        "map": "Flower Zone Main Area",
                         "x": 300,
                         "y": 600
                     }
@@ -80,7 +80,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "flower_zone_overworld",
+                        "map": "Flower Zone Main Area",
                         "x": 500,
                         "y": 600
                     }
@@ -146,7 +146,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "flower_zone_overworld",
+                        "map": "Flower Zone Main Area",
                         "x": 600,
                         "y": 300
                     }

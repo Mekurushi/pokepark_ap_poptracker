@@ -14,7 +14,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 850,
                         "y": 260
                     }
@@ -31,7 +31,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 880,
                         "y": 260
                     }
@@ -49,7 +49,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 880,
                         "y": 850
                     }
@@ -63,7 +63,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 850,
                         "y": 850
                     }
@@ -81,7 +81,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 480,
                         "y": 890
                     }
@@ -110,7 +110,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 850,
                         "y": 800
                     }
@@ -124,7 +124,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 250,
                         "y": 840
                     }
@@ -142,7 +142,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 220,
                         "y": 800
                     }
@@ -160,7 +160,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 200,
                         "y": 480
                     }
@@ -175,7 +175,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 200,
                         "y": 530
                     }
@@ -204,7 +204,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 160,
                         "y": 460
                     }
@@ -218,7 +218,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 200,
                         "y": 380
                     }
@@ -232,7 +232,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 100,
                         "y": 490
                     }
@@ -255,7 +255,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 150,
                         "y": 180
                     }
@@ -273,7 +273,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 170,
                         "y": 230
                     }
@@ -292,7 +292,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_empoleon",
+                        "map": "Ice Zone Empoleon Area",
                         "x": 510,
                         "y": 340
                     }
@@ -314,7 +314,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ice_zone_overworld",
+                        "map": "Ice Zone Main Area",
                         "x": 530,
                         "y": 760
                     }
