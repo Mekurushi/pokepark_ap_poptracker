@@ -1,0 +1,325 @@
+[
+    {
+        "name": "Ice Zone Main Area",
+        "children": [
+            {
+                "name": "Lapras Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Lapras -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Spheal Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 850,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Krabby Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Mudkip Hide and Seek Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 880,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Glalie Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Octillery Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Ursaring Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 880,
+                        "y": 850
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Teddiursa Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 850,
+                        "y": 850
+                    }
+                ]
+            },
+            {
+                "name": "Sneasel Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Primeape Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Sneasel Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 480,
+                        "y": 890
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Glalie Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 1"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 1 -- Primeape Unlocked"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 2"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 2 -- Ursaring Unlocked"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 850,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Piloswine Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 250,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Empoleon Entrance Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Taillow Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Staravia Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 220,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "name": "Christmas Tree Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Smoochum Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Squirtle Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "Christmas Tree Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Starly Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 530
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 1"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 2"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 3"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 4"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Delibird Quiz Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Kirlia Errand -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 160,
+                        "y": 460
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Prinplup Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 200,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Glaceon Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 100,
+                        "y": 490
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Lower Lift Area",
+        "children": [
+            {
+                "name": "Lower Lift Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Lower Lift Area - Quagsire Errand -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Lower Lift Area - Froslass Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 150,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Lower Lift Area",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Corphish Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Lower Lift Area - Wingull Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 170,
+                        "y": 230
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Empoleon Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Empoleon Area - Empoleon -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_empoleon",
+                        "x": 510,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Zone Frozen Lake Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Mamoswine Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Frozen Lake Area - Frozen Mamoswine -- Ice Rescue"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice_zone_overworld",
+                        "x": 530,
+                        "y": 760
+                    }
+                ]
+            }
+        ]
+    }
+]

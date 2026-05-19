@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Granite Zone Main Area",
+        "children": [
+            {
+                "name": "Entrance Area",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Lopunny Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Jolteon Unlocked"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Tyranitar Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 790,
+                        "y": 900
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Furret Hide and Seek Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 790,
+                        "y": 820
+                    }
+                ]
+            },
+            {
+                "name": "Absol Area",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Drifloon -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Baltoy Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Baltoy Battle Power Competition -- Claydol Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 770,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Charizard Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 700,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Flygon Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 225,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Jirachi Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 725,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Skorupi -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 555,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Porygon-Z Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 455,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Togekiss Area - Togekiss -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 375,
+                        "y": 195
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid Area",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Marowak Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Claydol Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 820,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Absol -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 850,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Salamence Area",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Staraptor Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Staraptor Battle Power Competition -- Aerodactyl Unlocked"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Aerodactyl Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Arcanine Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Jolteon Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Garchomp Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 320,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Taillow Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 400,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Granite Zone Salamence Area - Salamence -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "granite_zone_overworld",
+                        "x": 160,
+                        "y": 100
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Tangrowth's Swing-Along Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Meowth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Pichu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Celebi"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Celebi Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Lucario"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Infernape"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Blaziken"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Riolu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Sneasel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Raichu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Ambipom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Primeape"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Aipom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Electabuzz"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Chimchar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Croagunk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tangrowth_swing_along",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

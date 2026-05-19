@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Skygarden",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 1"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 2"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 3"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 4"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Stage 1"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Stage 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "skygarden",
+                        "x": 510,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "skygarden",
+                        "x": 550,
+                        "y": 720
+                    }
+                ]
+            }
+        ]
+    }
+]

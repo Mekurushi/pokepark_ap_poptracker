@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Pelipper's Circle Circuit Attraction",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Prisma"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pikachu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 425,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Latias"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Latias Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 515,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Staraptor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 605,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Togekiss"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 695,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Honchkrow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 755,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Gliscor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 695,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pelipper"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 605,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Staravia"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 515,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pidgeotto"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 425,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Butterfree"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 335,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Tropius"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Murkrow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 155,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Taillow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Spearow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Starly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 245,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Wingull"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pelipper_circle_circuit",
+                        "x": 335,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    }
+]

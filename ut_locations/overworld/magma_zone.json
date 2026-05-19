@@ -1,0 +1,296 @@
+[
+    {
+        "name": "Magma Zone Main Area",
+        "children": [
+            {
+                "name": "Entrance Area",
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Magby Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Vulpix Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Vulpix Chase Power Competition -- Ninetales Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 690,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Area",
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Aron Errand -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Torchic Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Chimchar Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Chimchar Battle Power Competition -- Infernape Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Geodude Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Battle Power Competition -- Claydol Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 650,
+                        "y": 900
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Hitmontop Errand -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Drill -- Torkoal Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 620,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Torkoal Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 360,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Golem -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 340,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Camerupt Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Furnace -- Golem Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 300,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Crate -- Baltoy Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 200,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Claydol Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 200,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Groudon Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 250,
+                        "y": 650
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magma Zone Blaziken Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Blaziken Area - Blaziken -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_blaziken",
+                        "x": 520,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magma Zone Circle Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Circle Area - Rhyperior Iron Disc -- Errand"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Rhyperior -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 620,
+                        "y": 510
+                    }
+                ]
+            },
+            {
+                "name": "Meditite",
+                "sections": [
+                    {
+                        "name": "Magma Zone Circle Area - Meditite Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 730,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Circle Area",
+                "sections": [
+                    {
+                        "name": "Magma Zone Circle Area - Ninetales Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Flareon Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Quilava Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Infernape Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Ponyta Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Hitmonchan Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Hitmonchan Battle Power Competition -- Hitmonlee Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Magmortar Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Charmander Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 710
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Circle Area - Farfetch'd Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 340
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magma Zone Magcargo Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Magma Zone Circle Area - Magcargo -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magma_zone_overworld",
+                        "x": 630,
+                        "y": 80
+                    }
+                ]
+            }
+        ]
+    }
+]

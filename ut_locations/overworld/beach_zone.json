@@ -1,0 +1,273 @@
+[
+    {
+        "name": "Beach Zone Main Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Pelipper -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 890,
+                        "y": 960
+                    }
+                ]
+            },
+            {
+                "name": "Treehouse Entrance Area",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Slowpoke Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Slowpoke Chase Power Competition -- Mudkip Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Psyduck Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Psyduck Hide and Seek Power Competition -- Golduck Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Azurill Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Azurill Chase Power Competition -- Totodile Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Buizel Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Buizel Chase Power Competition -- Floatzel Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 520,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Beach Area",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Totodile Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Blastoise Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 690,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Beach Area",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Spearow Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Mudkip Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Starly Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Krabby Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Corphish Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 650,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Drifblim Area",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Taillow Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Wingull Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Staravia Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 820,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Pidgeotto Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 820,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Corsola Quiz Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 380,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "West Area",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Vaporeon Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Floatzel Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Golduck Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 280,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Feraligatr Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 260,
+                        "y": 784
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Wailord Errand -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 840,
+                        "y": 1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beach Zone Recycle Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Recycle Area - Gyarados -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 1000
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 1"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 2"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 2 --- Krabby Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 3"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 4"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 4 --- Corphish Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 5"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 890
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beach Zone Middle Isle",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Beach Zone Middle Isle - Piplup Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beach_zone_overworld",
+                        "x": 550,
+                        "y": 690
+                    }
+                ]
+            }
+        ]
+    }
+]

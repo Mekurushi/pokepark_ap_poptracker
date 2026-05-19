@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Meadow Zone Main Area",
+        "children": [
+            {
+                "name": "Treehouse Entrance Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Mankey Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Mankey Battle Power Competition -- Chimchar Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Oddish Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Torterra Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 480,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Aipom Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Aipom Chase Power Competition -- Ambipom Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Ambipom Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 420,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Weedle Tree -- Weedle Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Weedle Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 695,
+                        "y": 335
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Magikarp Rescue -- Magikarp Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Magikarp Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 848,
+                        "y": 367
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Shroomish Crate -- Shroomish Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Shroomish Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 950,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Croagunk Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Croagunk Battle Power Competition -- Scyther Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 260,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Tree -- Caterpie Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Chase Power Competition -- Butterfree Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 470,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Butterfree Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Treecko Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Lotad Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 450,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Starly Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 510,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Leafeon Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Leafeon Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Scyther Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 240,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Spearow Athletic Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Spearow Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Sudowoodo Hide and Seek Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 240,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Bulbasaur Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Pachirisu Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Bonsly Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Pachirisu Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Lotad Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Shinx Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Munchlax Errand -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Munchlax Errand -- Tropius Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 500,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "name": "Bulbasaur Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bonsly Hide and Seek Power Competition -- Sudowoodo Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 530,
+                        "y": 830
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Bulbasaur -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 530,
+                        "y": 730
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Shinx Chase Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 720,
+                        "y": 780
+                    }
+                ]
+            },
+            {
+                "name": "Bidoof Area",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Tropius Errand -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bibarel Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 720,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Chimchar Battle Power Competition -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 760,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing Completed -- Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Beach Bidoof Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 1"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 1 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 2"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 2 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 3"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 3 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 4"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bibarel Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meadow_zone_overworld",
+                        "x": 730,
+                        "y": 480
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Meadow Zone Venusaur Area",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Meadow Zone Venusaur Area - Venusaur -- Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "venusaur_minigame",
+                        "x": 540,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    }
+]
