@@ -135,7 +135,7 @@ function isHarderEnemyAI()
 end
 
 function canFarmBerries()
-    return has("dash_beginner")
+    return canDashOverworld()
 end
 
 function canReachBeachZoneRecycleArea()
@@ -154,7 +154,7 @@ function canPlayCatch()
     if isHarderEnemyAI() then
         return has("dash_intermediate")
     end
-    return has("dash_beginner")
+    return canDashOverworld()
 end
 
 function canPlayCatchIntermediate()
@@ -183,7 +183,7 @@ function canBattle()
 end
 
 function canBattleGlitched()
-    return hasAny({"thunderbolt_beginner", "iron_tail_beginner", "dash_beginner"})
+    return hasAny({"thunderbolt_beginner", "iron_tail_beginner", "dash_beginner", "double_dash"})
 end
 
 function canBattleIntermediate()
@@ -204,11 +204,11 @@ function canBattleThunderBoltImmune()
     if isHarderEnemyAI() then
         return hasAny({"dash_intermediate", "iron_tail_beginner"}) and has("health_beginner")
     end
-    return hasAny({"dash_beginner", "iron_tail_beginner"}) and has("health_beginner")
+    return hasAny({"dash_beginner", "iron_tail_beginner", "double_dash"}) and has("health_beginner")
 end
 
 function canBattleThunderBoltImmuneGlitched()
-    return hasAny({"dash_beginner", "iron_tail_beginner"})
+    return hasAny({"dash_beginner", "iron_tail_beginner", "double_dash"})
 end
 
 function canBattleThunderBoltImmuneIntermediate()
@@ -226,7 +226,7 @@ function canBattleThunderBoltImmuneAdvanced()
 end
 
 function canDashOverworld()
-    return has("dash_beginner")
+    return has("dash_beginner") or has("double_dash")
 end
 
 function canThunderBoltOverworld()
