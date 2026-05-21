@@ -77,6 +77,9 @@ Tracker:AddLocations("locations/exits/flower_zone.jsonc")
 Tracker:AddLocations("locations/entrances/skygarden.jsonc")
 Tracker:AddLocations("locations/exits/skygarden.jsonc")
 
+-- overview
+Tracker:AddLocations("locations/overview.json")
+
 -- Layout
 Tracker:AddLayouts("layouts/tracker.jsonc")
 
