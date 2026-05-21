@@ -389,7 +389,7 @@
                     {
                         "name": "Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch, $hasEnoughFriendshipGlaceon"
+                            "$canPlayCatchIntermediate, $hasEnoughFriendshipGlaceon"
                         ],
                         "visibility_rules": [
                             "$chase_locations_activated"
