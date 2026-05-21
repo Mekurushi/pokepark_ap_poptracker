@@ -3,6 +3,15 @@
 		"type": "tabbed",
 		"tabs": [
 			{
+				"title": "Overview",
+				"content": {
+					"type": "map",
+					"maps": [
+						"Overview"
+					]
+				}
+			},
+			{
 				"title": "Treehouse",
 				"content": {
 					"type": "map",
@@ -42,7 +51,7 @@
 									"Pokepark Entrance"
 								]
 							}
-						},
+						}
 					]
 				}
 			},

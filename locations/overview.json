@@ -1,0 +1,2526 @@
+[
+    {
+        "children": [
+            {
+                "name": "Treehouse - Overview",
+                "sections": [
+                    {
+                        "name": "Treehouse - Power Up - Thunderbolt Upgrade 1",
+                        "ref": "Thunderbolt/Upgrade 1"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Thunderbolt Upgrade 2",
+                        "ref": "Thunderbolt/Upgrade 2"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Thunderbolt Upgrade 3",
+                        "ref": "Thunderbolt/Upgrade 3"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Dash Upgrade 1",
+                        "ref": "Dash/Upgrade 1"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Dash Upgrade 2",
+                        "ref": "Dash/Upgrade 2"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Ponyta Unlocked",
+                        "ref": "Dash/Ponyta Unlocked"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Dash Upgrade 3",
+                        "ref": "Dash/Upgrade 3"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Double Dash",
+                        "ref": "Dash/Double Dash"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Health Upgrade 1",
+                        "ref": "Health/Upgrade 1"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Health Upgrade 2",
+                        "ref": "Health/Upgrade 2"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Health Upgrade 3",
+                        "ref": "Health/Upgrade 3"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Iron Tail Upgrade 1",
+                        "ref": "Iron Tail/Upgrade 1"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Iron Tail Upgrade 2",
+                        "ref": "Iron Tail/Upgrade 2"
+                    },
+                    {
+                        "name": "Treehouse - Power Up - Iron Tail Upgrade 3",
+                        "ref": "Iron Tail/Upgrade 3"
+                    },
+                    {
+                        "name": "Treehouse - Mime Jr. - Friendship",
+                        "ref": "Mime Jr./Friendship"
+                    },
+                    {
+                        "name": "Treehouse - Burmy - Friendship",
+                        "ref": "Burmy/Friendship"
+                    },
+                    {
+                        "name": "Treehouse - Abra - Friendship",
+                        "ref": "Abra/Friendship"
+                    },
+                    {
+                        "name": "Treehouse - Drifblim - Friendship",
+                        "ref": "Drifblim/Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 250,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Meadow Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Meadow Zone Main Area - Aipom Chase Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Aipom Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Aipom Chase Power Competition -- Ambipom Unlocked",
+                        "ref": "Treehouse Entrance Area/Aipom Chase Power Competition - Ambipom Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Ambipom Battle Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Ambipom Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Mankey Battle Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Mankey Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Mankey Battle Power Competition -- Chimchar Unlocked",
+                        "ref": "Treehouse Entrance Area/Mankey Battle Power Competition - Chimchar Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Oddish Hide and Seek Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Oddish Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Torterra Battle Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Torterra Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Weedle Tree -- Weedle Unlocked",
+                        "ref": "Weedle/Tree - Weedle Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Weedle Battle Power Competition -- Friendship",
+                        "ref": "Weedle/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Magikarp Rescue -- Magikarp Unlocked",
+                        "ref": "Magikarp/Rescue - Magikarp Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Magikarp Chase Power Competition -- Friendship",
+                        "ref": "Magikarp/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Shroomish Crate -- Shroomish Unlocked",
+                        "ref": "Shroomish/Crate - Shroomish Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Shroomish Chase Power Competition -- Friendship",
+                        "ref": "Shroomish/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Croagunk Battle Power Competition -- Friendship",
+                        "ref": "Croagunk/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Croagunk Battle Power Competition -- Scyther Unlocked",
+                        "ref": "Croagunk/Battle Power Competition - Scyther Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Tree -- Caterpie Unlocked",
+                        "ref": "Caterpie/Tree - Caterpie Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Chase Power Competition -- Friendship",
+                        "ref": "Caterpie/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Caterpie Chase Power Competition -- Butterfree Unlocked",
+                        "ref": "Caterpie/Chase Power Competition - Butterfree Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Starly Chase Power Competition -- Friendship",
+                        "ref": "Bridge Area/Starly Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Butterfree Chase Power Competition -- Friendship",
+                        "ref": "Bridge Area/Butterfree Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Treecko Chase Power Competition -- Friendship",
+                        "ref": "Bridge Area/Treecko Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Lotad Battle Power Competition -- Friendship",
+                        "ref": "Bridge Area/Lotad Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Leafeon Chase Power Competition -- Friendship",
+                        "ref": "Leafeon Area/Leafeon Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Scyther Battle Power Competition -- Friendship",
+                        "ref": "Leafeon Area/Scyther Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Spearow Battle Power Competition -- Friendship",
+                        "ref": "Spearow Athletic Area/Spearow Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Sudowoodo Hide and Seek Power Competition -- Friendship",
+                        "ref": "Spearow Athletic Area/Sudowoodo Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship",
+                        "ref": "Bulbasaur Area/Bonsly Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bonsly Hide and Seek Power Competition -- Sudowoodo Unlocked",
+                        "ref": "Bulbasaur Area/Bonsly Hide and Seek Power Competition - Sudowoodo Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Friendship",
+                        "ref": "Bulbasaur Area/Turtwig Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Pachirisu Unlocked",
+                        "ref": "Bulbasaur Area/Turtwig Chase Power Competition - Pachirisu Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Turtwig Chase Power Competition -- Bonsly Unlocked",
+                        "ref": "Bulbasaur Area/Turtwig Chase Power Competition - Bonsly Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Pachirisu Chase Power Competition -- Friendship",
+                        "ref": "Bulbasaur Area/Pachirisu Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Friendship",
+                        "ref": "Bulbasaur Area/Buneary Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Lotad Unlocked",
+                        "ref": "Bulbasaur Area/Buneary Chase Power Competition - Lotad Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Buneary Chase Power Competition -- Shinx Unlocked",
+                        "ref": "Bulbasaur Area/Buneary Chase Power Competition - Shinx Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Munchlax Errand -- Friendship",
+                        "ref": "Bulbasaur Area/Munchlax Errand - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Munchlax Errand -- Tropius Unlocked",
+                        "ref": "Bulbasaur Area/Munchlax Errand - Tropius Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bulbasaur -- Friendship",
+                        "ref": "Bulbasaur/Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Shinx Chase Power Competition -- Friendship",
+                        "ref": "Shinx/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Chimchar Battle Power Competition -- Friendship",
+                        "ref": "Bidoof Area/Chimchar Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Tropius Errand -- Friendship",
+                        "ref": "Bidoof Area/Tropius Errand - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bibarel Battle Power Competition -- Friendship",
+                        "ref": "Bidoof Area/Bibarel Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing Completed -- Friendship",
+                        "ref": "Bidoof Housing/Completed - Friendship"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Beach Bidoof Unlocked",
+                        "ref": "Bidoof Housing/Beach Bidoof Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 1",
+                        "ref": "Bidoof Housing/Stage 1"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 1 Unlocked",
+                        "ref": "Bidoof Housing/Stage 1 - Bidoof 1 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 2",
+                        "ref": "Bidoof Housing/Stage 2"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 2 Unlocked",
+                        "ref": "Bidoof Housing/Stage 2 - Bidoof 2 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 3",
+                        "ref": "Bidoof Housing/Stage 3"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bidoof 3 Unlocked",
+                        "ref": "Bidoof Housing/Stage 3 - Bidoof 3 Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Stage 4",
+                        "ref": "Bidoof Housing/Stage 4"
+                    },
+                    {
+                        "name": "Meadow Zone Main Area - Bidoof Housing -- Bibarel Unlocked",
+                        "ref": "Bidoof Housing/Stage 4 - Bibarel Unlocked"
+                    },
+                    {
+                        "name": "Meadow Zone Venusaur Area - Venusaur -- Friendship",
+                        "ref": "Venusaur/Friendship"
+                    },
+                    {
+                        "name": "Pokepark Entrance - Celebi Chase Power Competition -- Friendship",
+                        "ref": "Celebi/Chase Power Competition - Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 620,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Beach Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Beach Zone Main Area - Pelipper -- Friendship",
+                        "ref": "Pelipper/Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Slowpoke Chase Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Slowpoke Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Slowpoke Chase Power Competition -- Mudkip Unlocked",
+                        "ref": "Treehouse Entrance Area/Slowpoke Chase Power Competition - Mudkip Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Psyduck Hide and Seek Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Psyduck Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Psyduck Hide and Seek Power Competition -- Golduck Unlocked",
+                        "ref": "Treehouse Entrance Area/Psyduck Hide and Seek Power Competition - Golduck Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Azurill Chase Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Azurill Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Azurill Chase Power Competition -- Totodile Unlocked",
+                        "ref": "Treehouse Entrance Area/Azurill Chase Power Competition - Totodile Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Buizel Chase Power Competition -- Friendship",
+                        "ref": "Treehouse Entrance Area/Buizel Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Buizel Chase Power Competition -- Floatzel Unlocked",
+                        "ref": "Treehouse Entrance Area/Buizel Chase Power Competition - Floatzel Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Totodile Battle Power Competition -- Friendship",
+                        "ref": "Beach Area/Totodile Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Spearow Battle Power Competition -- Friendship",
+                        "ref": "Beach Area/Spearow Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Mudkip Hide and Seek Power Competition -- Friendship",
+                        "ref": "Beach Area/Mudkip Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Blastoise Battle Power Competition -- Friendship",
+                        "ref": "Beach Area/Blastoise Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Starly Chase Power Competition -- Friendship",
+                        "ref": "Beach Area/Starly Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Krabby Chase Power Competition -- Friendship",
+                        "ref": "Beach Area/Krabby Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Corphish Battle Power Competition -- Friendship",
+                        "ref": "Beach Area/Corphish Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Taillow Chase Power Competition -- Friendship",
+                        "ref": "Drifblim Area/Taillow Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Pidgeotto Battle Power Competition -- Friendship",
+                        "ref": "Drifblim Area/Pidgeotto Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Wingull Chase Power Competition -- Friendship",
+                        "ref": "Drifblim Area/Wingull Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Staravia Battle Power Competition -- Friendship",
+                        "ref": "Drifblim Area/Staravia Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Corsola Quiz Power Competition -- Friendship",
+                        "ref": "Corsola/Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Vaporeon Chase Power Competition -- Friendship",
+                        "ref": "West Area/Vaporeon Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Floatzel Battle Power Competition -- Friendship",
+                        "ref": "West Area/Floatzel Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Golduck Battle Power Competition -- Friendship",
+                        "ref": "West Area/Golduck Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Feraligatr Battle Power Competition -- Friendship",
+                        "ref": "Feraligatr/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Main Area - Wailord Errand -- Friendship",
+                        "ref": "Wailord/Errand - Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Gyarados -- Friendship",
+                        "ref": "Gyarados/Friendship"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 1",
+                        "ref": "Bottle Recycling/Stage 1"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 2",
+                        "ref": "Bottle Recycling/Stage 2"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 2 --- Krabby Unlocked",
+                        "ref": "Bottle Recycling/Stage 2 - Krabby Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 3",
+                        "ref": "Bottle Recycling/Stage 3"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 4",
+                        "ref": "Bottle Recycling/Stage 4"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 4 --- Corphish Unlocked",
+                        "ref": "Bottle Recycling/Stage 4 - Corphish Unlocked"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 5",
+                        "ref": "Bottle Recycling/Stage 5"
+                    },
+                    {
+                        "name": "Beach Zone Recycle Area - Bottle Recycling -- Stage 6",
+                        "ref": "Bottle Recycling/Stage 6"
+                    },
+                    {
+                        "name": "Beach Zone Middle Isle - Piplup Battle Power Competition -- Friendship",
+                        "ref": "Piplup/Battle Power Competition - Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 640,
+                        "y": 610
+                    }
+                ]
+            },
+            {
+                "name": "Ice Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Ice Zone Main Area - Lapras -- Friendship",
+                        "ref": "Lapras Area/Lapras Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Spheal Chase Power Competition -- Friendship",
+                        "ref": "Lapras Area/Spheal Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Krabby Chase Power Competition -- Friendship",
+                        "ref": "Lapras Area/Krabby Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Mudkip Hide and Seek Power Competition -- Friendship",
+                        "ref": "Lapras Area/Mudkip Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Octillery Battle Power Competition -- Friendship",
+                        "ref": "Glalie Area/Octillery Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Teddiursa Chase Power Competition -- Friendship",
+                        "ref": "Glalie Area/Teddiursa Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Ursaring Battle Power Competition -- Friendship",
+                        "ref": "Glalie Area/Ursaring Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Primeape Battle Power Competition -- Friendship",
+                        "ref": "Sneasel Area/Primeape Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Sneasel Chase Power Competition -- Friendship",
+                        "ref": "Sneasel Area/Sneasel Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Glalie Battle Power Competition -- Friendship",
+                        "ref": "Glalie/Errand - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 1",
+                        "ref": "Glalie/Igloo Housing 1"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 1 -- Primeape Unlocked",
+                        "ref": "Glalie/Igloo Housing 1 - Primeape Unlocked"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 2",
+                        "ref": "Glalie/Igloo Housing 2"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 2 -- Ursaring Unlocked",
+                        "ref": "Glalie/Igloo Housing 2 - Ursaring Unlocked"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Igloo Housing -- Stage 3",
+                        "ref": "Glalie/Igloo Housing 3"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Taillow Chase Power Competition -- Friendship",
+                        "ref": "Empoleon Entrance Area/Taillow Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Staravia Battle Power Competition -- Friendship",
+                        "ref": "Empoleon Entrance Area/Staravia Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Piloswine Battle Power Competition -- Friendship",
+                        "ref": "Empoleon Entrance Area/Piloswine Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Starly Chase Power Competition -- Friendship",
+                        "ref": "Christmas Tree Area/Starly Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Smoochum Battle Power Competition -- Friendship",
+                        "ref": "Christmas Tree Area/Smoochum Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Squirtle Battle Power Competition -- Friendship",
+                        "ref": "Christmas Tree Area/Squirtle Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 1",
+                        "ref": "Christmas Tree Present/Stage 1"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 2",
+                        "ref": "Christmas Tree Present/Stage 2"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 3",
+                        "ref": "Christmas Tree Present/Stage 3"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Christmas Tree Present -- Stage 4",
+                        "ref": "Christmas Tree Present/Stage 4"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Delibird Quiz Power Competition -- Friendship",
+                        "ref": "Christmas Tree Present/Delibird Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Kirlia Errand -- Friendship",
+                        "ref": "Christmas Tree Present/Kirlia Errand - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Prinplup Battle Power Competition -- Friendship",
+                        "ref": "Prinplup/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Glaceon Chase Power Competition -- Friendship",
+                        "ref": "Glaceon/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Corphish Battle Power Competition -- Friendship",
+                        "ref": "Lower Lift Area/Corphish Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Lower Lift Area - Wingull Chase Power Competition -- Friendship",
+                        "ref": "Lower Lift Area/Wingull Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Lower Lift Area - Quagsire Errand -- Friendship",
+                        "ref": "Lower Lift Area/Quagsire Errand - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Lower Lift Area - Froslass Battle Power Competition -- Friendship",
+                        "ref": "Lower Lift Area/Froslass Battle Power Competition -- Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Empoleon Area - Empoleon -- Friendship",
+                        "ref": "Empoleon/Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Main Area - Mamoswine Battle Power Competition -- Friendship",
+                        "ref": "Mamoswine/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Ice Zone Frozen Lake Area - Frozen Mamoswine -- Ice Rescue",
+                        "ref": "Mamoswine/Ice Rescue - Mamoswine Unlocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 155,
+                        "y": 650
+                    }
+                ]
+            },
+            {
+                "name": "Cavern Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Entrance -- Magnemite Unlocked",
+                        "ref": "Magnemite Entrance Area/Crate - Magnemite Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite -- Friendship",
+                        "ref": "Magnemite Entrance Area/Magnemite - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magnezone Battle Power Competition -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Magnezone Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Bonsly Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Bonsly Hide and Seek Power Competition -- Sudowoodo Unlocked",
+                        "ref": "Magma Zone Entrance Area/Bonsly Hide and Seek Power Competition - Sudowoodo Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Dugtrio -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Dugtrio - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Aron Errand -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Aron Errand - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Electivire Battle Power Competition -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Electivire Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Sudowoodo Hide and Seek Power Competition -- Friendship",
+                        "ref": "Magma Zone Entrance Area/Sudowoodo Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Golbat Chase Power Competition -- Friendship",
+                        "ref": "Center Area/Golbat Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Zubat Chase Power Competition -- Friendship",
+                        "ref": "Center Area/Zubat Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Mawile Chase Power Competition -- Friendship",
+                        "ref": "Center Area/Mawile Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Magma Zone Entrance -- Magnemite Unlocked",
+                        "ref": "Magnemite Magma Zone Entrance Area/Crate - Magnemite Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Geodude Hide and Seek Power Competition -- Friendshipp",
+                        "ref": "Machamp Athletic Area/Geodude Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Machamp -- Friendship",
+                        "ref": "Machamp Athletic Area/Machamp - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Machamp -- Machamp Unlocked",
+                        "ref": "Machamp Athletic Area/Machamp - Machamp Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Teddiursa Quiz Power Competition -- Friendship",
+                        "ref": "Machamp Athletic Area/Teddiursa Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Meowth Quiz Power Competition -- Friendship",
+                        "ref": "Machamp Athletic Area/Meowth Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Raichu Chase Power Competition -- Friendship",
+                        "ref": "Machamp Athletic Area/Raichu Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Hitmonlee Battle Power Competition -- Friendship",
+                        "ref": "Machamp Athletic Area/Hitmonlee Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Marowak Battle Power Competition -- Friendship",
+                        "ref": "Marowak/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Scizor Battle Power Competition -- Friendship",
+                        "ref": "Deep Area/Scizor Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Phanpy Errand -- Friendship",
+                        "ref": "Deep Area/Phanpy Errand - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Cranidos Battle Power Competition -- Friendship",
+                        "ref": "Deep Area/Cranidos Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Torchic Battle Power Competition -- Friendship",
+                        "ref": "Deep Area/Torchic Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Chimchar Battle Power Competition -- Friendship",
+                        "ref": "Deep Area/Chimchar Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Magnemite Crate Deep Inside -- Magnemite Unlocked",
+                        "ref": "Magnemite Deep Inside Area/Crate - Magnemite Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Diglett Crate -- Diglett Unlocked",
+                        "ref": "Diglett/Crate - Diglett Unlocked"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Diglett -- Friendship",
+                        "ref": "Diglett/Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Gible Battle Power Competition -- Friendship",
+                        "ref": "Gible/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Cavern Zone Main Area - Bastiodon -- Friendship",
+                        "ref": "Bastiodon/Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 135,
+                        "y": 305
+                    }
+                ]
+            },
+            {
+                "name": "Magma Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Magma Zone Main Area - Aron Errand -- Friendship",
+                        "ref": "Entrance Area/Aron Errand - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Torchic Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Torchic Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Chimchar Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Chimchar Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Chimchar Battle Power Competition -- Infernape Unlocked",
+                        "ref": "Entrance Area/Chimchar Battle Power Competition - Infernape Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Geodude Hide and Seek Power Competition -- Friendship",
+                        "ref": "Entrance Area/Geodude Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Bonsly Hide and Seek Power Competition -- Friendship",
+                        "ref": "Entrance Area/Bonsly Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Magby Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Magby Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Vulpix Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Vulpix Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Vulpix Chase Power Competition -- Ninetales Unlocked",
+                        "ref": "Entrance Area/Vulpix Chase Power Competition - Ninetales Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Baltoy Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Battle Power Competition -- Claydol Unlocked",
+                        "ref": "Entrance Area/Baltoy Battle Power Competition - Claydol Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Hitmontop Errand -- Friendship",
+                        "ref": "Hitmontop/Errand - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Drill -- Torkoal Unlocked",
+                        "ref": "Hitmontop/Drill - Torkoal Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Torkoal Battle Power Competition -- Friendship",
+                        "ref": "Torkoal/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Golem -- Friendship",
+                        "ref": "Golem/Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Camerupt Battle Power Competition -- Friendship",
+                        "ref": "Camerupt/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Furnace -- Golem Unlocked",
+                        "ref": "Camerupt/Furnace - Golem Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Baltoy Crate -- Baltoy Unlocked",
+                        "ref": "Baltoy/Crate - Baltoy Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Claydol Battle Power Competition -- Friendship",
+                        "ref": "Claydol/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Main Area - Groudon Battle Power Competition -- Friendship",
+                        "ref": "Groudon/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Blaziken Area - Blaziken -- Friendship",
+                        "ref": "Blaziken/Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Rhyperior Iron Disc -- Errand",
+                        "ref": "Rhyperior/Iron Disc Errand"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Rhyperior -- Friendship",
+                        "ref": "Rhyperior/Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Meditite Quiz Power Competition -- Friendship",
+                        "ref": "Meditite/Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Ninetales Chase Power Competition -- Friendship",
+                        "ref": "Circle Area/Ninetales Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Flareon Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Flareon Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Quilava Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Quilava Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Infernape Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Infernape Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Ponyta Chase Power Competition -- Friendship",
+                        "ref": "Circle Area/Ponyta Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Hitmonchan Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Hitmonchan Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Hitmonchan Battle Power Competition -- Hitmonlee Unlocked",
+                        "ref": "Circle Area/Hitmonchan Battle Power Competition - Hitmonlee Unlocked"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Magmortar Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Magmortar Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Charmander Battle Power Competition -- Friendship",
+                        "ref": "Circle Area/Charmander Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Farfetch'd Battle Power Competition -- Friendship",
+                        "ref": "Farfetch'd/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Magma Zone Circle Area - Magcargo -- Friendship",
+                        "ref": "Magcargo/Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 145,
+                        "y": 85
+                    }
+                ]
+            },
+            {
+                "name": "Haunted Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Haunted Zone Main Area - Drifloon -- Friendship",
+                        "ref": "Drifloon/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Raichu Chase Power Competition -- Friendship",
+                        "ref": "Raichu/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Meowth Quiz Power Competition -- Friendship",
+                        "ref": "Meowth/Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Gliscor Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Gliscor Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Aipom Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Aipom Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Aipom Chase Power Competition -- Ambipom Unlocked",
+                        "ref": "Entrance Area/Aipom Chase Power Competition - Ambipom Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Ambipom Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Ambipom Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Murkrow Chase Power Competition -- Friendship",
+                        "ref": "West Area/Murkrow Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Murkrow Chase Power Competition -- Honchkrow Unlocked",
+                        "ref": "West Area/Murkrow Chase Power Competition - Honchkrow Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Honchkrow Battle Power Competition -- Friendship",
+                        "ref": "West Area/Honchkrow Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Metapod Left Tree -- Metapod Unlocked",
+                        "ref": "Metapod/Tree - Metapod Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Metapod -- Friendship",
+                        "ref": "Metapod/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Kakuna Right Tree -- Kakuna Unlocked",
+                        "ref": "Kakuna/Tree - Kakuna Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Kakuna -- Friendship",
+                        "ref": "Kakuna/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Tangrowth -- Friendship",
+                        "ref": "Tangrowth/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Duskull Chase Power Competition -- Friendship",
+                        "ref": "Duskull/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Dusknoir -- Friendship",
+                        "ref": "Dusknoir/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Elekid Hide and Seek Power Competition -- Friendship",
+                        "ref": "Entrance Area/Elekid Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Elekid Hide and Seek Power Competition -- Electabuzz Unlocked",
+                        "ref": "Entrance Area/Elekid Hide and Seek Power Competition - Electabuzz Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Stunky Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Stunky Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Stunky Chase Power Competition -- Skuntank Unlocked",
+                        "ref": "Entrance Area/Stunky Chase Power Competition - Skuntank Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Electabuzz Battle Power Competition -- Friendship",
+                        "ref": "Floor Area/Electabuzz Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Skuntank Battle Power Competition -- Friendship",
+                        "ref": "Floor Area/Skuntank Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Espeon Chase Power Competition -- Friendship",
+                        "ref": "Floor Area/Espeon Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Umbreon Chase Power Competition -- Friendship",
+                        "ref": "Floor Area/Umbreon Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Umbreon Chase Power Competition -- Espeon Unlocked",
+                        "ref": "Floor Area/Umbreon Chase Power Competition - Espeon Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Haunter Chase Power Competition -- Friendship",
+                        "ref": "Floor Area/Haunter Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Gastly Chase Power Competition -- Friendship",
+                        "ref": "Floor Area/Gastly Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Main Area - Riolu Battle Power Competition -- Friendship",
+                        "ref": "Riolu/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Misdreavus Chase Power Competition -- Friendship",
+                        "ref": "Misdreavus/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Darkrai Battle Power Competition -- Friendship",
+                        "ref": "Darkrai/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Electrode -- Friendship",
+                        "ref": "Dance Hall Area/Electrode Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Mismagius Battle Power Competition -- Friendship",
+                        "ref": "Dance Hall Area/Mismagius Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Luxray Chase Power Competition -- Friendship",
+                        "ref": "Dance Hall Area/Luxray Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Pichu Chase Power Competition -- Friendship",
+                        "ref": "Pichu/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Sableye Quiz Power Competition -- Friendship",
+                        "ref": "Sableye/Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Voltorb Battle Power Competition -- Friendship",
+                        "ref": "Voltorb/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Voltorb Vase -- Voltorb Unlocked",
+                        "ref": "Voltorb/Vase - Voltorb Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Gengar Battle Power Competition -- Friendship",
+                        "ref": "Gengar/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Gengar Painting -- Gengar Unlocked",
+                        "ref": "Gengar/Painting - Gengar Unlocked"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Spinarak -- Friendship",
+                        "ref": "Spinarak/Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Breloom Battle Power Competition -- Friendship",
+                        "ref": "Breloom/Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Haunted Zone Mansion Area - Abra -- Friendship",
+                        "ref": "Haunted Zone Mansion Antic Area/Abra/Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 810,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Granite Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Granite Zone Main Area - Lopunny Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Lopunny Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Friendship",
+                        "ref": "Entrance Area/Eevee Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Jolteon Unlocked",
+                        "ref": "Entrance Area/Eevee Chase Power Competition - Jolteon Unlocked"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Furret Hide and Seek Power Competition -- Friendship",
+                        "ref": "Entrance Area/Furret Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Tyranitar Battle Power Competition -- Friendship",
+                        "ref": "Entrance Area/Tyranitar Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Drifloon -- Friendship",
+                        "ref": "Absol Area/Drifloon Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Baltoy Battle Power Competition -- Friendship",
+                        "ref": "Absol Area/Baltoy Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Baltoy Battle Power Competition -- Claydol Unlocked",
+                        "ref": "Absol Area/Baltoy Battle Power Competition - Claydol Unlocked"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Charizard Battle Power Competition -- Friendship",
+                        "ref": "Absol Area/Charizard Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Flygon Chase Power Competition -- Friendship",
+                        "ref": "Flygon/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Jirachi Chase Power Competition -- Friendship",
+                        "ref": "Jirachi/Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Skorupi -- Friendship",
+                        "ref": "Skorupi/Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Porygon-Z Quiz Power Competition -- Friendship",
+                        "ref": "Porygon-Z/Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Togekiss Area - Togekiss -- Friendship",
+                        "ref": "Togekiss/Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Marowak Battle Power Competition -- Friendship",
+                        "ref": "Pyramid Area/Marowak Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Claydol Battle Power Competition -- Friendship",
+                        "ref": "Pyramid Area/Claydol Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Absol -- Friendship",
+                        "ref": "Absol/Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Staraptor Battle Power Competition -- Friendship",
+                        "ref": "Salamence Area/Staraptor Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Staraptor Battle Power Competition -- Aerodactyl Unlocked",
+                        "ref": "Salamence Area/Staraptor Battle Power Competition - Aerodactyl Unlocked"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Aerodactyl Battle Power Competition -- Friendship",
+                        "ref": "Salamence Area/Aerodactyl Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Arcanine Chase Power Competition -- Friendship",
+                        "ref": "Salamence Area/Arcanine Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Taillow Chase Power Competition -- Friendship",
+                        "ref": "Salamence Area/Taillow Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Jolteon Chase Power Competition -- Friendship",
+                        "ref": "Salamence Area/Jolteon Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Main Area - Garchomp Battle Power Competition -- Friendship",
+                        "ref": "Salamence Area/Garchomp Battle Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Granite Zone Salamence Area - Salamence -- Friendship",
+                        "ref": "Salamence/Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 515,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Flower Zone - Overview",
+                "sections": [
+                    {
+                        "name": "Flower Zone Main Area - Rayquaza -- Friendship",
+                        "ref": "Rayquaza/Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Skiploom -- Friendship",
+                        "ref": "Rayquaza Area/Skiploom - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Budew -- Friendship",
+                        "ref": "Rayquaza Area/Budew - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Dragonite Chase Power Competition -- Friendship",
+                        "ref": "Rayquaza Area/Dragonite Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Mareep Chase Power Competition -- Friendship",
+                        "ref": "Rayquaza Area/Mareep Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Cyndaquil Chase Power Competition -- Friendship",
+                        "ref": "Shaymin Area/Cyndaquil Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Lucario Chase Power Competition -- Friendship",
+                        "ref": "Shaymin Area/Lucario Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Furret Hide and Seek Power Competition -- Friendship",
+                        "ref": "Shaymin Area/Furret Hide and Seek Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Teddiursa Chase Power Competition -- Friendship",
+                        "ref": "Shaymin Area/Teddiursa Chase Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Meditite Quiz Power Competition -- Friendship",
+                        "ref": "Shaymin Area/Meditite Quiz Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Flower Zone Main Area - Bellossom Errand -- Friendship",
+                        "ref": "Shaymin Area/Bellossom Errand - Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 560,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Skygarden - Overview",
+                "sections": [
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 1",
+                        "ref": "Mew/Power Competition - Stage 1"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 2",
+                        "ref": "Mew/Power Competition - Stage 2"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 3",
+                        "ref": "Mew/Power Competition - Stage 3"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Stage 4",
+                        "ref": "Mew/Power Competition - Stage 4"
+                    },
+                    {
+                        "name": "Skygarden - Mew Power Competition -- Friendship",
+                        "ref": "Mew/Power Competition - Friendship"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Stage 1",
+                        "ref": "Mew/Prisma - Stage 1"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Stage 2",
+                        "ref": "Mew/Prisma - Stage 2"
+                    },
+                    {
+                        "name": "Skygarden - Prisma Completion -- Completed",
+                        "ref": "Mew/Prisma - Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 330,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Bulbasaur's Daring Dash Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Prisma",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Pikachu",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Chimchar",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Chimchar/Chimchar"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Treecko",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Treecko/Treecko"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bibarel",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Bibarel/Bibarel"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Turtwig",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Turtwig/Turtwig"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bulbasaur",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Bulbasaur/Bulbasaur"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bidoof",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Bidoof/Bidoof"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Oddish",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Oddish/Oddish"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Shroomish",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Shroomish/Shroomish"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Munchlax",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Munchlax/Munchlax"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Bonsly",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Bonsly/Bonsly"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Lotad",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Lotad/Lotad"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Weedle",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Weedle/Weedle"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Caterpie",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Caterpie/Caterpie"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Magikarp",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Magikarp/Magikarp"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Mew",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Mew/Mew"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Jolteon",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Jolteon/Jolteon"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Arcanine",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Arcanine/Arcanine"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Leafeon",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Leafeon/Leafeon"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Scyther",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Scyther/Scyther"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Ponyta",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Ponyta/Ponyta"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Shinx",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Shinx/Shinx"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Eevee",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Eevee/Eevee"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Pachirisu",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Pachirisu/Pachirisu"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Buneary",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Buneary/Buneary"
+                    },
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction -- Croagunk",
+                        "ref": "Bulbasaur's Daring Dash Attraction/Croagunk/Croagunk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 730,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Venusaur's Vine Swing Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Prisma",
+                        "ref": "Venusaur's Vine Swing Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Pikachu",
+                        "ref": "Venusaur's Vine Swing Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Munchlax",
+                        "ref": "Venusaur's Vine Swing Attraction/Munchlax/Munchlax"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Magikarp",
+                        "ref": "Venusaur's Vine Swing Attraction/Magikarp/Magikarp"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Jirachi",
+                        "ref": "Venusaur's Vine Swing Attraction/Jirachi/Jirachi"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Jirachi Friendship",
+                        "ref": "Venusaur's Vine Swing Attraction/Jirachi/Jirachi Friendship"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Blaziken",
+                        "ref": "Venusaur's Vine Swing Attraction/Blaziken/Blaziken"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Infernape",
+                        "ref": "Venusaur's Vine Swing Attraction/Infernape/Infernape"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Lucario",
+                        "ref": "Venusaur's Vine Swing Attraction/Lucario/Lucario"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Primeape",
+                        "ref": "Venusaur's Vine Swing Attraction/Primeape/Primeape"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Tangrowth",
+                        "ref": "Venusaur's Vine Swing Attraction/Tangrowth/Tangrowth"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Ambipom",
+                        "ref": "Venusaur's Vine Swing Attraction/Ambipom/Ambipom"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Croagunk",
+                        "ref": "Venusaur's Vine Swing Attraction/Croagunk/Croagunk"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Mankey",
+                        "ref": "Venusaur's Vine Swing Attraction/Mankey/Mankey"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Aipom",
+                        "ref": "Venusaur's Vine Swing Attraction/Aipom/Aipom"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Chimchar",
+                        "ref": "Venusaur's Vine Swing Attraction/Chimchar/Chimchar"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Treecko",
+                        "ref": "Venusaur's Vine Swing Attraction/Treecko/Treecko"
+                    },
+                    {
+                        "name": "Venusaur's Vine Swing Attraction -- Pachirisu",
+                        "ref": "Venusaur's Vine Swing Attraction/Pachirisu/Pachirisu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 500,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Pelipper's Circle Circuit Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Prisma",
+                        "ref": "Pelipper's Circle Circuit Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pikachu",
+                        "ref": "Pelipper's Circle Circuit Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Latias",
+                        "ref": "Pelipper's Circle Circuit Attraction/Latias/Latias"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Latias Friendship",
+                        "ref": "Pelipper's Circle Circuit Attraction/Latias/Latias Friendship"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Staraptor",
+                        "ref": "Pelipper's Circle Circuit Attraction/Staraptor/Staraptor"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Togekiss",
+                        "ref": "Pelipper's Circle Circuit Attraction/Togekiss/Togekiss"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Honchkrow",
+                        "ref": "Pelipper's Circle Circuit Attraction/Honchkrow/Honchkrow"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Gliscor",
+                        "ref": "Pelipper's Circle Circuit Attraction/Gliscor/Gliscor"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pelipper",
+                        "ref": "Pelipper's Circle Circuit Attraction/Pelipper/Pelipper"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Staravia",
+                        "ref": "Pelipper's Circle Circuit Attraction/Staravia/Staravia"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Pidgeotto",
+                        "ref": "Pelipper's Circle Circuit Attraction/Pidgeotto/Pidgeotto"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Butterfree",
+                        "ref": "Pelipper's Circle Circuit Attraction/Butterfree/Butterfree"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Tropius",
+                        "ref": "Pelipper's Circle Circuit Attraction/Tropius/Tropius"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Murkrow",
+                        "ref": "Pelipper's Circle Circuit Attraction/Murkrow/Murkrow"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Taillow",
+                        "ref": "Pelipper's Circle Circuit Attraction/Taillow/Taillow"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Spearow",
+                        "ref": "Pelipper's Circle Circuit Attraction/Spearow/Spearow"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Starly",
+                        "ref": "Pelipper's Circle Circuit Attraction/Starly/Starly"
+                    },
+                    {
+                        "name": "Pelipper's Circle Circuit Attraction -- Wingull",
+                        "ref": "Pelipper's Circle Circuit Attraction/Wingull/Wingull"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 800,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Gyarados' Aqua Dash Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Prisma",
+                        "ref": "Gyarados' Aqua Dash Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Pikachu",
+                        "ref": "Gyarados' Aqua Dash Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Psyduck",
+                        "ref": "Gyarados' Aqua Dash Attraction/Psyduck/Psyduck"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Azurill",
+                        "ref": "Gyarados' Aqua Dash Attraction/Azurill/Azurill"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Slowpoke",
+                        "ref": "Gyarados' Aqua Dash Attraction/Slowpoke/Slowpoke"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Manaphy",
+                        "ref": "Gyarados' Aqua Dash Attraction/Manaphy/Manaphy"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Manaphy Friendship",
+                        "ref": "Gyarados' Aqua Dash Attraction/Manaphy/Manaphy Friendship"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Empoleon",
+                        "ref": "Gyarados' Aqua Dash Attraction/Empoleon/Empoleon"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Floatzel",
+                        "ref": "Gyarados' Aqua Dash Attraction/Floatzel/Floatzel"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Feraligatr",
+                        "ref": "Gyarados' Aqua Dash Attraction/Feraligatr/Feraligatr"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Golduck",
+                        "ref": "Gyarados' Aqua Dash Attraction/Golduck/Golduck"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Vaporeon",
+                        "ref": "Gyarados' Aqua Dash Attraction/Vaporeon/Vaporeon"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Prinplup",
+                        "ref": "Gyarados' Aqua Dash Attraction/Prinplup/Prinplup"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Bibarel",
+                        "ref": "Gyarados' Aqua Dash Attraction/Bibarel/Bibarel"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Buizel",
+                        "ref": "Gyarados' Aqua Dash Attraction/Buizel/Buizel"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Corsola",
+                        "ref": "Gyarados' Aqua Dash Attraction/Corsola/Corsola"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Piplup",
+                        "ref": "Gyarados' Aqua Dash Attraction/Piplup/Piplup"
+                    },
+                    {
+                        "name": "Gyarados' Aqua Dash Attraction -- Lotad",
+                        "ref": "Gyarados' Aqua Dash Attraction/Lotad/Lotad"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 610,
+                        "y": 670
+                    }
+                ]
+            },
+            {
+                "name": "Empoleon's Snow Slide Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Prisma",
+                        "ref": "Empoleon's Snow Slide Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Pikachu",
+                        "ref": "Empoleon's Snow Slide Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Teddiursa",
+                        "ref": "Empoleon's Snow Slide Attraction/Teddiursa/Teddiursa"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Magikarp",
+                        "ref": "Empoleon's Snow Slide Attraction/Magikarp/Magikarp"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Suicune",
+                        "ref": "Empoleon's Snow Slide Attraction/Suicune/Suicune"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Suicune Friendship",
+                        "ref": "Empoleon's Snow Slide Attraction/Suicune/Suicune Friendship"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Empoleon",
+                        "ref": "Empoleon's Snow Slide Attraction/Empoleon/Empoleon"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Glaceon",
+                        "ref": "Empoleon's Snow Slide Attraction/Glaceon/Glaceon"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Blastoise",
+                        "ref": "Empoleon's Snow Slide Attraction/Blastoise/Blastoise"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Glalie",
+                        "ref": "Empoleon's Snow Slide Attraction/Glalie/Glalie"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Lapras",
+                        "ref": "Empoleon's Snow Slide Attraction/Lapras/Lapras"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Delibird",
+                        "ref": "Empoleon's Snow Slide Attraction/Delibird/Delibird"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Piloswine",
+                        "ref": "Empoleon's Snow Slide Attraction/Piloswine/Piloswine"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Prinplup",
+                        "ref": "Empoleon's Snow Slide Attraction/Prinplup/Prinplup"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Squirtle",
+                        "ref": "Empoleon's Snow Slide Attraction/Squirtle/Squirtle"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Piplup",
+                        "ref": "Empoleon's Snow Slide Attraction/Piplup/Piplup"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Quagsire",
+                        "ref": "Empoleon's Snow Slide Attraction/Quagsire/Quagsire"
+                    },
+                    {
+                        "name": "Empoleon's Snow Slide Attraction -- Spheal",
+                        "ref": "Empoleon's Snow Slide Attraction/Spheal/Spheal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 110,
+                        "y": 630
+                    }
+                ]
+            },
+            {
+                "name": "Bastiodon's Panel Crush Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Prisma",
+                        "ref": "Bastiodon's Panel Crush Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Pikachu",
+                        "ref": "Bastiodon's Panel Crush Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Sableye",
+                        "ref": "Bastiodon's Panel Crush Attraction/Sableye/Sableye"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Meowth",
+                        "ref": "Bastiodon's Panel Crush Attraction/Meowth/Meowth"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Torchic",
+                        "ref": "Bastiodon's Panel Crush Attraction/Torchic/Torchic"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Metagross",
+                        "ref": "Bastiodon's Panel Crush Attraction/Metagross/Metagross"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Metagross Friendship",
+                        "ref": "Bastiodon's Panel Crush Attraction/Metagross/Metagross Friendship"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Electivire",
+                        "ref": "Bastiodon's Panel Crush Attraction/Electivire/Electivire"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Magmortar",
+                        "ref": "Bastiodon's Panel Crush Attraction/Magmortar/Magmortar"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Hitmonlee",
+                        "ref": "Bastiodon's Panel Crush Attraction/Hitmonlee/Hitmonlee"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Ursaring",
+                        "ref": "Bastiodon's Panel Crush Attraction/Ursaring/Ursaring"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Mr. Mime",
+                        "ref": "Bastiodon's Panel Crush Attraction/Mr. Mime/Mr. Mime"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Raichu",
+                        "ref": "Bastiodon's Panel Crush Attraction/Raichu/Raichu"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Sudowoodo",
+                        "ref": "Bastiodon's Panel Crush Attraction/Sudowoodo/Sudowoodo"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Charmander",
+                        "ref": "Bastiodon's Panel Crush Attraction/Charmander/Charmander"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Gible",
+                        "ref": "Bastiodon's Panel Crush Attraction/Gible/Gible"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Chimchar",
+                        "ref": "Bastiodon's Panel Crush Attraction/Chimchar/Chimchar"
+                    },
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction -- Magby",
+                        "ref": "Bastiodon's Panel Crush Attraction/Magby/Magby"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 80,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "name": "Rhyperior's Bumper Burn Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Prisma",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Pikachu",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Magnemite",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Magnemite/Magnemite"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Heatran",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Heatran/Heatran"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Heatran Friendship",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Heatran/Heatran Friendship"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Rhyperior",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Rhyperior/Rhyperior"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Tyranitar",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Tyranitar/Tyranitar"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Hitmontop",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Hitmontop/Hitmontop"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Flareon",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Flareon/Flareon"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Venusaur",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Venusaur/Venusaur"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Snorlax",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Snorlax/Snorlax"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Torterra",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Torterra/Torterra"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Magnezone",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Magnezone/Magnezone"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Claydol",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Claydol/Claydol"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Quilava",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Quilava/Quilava"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Torkoal",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Torkoal/Torkoal"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Baltoy",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Baltoy/Baltoy"
+                    },
+                    {
+                        "name": "Rhyperior's Bumper Burn Attraction -- Bonsly",
+                        "ref": "Rhyperior's Bumper Burn Attraction/Bonsly/Bonsly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 200,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Blaziken's Boulder Bash Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Prisma",
+                        "ref": "Blaziken's Boulder Bash Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Pikachu",
+                        "ref": "Blaziken's Boulder Bash Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Geodude",
+                        "ref": "Blaziken's Boulder Bash Attraction/Geodude/Geodude"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Phanpy",
+                        "ref": "Blaziken's Boulder Bash Attraction/Phanpy/Phanpy"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Groudon",
+                        "ref": "Blaziken's Boulder Bash Attraction/Groudon/Groudon"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Groudon Friendship",
+                        "ref": "Blaziken's Boulder Bash Attraction/Groudon/Groudon Friendship"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Blaziken",
+                        "ref": "Blaziken's Boulder Bash Attraction/Blaziken/Blaziken"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Garchomp",
+                        "ref": "Blaziken's Boulder Bash Attraction/Garchomp/Garchomp"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Scizor",
+                        "ref": "Blaziken's Boulder Bash Attraction/Scizor/Scizor"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Magmortar",
+                        "ref": "Blaziken's Boulder Bash Attraction/Magmortar/Magmortar"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Hitmonchan",
+                        "ref": "Blaziken's Boulder Bash Attraction/Hitmonchan/Hitmonchan"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Machamp",
+                        "ref": "Blaziken's Boulder Bash Attraction/Machamp/Machamp"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Marowak",
+                        "ref": "Blaziken's Boulder Bash Attraction/Marowak/Marowak"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Farfetch'd",
+                        "ref": "Blaziken's Boulder Bash Attraction/Farfetch'd/Farfetch'd"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Cranidos",
+                        "ref": "Blaziken's Boulder Bash Attraction/Cranidos/Cranidos"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Camerupt",
+                        "ref": "Blaziken's Boulder Bash Attraction/Camerupt/Camerupt"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Bastiodon",
+                        "ref": "Blaziken's Boulder Bash Attraction/Bastiodon/Bastiodon"
+                    },
+                    {
+                        "name": "Blaziken's Boulder Bash Attraction -- Mawile",
+                        "ref": "Blaziken's Boulder Bash Attraction/Mawile/Mawile"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 240,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Tangrowth's Swing-Along Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Prisma",
+                        "ref": "Tangrowth's Swing-Along Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Pikachu",
+                        "ref": "Tangrowth's Swing-Along Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Meowth",
+                        "ref": "Tangrowth's Swing-Along Attraction/Meowth/Meowth"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Pichu",
+                        "ref": "Tangrowth's Swing-Along Attraction/Pichu/Pichu"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Celebi",
+                        "ref": "Tangrowth's Swing-Along Attraction/Celebi/Celebi"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Celebi Friendship",
+                        "ref": "Tangrowth's Swing-Along Attraction/Celebi/Celebi Friendship"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Lucario",
+                        "ref": "Tangrowth's Swing-Along Attraction/Lucario/Lucario"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Infernape",
+                        "ref": "Tangrowth's Swing-Along Attraction/Infernape/Infernape"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Blaziken",
+                        "ref": "Tangrowth's Swing-Along Attraction/Blaziken/Blaziken"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Riolu",
+                        "ref": "Tangrowth's Swing-Along Attraction/Riolu/Riolu"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Sneasel",
+                        "ref": "Tangrowth's Swing-Along Attraction/Sneasel/Sneasel"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Raichu",
+                        "ref": "Tangrowth's Swing-Along Attraction/Raichu/Raichu"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Ambipom",
+                        "ref": "Tangrowth's Swing-Along Attraction/Ambipom/Ambipom"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Primeape",
+                        "ref": "Tangrowth's Swing-Along Attraction/Primeape/Primeape"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Aipom",
+                        "ref": "Tangrowth's Swing-Along Attraction/Aipom/Aipom"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Electabuzz",
+                        "ref": "Tangrowth's Swing-Along Attraction/Electabuzz/Electabuzz"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Chimchar",
+                        "ref": "Tangrowth's Swing-Along Attraction/Chimchar/Chimchar"
+                    },
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction -- Croagunk",
+                        "ref": "Tangrowth's Swing-Along Attraction/Croagunk/Croagunk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 660,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Dusknoir's Speed Slam Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Prisma",
+                        "ref": "Dusknoir's Speed Slam Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Pikachu",
+                        "ref": "Dusknoir's Speed Slam Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Stunky",
+                        "ref": "Dusknoir's Speed Slam Attraction/Stunky/Stunky"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Darkrai",
+                        "ref": "Dusknoir's Speed Slam Attraction/Darkrai/Darkrai"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Darkrai Friendship",
+                        "ref": "Dusknoir's Speed Slam Attraction/Darkrai/Darkrai Friendship"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Gengar",
+                        "ref": "Dusknoir's Speed Slam Attraction/Gengar/Gengar"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Mismagius",
+                        "ref": "Dusknoir's Speed Slam Attraction/Mismagius/Mismagius"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Scizor",
+                        "ref": "Dusknoir's Speed Slam Attraction/Scizor/Scizor"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Espeon",
+                        "ref": "Dusknoir's Speed Slam Attraction/Espeon/Espeon"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Dusknoir",
+                        "ref": "Dusknoir's Speed Slam Attraction/Dusknoir/Dusknoir"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Umbreon",
+                        "ref": "Dusknoir's Speed Slam Attraction/Umbreon/Umbreon"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Cranidos",
+                        "ref": "Dusknoir's Speed Slam Attraction/Cranidos/Cranidos"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Skuntank",
+                        "ref": "Dusknoir's Speed Slam Attraction/Skuntank/Skuntank"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Voltorb",
+                        "ref": "Dusknoir's Speed Slam Attraction/Voltorb/Voltorb"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Gastly",
+                        "ref": "Dusknoir's Speed Slam Attraction/Gastly/Gastly"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Duskull",
+                        "ref": "Dusknoir's Speed Slam Attraction/Duskull/Duskull"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Misdreavus",
+                        "ref": "Dusknoir's Speed Slam Attraction/Misdreavus/Misdreavus"
+                    },
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction -- Krabby",
+                        "ref": "Dusknoir's Speed Slam Attraction/Krabby/Krabby"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 730,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Rotom's Spooky Shoot-'em-Up Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Prisma",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Pikachu",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magnemite",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Magnemite/Magnemite"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Rotom",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Rotom/Rotom"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Rotom Friendship",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Rotom/Rotom Friendship"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Porygon-Z",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Porygon-Z/Porygon-Z"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magnezone",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Magnezone/Magnezone"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Gengar",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Gengar/Gengar"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Magmortar",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Magmortar/Magmortar"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Electivire",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Electivire/Electivire"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Mismagius",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Mismagius/Mismagius"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Claydol",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Claydol/Claydol"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Electabuzz",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Electabuzz/Electabuzz"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Haunter",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Haunter/Haunter"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Abra",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Abra/Abra"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Elekid",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Elekid/Elekid"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Mr. Mime",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Mr. Mime/Mr. Mime"
+                    },
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction -- Baltoy",
+                        "ref": "Rotom's Spooky Shoot-'em-Up Attraction/Baltoy/Baltoy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 680,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Absol's Hurdle Bounce Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Prisma",
+                        "ref": "Absol's Hurdle Bounce Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Pikachu",
+                        "ref": "Absol's Hurdle Bounce Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Chikorita",
+                        "ref": "Absol's Hurdle Bounce Attraction/Chikorita/Chikorita"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Shaymin",
+                        "ref": "Absol's Hurdle Bounce Attraction/Shaymin/Shaymin"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Shaymin Friendship",
+                        "ref": "Absol's Hurdle Bounce Attraction/Shaymin/Shaymin Friendship"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Absol",
+                        "ref": "Absol's Hurdle Bounce Attraction/Absol/Absol"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Lucario",
+                        "ref": "Absol's Hurdle Bounce Attraction/Lucario/Lucario"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Ponyta",
+                        "ref": "Absol's Hurdle Bounce Attraction/Ponyta/Ponyta"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Ninetales",
+                        "ref": "Absol's Hurdle Bounce Attraction/Ninetales/Ninetales"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Lopunny",
+                        "ref": "Absol's Hurdle Bounce Attraction/Lopunny/Lopunny"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Espeon",
+                        "ref": "Absol's Hurdle Bounce Attraction/Espeon/Espeon"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Infernape",
+                        "ref": "Absol's Hurdle Bounce Attraction/Infernape/Infernape"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Breloom",
+                        "ref": "Absol's Hurdle Bounce Attraction/Breloom/Breloom"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Riolu",
+                        "ref": "Absol's Hurdle Bounce Attraction/Riolu/Riolu"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Furret",
+                        "ref": "Absol's Hurdle Bounce Attraction/Furret/Furret"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Mareep",
+                        "ref": "Absol's Hurdle Bounce Attraction/Mareep/Mareep"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Eevee",
+                        "ref": "Absol's Hurdle Bounce Attraction/Eevee/Eevee"
+                    },
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction -- Vulpix",
+                        "ref": "Absol's Hurdle Bounce Attraction/Vulpix/Vulpix"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 600,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Salamence's Sky Race Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Prisma",
+                        "ref": "Salamence's Sky Race Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Pikachu",
+                        "ref": "Salamence's Sky Race Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Latios",
+                        "ref": "Salamence's Sky Race Attraction/Latios/Latios"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Latios Friendship",
+                        "ref": "Salamence's Sky Race Attraction/Latios/Latios Friendship"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Salamence",
+                        "ref": "Salamence's Sky Race Attraction/Salamence/Salamence"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Charizard",
+                        "ref": "Salamence's Sky Race Attraction/Charizard/Charizard"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Dragonite",
+                        "ref": "Salamence's Sky Race Attraction/Dragonite/Dragonite"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Flygon",
+                        "ref": "Salamence's Sky Race Attraction/Flygon/Flygon"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Aerodactyl",
+                        "ref": "Salamence's Sky Race Attraction/Aerodactyl/Aerodactyl"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Staraptor",
+                        "ref": "Salamence's Sky Race Attraction/Staraptor/Staraptor"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Honchkrow",
+                        "ref": "Salamence's Sky Race Attraction/Honchkrow/Honchkrow"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Gliscor",
+                        "ref": "Salamence's Sky Race Attraction/Gliscor/Gliscor"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Pidgeotto",
+                        "ref": "Salamence's Sky Race Attraction/Pidgeotto/Pidgeotto"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Togekiss",
+                        "ref": "Salamence's Sky Race Attraction/Togekiss/Togekiss"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Golbat",
+                        "ref": "Salamence's Sky Race Attraction/Golbat/Golbat"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Taillow",
+                        "ref": "Salamence's Sky Race Attraction/Taillow/Taillow"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Murkrow",
+                        "ref": "Salamence's Sky Race Attraction/Murkrow/Murkrow"
+                    },
+                    {
+                        "name": "Salamence's Sky Race Attraction -- Zubat",
+                        "ref": "Salamence's Sky Race Attraction/Zubat/Zubat"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 420,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Rayquaza's Balloon Panic Attraction - Overview",
+                "sections": [
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Prisma",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Pikachu/Prisma"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Pikachu",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Pikachu/Pikachu"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Deoxys",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Deoxys/Deoxys"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Deoxys Friendship",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Deoxys/Deoxys Friendship"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Lucario",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Lucario/Lucario"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Glaceon",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Glaceon/Glaceon"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Luxray",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Luxray/Luxray"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mamoswine",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Mamoswine/Mamoswine"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Infernape",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Infernape/Infernape"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Floatzel",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Floatzel/Floatzel"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Rhyperior",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Rhyperior/Rhyperior"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Absol",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Absol/Absol"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Breloom",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Breloom/Breloom"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mareep",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Mareep/Mareep"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Cyndaquil",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Cyndaquil/Cyndaquil"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Totodile",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Totodile/Totodile"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Chikorita",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Chikorita/Chikorita"
+                    },
+                    {
+                        "name": "Rayquaza's Balloon Panic Attraction -- Mime Jr.",
+                        "ref": "Rayquaza's Balloon Panic Attraction/Mime Jr./Mime Jr."
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overview",
+                        "x": 470,
+                        "y": 70
+                    }
+                ]
+            }
+        ]
+    }
+]
