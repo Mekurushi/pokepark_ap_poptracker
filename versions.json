@@ -51,6 +51,14 @@
                 "added overview tab",
                 "increased glaceon requirement"
             ]
+        },
+        {
+            "package_version": "1.2.2",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.2.2/pokepark_ap_poptracker.zip",
+            "sha256": "d54219ca448a785c04b75317b56e9d8e13b317bfe8f6350f842c752e1f9a0ea9",
+            "changelog": [
+                "fixed flareon location rule"
+            ]
         }
     ]
 }
