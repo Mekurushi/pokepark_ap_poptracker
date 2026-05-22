@@ -293,6 +293,11 @@ end
 function hasEnoughFriendshipGlaceon()
     return hasEnoughPokemonFriendships(50)
 end
+
+function hasEnoughFriendshipFlareon()
+    return hasEnoughPokemonFriendships(60)
+end
+
 function hasEnoughFriendshipUmbreon()
     return hasEnoughPokemonFriendships(75)
 end

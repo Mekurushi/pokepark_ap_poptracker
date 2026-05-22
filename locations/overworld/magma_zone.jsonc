@@ -421,7 +421,7 @@
                     {
                         "name": "Flareon Battle Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBattleIntermediate], $canBattleGlitched"
+                            "[$canBattleIntermediate], $canBattleGlitched, $hasEnoughFriendshipFlareon"
                         ],
                         "visibility_rules": [
                             "$battle_locations_activated"
