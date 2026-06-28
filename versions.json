@@ -59,6 +59,14 @@
             "changelog": [
                 "fixed flareon location rule"
             ]
+        },
+        {
+            "package_version": "1.2.3",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.2.3/pokepark_ap_poptracker.zip",
+            "sha256": "3b7d49e8311c390ace710def69e5507898ac3e8d6ee768a5eb46d25e91108f76",
+            "changelog": [
+                "fixed rhyperior bumper burn auto swap + pokepark entrance auto swap"
+            ]
         }
     ]
 }
