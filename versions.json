@@ -67,6 +67,14 @@
             "changelog": [
                 "fixed rhyperior bumper burn auto swap + pokepark entrance auto swap"
             ]
+        },
+        {
+            "package_version": "1.2.4",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.2.4/pokepark_ap_poptracker.zip",
+            "sha256": "765b03e74c961f0bc9c8cf1aeb71f4018a9fc4fec4530ff1f29524d8531d160b",
+            "changelog": [
+                "fixed buggy attraction randomizer entrance logic"
+            ]
         }
     ]
 }
