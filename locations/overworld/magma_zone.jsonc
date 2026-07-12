@@ -313,8 +313,7 @@
     {
         "name": "Magma Zone Blaziken Area",
         "access_rules": [
-            "@MagmaZoneBlaziken_MainGate_Exit",
-            "@MagmaZoneBlaziken_BlazikenAttraction_Exit"
+            "@MagmaZoneBlaziken_MainGate_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",
@@ -347,8 +346,7 @@
         "name": "Magma Zone Circle Area",
         "access_rules": [
             "@MagmaZoneCircle_MainFireWall_Exit",
-            "@MagmaZoneCircle_BlazikenBridge_Exit",
-            "@MagmaZoneCircle_RhyperiorAttraction_Exit"
+            "@MagmaZoneCircle_BlazikenBridge_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",

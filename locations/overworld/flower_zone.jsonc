@@ -10,8 +10,7 @@
             "@FlowerZoneMain_CavernDrifblim_Exit",
             "@FlowerZoneMain_MagmaDrifblim_Exit",
             "@FlowerZoneMain_HauntedDrifblim_Exit",
-            "@FlowerZoneMain_GraniteDrifblim_Exit",
-            "@FlowerZoneMain_RayquazaAttraction_Exit"
+            "@FlowerZoneMain_GraniteDrifblim_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",

@@ -11,8 +11,7 @@
             "@CavernZoneMain_MagmaDrifblim_Exit",
             "@CavernZoneMain_HauntedDrifblim_Exit",
             "@CavernZoneMain_GraniteDrifblim_Exit",
-            "@CavernZoneMain_FlowerDrifblim_Exit",
-            "@CavernZoneMain_BastiodonAttraction_Exit"
+            "@CavernZoneMain_FlowerDrifblim_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",
