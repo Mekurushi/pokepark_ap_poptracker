@@ -4,8 +4,6 @@
         "access_rules": [
             "@GraniteZoneMain_TreehouseGate_Exit",
             "@GraniteZoneMain_FlowerGate_Exit",
-            "@GraniteZoneMain_AbsolAttraction_Exit",
-            "@GraniteZoneMain_SalamenceAttraction_Exit",
             "@GraniteZoneMain_TreehouseDrifblim_Exit",
             "@GraniteZoneMain_MeadowDrifblim_Exit",
             "@GraniteZoneMain_BeachDrifblim_Exit",

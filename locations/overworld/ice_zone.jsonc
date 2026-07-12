@@ -472,8 +472,7 @@
     {
         "name": "Ice Zone Empoleon Area",
         "access_rules": [
-            "@IceZoneEmpoleon_MainGate_Exit",
-            "@IceZoneEmpoleon_EmpoleonAttraction_Exit"
+            "@IceZoneEmpoleon_MainGate_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",

@@ -12,8 +12,7 @@
             "@MeadowZoneMain_HauntedDrifblim_Exit",
             "@MeadowZoneMain_MagmaDrifblim_Exit",
             "@MeadowZoneMain_GraniteDrifblim_Exit",
-            "@MeadowZoneMain_FlowerDrifblim_Exit",
-            "@MeadowZoneMain_BulbasaurAttraction_Exit"
+            "@MeadowZoneMain_FlowerDrifblim_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",
@@ -665,8 +664,7 @@
     {
         "name": "Meadow Zone Venusaur Area",
         "access_rules": [
-            "@MeadowZoneVenusaur_MainGate_Exit",
-            "@MeadowZoneVenusaur_VenusaurAttraction_Exit"
+            "@MeadowZoneVenusaur_MainGate_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",

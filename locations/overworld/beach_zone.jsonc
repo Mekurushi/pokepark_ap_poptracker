@@ -12,7 +12,6 @@
             "@BeachZoneMain_GraniteDrifblim_Exit",
             "@BeachZoneMain_FlowerDrifblim_Exit",
             "@BeachZoneMain_LaprasRock_Exit",
-            "@BeachZoneMain_PelipperAttraction_Exit",
             "@BeachZoneMain_RecycleBridge_Exit",
             "@BeachZoneMain_MiddleBridge_Exit"
         ],
@@ -377,8 +376,7 @@
     {
         "name": "Beach Zone Recycle Area",
         "access_rules": [
-            "@BeachZoneRecycle_MainBridge_Exit",
-            "@BeachZoneRecycle_GyaradosAttraction_Exit"
+            "@BeachZoneRecycle_MainBridge_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",

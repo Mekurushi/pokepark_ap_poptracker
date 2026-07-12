@@ -11,7 +11,6 @@
             "@HauntedZoneMain_MagmaDrifblim_Exit",
             "@HauntedZoneMain_GraniteDrifblim_Exit",
             "@HauntedZoneMain_FlowerDrifblim_Exit",
-            "@HauntedZoneMain_TangrowthAttraction_Exit",
             "@HauntedZoneMain_MansionGate_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
@@ -270,8 +269,7 @@
             "@HauntedZoneMansion_WhiteGemDoor_Exit",
             "@HauntedZoneMansion_RedGemDoor_Exit",
             "@HauntedZoneMansion_BlueGemDoor_Exit",
-            "@HauntedZoneMansion_GreenGemDoor_Exit",
-            "@HauntedZoneMansion_DusknoirAttraction_Exit"
+            "@HauntedZoneMansion_GreenGemDoor_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",
@@ -776,8 +774,7 @@
     {
         "name": "Haunted Zone Rotom Area",
         "access_rules": [
-            "@HauntedZoneRotom_SecretConnection_Exit",
-            "@HauntedZoneRotom_RotomAttraction_Exit"
+            "@HauntedZoneRotom_SecretConnection_Exit"
         ]
     },
     {
