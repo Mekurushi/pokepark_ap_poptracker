@@ -2,7 +2,9 @@
     {
         "name": "TreehouseMeadow_MeadowConnection_Entrance",
         "parent": "Treehouse",
-        "access_rules": [],
+        "access_rules": [
+            "{}"
+        ],
         "children": [
             {
                 "name": "Treehouse Meadow Passage - Meadow Zone Connection",
@@ -29,7 +31,9 @@
         "name": "TreehouseMeadow_MeadowGate_Entrance",
         "parent": "Treehouse - Meadow Zone",
         "sections": [],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "Treehouse_MeadowGate_Entrance",
@@ -55,12 +59,16 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "TreehouseBeach_BeachConnection_Entrance",
         "parent": "Treehouse - Beach Zone",
-        "access_rules": [],
+        "access_rules": [
+            "{}"
+        ],
         "children": [
             {
                 "name": "Treehouse Beach Passage - Beach Zone Connection",
@@ -87,7 +95,7 @@
         "name": "TreehouseBeach_BeachGate_Entrance",
         "parent": "Treehouse - Beach Zone",
         "access_rules": [
-            "venusaur_prisma_activated"
+            "{venusaur_prisma_activated}"
         ],
         "children": [
             {
@@ -121,7 +129,7 @@
         "parent": "Treehouse",
         "sections": [],
         "access_rules": [
-            "venusaur_prisma_activated"
+            "{venusaur_prisma_activated}"
         ]
     },
     {
@@ -154,14 +162,14 @@
             }
         ],
         "access_rules": [
-            "empoleon_prisma_activated"
+            "{empoleon_prisma_activated}"
         ]
     },
     {
         "name": "TreehouseCavern_CavernGate_Entrance",
         "parent": "Treehouse - Cavern Zone",
         "access_rules": [
-            "empoleon_prisma_activated"
+            "{empoleon_prisma_activated}"
         ]
     },
     {
@@ -188,14 +196,16 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "TreehouseHaunted_HauntedGate_Entrance",
         "parent": "Treehouse - Haunted Zone",
         "sections": [],
         "access_rules": [
-            "blaziken_prisma_activated"
+            "{blaziken_prisma_activated}"
         ]
     },
     {
@@ -228,7 +238,7 @@
             }
         ],
         "access_rules": [
-            "blaziken_prisma_activated"
+            "{blaziken_prisma_activated}"
         ]
     },
     {
@@ -255,14 +265,16 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "TreehouseGranite_GraniteGate_Entrance",
         "parent": "Treehouse - Granite Zone",
         "sections": [],
         "access_rules": [
-            "rotom_prisma_activated"
+            "{rotom_prisma_activated}"
         ]
     },
     {
@@ -295,7 +307,7 @@
             }
         ],
         "access_rules": [
-            "rotom_prisma_activated"
+            "{rotom_prisma_activated}"
         ]
     },
     {
@@ -322,7 +334,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "Treehouse_PiplupBalloon_Entrance",
@@ -354,7 +368,7 @@
             }
         ],
         "access_rules": [
-            "$has_required_prismas"
+            "{$has_required_prismas}"
         ]
     },
     {
@@ -412,7 +426,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -442,7 +456,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -472,7 +486,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -502,7 +516,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -532,7 +546,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -562,7 +576,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -592,7 +606,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -622,7 +636,7 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     }
 ]

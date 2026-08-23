@@ -24,7 +24,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneMain_MansionGate_Entrance",
@@ -57,7 +59,7 @@
             }
         ],
         "access_rules": [
-            "tangrowth_prisma_activated"
+            "{tangrowth_prisma_activated}"
         ]
     },
     {
@@ -85,7 +87,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneMansion_WhiteGemDoor_Entrance",
@@ -118,14 +122,14 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
         "name": "HauntedZoneBallroom_WhiteGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Ballroom Area",
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
@@ -166,14 +170,14 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
         "name": "HauntedZoneStudy_RedGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Study Area",
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
@@ -214,14 +218,14 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
         "name": "HauntedZoneGengar_BlueGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Gengar Area",
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
@@ -262,14 +266,14 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
         "name": "HauntedZoneAntic_GreenGemDoor_Entrance",
         "parent": "Haunted Zone Mansion Antic Area",
         "access_rules": [
-            "haunted_zone_mansion_doors_unlock"
+            "{haunted_zone_mansion_doors_unlock}"
         ]
     },
     {
@@ -303,7 +307,7 @@
             }
         ],
         "access_rules": [
-            "dusknoir_prisma_activated"
+            "{dusknoir_prisma_activated}"
         ]
     },
     {
@@ -331,7 +335,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneRotom_SecretConnection_Entrance",
@@ -358,19 +364,23 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneSecret_Bookshelf_Entrance",
         "parent": "Haunted Zone Secret Area",
         "access_rules": [
-            "dusknoir_prisma_activated"
+            "{dusknoir_prisma_activated}"
         ]
     },
     {
         "name": "TangrowthAttraction_Tangrowth_Entrance",
         "parent": "Tangrowth's Swing-Along Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneMain_TangrowthAttraction_Entrance",
@@ -397,12 +407,16 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "DusknoirAttraction_Dusknoir_Entrance",
         "parent": "Dusknoir's Speed Slam Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneMansion_DusknoirAttraction_Entrance",
@@ -435,13 +449,15 @@
             }
         ],
         "access_rules": [
-            "dusknoir_unlock"
+            "{dusknoir_unlock}"
         ]
     },
     {
         "name": "RotomAttraction_Rotom_Entrance",
         "parent": "Rotom's Spooky Shoot-'em-Up Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneRotom_RotomAttraction_Entrance",
@@ -474,7 +490,7 @@
             }
         ],
         "access_rules": [
-            "$canAccessRotomMinigame"
+            "{$canAccessRotomMinigame}"
         ]
     },
     {
@@ -530,7 +546,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "HauntedZoneMain_MeadowDrifblim_Entrance",
@@ -559,7 +577,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -589,7 +607,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -619,7 +637,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -649,7 +667,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -679,7 +697,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -709,7 +727,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -739,7 +757,7 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     }
 ]

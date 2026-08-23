@@ -29,7 +29,7 @@
             }
         ],
         "access_rules": [
-            "bulbasaur_prisma_activated"
+            "{bulbasaur_prisma_activated}"
         ]
     },
     {
@@ -56,7 +56,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MeadowZoneMain_TreehouseGate_Entrance",
@@ -82,7 +84,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MeadowZoneMain_TreehouseDrifblim_Entrance",
@@ -137,7 +141,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MeadowZoneMain_BeachDrifblim_Entrance",
@@ -166,7 +172,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -196,7 +202,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -226,7 +232,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -256,7 +262,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -286,7 +292,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -316,7 +322,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -346,7 +352,7 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     },
     {
@@ -374,17 +380,23 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "BulbasaurAttraction_Bulbasaur_Entrance",
         "parent": "Bulbasaur's Daring Dash Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "VenusaurAttraction_Venusaur_Entrance",
         "parent": "Venusaur's Vine Swing Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MeadowZoneMain_BulbasaurAttraction_Entrance",
@@ -411,7 +423,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MeadowZoneVenusaur_VenusaurAttraction_Entrance",
@@ -438,6 +452,8 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     }
 ]
