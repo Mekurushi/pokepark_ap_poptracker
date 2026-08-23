@@ -75,6 +75,18 @@
             "changelog": [
                 "fixed buggy attraction randomizer entrance logic"
             ]
+        },
+        {
+            "package_version": "1.2.5",
+            "download_url": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/download/1.2.5/pokepark_ap_poptracker.zip",
+            "sha256": "b438d0ea5bea39080aca358667bade1c6eef489604f7dc53b7dc6795c4d1cbe7",
+            "changelog": [
+                "synchronized tracker logic and mappings with PokePark AP world 1.2.5",
+                "fixed various attraction logic",
+                "fixed Glalie, Starly, Gyarados, Rayquaza, Voltorb, and berry farming logic or references",
+                "fixed overview and Universal Tracker location references",
+                "added attraction exit locations and visualized entrance scout locations"
+            ]
         }
     ]
 }
