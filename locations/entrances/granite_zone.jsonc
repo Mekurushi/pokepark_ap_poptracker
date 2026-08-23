@@ -60,6 +60,28 @@
     {
         "name": "AbsolAttraction_Absol_Entrance",
         "parent": "Absol's Hurdle Bounce Attraction",
+        "children": [
+            {
+                "name": "Absol's Hurdle Bounce Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Absol's Hurdle Bounce Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Absol's Hurdle Bounce Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
@@ -96,6 +118,28 @@
     {
         "name": "SalamenceAttraction_Salamence_Entrance",
         "parent": "Salamence's Sky Race Attraction",
+        "children": [
+            {
+                "name": "Salamence's Sky Race Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Salamence's Sky Race Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Salamence's Sky Race Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]

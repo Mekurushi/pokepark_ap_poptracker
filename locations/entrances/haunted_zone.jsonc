@@ -378,6 +378,28 @@
     {
         "name": "TangrowthAttraction_Tangrowth_Entrance",
         "parent": "Tangrowth's Swing-Along Attraction",
+        "children": [
+            {
+                "name": "Tangrowth's Swing-Along Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Tangrowth's Swing-Along Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tangrowth's Swing-Along Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
@@ -414,6 +436,28 @@
     {
         "name": "DusknoirAttraction_Dusknoir_Entrance",
         "parent": "Dusknoir's Speed Slam Attraction",
+        "children": [
+            {
+                "name": "Dusknoir's Speed Slam Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Dusknoir's Speed Slam Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Dusknoir's Speed Slam Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
@@ -455,6 +499,28 @@
     {
         "name": "RotomAttraction_Rotom_Entrance",
         "parent": "Rotom's Spooky Shoot-'em-Up Attraction",
+        "children": [
+            {
+                "name": "Rotom's Spooky Shoot-'em-Up Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Rotom's Spooky Shoot-'em-Up Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rotom's Spooky Shoot-'em-Up Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
