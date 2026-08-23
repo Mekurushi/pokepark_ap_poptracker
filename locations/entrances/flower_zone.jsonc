@@ -24,12 +24,16 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "RayquazaAttraction_Rayquaza_Entrance",
         "parent": "Flower Zone Main Area",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "FlowerZoneMain_RayquazaAttraction_Entrance",
@@ -57,7 +61,7 @@
             }
         ],
         "access_rules": [
-            "rayquaza_unlock"
+            "{rayquaza_unlock}"
         ]
     },
     {
@@ -113,7 +117,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "FlowerZoneMain_MeadowDrifblim_Entrance",
@@ -142,7 +148,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -172,7 +178,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -202,7 +208,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -232,7 +238,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -262,7 +268,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -292,7 +298,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -322,7 +328,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     }
 ]

@@ -24,13 +24,15 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneCircle_MainFireWall_Entrance",
         "parent": "Magma Zone Circle Area",
         "access_rules": [
-            "magma_zone_firewall_unlock"
+            "{magma_zone_firewall_unlock}"
         ]
     },
     {
@@ -71,7 +73,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_firewall_unlock"
+            "{magma_zone_firewall_unlock}"
         ]
     },
     {
@@ -99,7 +101,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneMagcargo_BlazikenGate_Entrance",
@@ -126,13 +130,15 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneMagcargo_BlazikenBridge_Entrance",
         "parent": "Magma Zone Magcargo Area",
         "access_rules": [
-            "rhyperior_prisma_activated"
+            "{rhyperior_prisma_activated}"
         ]
     },
     {
@@ -166,7 +172,7 @@
             }
         ],
         "access_rules": [
-            "rhyperior_prisma_activated"
+            "{rhyperior_prisma_activated}"
         ]
     },
     {
@@ -222,7 +228,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneMain_MeadowDrifblim_Entrance",
@@ -251,7 +259,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -281,7 +289,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -311,7 +319,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -341,7 +349,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -371,7 +379,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -401,7 +409,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -431,13 +439,15 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     },
     {
         "name": "RhyperiorAttraction_Rhyperior_Entrance",
         "parent": "Rhyperior's Bumper Burn Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneCircle_RhyperiorAttraction_Entrance",
@@ -464,12 +474,16 @@
             }
         ],
         "parent": "Magma Zone Circle Area",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "BlazikenAttraction_Blaziken_Entrance",
         "parent": "Blaziken's Boulder Bash Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "MagmaZoneBlaziken_BlazikenAttraction_Entrance",
@@ -496,6 +510,8 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     }
 ]

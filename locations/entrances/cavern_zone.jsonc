@@ -24,7 +24,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "CavernZoneMain_BastiodonAttraction_Entrance",
@@ -57,13 +59,15 @@
             }
         ],
         "access_rules": [
-            "$canAccessBastiodonMinigame"
+            "{$canAccessBastiodonMinigame}"
         ]
     },
     {
         "name": "BastiodonAttraction_Bastiodon_Entrance",
         "parent": "Bastiodon's Panel Crush Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "CavernZoneMain_TreehouseDrifblim_Entrance",
@@ -118,7 +122,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "CavernZoneMain_MeadowDrifblim_Entrance",
@@ -147,7 +153,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -177,7 +183,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -207,7 +213,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_fast_travel"
+            "{ice_zone_fast_travel}"
         ]
     },
     {
@@ -237,7 +243,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -267,7 +273,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -297,7 +303,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -327,7 +333,7 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     },
     {
@@ -361,7 +367,7 @@
         ],
         "parent": "Cavern Zone Main Area",
         "access_rules": [
-            "bastiodon_prisma_activated"
+            "{bastiodon_prisma_activated}"
         ]
     }
 ]

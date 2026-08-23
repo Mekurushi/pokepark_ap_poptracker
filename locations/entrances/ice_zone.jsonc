@@ -24,7 +24,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "IceZoneLower_LowerLift_Entrance",
@@ -57,7 +59,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_lift_unlock"
+            "{ice_zone_lift_unlock}"
         ]
     },
     {
@@ -91,14 +93,14 @@
             }
         ],
         "access_rules": [
-            "ice_zone_lift_unlock"
+            "{ice_zone_lift_unlock}"
         ]
     },
     {
         "name": "IceZoneLake_MainLake_Entrance",
         "parent": "Ice Zone Frozen Lake Area",
         "access_rules": [
-            "ice_zone_frozen_lake_unlock"
+            "{ice_zone_frozen_lake_unlock}"
         ]
     },
     {
@@ -132,7 +134,7 @@
             }
         ],
         "access_rules": [
-            "ice_zone_frozen_lake_unlock"
+            "{ice_zone_frozen_lake_unlock}"
         ]
     },
     {
@@ -160,7 +162,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "IceZoneMain_EmpoleonGate_Entrance",
@@ -193,13 +197,15 @@
             }
         ],
         "access_rules": [
-            "gyarados_prisma_activated"
+            "{gyarados_prisma_activated}"
         ]
     },
     {
         "name": "EmpoleonAttraction_Empoleon_Entrance",
         "parent": "Empoleon's Snow Slide Attraction",
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "IceZoneEmpoleon_EmpoleonAttraction_Entrance",
@@ -226,7 +232,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "IceZoneMain_TreehouseDrifblim_Entrance",
@@ -281,7 +289,9 @@
                 ]
             }
         ],
-        "access_rules": []
+        "access_rules": [
+            "{}"
+        ]
     },
     {
         "name": "IceZoneMain_MeadowDrifblim_Entrance",
@@ -310,7 +320,7 @@
             }
         ],
         "access_rules": [
-            "meadow_zone_fast_travel"
+            "{meadow_zone_fast_travel}"
         ]
     },
     {
@@ -340,7 +350,7 @@
             }
         ],
         "access_rules": [
-            "beach_zone_fast_travel"
+            "{beach_zone_fast_travel}"
         ]
     },
     {
@@ -370,7 +380,7 @@
             }
         ],
         "access_rules": [
-            "cavern_zone_fast_travel"
+            "{cavern_zone_fast_travel}"
         ]
     },
     {
@@ -400,7 +410,7 @@
             }
         ],
         "access_rules": [
-            "magma_zone_fast_travel"
+            "{magma_zone_fast_travel}"
         ]
     },
     {
@@ -430,7 +440,7 @@
             }
         ],
         "access_rules": [
-            "haunted_zone_fast_travel"
+            "{haunted_zone_fast_travel}"
         ]
     },
     {
@@ -460,7 +470,7 @@
             }
         ],
         "access_rules": [
-            "granite_zone_fast_travel"
+            "{granite_zone_fast_travel}"
         ]
     },
     {
@@ -490,7 +500,7 @@
             }
         ],
         "access_rules": [
-            "flower_zone_fast_travel"
+            "{flower_zone_fast_travel}"
         ]
     }
 ]
