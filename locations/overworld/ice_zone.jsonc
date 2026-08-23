@@ -149,10 +149,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Errand - Friendship",
+                        "name": "Battle Power Competition - Friendship",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$errand_locations_activated"
+                            "$battle_locations_activated"
                         ],
                         "item_count": 1
                     },

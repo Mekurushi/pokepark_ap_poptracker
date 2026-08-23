@@ -125,9 +125,13 @@ function hasAny(items)
     return false
 end
 
+function getLocationAccessibility(location_name)
+    local location = Tracker:FindObjectForCode(location_name)
+    return location and location.AccessibilityLevel or 0
+end
+
 function canReachLocation(location_name)
-    local entrance = Tracker:FindObjectForCode(location_name)
-    return entrance.AccessibilityLevel
+    return getLocationAccessibility(location_name) > 0
 end
 
 function isHarderEnemyAI()
@@ -349,33 +353,33 @@ function canBeatAllVenusaurMinigame()
     return hasAll(vine_swing_pokemon_items)
 end
 
-local aqua_pokemon_items = {"surfboard", "psyduck", "azurill", "slowpoke", "empoleon", "floatzel", "feraligatr",
-                            "golduck", "vaporeon", "prinplup", "bibarel", "buizel", "corsola", "piplup", "lotad"}
+local aqua_pokemon_items = {"psyduck", "azurill", "slowpoke", "empoleon", "floatzel", "feraligatr", "golduck",
+                            "vaporeon", "prinplup", "bibarel", "buizel", "corsola", "piplup", "lotad"}
 
 function canBeatAnyGyaradosMinigame()
-    return hasAny(aqua_pokemon_items) or has("manaphy")
+    return has("surfboard") or hasAny(aqua_pokemon_items) or has("manaphy")
 end
 
 function canBeatAllGyaradosMinigame()
     return hasAll(aqua_pokemon_items)
 end
 
-local circle_pokemon_items = {"balloon", "staraptor", "togekiss", "honchkrow", "gliscor", "pelipper", "staravia",
-                              "pidgeotto", "butterfree", "tropius", "murkrow", "taillow", "spearow", "starly", "wingull"}
+local circle_pokemon_items = {"staraptor", "togekiss", "honchkrow", "gliscor", "pelipper", "staravia", "pidgeotto",
+                              "butterfree", "tropius", "murkrow", "taillow", "spearow", "starly", "wingull"}
 
 function canBeatAnyPelipperMinigame()
-    return hasAny(circle_pokemon_items) or has("latias")
+    return has("balloon") or hasAny(circle_pokemon_items) or has("latias")
 end
 
 function canBeatAllPelipperMinigame()
     return hasAll(circle_pokemon_items)
 end
 
-local slide_pokemon_items = {"snowboard", "teddiursa", "magikarp", "empoleon", "glaceon", "blastoise", "glalie",
-                             "lapras", "delibird", "piloswine", "prinplup", "squirtle", "piplup", "quagsire", "spheal"}
+local slide_pokemon_items = {"teddiursa", "magikarp", "empoleon", "glaceon", "blastoise", "glalie", "lapras",
+                             "delibird", "piloswine", "prinplup", "squirtle", "piplup", "quagsire", "spheal"}
 
 function canBeatAnyEmpoleonMinigame()
-    return hasAny(slide_pokemon_items) or has("suicune")
+    return has("snowboard") or hasAny(slide_pokemon_items) or has("suicune")
 end
 
 function canBeatAllEmpoleonMinigame()
@@ -427,7 +431,7 @@ function canBeatAllTangrowthMinigame()
 end
 
 local slam_pokemon_items = {"stunky", "gengar", "mismagius", "scizor", "espeon", "dusknoir", "umbreon", "cranidos",
-                            "skuntank", "electrode", "gastly", "duskull", "misdreavus", "krabby"}
+                            "skuntank", "voltorb", "gastly", "duskull", "misdreavus", "krabby"}
 
 function canBeatAnyDusknoirMinigame()
     return hasAny(slam_pokemon_items) or has("darkrai")
@@ -458,11 +462,11 @@ function canBeatAllAbsolMinigame()
     return hasAll(hurdle_pokemon_items)
 end
 
-local sky_pokemon_items = {"balloon", "salamence", "charizard", "dragonite", "flygon", "aerodactyl", "staraptor",
-                           "honchkrow", "gliscor", "pidgeotto", "togekiss", "golbat", "taillow", "murkrow", "zubat"}
+local sky_pokemon_items = {"salamence", "charizard", "dragonite", "flygon", "aerodactyl", "staraptor", "honchkrow",
+                           "gliscor", "pidgeotto", "togekiss", "golbat", "taillow", "murkrow", "zubat"}
 
 function canBeatAnySalamenceMinigame()
-    return hasAny(sky_pokemon_items) or has("latios")
+    return has("balloon") or hasAny(sky_pokemon_items) or has("latios")
 end
 
 function canBeatAllSalamenceMinigame()
@@ -473,11 +477,11 @@ local balloon_pokemon_items = {"lucario", "glaceon", "luxray", "mamoswine", "inf
                                "absol", "breloom", "mareep", "cyndaquil", "totodile", "chikorita", "mimejr"}
 
 function canBeatAnyRayquazaMinigame()
-    return hasAny(sky_pokemon_items) or has("deoxys")
+    return hasAny(balloon_pokemon_items) or has("deoxys")
 end
 
 function canBeatAllRayquazaMinigame()
-    return hasAll(sky_pokemon_items)
+    return hasAll(balloon_pokemon_items)
 end
 
 local fast_travel_items = {"meadow_zone_fast_travel", "beach_zone_fast_travel", "ice_zone_fast_travel",

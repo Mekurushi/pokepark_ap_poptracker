@@ -201,7 +201,7 @@ function apply_slot_data(slot_data)
     setFromSlotData('harder_enemy_ai', 'harder_enemy_ai')
     setFromSlotData('each_zone', 'each_zone')
 
-    SLOT_DATA_EXIT_TO_ENTRANCE = {}
+    Entrances.slot_data_exit_to_entrance = {}
     local load_assignments_from_ap = Tracker:FindObjectForCode("setting_load_exit_assignments_from_ap")
     if load_assignments_from_ap.Active then
         visited_stages_key = string.format(VISITED_STAGES_FORMAT, Archipelago.PlayerNumber)

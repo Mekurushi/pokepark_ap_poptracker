@@ -269,7 +269,7 @@
                     {
                         "name": "Starly Chase Power Competition - Friendship",
                         "access_rules": [
-                            "$canPlayCatch, starly_unlock1",
+                            "$canPlayCatch, starly_unlock",
                             "$canPlayCatch, starly_unlock2"
                         ],
                         "visibility_rules": [

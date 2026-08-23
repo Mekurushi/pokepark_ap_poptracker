@@ -384,7 +384,7 @@
             {
                 "name": "Gyarados",
                 "access_rules": [
-                    "@BeachZoneMain_GyaradosAttraction_Entrance"
+                    "@BeachZoneRecycle_GyaradosAttraction_Entrance"
                 ],
                 "sections": [
                     {

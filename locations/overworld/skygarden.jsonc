@@ -53,7 +53,7 @@
                     {
                         "name": "Power Competition - Friendship",
                         "access_rules": [
-                            "[$canBeatMew], , $canBeatMewGlitched"
+                            "[$canBeatMew], $canBeatMewGlitched"
                         ],
                         "visibility_rules": [
                             "$mew_power_comp_locations_activated"
