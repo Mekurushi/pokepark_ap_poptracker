@@ -387,6 +387,28 @@
     {
         "name": "BulbasaurAttraction_Bulbasaur_Entrance",
         "parent": "Bulbasaur's Daring Dash Attraction",
+        "children": [
+            {
+                "name": "Bulbasaur's Daring Dash Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Bulbasaur's Daring Dash Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bulbasaur's Daring Dash Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
@@ -394,6 +416,28 @@
     {
         "name": "VenusaurAttraction_Venusaur_Entrance",
         "parent": "Venusaur's Vine Swing Attraction",
+        "children": [
+            {
+                "name": "Venusaur's Vine Swing Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Venusaur's Vine Swing Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Venusaur's Vine Swing Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]

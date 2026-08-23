@@ -203,6 +203,28 @@
     {
         "name": "EmpoleonAttraction_Empoleon_Entrance",
         "parent": "Empoleon's Snow Slide Attraction",
+        "children": [
+            {
+                "name": "Empoleon's Snow Slide Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Empoleon's Snow Slide Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Empoleon's Snow Slide Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]

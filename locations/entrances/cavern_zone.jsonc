@@ -65,6 +65,28 @@
     {
         "name": "BastiodonAttraction_Bastiodon_Entrance",
         "parent": "Bastiodon's Panel Crush Attraction",
+        "children": [
+            {
+                "name": "Bastiodon's Panel Crush Attraction - Attraction Menu",
+                "sections": [
+                    {
+                        "name": "Bastiodon's Panel Crush Attraction - Attraction Menu",
+                        "chest_unopened_img": "images/items/empty.png",
+                        "chest_opened_img": "images/items/empty.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bastiodon's Panel Crush Attraction",
+                        "x": 426,
+                        "y": 205,
+                        "size": 35,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ],
         "access_rules": [
             "{}"
         ]
