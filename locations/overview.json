@@ -70,7 +70,7 @@
                     },
                     {
                         "name": "Treehouse - Abra - Friendship",
-                        "ref": "Abra/Friendship"
+                        "ref": "Treehouse/Abra/Friendship"
                     },
                     {
                         "name": "Treehouse - Drifblim - Friendship",
@@ -1102,23 +1102,23 @@
                 "sections": [
                     {
                         "name": "Granite Zone Main Area - Lopunny Chase Power Competition -- Friendship",
-                        "ref": "Entrance Area/Lopunny Chase Power Competition - Friendship"
+                        "ref": "Granite Zone Main Area/Entrance Area/Lopunny Chase Power Competition - Friendship"
                     },
                     {
                         "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Friendship",
-                        "ref": "Entrance Area/Eevee Chase Power Competition - Friendship"
+                        "ref": "Granite Zone Main Area/Entrance Area/Eevee Chase Power Competition - Friendship"
                     },
                     {
                         "name": "Granite Zone Main Area - Eevee Chase Power Competition -- Jolteon Unlocked",
-                        "ref": "Entrance Area/Eevee Chase Power Competition - Jolteon Unlocked"
+                        "ref": "Granite Zone Main Area/Entrance Area/Eevee Chase Power Competition - Jolteon Unlocked"
                     },
                     {
                         "name": "Granite Zone Main Area - Furret Hide and Seek Power Competition -- Friendship",
-                        "ref": "Entrance Area/Furret Hide and Seek Power Competition - Friendship"
+                        "ref": "Granite Zone Main Area/Entrance Area/Furret Hide and Seek Power Competition - Friendship"
                     },
                     {
                         "name": "Granite Zone Main Area - Tyranitar Battle Power Competition -- Friendship",
-                        "ref": "Entrance Area/Tyranitar Battle Power Competition - Friendship"
+                        "ref": "Granite Zone Main Area/Entrance Area/Tyranitar Battle Power Competition - Friendship"
                     },
                     {
                         "name": "Granite Zone Main Area - Drifloon -- Friendship",
