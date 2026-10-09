@@ -259,6 +259,22 @@
                         "y": 300
                     }
                 ]
+            },
+            {
+                "name": "Riolu",
+                "sections": [
+                    {
+                        "name": "Battle Power Competition - Friendship",
+                        "ref": "Haunted Zone Mansion Area/Riolu/Battle Power Competition - Friendship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Haunted Zone Main Area",
+                        "x": 300,
+                        "y": 100
+                    }
+                ]
             }
         ]
     },

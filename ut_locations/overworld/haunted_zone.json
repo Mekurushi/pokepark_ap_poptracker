@@ -249,6 +249,11 @@
                         "map": "Haunted Zone Mansion Area",
                         "x": 350,
                         "y": 750
+                    },
+                    {
+                        "map": "Haunted Zone Main Area",
+                        "x": 300,
+                        "y": 100
                     }
                 ]
             }
