@@ -490,7 +490,8 @@
     {
         "name": "Beach Zone Middle Isle",
         "access_rules": [
-            "@BeachZoneMiddle_MainBridge_Exit"
+            "@BeachZoneMiddle_MainBridge_Exit",
+            "@BeachZoneMain_RecycleBridge_Exit"
         ],
         "chest_unopened_img": "images/locations/friendship_unopened.png",
         "chest_opened_img": "images/locations/friendship_opened.png",
